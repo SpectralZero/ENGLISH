@@ -1,0 +1,7 @@
+# nothing to build — these are just local noise
+.DS_Store
+Thumbs.db
+*.log
+node_modules/
+.vscode/
+scripts/_*.html

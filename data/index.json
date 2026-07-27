@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "updated": "2026-07-27",
+  "levels": [
+    { "id": 1, "ar": "المستوى الأول — البداية", "en": "Starter" },
+    { "id": 2, "ar": "المستوى الثاني — الحياة اليومية", "en": "Daily life" },
+    { "id": 3, "ar": "المستوى الثالث — العالم حولك", "en": "Around you" },
+    { "id": 4, "ar": "المستوى الرابع — أساسيات اللغة", "en": "Language basics" }
+  ],
+  "units": [
+    { "id": "greetings",   "file": "units/greetings.json",   "title": { "ar": "التحيات والتعارف", "en": "Greetings" },       "icon": "👋", "level": 1 },
+    { "id": "people",      "file": "units/people.json",      "title": { "ar": "الضمائر والناس", "en": "People & Pronouns" }, "icon": "🧑", "level": 1 },
+    { "id": "family",      "file": "units/family.json",      "title": { "ar": "العائلة", "en": "Family" },                   "icon": "👨‍👩‍👧", "level": 1 },
+    { "id": "numbers",     "file": "units/numbers.json",     "title": { "ar": "الأرقام", "en": "Numbers" },                  "icon": "🔢", "level": 1 },
+    { "id": "colors",      "file": "units/colors.json",      "title": { "ar": "الألوان والأشكال", "en": "Colors & Shapes" }, "icon": "🎨", "level": 1 },
+    { "id": "time-days",   "file": "units/time-days.json",   "title": { "ar": "الوقت والأيام", "en": "Time & Days" },        "icon": "📅", "level": 1 },
+
+    { "id": "food",        "file": "units/food.json",        "title": { "ar": "الطعام والشراب", "en": "Food & Drink" },      "icon": "🍞", "level": 2 },
+    { "id": "fruits",      "file": "units/fruits.json",      "title": { "ar": "الفواكه والخضار", "en": "Fruit & Vegetables" }, "icon": "🍎", "level": 2 },
+    { "id": "home",        "file": "units/home.json",        "title": { "ar": "البيت والأثاث", "en": "Home" },               "icon": "🏠", "level": 2 },
+    { "id": "clothes",     "file": "units/clothes.json",     "title": { "ar": "الملابس", "en": "Clothes" },                  "icon": "👕", "level": 2 },
+    { "id": "body",        "file": "units/body.json",        "title": { "ar": "الجسم والصحة", "en": "Body & Health" },       "icon": "💪", "level": 2 },
+    { "id": "school",      "file": "units/school.json",      "title": { "ar": "المدرسة والدراسة", "en": "School" },          "icon": "🏫", "level": 2 },
+
+    { "id": "jobs",        "file": "units/jobs.json",        "title": { "ar": "العمل والمهن", "en": "Work & Jobs" },         "icon": "💼", "level": 3 },
+    { "id": "places",      "file": "units/places.json",      "title": { "ar": "المدينة والأماكن", "en": "City & Places" },   "icon": "🏙️", "level": 3 },
+    { "id": "transport",   "file": "units/transport.json",   "title": { "ar": "المواصلات", "en": "Transport" },              "icon": "🚗", "level": 3 },
+    { "id": "shopping",    "file": "units/shopping.json",    "title": { "ar": "التسوق والمال", "en": "Shopping & Money" },   "icon": "🛒", "level": 3 },
+    { "id": "weather",     "file": "units/weather.json",     "title": { "ar": "الطقس والطبيعة", "en": "Weather & Nature" },  "icon": "🌤️", "level": 3 },
+    { "id": "animals",     "file": "units/animals.json",     "title": { "ar": "الحيوانات", "en": "Animals" },                "icon": "🐾", "level": 3 },
+
+    { "id": "verbs",       "file": "units/verbs.json",       "title": { "ar": "أفعال أساسية", "en": "Basic Verbs" },         "icon": "⚡", "level": 4 },
+    { "id": "adjectives",  "file": "units/adjectives.json",  "title": { "ar": "الصفات والأضداد", "en": "Adjectives" },       "icon": "✨", "level": 4 },
+    { "id": "questions",   "file": "units/questions.json",   "title": { "ar": "أدوات السؤال", "en": "Questions" },           "icon": "❓", "level": 4 },
+    { "id": "prepositions","file": "units/prepositions.json","title": { "ar": "حروف الجر والاتجاهات", "en": "Prepositions" },"icon": "🧭", "level": 4 },
+    { "id": "travel",      "file": "units/travel.json",      "title": { "ar": "السفر والمطار", "en": "Travel" },             "icon": "✈️", "level": 4 },
+    { "id": "phone",       "file": "units/phone.json",       "title": { "ar": "الهاتف والإنترنت", "en": "Phone & Internet" },"icon": "📱", "level": 4 },
+    { "id": "feelings",    "file": "units/feelings.json",    "title": { "ar": "المشاعر", "en": "Feelings" },                 "icon": "😊", "level": 4 },
+    { "id": "routine",     "file": "units/routine.json",     "title": { "ar": "الروتين اليومي", "en": "Daily Routine" },     "icon": "⏰", "level": 4 }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "colors",
+  "title": { "ar": "الألوان والأشكال", "en": "Colors & Shapes" },
+  "icon": "🎨",
+  "level": 1,
+  "color": "rose",
+  "words": [
+    { "id": "co_color", "en": "color", "ar": "لون", "tr": "كَلَر", "pos": "n", "emoji": "🎨", "ex": { "en": "What color is your car?", "ar": "ما لون سيارتك؟", "tr": "وات كَلَر إز يور كار" } },
+    { "id": "co_red", "en": "red", "ar": "أحمر", "tr": "رِد", "pos": "adj", "emoji": "🔴", "ex": { "en": "The apple is red.", "ar": "التفاحة حمراء.", "tr": "ذَ آبِل إز رِد" } },
+    { "id": "co_blue", "en": "blue", "ar": "أزرق", "tr": "بلو", "pos": "adj", "emoji": "🔵", "ex": { "en": "The sky is blue.", "ar": "السماء زرقاء.", "tr": "ذَ سكاي إز بلو" } },
+    { "id": "co_green", "en": "green", "ar": "أخضر", "tr": "غرين", "pos": "adj", "emoji": "🟢" },
+    { "id": "co_yellow", "en": "yellow", "ar": "أصفر", "tr": "يالو", "pos": "adj", "emoji": "🟡" },
+    { "id": "co_black", "en": "black", "ar": "أسود", "tr": "بلاك", "pos": "adj", "emoji": "⚫", "ex": { "en": "I have a black bag.", "ar": "لدي حقيبة سوداء.", "tr": "آي هاڤ إيه بلاك باغ" } },
+    { "id": "co_white", "en": "white", "ar": "أبيض", "tr": "وايت", "pos": "adj", "emoji": "⚪" },
+    { "id": "co_brown", "en": "brown", "ar": "بني", "tr": "براون", "pos": "adj", "emoji": "🟤" },
+    { "id": "co_orange", "en": "orange", "ar": "برتقالي", "tr": "أورِنج", "pos": "adj", "emoji": "🟠" },
+    { "id": "co_pink", "en": "pink", "ar": "وردي", "tr": "پِنك", "pos": "adj", "emoji": "🌸" },
+    { "id": "co_purple", "en": "purple", "ar": "بنفسجي", "tr": "پيربِل", "pos": "adj", "emoji": "🟣" },
+    { "id": "co_gray", "en": "gray", "ar": "رمادي", "tr": "غريه", "pos": "adj", "emoji": "🩶" },
+    { "id": "co_gold", "en": "gold", "ar": "ذهبي", "tr": "غولد", "pos": "adj", "emoji": "🥇" },
+    { "id": "co_silver", "en": "silver", "ar": "فضي", "tr": "سِلڤَر", "pos": "adj", "emoji": "🥈" },
+    { "id": "co_light", "en": "light (color)", "ar": "فاتح", "tr": "لايت", "pos": "adj", "emoji": "💡" },
+    { "id": "co_dark", "en": "dark", "ar": "غامق", "tr": "دارك", "pos": "adj", "emoji": "🌑" },
+    { "id": "co_circle", "en": "circle", "ar": "دائرة", "tr": "سيركِل", "pos": "n", "emoji": "⭕" },
+    { "id": "co_square", "en": "square", "ar": "مربع", "tr": "سكوير", "pos": "n", "emoji": "🟦" },
+    { "id": "co_triangle", "en": "triangle", "ar": "مثلث", "tr": "ترايانغِل", "pos": "n", "emoji": "🔺" },
+    { "id": "co_line", "en": "line", "ar": "خط", "tr": "لاين", "pos": "n", "emoji": "➖" },
+    { "id": "co_big", "en": "big", "ar": "كبير", "tr": "بِغ", "pos": "adj", "emoji": "🐘", "ex": { "en": "This is a big house.", "ar": "هذا بيت كبير.", "tr": "ذِس إز إيه بِغ هاوس" } },
+    { "id": "co_small", "en": "small", "ar": "صغير", "tr": "سمول", "pos": "adj", "emoji": "🐜" },
+    { "id": "co_beautiful", "en": "beautiful", "ar": "جميل", "tr": "بيوتِفُل", "pos": "adj", "emoji": "🌷", "ex": { "en": "The flower is beautiful.", "ar": "الزهرة جميلة.", "tr": "ذَ فلاوَر إز بيوتِفُل" } },
+    { "id": "co_favorite", "en": "favorite", "ar": "المفضل", "tr": "فيڤَرِت", "pos": "adj", "emoji": "⭐", "ex": { "en": "Blue is my favorite color.", "ar": "الأزرق هو لوني المفضل.", "tr": "بلو إز ماي فيڤَرِت كَلَر" } }
+  ],
+  "sentences": [
+    { "id": "co_s1", "en": "My favorite color is green.", "ar": "لوني المفضل هو الأخضر.", "tr": "ماي فيڤَرِت كَلَر إز غرين" },
+    { "id": "co_s2", "en": "What color is this?", "ar": "ما هذا اللون؟", "tr": "وات كَلَر إز ذِس" },
+    { "id": "co_s3", "en": "The car is white.", "ar": "السيارة بيضاء.", "tr": "ذَ كار إز وايت" },
+    { "id": "co_s4", "en": "I want the red one.", "ar": "أريد الأحمر.", "tr": "آي وانت ذَ رِد وان" },
+    { "id": "co_s5", "en": "She has black hair.", "ar": "لديها شعر أسود.", "tr": "شي هاز بلاك هير" },
+    { "id": "co_s6", "en": "The sky is blue today.", "ar": "السماء زرقاء اليوم.", "tr": "ذَ سكاي إز بلو تُوديه" },
+    { "id": "co_s7", "en": "This bag is very big.", "ar": "هذه الحقيبة كبيرة جداً.", "tr": "ذِس باغ إز ڤيري بِغ" },
+    { "id": "co_s8", "en": "I like light colors.", "ar": "أحب الألوان الفاتحة.", "tr": "آي لايك لايت كَلَرز" }
+  ]
+}

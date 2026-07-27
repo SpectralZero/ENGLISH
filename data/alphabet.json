@@ -1,0 +1,42 @@
+{
+  "letters": [
+    { "u": "A", "l": "a", "name": "إيه",     "sound": "أَ",      "word": { "en": "Apple",   "ar": "تفاحة",     "tr": "آبِل",       "emoji": "🍎" } },
+    { "u": "B", "l": "b", "name": "بي",      "sound": "بْ",      "word": { "en": "Ball",    "ar": "كرة",       "tr": "بول",        "emoji": "⚽" } },
+    { "u": "C", "l": "c", "name": "سي",      "sound": "كْ / سْ", "word": { "en": "Cat",     "ar": "قطة",       "tr": "كات",        "emoji": "🐱" } },
+    { "u": "D", "l": "d", "name": "دي",      "sound": "دْ",      "word": { "en": "Door",    "ar": "باب",       "tr": "دور",        "emoji": "🚪" } },
+    { "u": "E", "l": "e", "name": "إي",      "sound": "إِ",      "word": { "en": "Egg",     "ar": "بيضة",      "tr": "إيغ",        "emoji": "🥚" } },
+    { "u": "F", "l": "f", "name": "إف",      "sound": "فْ",      "word": { "en": "Fish",    "ar": "سمكة",      "tr": "فِش",        "emoji": "🐟" } },
+    { "u": "G", "l": "g", "name": "جي",      "sound": "غْ / جْ", "word": { "en": "Girl",    "ar": "بنت",       "tr": "غيرل",       "emoji": "👧" } },
+    { "u": "H", "l": "h", "name": "إيتش",    "sound": "هْ",      "word": { "en": "Hand",    "ar": "يد",        "tr": "هاند",       "emoji": "✋" } },
+    { "u": "I", "l": "i", "name": "آي",      "sound": "إِ / آي", "word": { "en": "Ice",     "ar": "ثلج",       "tr": "آيس",        "emoji": "🧊" } },
+    { "u": "J", "l": "j", "name": "جيه",     "sound": "جْ",      "word": { "en": "Juice",   "ar": "عصير",      "tr": "جوس",        "emoji": "🧃" } },
+    { "u": "K", "l": "k", "name": "كيه",     "sound": "كْ",      "word": { "en": "Key",     "ar": "مفتاح",     "tr": "كي",         "emoji": "🔑" } },
+    { "u": "L", "l": "l", "name": "إل",      "sound": "لْ",      "word": { "en": "Lion",    "ar": "أسد",       "tr": "لايون",      "emoji": "🦁" } },
+    { "u": "M", "l": "m", "name": "إم",      "sound": "مْ",      "word": { "en": "Moon",    "ar": "قمر",       "tr": "مون",        "emoji": "🌙" } },
+    { "u": "N", "l": "n", "name": "إن",      "sound": "نْ",      "word": { "en": "Nose",    "ar": "أنف",       "tr": "نوز",        "emoji": "👃" } },
+    { "u": "O", "l": "o", "name": "أو",      "sound": "أو",      "word": { "en": "Orange",  "ar": "برتقال",    "tr": "أورِنج",     "emoji": "🍊" } },
+    { "u": "P", "l": "p", "name": "پي",      "sound": "پْ",      "word": { "en": "Pen",     "ar": "قلم",       "tr": "پِن",        "emoji": "🖊️" } },
+    { "u": "Q", "l": "q", "name": "كيو",     "sound": "كْو",     "word": { "en": "Queen",   "ar": "ملكة",      "tr": "كوين",       "emoji": "👑" } },
+    { "u": "R", "l": "r", "name": "آر",      "sound": "رْ",      "word": { "en": "Red",     "ar": "أحمر",      "tr": "رِد",        "emoji": "🔴" } },
+    { "u": "S", "l": "s", "name": "إس",      "sound": "سْ",      "word": { "en": "Sun",     "ar": "شمس",       "tr": "سَن",        "emoji": "☀️" } },
+    { "u": "T", "l": "t", "name": "تي",      "sound": "تْ",      "word": { "en": "Tree",    "ar": "شجرة",      "tr": "تري",        "emoji": "🌳" } },
+    { "u": "U", "l": "u", "name": "يو",      "sound": "أَ / يو", "word": { "en": "Umbrella","ar": "مظلة",      "tr": "أمبريلا",    "emoji": "☂️" } },
+    { "u": "V", "l": "v", "name": "ڤي",      "sound": "ڤْ",      "word": { "en": "Van",     "ar": "سيارة نقل", "tr": "ڤان",        "emoji": "🚐" } },
+    { "u": "W", "l": "w", "name": "دَبِل يو", "sound": "وْ",      "word": { "en": "Water",   "ar": "ماء",       "tr": "ووتَر",      "emoji": "💧" } },
+    { "u": "X", "l": "x", "name": "إكس",     "sound": "كْس",     "word": { "en": "Box",     "ar": "صندوق",     "tr": "بوكس",       "emoji": "📦" } },
+    { "u": "Y", "l": "y", "name": "واي",     "sound": "يْ",      "word": { "en": "Yellow",  "ar": "أصفر",      "tr": "يالو",       "emoji": "💛" } },
+    { "u": "Z", "l": "z", "name": "زِد",     "sound": "زْ",      "word": { "en": "Zebra",   "ar": "حمار وحشي", "tr": "زيبرا",      "emoji": "🦓" } }
+  ],
+  "groups": [
+    { "g": "sh", "sound": "شْ",  "ex": [ { "en": "she", "ar": "هي" }, { "en": "fish", "ar": "سمكة" }, { "en": "shop", "ar": "متجر" } ] },
+    { "g": "ch", "sound": "تْش", "ex": [ { "en": "chair", "ar": "كرسي" }, { "en": "teacher", "ar": "معلّم" }, { "en": "lunch", "ar": "غداء" } ] },
+    { "g": "th", "sound": "ثْ / ذْ", "ex": [ { "en": "three", "ar": "ثلاثة" }, { "en": "this", "ar": "هذا" }, { "en": "mother", "ar": "أم" } ] },
+    { "g": "ph", "sound": "فْ",  "ex": [ { "en": "phone", "ar": "هاتف" }, { "en": "photo", "ar": "صورة" } ] },
+    { "g": "wh", "sound": "وْ",  "ex": [ { "en": "what", "ar": "ماذا" }, { "en": "where", "ar": "أين" }, { "en": "white", "ar": "أبيض" } ] },
+    { "g": "ck", "sound": "كْ",  "ex": [ { "en": "black", "ar": "أسود" }, { "en": "clock", "ar": "ساعة" }, { "en": "duck", "ar": "بطة" } ] },
+    { "g": "ng", "sound": "نْغ", "ex": [ { "en": "long", "ar": "طويل" }, { "en": "morning", "ar": "صباح" }, { "en": "young", "ar": "صغير السن" } ] },
+    { "g": "ee", "sound": "ييـ", "ex": [ { "en": "see", "ar": "يرى" }, { "en": "green", "ar": "أخضر" }, { "en": "week", "ar": "أسبوع" } ] },
+    { "g": "oo", "sound": "وو",  "ex": [ { "en": "book", "ar": "كتاب" }, { "en": "food", "ar": "طعام" }, { "en": "moon", "ar": "قمر" } ] },
+    { "g": "ea", "sound": "يي",  "ex": [ { "en": "eat", "ar": "يأكل" }, { "en": "tea", "ar": "شاي" }, { "en": "read", "ar": "يقرأ" } ] }
+  ]
+}

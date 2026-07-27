@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="auto">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=no">
+<title>خُطوة — تعلّم الإنجليزية من الصفر</title>
+<meta name="description" content="تطبيق تعلّم اللغة الإنجليزية للمبتدئين تماماً — مفردات وجمل بسيطة مع النطق والاختبارات.">
+<meta name="theme-color" content="#0b1020" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f6f7fb" media="(prefers-color-scheme: light)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="خُطوة">
+<meta name="format-detection" content="telephone=no">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="apple-touch-icon" href="./assets/icon-180.png">
+<link rel="icon" href="./assets/icon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="./css/theme.css">
+<link rel="stylesheet" href="./css/app.css">
+</head>
+<body>
+
+<div id="boot" class="boot">
+  <div class="boot__logo">خُطوة</div>
+  <div class="boot__bar"><i></i></div>
+  <div class="boot__hint">جارٍ التحميل…</div>
+</div>
+
+<header id="topbar" class="topbar" hidden>
+  <button class="topbar__btn" id="btnBack" aria-label="رجوع" hidden>
+    <svg viewBox="0 0 24 24" class="ico"><path d="M15 5l-7 7 7 7"/></svg>
+  </button>
+  <div class="topbar__title" id="topTitle">خُطوة</div>
+  <button class="topbar__btn" id="btnSearch" aria-label="بحث">
+    <svg viewBox="0 0 24 24" class="ico"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.2-3.2"/></svg>
+  </button>
+</header>
+
+<main id="view" class="view" tabindex="-1"></main>
+
+<nav id="tabbar" class="tabbar" hidden>
+  <a class="tab" href="#/" data-tab="/">
+    <svg viewBox="0 0 24 24" class="ico"><path d="M4 11l8-7 8 7"/><path d="M6 10v9h12v-9"/></svg>
+    <span>الرئيسية</span>
+  </a>
+  <a class="tab" href="#/units" data-tab="/units">
+    <svg viewBox="0 0 24 24" class="ico"><path d="M4 5h7v14H4z"/><path d="M13 5h7v14h-7z"/></svg>
+    <span>الدروس</span>
+  </a>
+  <a class="tab tab--accent" href="#/review" data-tab="/review">
+    <svg viewBox="0 0 24 24" class="ico"><path d="M20 12a8 8 0 1 1-2.3-5.6"/><path d="M20 4v4h-4"/></svg>
+    <span>المراجعة</span>
+    <b class="tab__badge" id="dueBadge" hidden>0</b>
+  </a>
+  <a class="tab" href="#/stats" data-tab="/stats">
+    <svg viewBox="0 0 24 24" class="ico"><path d="M5 19V10"/><path d="M12 19V5"/><path d="M19 19v-6"/></svg>
+    <span>تقدّمي</span>
+  </a>
+  <a class="tab" href="#/settings" data-tab="/settings">
+    <svg viewBox="0 0 24 24" class="ico"><circle cx="12" cy="12" r="3.2"/><path d="M12 3v2.2M12 18.8V21M3 12h2.2M18.8 12H21M5.6 5.6l1.6 1.6M16.8 16.8l1.6 1.6M18.4 5.6l-1.6 1.6M7.2 16.8l-1.6 1.6"/></svg>
+    <span>الإعدادات</span>
+  </a>
+</nav>
+
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<div id="modalRoot"></div>
+
+<script type="module" src="./app/main.js"></script>
+<noscript><p style="padding:2rem;text-align:center">هذا التطبيق يحتاج إلى تفعيل الجافاسكربت.</p></noscript>
+</body>
+</html>
