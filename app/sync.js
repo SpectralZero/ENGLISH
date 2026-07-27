@@ -8,7 +8,7 @@
    is exactly what happens for anyone you share the app link
    with, so their progress can never touch yours.
    ============================================================ */
-import { load, save, dayKey } from './util.js';
+import { load, save, dayKey, stableStringify } from './util.js';
 import { progress, persistNow, importProgress } from './store.js';
 
 const K_CFG = 'khutwa.sync.v1';
@@ -185,8 +185,10 @@ export function syncNow({ silent = false, force = false } = {}) {
       local.updatedAt = local.updatedAt || Date.now();
 
       const merged = merge(local, remote.json);
-      const changedLocally = JSON.stringify(stripVolatile(merged)) !== JSON.stringify(stripVolatile(local));
-      const changedRemotely = JSON.stringify(stripVolatile(merged)) !== JSON.stringify(stripVolatile(remote.json));
+      // stable key order: merge() rebuilds items/days, so a plain
+      // JSON.stringify would report a change on every single sync
+      const changedLocally = stableStringify(stripVolatile(merged)) !== stableStringify(stripVolatile(local));
+      const changedRemotely = stableStringify(stripVolatile(merged)) !== stableStringify(stripVolatile(remote.json));
 
       if (changedLocally) {
         importProgress(merged);

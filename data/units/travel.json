@@ -1,53 +1,416 @@
 {
   "id": "travel",
-  "title": { "ar": "السفر والمطار", "en": "Travel" },
+  "title": {
+    "ar": "السفر والمطار",
+    "en": "Travel"
+  },
   "icon": "✈️",
   "level": 4,
   "color": "brand",
   "words": [
-    { "id": "tv_travel", "en": "travel", "ar": "يسافر / سفر", "tr": "ترافِل", "pos": "v", "emoji": "🧳", "ex": { "en": "I travel every summer.", "ar": "أسافر كل صيف.", "tr": "آي ترافِل إڤري سَمَر" } },
-    { "id": "tv_trip", "en": "trip", "ar": "رحلة", "tr": "ترِپ", "pos": "n", "emoji": "🗺️" },
-    { "id": "tv_airport2", "en": "airport", "ar": "مطار", "tr": "إيرپورت", "pos": "n", "emoji": "🛫" },
-    { "id": "tv_flight", "en": "flight", "ar": "رحلة جوية", "tr": "فلايت", "pos": "n", "emoji": "✈️", "ex": { "en": "My flight is at nine.", "ar": "رحلتي في التاسعة.", "tr": "ماي فلايت إز آت ناين" } },
-    { "id": "tv_passport", "en": "passport", "ar": "جواز سفر", "tr": "پاسپورت", "pos": "n", "emoji": "🛂", "ex": { "en": "Your passport, please.", "ar": "جواز سفرك من فضلك.", "tr": "يور پاسپورت، پليز" } },
-    { "id": "tv_visa", "en": "visa", "ar": "تأشيرة", "tr": "ڤيزا", "pos": "n", "emoji": "📄" },
-    { "id": "tv_luggage", "en": "luggage", "ar": "أمتعة", "tr": "لَغِج", "pos": "n", "emoji": "🧳" },
-    { "id": "tv_suitcase", "en": "suitcase", "ar": "حقيبة سفر", "tr": "سوتكيس", "pos": "n", "emoji": "🧳" },
-    { "id": "tv_gate", "en": "gate", "ar": "بوابة", "tr": "غيت", "pos": "n", "emoji": "🚪" },
-    { "id": "tv_boarding", "en": "boarding pass", "ar": "بطاقة الصعود", "tr": "بوردِنغ پاس", "pos": "n", "emoji": "🎫" },
-    { "id": "tv_hotel2", "en": "hotel", "ar": "فندق", "tr": "هوتيل", "pos": "n", "emoji": "🏨" },
-    { "id": "tv_room2", "en": "room", "ar": "غرفة", "tr": "روم", "pos": "n", "emoji": "🛏️", "ex": { "en": "I need a room for two nights.", "ar": "أحتاج غرفة لليلتين.", "tr": "آي نيد إيه روم فور تو نايتس" } },
-    { "id": "tv_booking", "en": "booking", "ar": "حجز", "tr": "بوكِنغ", "pos": "n", "emoji": "📝" },
-    { "id": "tv_map", "en": "map", "ar": "خريطة", "tr": "ماپ", "pos": "n", "emoji": "🗺️" },
-    { "id": "tv_country", "en": "country", "ar": "دولة", "tr": "كَنتري", "pos": "n", "emoji": "🌍" },
-    { "id": "tv_city2", "en": "city", "ar": "مدينة", "tr": "سِتي", "pos": "n", "emoji": "🏙️" },
-    { "id": "tv_tourist", "en": "tourist", "ar": "سائح", "tr": "توورِست", "pos": "n", "emoji": "📸" },
-    { "id": "tv_holiday", "en": "holiday", "ar": "عطلة", "tr": "هولِديه", "pos": "n", "emoji": "🎉" },
-    { "id": "tv_photo", "en": "photo", "ar": "صورة", "tr": "فوتو", "pos": "n", "emoji": "📷" },
-    { "id": "tv_bag4", "en": "backpack", "ar": "حقيبة ظهر", "tr": "باكپاك", "pos": "n", "emoji": "🎒" },
-    { "id": "tv_arrive2", "en": "arrive", "ar": "يصل", "tr": "أرايڤ", "pos": "v", "emoji": "🛬" },
-    { "id": "tv_depart", "en": "leave / depart", "ar": "يغادر", "tr": "ليڤ", "pos": "v", "emoji": "🛫" },
-    { "id": "tv_stay", "en": "stay", "ar": "يبقى / يقيم", "tr": "ستيه", "pos": "v", "emoji": "🏨", "ex": { "en": "I stay in a hotel.", "ar": "أقيم في فندق.", "tr": "آي ستيه إن إيه هوتيل" } },
-    { "id": "tv_lost", "en": "lost", "ar": "تائه / ضائع", "tr": "لوست", "pos": "adj", "emoji": "😵", "ex": { "en": "I am lost. Can you help me?", "ar": "أنا تائه. هل يمكنك مساعدتي؟", "tr": "آيم لوست. كان يو هِلپ مي" } },
-    { "id": "tv_help3", "en": "Help!", "ar": "النجدة!", "tr": "هِلپ", "pos": "interj", "emoji": "🆘" },
-    { "id": "tv_emergency", "en": "emergency", "ar": "طوارئ", "tr": "إميرجِنسي", "pos": "n", "emoji": "🚨" },
-    { "id": "tv_embassy", "en": "embassy", "ar": "سفارة", "tr": "إمبَسي", "pos": "n", "emoji": "🏛️" },
-    { "id": "tv_exchange", "en": "exchange money", "ar": "صرف العملة", "tr": "إكستشينج مَني", "pos": "phr", "emoji": "💱" },
-    { "id": "tv_welcome2", "en": "welcome to…", "ar": "أهلاً بك في…", "tr": "وِلكَم تو", "pos": "phr", "emoji": "🤗" },
-    { "id": "tv_english2", "en": "Do you speak English?", "ar": "هل تتحدث الإنجليزية؟", "tr": "دو يو سپيك إنغلِش", "pos": "phr", "emoji": "🗣️" }
+    {
+      "id": "tv_travel",
+      "en": "travel",
+      "ar": "يسافر / سفر",
+      "tr": "ترافِل",
+      "pos": "v",
+      "emoji": "🧳",
+      "ex": {
+        "en": "I travel every summer.",
+        "ar": "أسافر كل صيف.",
+        "tr": "آي ترافِل إڤري سَمَر"
+      }
+    },
+    {
+      "id": "tv_trip",
+      "en": "trip",
+      "ar": "رحلة",
+      "tr": "ترِپ",
+      "pos": "n",
+      "emoji": "🗺️"
+    },
+    {
+      "id": "tv_airport2",
+      "en": "airport",
+      "ar": "مطار",
+      "tr": "إيرپورت",
+      "pos": "n",
+      "emoji": "🛫"
+    },
+    {
+      "id": "tv_flight",
+      "en": "flight",
+      "ar": "رحلة جوية",
+      "tr": "فلايت",
+      "pos": "n",
+      "emoji": "✈️",
+      "ex": {
+        "en": "My flight is at nine.",
+        "ar": "رحلتي في التاسعة.",
+        "tr": "ماي فلايت إز آت ناين"
+      }
+    },
+    {
+      "id": "tv_passport",
+      "en": "passport",
+      "ar": "جواز سفر",
+      "tr": "پاسپورت",
+      "pos": "n",
+      "emoji": "🛂",
+      "ex": {
+        "en": "Your passport, please.",
+        "ar": "جواز سفرك من فضلك.",
+        "tr": "يور پاسپورت، پليز"
+      }
+    },
+    {
+      "id": "tv_visa",
+      "en": "visa",
+      "ar": "تأشيرة",
+      "tr": "ڤيزا",
+      "pos": "n",
+      "emoji": "📄"
+    },
+    {
+      "id": "tv_luggage",
+      "en": "luggage",
+      "ar": "أمتعة",
+      "tr": "لَغِج",
+      "pos": "n",
+      "emoji": "🧳"
+    },
+    {
+      "id": "tv_suitcase",
+      "en": "suitcase",
+      "ar": "حقيبة سفر",
+      "tr": "سوتكيس",
+      "pos": "n",
+      "emoji": "🧳"
+    },
+    {
+      "id": "tv_gate",
+      "en": "gate",
+      "ar": "بوابة",
+      "tr": "غيت",
+      "pos": "n",
+      "emoji": "🚪"
+    },
+    {
+      "id": "tv_boarding",
+      "en": "boarding pass",
+      "ar": "بطاقة الصعود",
+      "tr": "بوردِنغ پاس",
+      "pos": "n",
+      "emoji": "🎫"
+    },
+    {
+      "id": "tv_hotel2",
+      "en": "hotel",
+      "ar": "فندق",
+      "tr": "هوتيل",
+      "pos": "n",
+      "emoji": "🏨"
+    },
+    {
+      "id": "tv_room2",
+      "en": "room",
+      "ar": "غرفة",
+      "tr": "روم",
+      "pos": "n",
+      "emoji": "🛏️",
+      "ex": {
+        "en": "I need a room for two nights.",
+        "ar": "أحتاج غرفة لليلتين.",
+        "tr": "آي نيد إيه روم فور تو نايتس"
+      }
+    },
+    {
+      "id": "tv_booking",
+      "en": "booking",
+      "ar": "حجز",
+      "tr": "بوكِنغ",
+      "pos": "n",
+      "emoji": "📝"
+    },
+    {
+      "id": "tv_map",
+      "en": "map",
+      "ar": "خريطة",
+      "tr": "ماپ",
+      "pos": "n",
+      "emoji": "🗺️"
+    },
+    {
+      "id": "tv_country",
+      "en": "country",
+      "ar": "دولة",
+      "tr": "كَنتري",
+      "pos": "n",
+      "emoji": "🌍"
+    },
+    {
+      "id": "tv_city2",
+      "en": "city",
+      "ar": "مدينة",
+      "tr": "سِتي",
+      "pos": "n",
+      "emoji": "🏙️"
+    },
+    {
+      "id": "tv_tourist",
+      "en": "tourist",
+      "ar": "سائح",
+      "tr": "توورِست",
+      "pos": "n",
+      "emoji": "📸"
+    },
+    {
+      "id": "tv_holiday",
+      "en": "holiday",
+      "ar": "عطلة",
+      "tr": "هولِديه",
+      "pos": "n",
+      "emoji": "🎉"
+    },
+    {
+      "id": "tv_photo",
+      "en": "photo",
+      "ar": "صورة",
+      "tr": "فوتو",
+      "pos": "n",
+      "emoji": "📷"
+    },
+    {
+      "id": "tv_bag4",
+      "en": "backpack",
+      "ar": "حقيبة ظهر",
+      "tr": "باكپاك",
+      "pos": "n",
+      "emoji": "🎒"
+    },
+    {
+      "id": "tv_arrive2",
+      "en": "arrive",
+      "ar": "يصل",
+      "tr": "أرايڤ",
+      "pos": "v",
+      "emoji": "🛬"
+    },
+    {
+      "id": "tv_depart",
+      "en": "leave / depart",
+      "ar": "يغادر",
+      "tr": "ليڤ",
+      "pos": "v",
+      "emoji": "🛫"
+    },
+    {
+      "id": "tv_stay",
+      "en": "stay",
+      "ar": "يبقى / يقيم",
+      "tr": "ستيه",
+      "pos": "v",
+      "emoji": "🏨",
+      "ex": {
+        "en": "I stay in a hotel.",
+        "ar": "أقيم في فندق.",
+        "tr": "آي ستيه إن إيه هوتيل"
+      }
+    },
+    {
+      "id": "tv_lost",
+      "en": "lost",
+      "ar": "تائه / ضائع",
+      "tr": "لوست",
+      "pos": "adj",
+      "emoji": "😵",
+      "ex": {
+        "en": "I am lost. Can you help me?",
+        "ar": "أنا تائه. هل يمكنك مساعدتي؟",
+        "tr": "آيم لوست. كان يو هِلپ مي"
+      }
+    },
+    {
+      "id": "tv_help3",
+      "en": "Help!",
+      "ar": "النجدة!",
+      "tr": "هِلپ",
+      "pos": "interj",
+      "emoji": "🆘"
+    },
+    {
+      "id": "tv_emergency",
+      "en": "emergency",
+      "ar": "طوارئ",
+      "tr": "إميرجِنسي",
+      "pos": "n",
+      "emoji": "🚨"
+    },
+    {
+      "id": "tv_embassy",
+      "en": "embassy",
+      "ar": "سفارة",
+      "tr": "إمبَسي",
+      "pos": "n",
+      "emoji": "🏛️"
+    },
+    {
+      "id": "tv_exchange",
+      "en": "exchange money",
+      "ar": "صرف العملة",
+      "tr": "إكستشينج مَني",
+      "pos": "phr",
+      "emoji": "💱"
+    },
+    {
+      "id": "tv_welcome2",
+      "en": "welcome to…",
+      "ar": "أهلاً بك في…",
+      "tr": "وِلكَم تو",
+      "pos": "phr",
+      "emoji": "🤗"
+    },
+    {
+      "id": "tv_english2",
+      "en": "Do you speak English?",
+      "ar": "هل تتحدث الإنجليزية؟",
+      "tr": "دو يو سپيك إنغلِش",
+      "pos": "phr",
+      "emoji": "🗣️"
+    }
   ],
   "sentences": [
-    { "id": "tv_s1", "en": "Where is gate number five?", "ar": "أين البوابة رقم خمسة؟", "tr": "وير إز غيت نَمبَر فايڤ" },
-    { "id": "tv_s2", "en": "My flight is at ten o'clock.", "ar": "رحلتي في الساعة العاشرة.", "tr": "ماي فلايت إز آت تِن أوكلوك" },
-    { "id": "tv_s3", "en": "Here is my passport.", "ar": "تفضل جواز سفري.", "tr": "هير إز ماي پاسپورت" },
-    { "id": "tv_s4", "en": "I need a room for two nights.", "ar": "أحتاج غرفة لليلتين.", "tr": "آي نيد إيه روم فور تو نايتس" },
-    { "id": "tv_s5", "en": "I am here on holiday.", "ar": "أنا هنا في عطلة.", "tr": "آيم هير أون هولِديه" },
-    { "id": "tv_s6", "en": "Excuse me, I am lost.", "ar": "لو سمحت، أنا تائه.", "tr": "إكسكيوز مي، آيم لوست" },
-    { "id": "tv_s7", "en": "How can I go to the city center?", "ar": "كيف أذهب إلى وسط المدينة؟", "tr": "هاو كان آي غو تو ذَ سِتي سِنتَر" },
-    { "id": "tv_s8", "en": "Can I take a photo here?", "ar": "هل يمكنني التقاط صورة هنا؟", "tr": "كان آي تيك إيه فوتو هير" },
-    { "id": "tv_s9", "en": "I want to change money.", "ar": "أريد صرف نقود.", "tr": "آي وانت تو تشينج مَني" },
-    { "id": "tv_s10", "en": "What time do we arrive?", "ar": "متى نصل؟", "tr": "وات تايم دو وي أرايڤ" },
-    { "id": "tv_s11", "en": "Is this seat free?", "ar": "هل هذا المقعد فارغ؟", "tr": "إز ذِس سيت فري" },
-    { "id": "tv_s12", "en": "Please call the police.", "ar": "من فضلك اتصل بالشرطة.", "tr": "پليز كول ذَ پُوليس" }
+    {
+      "id": "tv_s1",
+      "en": "Where is gate number five?",
+      "ar": "أين البوابة رقم خمسة؟",
+      "tr": "وير إز غيت نَمبَر فايڤ"
+    },
+    {
+      "id": "tv_s2",
+      "en": "My flight is at ten o'clock.",
+      "ar": "رحلتي في الساعة العاشرة.",
+      "tr": "ماي فلايت إز آت تِن أوكلوك"
+    },
+    {
+      "id": "tv_s3",
+      "en": "Here is my passport.",
+      "ar": "تفضل جواز سفري.",
+      "tr": "هير إز ماي پاسپورت"
+    },
+    {
+      "id": "tv_s4",
+      "en": "I need a room for two nights.",
+      "ar": "أحتاج غرفة لليلتين.",
+      "tr": "آي نيد إيه روم فور تو نايتس"
+    },
+    {
+      "id": "tv_s5",
+      "en": "I am here on holiday.",
+      "ar": "أنا هنا في عطلة.",
+      "tr": "آيم هير أون هولِديه"
+    },
+    {
+      "id": "tv_s6",
+      "en": "Excuse me, I am lost.",
+      "ar": "لو سمحت، أنا تائه.",
+      "tr": "إكسكيوز مي، آيم لوست"
+    },
+    {
+      "id": "tv_s7",
+      "en": "How can I go to the city center?",
+      "ar": "كيف أذهب إلى وسط المدينة؟",
+      "tr": "هاو كان آي غو تو ذَ سِتي سِنتَر"
+    },
+    {
+      "id": "tv_s8",
+      "en": "Can I take a photo here?",
+      "ar": "هل يمكنني التقاط صورة هنا؟",
+      "tr": "كان آي تيك إيه فوتو هير"
+    },
+    {
+      "id": "tv_s9",
+      "en": "I want to change money.",
+      "ar": "أريد صرف نقود.",
+      "tr": "آي وانت تو تشينج مَني"
+    },
+    {
+      "id": "tv_s10",
+      "en": "What time do we arrive?",
+      "ar": "متى نصل؟",
+      "tr": "وات تايم دو وي أرايڤ"
+    },
+    {
+      "id": "tv_s11",
+      "en": "Is this seat free?",
+      "ar": "هل هذا المقعد فارغ؟",
+      "tr": "إز ذِس سيت فري"
+    },
+    {
+      "id": "tv_s12",
+      "en": "Please call the police.",
+      "ar": "من فضلك اتصل بالشرطة.",
+      "tr": "پليز كول ذَ پُوليس"
+    },
+    {
+      "id": "tv_s13",
+      "en": "Is this the right gate?",
+      "ar": "هل هذه البوابة الصحيحة؟",
+      "tr": "إز ذِس ذَ رايت غيت"
+    },
+    {
+      "id": "tv_s14",
+      "en": "My luggage is missing.",
+      "ar": "حقيبتي مفقودة.",
+      "tr": "ماي لَغِج إز مِسِنغ"
+    },
+    {
+      "id": "tv_s15",
+      "en": "How long is the flight?",
+      "ar": "كم مدة الرحلة؟",
+      "tr": "هاو لونغ إز ذَ فلايت"
+    },
+    {
+      "id": "tv_s16",
+      "en": "I have nothing to declare.",
+      "ar": "ليس لدي ما أصرّح عنه.",
+      "tr": "آي هاڤ نَثِنغ تو دِكلير"
+    },
+    {
+      "id": "tv_s17",
+      "en": "Where can I get a taxi?",
+      "ar": "أين أجد سيارة أجرة؟",
+      "tr": "وير كان آي غِت إيه تاكسي"
+    },
+    {
+      "id": "tv_s18",
+      "en": "I booked a room for tonight.",
+      "ar": "حجزت غرفة لهذه الليلة.",
+      "tr": "آي بوكد إيه روم فور تُونايت"
+    },
+    {
+      "id": "tv_s19",
+      "en": "What time is check-out?",
+      "ar": "متى موعد المغادرة؟",
+      "tr": "وات تايم إز تشِك أوت"
+    },
+    {
+      "id": "tv_s20",
+      "en": "Is breakfast included?",
+      "ar": "هل الفطور مشمول؟",
+      "tr": "إز برِكفَست إنكلودِد"
+    },
+    {
+      "id": "tv_s21",
+      "en": "Can you show me on the map?",
+      "ar": "هل يمكنك أن ترينِي على الخريطة؟",
+      "tr": "كان يو شو مي أون ذَ ماپ"
+    },
+    {
+      "id": "tv_s22",
+      "en": "I am travelling alone.",
+      "ar": "أنا مسافر وحدي.",
+      "tr": "آيم تراڤِلِنغ ألون"
+    }
   ]
 }

@@ -1,0 +1,238 @@
+{
+  "id": "directions",
+  "title": {
+    "ar": "السؤال عن الطريق",
+    "en": "Asking Directions"
+  },
+  "icon": "🧭",
+  "level": 6,
+  "color": "mint",
+  "words": [
+    {
+      "id": "dir_w1",
+      "en": "crossroads",
+      "ar": "تقاطع طرق",
+      "tr": "كروسرودز",
+      "pos": "n",
+      "emoji": "➕"
+    },
+    {
+      "id": "dir_w2",
+      "en": "traffic light",
+      "ar": "إشارة مرور",
+      "tr": "ترافِك لايت",
+      "pos": "n",
+      "emoji": "🚦"
+    },
+    {
+      "id": "dir_w3",
+      "en": "roundabout",
+      "ar": "دوّار",
+      "tr": "راوندَباوت",
+      "pos": "n",
+      "emoji": "🔄"
+    },
+    {
+      "id": "dir_w4",
+      "en": "bridge",
+      "ar": "جسر",
+      "tr": "برِدج",
+      "pos": "n",
+      "emoji": "🌉"
+    },
+    {
+      "id": "dir_w5",
+      "en": "opposite",
+      "ar": "مقابل",
+      "tr": "أپَزِت",
+      "pos": "prep",
+      "emoji": "↔️"
+    },
+    {
+      "id": "dir_w6",
+      "en": "on the corner",
+      "ar": "عند الزاوية",
+      "tr": "أون ذَ كورنَر",
+      "pos": "phr",
+      "emoji": "📐"
+    },
+    {
+      "id": "dir_w7",
+      "en": "block",
+      "ar": "مربع سكني",
+      "tr": "بلوك",
+      "pos": "n",
+      "emoji": "🏘️"
+    },
+    {
+      "id": "dir_w8",
+      "en": "sign",
+      "ar": "لافتة",
+      "tr": "ساين",
+      "pos": "n",
+      "emoji": "🪧"
+    },
+    {
+      "id": "dir_w9",
+      "en": "entrance",
+      "ar": "مدخل",
+      "tr": "إنترَنس",
+      "pos": "n",
+      "emoji": "🚪"
+    },
+    {
+      "id": "dir_w10",
+      "en": "exit",
+      "ar": "مخرج",
+      "tr": "إكسِت",
+      "pos": "n",
+      "emoji": "🚪"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "dir_s1",
+      "en": "Excuse me, can you help me?",
+      "ar": "لو سمحت، هل يمكنك مساعدتي؟",
+      "tr": "إكسكيوز مي، كان يو هِلپ مي"
+    },
+    {
+      "id": "dir_s2",
+      "en": "I am looking for this address.",
+      "ar": "أبحث عن هذا العنوان.",
+      "tr": "آيم لوكِنغ فور ذِس أدرِس"
+    },
+    {
+      "id": "dir_s3",
+      "en": "How do I get to the station?",
+      "ar": "كيف أصل إلى المحطة؟",
+      "tr": "هاو دو آي غِت تو ذَ ستيشِن"
+    },
+    {
+      "id": "dir_s4",
+      "en": "Is it far from here?",
+      "ar": "هل هو بعيد من هنا؟",
+      "tr": "إز إت فار فروم هير"
+    },
+    {
+      "id": "dir_s5",
+      "en": "It is a five-minute walk.",
+      "ar": "إنه على بعد خمس دقائق مشياً.",
+      "tr": "إت إز إيه فايڤ مِنِت ووك"
+    },
+    {
+      "id": "dir_s6",
+      "en": "Go straight for two blocks.",
+      "ar": "امشِ مستقيماً مربعين سكنيين.",
+      "tr": "غو ستريت فور تو بلوكس"
+    },
+    {
+      "id": "dir_s7",
+      "en": "Turn left at the traffic light.",
+      "ar": "انعطف يساراً عند الإشارة.",
+      "tr": "تيرن لِفت آت ذَ ترافِك لايت"
+    },
+    {
+      "id": "dir_s8",
+      "en": "Turn right after the bridge.",
+      "ar": "انعطف يميناً بعد الجسر.",
+      "tr": "تيرن رايت آفتَر ذَ برِدج"
+    },
+    {
+      "id": "dir_s9",
+      "en": "Take the second street on the right.",
+      "ar": "خذ الشارع الثاني على اليمين.",
+      "tr": "تيك ذَ سِكِند ستريت أون ذَ رايت"
+    },
+    {
+      "id": "dir_s10",
+      "en": "It is opposite the bank.",
+      "ar": "إنه مقابل البنك.",
+      "tr": "إت إز أپَزِت ذَ بانك"
+    },
+    {
+      "id": "dir_s11",
+      "en": "It is next to the pharmacy.",
+      "ar": "إنه بجانب الصيدلية.",
+      "tr": "إت إز نِكست تو ذَ فارمَسي"
+    },
+    {
+      "id": "dir_s12",
+      "en": "It is on the corner.",
+      "ar": "إنه عند الزاوية.",
+      "tr": "إت إز أون ذَ كورنَر"
+    },
+    {
+      "id": "dir_s13",
+      "en": "You will see a big sign.",
+      "ar": "سترى لافتة كبيرة.",
+      "tr": "يو وِل سي إيه بِغ ساين"
+    },
+    {
+      "id": "dir_s14",
+      "en": "You can't miss it.",
+      "ar": "لن تخطئه.",
+      "tr": "يو كانت مِس إت"
+    },
+    {
+      "id": "dir_s15",
+      "en": "Sorry, I am not from here.",
+      "ar": "آسف، أنا لست من هنا.",
+      "tr": "سوري، آيم نوت فروم هير"
+    },
+    {
+      "id": "dir_s16",
+      "en": "Can you show me on the map?",
+      "ar": "هل يمكنك أن تريني على الخريطة؟",
+      "tr": "كان يو شو مي أون ذَ ماپ"
+    },
+    {
+      "id": "dir_s17",
+      "en": "Which bus should I take?",
+      "ar": "أي حافلة يجب أن آخذ؟",
+      "tr": "وِتش بَس شود آي تيك"
+    },
+    {
+      "id": "dir_s18",
+      "en": "Where is the bus stop?",
+      "ar": "أين موقف الحافلة؟",
+      "tr": "وير إز ذَ بَس ستوپ"
+    },
+    {
+      "id": "dir_s19",
+      "en": "Is this the right way?",
+      "ar": "هل هذا هو الطريق الصحيح؟",
+      "tr": "إز ذِس ذَ رايت ويه"
+    },
+    {
+      "id": "dir_s20",
+      "en": "I think I am lost.",
+      "ar": "أظن أنني تهت.",
+      "tr": "آي ثِنك آيم لوست"
+    },
+    {
+      "id": "dir_s21",
+      "en": "Go back and turn left.",
+      "ar": "ارجع وانعطف يساراً.",
+      "tr": "غو باك آند تيرن لِفت"
+    },
+    {
+      "id": "dir_s22",
+      "en": "It is about ten minutes by car.",
+      "ar": "تبعد حوالي عشر دقائق بالسيارة.",
+      "tr": "إت إز أباوت تِن مِنِتس باي كار"
+    },
+    {
+      "id": "dir_s23",
+      "en": "Where is the entrance?",
+      "ar": "أين المدخل؟",
+      "tr": "وير إز ذي إنترَنس"
+    },
+    {
+      "id": "dir_s24",
+      "en": "Thank you so much for your help.",
+      "ar": "شكراً جزيلاً على مساعدتك.",
+      "tr": "ثانك يو سو مَتش فور يور هِلپ"
+    }
+  ]
+}

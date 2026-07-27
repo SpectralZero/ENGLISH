@@ -16,6 +16,7 @@ export const store = {
   units: [],          // full unit objects, ordered
   unitById: new Map(),
   wordById: new Map(),
+  sentenceById: new Map(),
   words: [],          // flat list of every word (with .unitId)
   sentences: [],      // flat list of every sentence (with .unitId)
   alphabet: null,
@@ -98,7 +99,13 @@ export function reindex() {
   store.words = store.units.flatMap(u => u.words);
   store.sentences = store.units.flatMap(u => u.sentences);
   store.wordById = new Map(store.words.map(w => [w.id, w]));
+  store.sentenceById = new Map(store.sentences.map(s => [s.id, s]));
 }
+
+/** Words and sentences alike are scheduled by the same SRS. */
+export const allSentenceIds = () => store.sentences.map(s => s.id);
+export const allItemIds = () => [...allWordIds(), ...allSentenceIds()];
+export const itemById = id => store.wordById.get(id) || store.sentenceById.get(id);
 
 /* ------------------------------------------------------ queries */
 export const allWordIds = () => store.words.map(w => w.id);

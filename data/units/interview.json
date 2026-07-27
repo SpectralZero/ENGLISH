@@ -1,0 +1,244 @@
+{
+  "id": "interview",
+  "title": {
+    "ar": "مقابلة عمل",
+    "en": "Job Interview"
+  },
+  "icon": "👔",
+  "level": 6,
+  "color": "rose",
+  "words": [
+    {
+      "id": "int_w1",
+      "en": "position",
+      "ar": "وظيفة / منصب",
+      "tr": "پَزِشِن",
+      "pos": "n",
+      "emoji": "💼"
+    },
+    {
+      "id": "int_w2",
+      "en": "skills",
+      "ar": "مهارات",
+      "tr": "سكِلز",
+      "pos": "n",
+      "emoji": "🛠️"
+    },
+    {
+      "id": "int_w3",
+      "en": "strength",
+      "ar": "نقطة قوة",
+      "tr": "سترِنغث",
+      "pos": "n",
+      "emoji": "💪"
+    },
+    {
+      "id": "int_w4",
+      "en": "weakness",
+      "ar": "نقطة ضعف",
+      "tr": "ويكنِس",
+      "pos": "n",
+      "emoji": "📉"
+    },
+    {
+      "id": "int_w5",
+      "en": "team work",
+      "ar": "العمل الجماعي",
+      "tr": "تيم وِرك",
+      "pos": "n",
+      "emoji": "👥"
+    },
+    {
+      "id": "int_w6",
+      "en": "full time",
+      "ar": "دوام كامل",
+      "tr": "فُل تايم",
+      "pos": "phr",
+      "emoji": "🕘"
+    },
+    {
+      "id": "int_w7",
+      "en": "part time",
+      "ar": "دوام جزئي",
+      "tr": "پارت تايم",
+      "pos": "phr",
+      "emoji": "🕓"
+    },
+    {
+      "id": "int_w8",
+      "en": "start date",
+      "ar": "تاريخ المباشرة",
+      "tr": "ستارت ديت",
+      "pos": "n",
+      "emoji": "📅"
+    },
+    {
+      "id": "int_w9",
+      "en": "reference",
+      "ar": "توصية",
+      "tr": "رِفرَنس",
+      "pos": "n",
+      "emoji": "📄"
+    },
+    {
+      "id": "int_w10",
+      "en": "hire",
+      "ar": "يوظّف",
+      "tr": "هايَر",
+      "pos": "v",
+      "emoji": "🤝"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "int_s1",
+      "en": "Good morning, please have a seat.",
+      "ar": "صباح الخير، تفضل بالجلوس.",
+      "tr": "غُود مورنِنغ، پليز هاڤ إيه سيت"
+    },
+    {
+      "id": "int_s2",
+      "en": "Thank you for this opportunity.",
+      "ar": "شكراً على هذه الفرصة.",
+      "tr": "ثانك يو فور ذِس أپَرتيونِتي"
+    },
+    {
+      "id": "int_s3",
+      "en": "Tell me about yourself.",
+      "ar": "حدثني عن نفسك.",
+      "tr": "تِل مي أباوت يورسِلف"
+    },
+    {
+      "id": "int_s4",
+      "en": "My name is Omar and I am thirty.",
+      "ar": "اسمي عمر وعمري ثلاثون.",
+      "tr": "ماي نيم إز عمر آند آيم ثِرتي"
+    },
+    {
+      "id": "int_s5",
+      "en": "I have five years of experience.",
+      "ar": "لدي خمس سنوات خبرة.",
+      "tr": "آي هاڤ فايڤ يِيرز أوڤ إكسپيريَنس"
+    },
+    {
+      "id": "int_s6",
+      "en": "I worked as a driver for three years.",
+      "ar": "عملت سائقاً لثلاث سنوات.",
+      "tr": "آي وِركت آز إيه درايڤَر فور ثري يِيرز"
+    },
+    {
+      "id": "int_s7",
+      "en": "Why do you want this job?",
+      "ar": "لماذا تريد هذه الوظيفة؟",
+      "tr": "واي دو يو وانت ذِس جوب"
+    },
+    {
+      "id": "int_s8",
+      "en": "I want to learn and grow.",
+      "ar": "أريد أن أتعلم وأتطور.",
+      "tr": "آي وانت تو ليرن آند غرو"
+    },
+    {
+      "id": "int_s9",
+      "en": "What are your strengths?",
+      "ar": "ما نقاط قوتك؟",
+      "tr": "وات آر يور سترِنغثس"
+    },
+    {
+      "id": "int_s10",
+      "en": "I work hard and I am always on time.",
+      "ar": "أعمل بجد وأحضر دائماً في الوقت.",
+      "tr": "آي وِرك هارد آند آيم أولويز أون تايم"
+    },
+    {
+      "id": "int_s11",
+      "en": "I learn quickly.",
+      "ar": "أتعلم بسرعة.",
+      "tr": "آي ليرن كوِكلي"
+    },
+    {
+      "id": "int_s12",
+      "en": "I can work in a team.",
+      "ar": "أستطيع العمل ضمن فريق.",
+      "tr": "آي كان وِرك إن إيه تيم"
+    },
+    {
+      "id": "int_s13",
+      "en": "My English is still basic but improving.",
+      "ar": "إنجليزيتي بسيطة لكنها تتحسن.",
+      "tr": "ماي إنغلِش إز ستِل بيسِك بَت إمپروڤِنغ"
+    },
+    {
+      "id": "int_s14",
+      "en": "Can you work at the weekend?",
+      "ar": "هل يمكنك العمل في نهاية الأسبوع؟",
+      "tr": "كان يو وِرك آت ذَ ويكِند"
+    },
+    {
+      "id": "int_s15",
+      "en": "Yes, I am flexible.",
+      "ar": "نعم، لدي مرونة.",
+      "tr": "يِس، آيم فلِكسِبِل"
+    },
+    {
+      "id": "int_s16",
+      "en": "Is this a full time position?",
+      "ar": "هل هذه وظيفة بدوام كامل؟",
+      "tr": "إز ذِس إيه فُل تايم پَزِشِن"
+    },
+    {
+      "id": "int_s17",
+      "en": "What are the working hours?",
+      "ar": "ما ساعات العمل؟",
+      "tr": "وات آر ذَ وِركِنغ آوَرز"
+    },
+    {
+      "id": "int_s18",
+      "en": "What is the salary?",
+      "ar": "كم الراتب؟",
+      "tr": "وات إز ذَ سالَري"
+    },
+    {
+      "id": "int_s19",
+      "en": "When can you start?",
+      "ar": "متى يمكنك المباشرة؟",
+      "tr": "وِن كان يو ستارت"
+    },
+    {
+      "id": "int_s20",
+      "en": "I can start next week.",
+      "ar": "أستطيع المباشرة الأسبوع القادم.",
+      "tr": "آي كان ستارت نِكست ويك"
+    },
+    {
+      "id": "int_s21",
+      "en": "Do you have any questions?",
+      "ar": "هل لديك أي أسئلة؟",
+      "tr": "دو يو هاڤ إني كوِستشِنز"
+    },
+    {
+      "id": "int_s22",
+      "en": "Yes, one question please.",
+      "ar": "نعم، سؤال واحد من فضلك.",
+      "tr": "يِس، وان كوِستشِن پليز"
+    },
+    {
+      "id": "int_s23",
+      "en": "We will call you next week.",
+      "ar": "سنتصل بك الأسبوع القادم.",
+      "tr": "وي وِل كول يو نِكست ويك"
+    },
+    {
+      "id": "int_s24",
+      "en": "Thank you for your time.",
+      "ar": "شكراً على وقتك.",
+      "tr": "ثانك يو فور يور تايم"
+    },
+    {
+      "id": "int_s25",
+      "en": "It was nice meeting you.",
+      "ar": "سعدت بلقائك.",
+      "tr": "إت واز نايس ميتِنغ يو"
+    }
+  ]
+}

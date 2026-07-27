@@ -1,0 +1,226 @@
+{
+  "id": "phonecall",
+  "title": {
+    "ar": "مكالمة هاتفية",
+    "en": "On the Phone"
+  },
+  "icon": "☎️",
+  "level": 6,
+  "color": "brand",
+  "words": [
+    {
+      "id": "pho_w1",
+      "en": "hold on",
+      "ar": "انتظر على الخط",
+      "tr": "هولد أون",
+      "pos": "phr",
+      "emoji": "⏸️"
+    },
+    {
+      "id": "pho_w2",
+      "en": "speaking",
+      "ar": "أنا المتحدث",
+      "tr": "سپيكِنغ",
+      "pos": "v",
+      "emoji": "🗣️"
+    },
+    {
+      "id": "pho_w3",
+      "en": "wrong number",
+      "ar": "رقم خاطئ",
+      "tr": "رونغ نَمبَر",
+      "pos": "n",
+      "emoji": "❌"
+    },
+    {
+      "id": "pho_w4",
+      "en": "call back",
+      "ar": "يعاود الاتصال",
+      "tr": "كول باك",
+      "pos": "v",
+      "emoji": "🔁"
+    },
+    {
+      "id": "pho_w5",
+      "en": "voice message",
+      "ar": "رسالة صوتية",
+      "tr": "ڤويس مِسِج",
+      "pos": "n",
+      "emoji": "🎙️"
+    },
+    {
+      "id": "pho_w6",
+      "en": "busy line",
+      "ar": "الخط مشغول",
+      "tr": "بِزي لاين",
+      "pos": "phr",
+      "emoji": "📵"
+    },
+    {
+      "id": "pho_w7",
+      "en": "reception (signal)",
+      "ar": "إشارة الشبكة",
+      "tr": "رِسِپشِن",
+      "pos": "n",
+      "emoji": "📶"
+    },
+    {
+      "id": "pho_w8",
+      "en": "hang up",
+      "ar": "ينهي المكالمة",
+      "tr": "هانغ أب",
+      "pos": "v",
+      "emoji": "📴"
+    },
+    {
+      "id": "pho_w9",
+      "en": "urgent",
+      "ar": "عاجل",
+      "tr": "أورجِنت",
+      "pos": "adj",
+      "emoji": "🚨"
+    },
+    {
+      "id": "pho_w10",
+      "en": "later",
+      "ar": "لاحقاً",
+      "tr": "ليتَر",
+      "pos": "adv",
+      "emoji": "🔜"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "pho_s1",
+      "en": "Hello, who is speaking?",
+      "ar": "مرحباً، من المتحدث؟",
+      "tr": "هَلو، هو إز سپيكِنغ"
+    },
+    {
+      "id": "pho_s2",
+      "en": "Hello, this is Ahmed.",
+      "ar": "مرحباً، أنا أحمد.",
+      "tr": "هَلو، ذِس إز أحمد"
+    },
+    {
+      "id": "pho_s3",
+      "en": "Can I speak to Mr. Ali?",
+      "ar": "هل يمكنني التحدث إلى السيد علي؟",
+      "tr": "كان آي سپيك تو مِستَر علي"
+    },
+    {
+      "id": "pho_s4",
+      "en": "Speaking. How can I help you?",
+      "ar": "أنا هو. كيف أساعدك؟",
+      "tr": "سپيكِنغ. هاو كان آي هِلپ يو"
+    },
+    {
+      "id": "pho_s5",
+      "en": "One moment, please.",
+      "ar": "لحظة من فضلك.",
+      "tr": "وان مومِنت، پليز"
+    },
+    {
+      "id": "pho_s6",
+      "en": "Please hold on.",
+      "ar": "انتظر على الخط من فضلك.",
+      "tr": "پليز هولد أون"
+    },
+    {
+      "id": "pho_s7",
+      "en": "He is not here right now.",
+      "ar": "هو ليس هنا الآن.",
+      "tr": "هي إز نوت هير رايت ناو"
+    },
+    {
+      "id": "pho_s8",
+      "en": "Can I leave a message?",
+      "ar": "هل يمكنني ترك رسالة؟",
+      "tr": "كان آي ليڤ إيه مِسِج"
+    },
+    {
+      "id": "pho_s9",
+      "en": "Please tell him I called.",
+      "ar": "من فضلك أخبره أنني اتصلت.",
+      "tr": "پليز تِل هِم آي كولد"
+    },
+    {
+      "id": "pho_s10",
+      "en": "Can you call me back later?",
+      "ar": "هل يمكنك معاودة الاتصال لاحقاً؟",
+      "tr": "كان يو كول مي باك ليتَر"
+    },
+    {
+      "id": "pho_s11",
+      "en": "Sorry, wrong number.",
+      "ar": "آسف، رقم خاطئ.",
+      "tr": "سوري، رونغ نَمبَر"
+    },
+    {
+      "id": "pho_s12",
+      "en": "I can't hear you well.",
+      "ar": "لا أسمعك جيداً.",
+      "tr": "آي كانت هير يو وِل"
+    },
+    {
+      "id": "pho_s13",
+      "en": "Can you speak louder, please?",
+      "ar": "هل يمكنك التحدث بصوت أعلى؟",
+      "tr": "كان يو سپيك لاودَر، پليز"
+    },
+    {
+      "id": "pho_s14",
+      "en": "The line is very bad.",
+      "ar": "الخط سيء جداً.",
+      "tr": "ذَ لاين إز ڤيري باد"
+    },
+    {
+      "id": "pho_s15",
+      "en": "I will call you back in five minutes.",
+      "ar": "سأعاود الاتصال بعد خمس دقائق.",
+      "tr": "آي وِل كول يو باك إن فايڤ مِنِتس"
+    },
+    {
+      "id": "pho_s16",
+      "en": "It is urgent, please.",
+      "ar": "الأمر عاجل من فضلك.",
+      "tr": "إت إز أورجِنت، پليز"
+    },
+    {
+      "id": "pho_s17",
+      "en": "What is your number, please?",
+      "ar": "ما رقمك من فضلك؟",
+      "tr": "وات إز يور نَمبَر، پليز"
+    },
+    {
+      "id": "pho_s18",
+      "en": "Let me write it down.",
+      "ar": "دعني أكتبه.",
+      "tr": "لِت مي رايت إت داون"
+    },
+    {
+      "id": "pho_s19",
+      "en": "Can you repeat the number?",
+      "ar": "هل يمكنك تكرار الرقم؟",
+      "tr": "كان يو رِپيت ذَ نَمبَر"
+    },
+    {
+      "id": "pho_s20",
+      "en": "I am driving now, I will call later.",
+      "ar": "أنا أقود الآن، سأتصل لاحقاً.",
+      "tr": "آيم درايڤِنغ ناو، آي وِل كول ليتَر"
+    },
+    {
+      "id": "pho_s21",
+      "en": "Thank you for calling.",
+      "ar": "شكراً على اتصالك.",
+      "tr": "ثانك يو فور كولِنغ"
+    },
+    {
+      "id": "pho_s22",
+      "en": "Have a good day, goodbye.",
+      "ar": "طاب يومك، مع السلامة.",
+      "tr": "هاڤ إيه غُود ديه، غُود باي"
+    }
+  ]
+}

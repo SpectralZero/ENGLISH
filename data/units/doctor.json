@@ -1,0 +1,262 @@
+{
+  "id": "doctor",
+  "title": {
+    "ar": "عند الطبيب",
+    "en": "At the Doctor"
+  },
+  "icon": "🩺",
+  "level": 6,
+  "color": "mint",
+  "words": [
+    {
+      "id": "doc_w1",
+      "en": "appointment",
+      "ar": "موعد",
+      "tr": "أپوينتمِنت",
+      "pos": "n",
+      "emoji": "📅"
+    },
+    {
+      "id": "doc_w2",
+      "en": "symptom",
+      "ar": "عَرَض",
+      "tr": "سِمپتَم",
+      "pos": "n",
+      "emoji": "🤒"
+    },
+    {
+      "id": "doc_w3",
+      "en": "prescription",
+      "ar": "وصفة طبية",
+      "tr": "پرِسكرِپشِن",
+      "pos": "n",
+      "emoji": "📝"
+    },
+    {
+      "id": "doc_w4",
+      "en": "pain",
+      "ar": "ألم",
+      "tr": "پين",
+      "pos": "n",
+      "emoji": "😣"
+    },
+    {
+      "id": "doc_w5",
+      "en": "temperature",
+      "ar": "درجة الحرارة",
+      "tr": "تِمپرَتشَر",
+      "pos": "n",
+      "emoji": "🌡️"
+    },
+    {
+      "id": "doc_w6",
+      "en": "blood test",
+      "ar": "تحليل دم",
+      "tr": "بلَد تِست",
+      "pos": "n",
+      "emoji": "🩸"
+    },
+    {
+      "id": "doc_w7",
+      "en": "injection",
+      "ar": "حقنة",
+      "tr": "إنجِكشِن",
+      "pos": "n",
+      "emoji": "💉"
+    },
+    {
+      "id": "doc_w8",
+      "en": "pill",
+      "ar": "حبة دواء",
+      "tr": "پِل",
+      "pos": "n",
+      "emoji": "💊"
+    },
+    {
+      "id": "doc_w9",
+      "en": "twice a day",
+      "ar": "مرتين يومياً",
+      "tr": "تْوايس إيه ديه",
+      "pos": "phr",
+      "emoji": "🔁"
+    },
+    {
+      "id": "doc_w10",
+      "en": "side effect",
+      "ar": "أثر جانبي",
+      "tr": "سايد إفِكت",
+      "pos": "n",
+      "emoji": "⚠️"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "doc_s1",
+      "en": "I would like to see a doctor.",
+      "ar": "أريد أن أرى طبيباً.",
+      "tr": "آي وود لايك تو سي إيه دُكتَر"
+    },
+    {
+      "id": "doc_s2",
+      "en": "Do I need an appointment?",
+      "ar": "هل أحتاج موعداً؟",
+      "tr": "دو آي نيد آن أپوينتمِنت"
+    },
+    {
+      "id": "doc_s3",
+      "en": "I have an appointment at four.",
+      "ar": "لدي موعد في الرابعة.",
+      "tr": "آي هاڤ آن أپوينتمِنت آت فور"
+    },
+    {
+      "id": "doc_s4",
+      "en": "What is the problem?",
+      "ar": "ما المشكلة؟",
+      "tr": "وات إز ذَ پروبلِم"
+    },
+    {
+      "id": "doc_s5",
+      "en": "I have a bad headache.",
+      "ar": "عندي صداع شديد.",
+      "tr": "آي هاڤ إيه باد هِدإيك"
+    },
+    {
+      "id": "doc_s6",
+      "en": "My stomach hurts a lot.",
+      "ar": "معدتي تؤلمني كثيراً.",
+      "tr": "ماي ستَمَك هيرتس إيه لوت"
+    },
+    {
+      "id": "doc_s7",
+      "en": "I have a fever since yesterday.",
+      "ar": "لدي حمى منذ أمس.",
+      "tr": "آي هاڤ إيه فيڤَر سِنس يِستَرديه"
+    },
+    {
+      "id": "doc_s8",
+      "en": "I feel dizzy.",
+      "ar": "أشعر بدوار.",
+      "tr": "آي فيل دِزي"
+    },
+    {
+      "id": "doc_s9",
+      "en": "I can't sleep at night.",
+      "ar": "لا أستطيع النوم ليلاً.",
+      "tr": "آي كانت سليپ آت نايت"
+    },
+    {
+      "id": "doc_s10",
+      "en": "How long have you had this?",
+      "ar": "منذ متى وأنت هكذا؟",
+      "tr": "هاو لونغ هاڤ يو هاد ذِس"
+    },
+    {
+      "id": "doc_s11",
+      "en": "For about three days.",
+      "ar": "منذ ثلاثة أيام تقريباً.",
+      "tr": "فور أباوت ثري ديز"
+    },
+    {
+      "id": "doc_s12",
+      "en": "Are you taking any medicine?",
+      "ar": "هل تتناول أي دواء؟",
+      "tr": "آر يو تيكِنغ إني مِدِسِن"
+    },
+    {
+      "id": "doc_s13",
+      "en": "I am allergic to penicillin.",
+      "ar": "لدي حساسية من البنسلين.",
+      "tr": "آيم أليرجِك تو پِنِسِلِن"
+    },
+    {
+      "id": "doc_s14",
+      "en": "Please open your mouth.",
+      "ar": "من فضلك افتح فمك.",
+      "tr": "پليز أوپِن يور ماوث"
+    },
+    {
+      "id": "doc_s15",
+      "en": "Take a deep breath.",
+      "ar": "خذ نفساً عميقاً.",
+      "tr": "تيك إيه ديپ برِث"
+    },
+    {
+      "id": "doc_s16",
+      "en": "I need a blood test.",
+      "ar": "أحتاج تحليل دم.",
+      "tr": "آي نيد إيه بلَد تِست"
+    },
+    {
+      "id": "doc_s17",
+      "en": "Is it serious, doctor?",
+      "ar": "هل الأمر خطير يا دكتور؟",
+      "tr": "إز إت سيريَس، دُكتَر"
+    },
+    {
+      "id": "doc_s18",
+      "en": "Don't worry, it is not serious.",
+      "ar": "لا تقلق، الأمر ليس خطيراً.",
+      "tr": "دونت وَري، إت إز نوت سيريَس"
+    },
+    {
+      "id": "doc_s19",
+      "en": "Take this pill twice a day.",
+      "ar": "خذ هذه الحبة مرتين يومياً.",
+      "tr": "تيك ذِس پِل تْوايس إيه ديه"
+    },
+    {
+      "id": "doc_s20",
+      "en": "Take it after food.",
+      "ar": "خذها بعد الطعام.",
+      "tr": "تيك إت آفتَر فوود"
+    },
+    {
+      "id": "doc_s21",
+      "en": "Drink a lot of water and rest.",
+      "ar": "اشرب ماءً كثيراً واسترح.",
+      "tr": "درِنك إيه لوت أوڤ ووتَر آند رِست"
+    },
+    {
+      "id": "doc_s22",
+      "en": "Come back in one week.",
+      "ar": "عد بعد أسبوع.",
+      "tr": "كَم باك إن وان ويك"
+    },
+    {
+      "id": "doc_s23",
+      "en": "Where is the pharmacy?",
+      "ar": "أين الصيدلية؟",
+      "tr": "وير إز ذَ فارمَسي"
+    },
+    {
+      "id": "doc_s24",
+      "en": "Do I need a prescription?",
+      "ar": "هل أحتاج وصفة طبية؟",
+      "tr": "دو آي نيد إيه پرِسكرِپشِن"
+    },
+    {
+      "id": "doc_s25",
+      "en": "My son has a cough.",
+      "ar": "ابني يسعل.",
+      "tr": "ماي سَن هاز إيه كوف"
+    },
+    {
+      "id": "doc_s26",
+      "en": "She is pregnant.",
+      "ar": "هي حامل.",
+      "tr": "شي إز پرِغنَنت"
+    },
+    {
+      "id": "doc_s27",
+      "en": "I feel much better now.",
+      "ar": "أشعر بتحسن كبير الآن.",
+      "tr": "آي فيل مَتش بِتَر ناو"
+    },
+    {
+      "id": "doc_s28",
+      "en": "Thank you very much, doctor.",
+      "ar": "شكراً جزيلاً يا دكتور.",
+      "tr": "ثانك يو ڤيري مَتش، دُكتَر"
+    }
+  ]
+}

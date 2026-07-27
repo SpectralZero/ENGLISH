@@ -1,49 +1,360 @@
 {
   "id": "animals",
-  "title": { "ar": "الحيوانات", "en": "Animals" },
+  "title": {
+    "ar": "الحيوانات",
+    "en": "Animals"
+  },
   "icon": "🐾",
   "level": 3,
   "color": "mint",
   "words": [
-    { "id": "an_animal", "en": "animal", "ar": "حيوان", "tr": "آنِمَل", "pos": "n", "emoji": "🐾" },
-    { "id": "an_cat", "en": "cat", "ar": "قطة", "tr": "كات", "pos": "n", "emoji": "🐱", "ex": { "en": "The cat is on the chair.", "ar": "القطة على الكرسي.", "tr": "ذَ كات إز أون ذَ تشير" } },
-    { "id": "an_dog", "en": "dog", "ar": "كلب", "tr": "دوغ", "pos": "n", "emoji": "🐶" },
-    { "id": "an_bird", "en": "bird", "ar": "طائر", "tr": "بيرد", "pos": "n", "emoji": "🐦" },
-    { "id": "an_fish2", "en": "fish", "ar": "سمكة", "tr": "فِش", "pos": "n", "emoji": "🐟" },
-    { "id": "an_horse", "en": "horse", "ar": "حصان", "tr": "هورس", "pos": "n", "emoji": "🐴" },
-    { "id": "an_donkey", "en": "donkey", "ar": "حمار", "tr": "دونكي", "pos": "n", "emoji": "🫏" },
-    { "id": "an_camel", "en": "camel", "ar": "جمل", "tr": "كامِل", "pos": "n", "emoji": "🐪" },
-    { "id": "an_cow", "en": "cow", "ar": "بقرة", "tr": "كاو", "pos": "n", "emoji": "🐄" },
-    { "id": "an_sheep", "en": "sheep", "ar": "خروف", "tr": "شيپ", "pos": "n", "emoji": "🐑" },
-    { "id": "an_goat", "en": "goat", "ar": "ماعز", "tr": "غوت", "pos": "n", "emoji": "🐐" },
-    { "id": "an_chicken2", "en": "chicken", "ar": "دجاجة", "tr": "تشِكِن", "pos": "n", "emoji": "🐔" },
-    { "id": "an_duck", "en": "duck", "ar": "بطة", "tr": "دَك", "pos": "n", "emoji": "🦆" },
-    { "id": "an_lion", "en": "lion", "ar": "أسد", "tr": "لايون", "pos": "n", "emoji": "🦁" },
-    { "id": "an_tiger", "en": "tiger", "ar": "نمر", "tr": "تايغَر", "pos": "n", "emoji": "🐯" },
-    { "id": "an_elephant", "en": "elephant", "ar": "فيل", "tr": "إلِفَنت", "pos": "n", "emoji": "🐘" },
-    { "id": "an_monkey", "en": "monkey", "ar": "قرد", "tr": "مَنكي", "pos": "n", "emoji": "🐒" },
-    { "id": "an_bear", "en": "bear", "ar": "دب", "tr": "بير", "pos": "n", "emoji": "🐻" },
-    { "id": "an_wolf", "en": "wolf", "ar": "ذئب", "tr": "وولف", "pos": "n", "emoji": "🐺" },
-    { "id": "an_fox", "en": "fox", "ar": "ثعلب", "tr": "فوكس", "pos": "n", "emoji": "🦊" },
-    { "id": "an_rabbit", "en": "rabbit", "ar": "أرنب", "tr": "رابِت", "pos": "n", "emoji": "🐰" },
-    { "id": "an_mouse", "en": "mouse", "ar": "فأر", "tr": "ماوس", "pos": "n", "emoji": "🐭" },
-    { "id": "an_snake", "en": "snake", "ar": "أفعى", "tr": "سنيك", "pos": "n", "emoji": "🐍" },
-    { "id": "an_bee", "en": "bee", "ar": "نحلة", "tr": "بي", "pos": "n", "emoji": "🐝" },
-    { "id": "an_ant", "en": "ant", "ar": "نملة", "tr": "آنت", "pos": "n", "emoji": "🐜" },
-    { "id": "an_butterfly", "en": "butterfly", "ar": "فراشة", "tr": "بَتَرفلاي", "pos": "n", "emoji": "🦋" },
-    { "id": "an_pet", "en": "pet", "ar": "حيوان أليف", "tr": "پِت", "pos": "n", "emoji": "🐕", "ex": { "en": "Do you have a pet?", "ar": "هل لديك حيوان أليف؟", "tr": "دو يو هاڤ إيه پِت" } },
-    { "id": "an_farm", "en": "farm", "ar": "مزرعة", "tr": "فارم", "pos": "n", "emoji": "🚜" },
-    { "id": "an_zoo", "en": "zoo", "ar": "حديقة حيوان", "tr": "زو", "pos": "n", "emoji": "🦓" },
-    { "id": "an_feed", "en": "feed", "ar": "يُطعم", "tr": "فيد", "pos": "v", "emoji": "🥣" }
+    {
+      "id": "an_animal",
+      "en": "animal",
+      "ar": "حيوان",
+      "tr": "آنِمَل",
+      "pos": "n",
+      "emoji": "🐾"
+    },
+    {
+      "id": "an_cat",
+      "en": "cat",
+      "ar": "قطة",
+      "tr": "كات",
+      "pos": "n",
+      "emoji": "🐱",
+      "ex": {
+        "en": "The cat is on the chair.",
+        "ar": "القطة على الكرسي.",
+        "tr": "ذَ كات إز أون ذَ تشير"
+      }
+    },
+    {
+      "id": "an_dog",
+      "en": "dog",
+      "ar": "كلب",
+      "tr": "دوغ",
+      "pos": "n",
+      "emoji": "🐶"
+    },
+    {
+      "id": "an_bird",
+      "en": "bird",
+      "ar": "طائر",
+      "tr": "بيرد",
+      "pos": "n",
+      "emoji": "🐦"
+    },
+    {
+      "id": "an_fish2",
+      "en": "fish",
+      "ar": "سمكة",
+      "tr": "فِش",
+      "pos": "n",
+      "emoji": "🐟"
+    },
+    {
+      "id": "an_horse",
+      "en": "horse",
+      "ar": "حصان",
+      "tr": "هورس",
+      "pos": "n",
+      "emoji": "🐴"
+    },
+    {
+      "id": "an_donkey",
+      "en": "donkey",
+      "ar": "حمار",
+      "tr": "دونكي",
+      "pos": "n",
+      "emoji": "🫏"
+    },
+    {
+      "id": "an_camel",
+      "en": "camel",
+      "ar": "جمل",
+      "tr": "كامِل",
+      "pos": "n",
+      "emoji": "🐪"
+    },
+    {
+      "id": "an_cow",
+      "en": "cow",
+      "ar": "بقرة",
+      "tr": "كاو",
+      "pos": "n",
+      "emoji": "🐄"
+    },
+    {
+      "id": "an_sheep",
+      "en": "sheep",
+      "ar": "خروف",
+      "tr": "شيپ",
+      "pos": "n",
+      "emoji": "🐑"
+    },
+    {
+      "id": "an_goat",
+      "en": "goat",
+      "ar": "ماعز",
+      "tr": "غوت",
+      "pos": "n",
+      "emoji": "🐐"
+    },
+    {
+      "id": "an_chicken2",
+      "en": "chicken",
+      "ar": "دجاجة",
+      "tr": "تشِكِن",
+      "pos": "n",
+      "emoji": "🐔"
+    },
+    {
+      "id": "an_duck",
+      "en": "duck",
+      "ar": "بطة",
+      "tr": "دَك",
+      "pos": "n",
+      "emoji": "🦆"
+    },
+    {
+      "id": "an_lion",
+      "en": "lion",
+      "ar": "أسد",
+      "tr": "لايون",
+      "pos": "n",
+      "emoji": "🦁"
+    },
+    {
+      "id": "an_tiger",
+      "en": "tiger",
+      "ar": "نمر",
+      "tr": "تايغَر",
+      "pos": "n",
+      "emoji": "🐯"
+    },
+    {
+      "id": "an_elephant",
+      "en": "elephant",
+      "ar": "فيل",
+      "tr": "إلِفَنت",
+      "pos": "n",
+      "emoji": "🐘"
+    },
+    {
+      "id": "an_monkey",
+      "en": "monkey",
+      "ar": "قرد",
+      "tr": "مَنكي",
+      "pos": "n",
+      "emoji": "🐒"
+    },
+    {
+      "id": "an_bear",
+      "en": "bear",
+      "ar": "دب",
+      "tr": "بير",
+      "pos": "n",
+      "emoji": "🐻"
+    },
+    {
+      "id": "an_wolf",
+      "en": "wolf",
+      "ar": "ذئب",
+      "tr": "وولف",
+      "pos": "n",
+      "emoji": "🐺"
+    },
+    {
+      "id": "an_fox",
+      "en": "fox",
+      "ar": "ثعلب",
+      "tr": "فوكس",
+      "pos": "n",
+      "emoji": "🦊"
+    },
+    {
+      "id": "an_rabbit",
+      "en": "rabbit",
+      "ar": "أرنب",
+      "tr": "رابِت",
+      "pos": "n",
+      "emoji": "🐰"
+    },
+    {
+      "id": "an_mouse",
+      "en": "mouse",
+      "ar": "فأر",
+      "tr": "ماوس",
+      "pos": "n",
+      "emoji": "🐭"
+    },
+    {
+      "id": "an_snake",
+      "en": "snake",
+      "ar": "أفعى",
+      "tr": "سنيك",
+      "pos": "n",
+      "emoji": "🐍"
+    },
+    {
+      "id": "an_bee",
+      "en": "bee",
+      "ar": "نحلة",
+      "tr": "بي",
+      "pos": "n",
+      "emoji": "🐝"
+    },
+    {
+      "id": "an_ant",
+      "en": "ant",
+      "ar": "نملة",
+      "tr": "آنت",
+      "pos": "n",
+      "emoji": "🐜"
+    },
+    {
+      "id": "an_butterfly",
+      "en": "butterfly",
+      "ar": "فراشة",
+      "tr": "بَتَرفلاي",
+      "pos": "n",
+      "emoji": "🦋"
+    },
+    {
+      "id": "an_pet",
+      "en": "pet",
+      "ar": "حيوان أليف",
+      "tr": "پِت",
+      "pos": "n",
+      "emoji": "🐕",
+      "ex": {
+        "en": "Do you have a pet?",
+        "ar": "هل لديك حيوان أليف؟",
+        "tr": "دو يو هاڤ إيه پِت"
+      }
+    },
+    {
+      "id": "an_farm",
+      "en": "farm",
+      "ar": "مزرعة",
+      "tr": "فارم",
+      "pos": "n",
+      "emoji": "🚜"
+    },
+    {
+      "id": "an_zoo",
+      "en": "zoo",
+      "ar": "حديقة حيوان",
+      "tr": "زو",
+      "pos": "n",
+      "emoji": "🦓"
+    },
+    {
+      "id": "an_feed",
+      "en": "feed",
+      "ar": "يُطعم",
+      "tr": "فيد",
+      "pos": "v",
+      "emoji": "🥣"
+    }
   ],
   "sentences": [
-    { "id": "an_s1", "en": "I have a small cat.", "ar": "لدي قطة صغيرة.", "tr": "آي هاڤ إيه سمول كات" },
-    { "id": "an_s2", "en": "The dog is very friendly.", "ar": "الكلب ودود جداً.", "tr": "ذَ دوغ إز ڤيري فرِندلي" },
-    { "id": "an_s3", "en": "Birds fly in the sky.", "ar": "الطيور تطير في السماء.", "tr": "بيردز فلاي إن ذَ سكاي" },
-    { "id": "an_s4", "en": "We visit the zoo on Friday.", "ar": "نزور حديقة الحيوان يوم الجمعة.", "tr": "وي ڤِزِت ذَ زو أون فرايديه" },
-    { "id": "an_s5", "en": "My uncle has a farm.", "ar": "عمي لديه مزرعة.", "tr": "ماي أنكِل هاز إيه فارم" },
-    { "id": "an_s6", "en": "The lion is a big animal.", "ar": "الأسد حيوان كبير.", "tr": "ذَ لايون إز إيه بِغ آنِمَل" },
-    { "id": "an_s7", "en": "I feed my fish every morning.", "ar": "أطعم سمكتي كل صباح.", "tr": "آي فيد ماي فِش إڤري مورنِنغ" },
-    { "id": "an_s8", "en": "The camel drinks a lot of water.", "ar": "الجمل يشرب ماءً كثيراً.", "tr": "ذَ كامِل درِنكس إيه لوت أوڤ ووتَر" }
+    {
+      "id": "an_s1",
+      "en": "I have a small cat.",
+      "ar": "لدي قطة صغيرة.",
+      "tr": "آي هاڤ إيه سمول كات"
+    },
+    {
+      "id": "an_s2",
+      "en": "The dog is very friendly.",
+      "ar": "الكلب ودود جداً.",
+      "tr": "ذَ دوغ إز ڤيري فرِندلي"
+    },
+    {
+      "id": "an_s3",
+      "en": "Birds fly in the sky.",
+      "ar": "الطيور تطير في السماء.",
+      "tr": "بيردز فلاي إن ذَ سكاي"
+    },
+    {
+      "id": "an_s4",
+      "en": "We visit the zoo on Friday.",
+      "ar": "نزور حديقة الحيوان يوم الجمعة.",
+      "tr": "وي ڤِزِت ذَ زو أون فرايديه"
+    },
+    {
+      "id": "an_s5",
+      "en": "My uncle has a farm.",
+      "ar": "عمي لديه مزرعة.",
+      "tr": "ماي أنكِل هاز إيه فارم"
+    },
+    {
+      "id": "an_s6",
+      "en": "The lion is a big animal.",
+      "ar": "الأسد حيوان كبير.",
+      "tr": "ذَ لايون إز إيه بِغ آنِمَل"
+    },
+    {
+      "id": "an_s7",
+      "en": "I feed my fish every morning.",
+      "ar": "أطعم سمكتي كل صباح.",
+      "tr": "آي فيد ماي فِش إڤري مورنِنغ"
+    },
+    {
+      "id": "an_s8",
+      "en": "The camel drinks a lot of water.",
+      "ar": "الجمل يشرب ماءً كثيراً.",
+      "tr": "ذَ كامِل درِنكس إيه لوت أوڤ ووتَر"
+    },
+    {
+      "id": "an_s9",
+      "en": "Do you have any pets?",
+      "ar": "هل لديك حيوانات أليفة؟",
+      "tr": "دو يو هاڤ إني پِتس"
+    },
+    {
+      "id": "an_s10",
+      "en": "The cat is sleeping on the sofa.",
+      "ar": "القطة نائمة على الأريكة.",
+      "tr": "ذَ كات إز سليپِنغ أون ذَ سوفا"
+    },
+    {
+      "id": "an_s11",
+      "en": "My dog likes to run in the park.",
+      "ar": "كلبي يحب الركض في الحديقة.",
+      "tr": "ماي دوغ لايكس تو رَن إن ذَ پارك"
+    },
+    {
+      "id": "an_s12",
+      "en": "Don't touch that animal.",
+      "ar": "لا تلمس ذلك الحيوان.",
+      "tr": "دونت تَتش ذات آنِمَل"
+    },
+    {
+      "id": "an_s13",
+      "en": "There are many birds on the tree.",
+      "ar": "توجد طيور كثيرة على الشجرة.",
+      "tr": "ذير آر مِني بيردز أون ذَ تري"
+    },
+    {
+      "id": "an_s14",
+      "en": "Horses are beautiful animals.",
+      "ar": "الخيول حيوانات جميلة.",
+      "tr": "هورسِز آر بيوتِفُل آنِمَلز"
+    },
+    {
+      "id": "an_s15",
+      "en": "The farmer has ten sheep.",
+      "ar": "المزارع لديه عشرة خراف.",
+      "tr": "ذَ فارمَر هاز تِن شيپ"
+    },
+    {
+      "id": "an_s16",
+      "en": "Be careful, that dog is not friendly.",
+      "ar": "انتبه، ذلك الكلب غير ودود.",
+      "tr": "بي كيرفُل، ذات دوغ إز نوت فرِندلي"
+    }
   ]
 }

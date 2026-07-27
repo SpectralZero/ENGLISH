@@ -5,3 +5,4 @@ Thumbs.db
 node_modules/
 .vscode/
 scripts/_*.html
+scripts/_*.mjs

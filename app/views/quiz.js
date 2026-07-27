@@ -5,7 +5,7 @@
    ============================================================ */
 import { el, AR_NUM, shuffle, sample, pick, haptic, sameWord, editDistance, pct } from '../util.js';
 import { store, distractors } from '../data.js';
-import { review, addXP, isNew, settings } from '../store.js';
+import { review, addXP, isNew, settings, byPriority, weakest } from '../store.js';
 import { ICON, sessionHead, emptyState, speakBtn } from '../ui.js';
 import { speak, spell as spellOut, unlock } from '../tts.js';
 import { go, back } from '../router.js';
@@ -18,57 +18,99 @@ function poolFor(unitId) {
     const seen = store.words.filter(w => !isNew(w.id));
     return seen.length >= 4 ? seen : store.words;
   }
+  if (unitId === 'weak') {
+    const ids = new Set(weakest(store.words.map(w => w.id), 40));
+    const weak = store.words.filter(w => ids.has(w.id));
+    return weak.length >= 4 ? weak : store.words.filter(w => !isNew(w.id));
+  }
   return store.unitById.get(unitId)?.words || [];
 }
 
-function sentencePool(unitId) {
-  const all = unitId === 'all' ? store.sentences : (store.unitById.get(unitId)?.sentences || []);
-  return all.filter(s => s.en.split(/\s+/).length >= 3 && s.en.split(/\s+/).length <= 8);
+/** Sentences short enough to rebuild or complete by hand. */
+function sentencePool(unitId, max = 9) {
+  const all = unitId === 'all' || unitId === 'weak'
+    ? store.sentences
+    : (store.unitById.get(unitId)?.sentences || []);
+  return all.filter(s => {
+    const n = s.en.split(/\s+/).length;
+    return n >= 3 && n <= max;
+  });
 }
+
+/** Take the n highest-priority entries (overdue and shaky ones first). */
+function pickAdaptive(list, n) {
+  if (list.length <= n) return shuffle(list);
+  const order = new Map(byPriority(list.map(x => x.id)).map((id, i) => [id, i]));
+  return list.slice().sort((a, b) => order.get(a.id) - order.get(b.id)).slice(0, n);
+}
+
+const WORD_TYPES = {
+  mcq:    ['mcq_en_ar', 'mcq_ar_en'],
+  listen: ['listen'],
+  spell:  ['spell', 'tiles'],
+  mix:    ['mcq_en_ar', 'mcq_ar_en', 'listen', 'tiles', 'spell'],
+};
 
 /* -------------------------------------------------- question builder */
 function buildQuestions(unitId, mode) {
   const words = poolFor(unitId);
   const sents = sentencePool(unitId);
+
+  /* sentence-only modes */
+  if (mode === 'order' || mode === 'blank' || mode === 'sentences') {
+    if (!sents.length) return [];
+    const types = mode === 'sentences' ? ['order', 'blank', 's_listen'] : [mode];
+    const chosen = pickAdaptive(sents, Math.min(LEN, sents.length));
+    return shuffle(chosen.map((s, i) => makeSentence(s, types[i % types.length])).filter(Boolean));
+  }
+
   if (!words.length) return [];
+  const types = WORD_TYPES[mode] || WORD_TYPES.mcq;
+  const wordCount = mode === 'mix' && sents.length >= 3 ? LEN - 3 : LEN;
+  const chosen = pickAdaptive(words, Math.min(wordCount, words.length));
+  const qs = chosen.map((w, i) => makeWord(w, types[i % types.length]));
 
-  const chosen = sample(words, Math.min(LEN, words.length));
-  const types = {
-    mcq:    ['mcq_en_ar', 'mcq_ar_en'],
-    listen: ['listen'],
-    spell:  ['spell', 'tiles'],
-    order:  ['order'],
-    mix:    ['mcq_en_ar', 'mcq_ar_en', 'listen', 'tiles', 'spell'],
-  }[mode] || ['mcq_en_ar'];
-
-  const qs = chosen.map((w, i) => make(w, types[i % types.length]));
-
-  // sprinkle sentence-order questions into the mixed test
-  if ((mode === 'mix' || mode === 'order') && sents.length) {
-    const n = mode === 'order' ? LEN : 2;
-    for (const s of sample(sents, Math.min(n, sents.length))) qs.push({ type: 'order', s });
-    if (mode === 'order') qs.splice(0, qs.length - Math.min(LEN, sents.length));
+  /* a mixed test always ends up with a few sentence questions too */
+  if (mode === 'mix' && sents.length >= 3) {
+    const sTypes = ['order', 'blank', 's_listen'];
+    pickAdaptive(sents, 3).forEach((s, i) => {
+      const q = makeSentence(s, sTypes[i % sTypes.length]);
+      if (q) qs.push(q);
+    });
   }
   return shuffle(qs).slice(0, LEN);
 }
 
-function make(w, type) {
-  if (type === 'mcq_en_ar') {
-    return { type, w, options: shuffle([w, ...distractors(w, 3, 'ar')]), key: 'ar' };
-  }
-  if (type === 'mcq_ar_en') {
-    return { type, w, options: shuffle([w, ...distractors(w, 3, 'en')]), key: 'en' };
-  }
-  if (type === 'listen') {
-    return { type, w, options: shuffle([w, ...distractors(w, 3, 'en')]), key: 'en' };
-  }
+function makeWord(w, type) {
+  if (type === 'mcq_en_ar') return { type, w, skill: 'rec', options: shuffle([w, ...distractors(w, 3, 'ar')]), key: 'ar' };
+  if (type === 'mcq_ar_en') return { type, w, skill: 'rec', options: shuffle([w, ...distractors(w, 3, 'en')]), key: 'en' };
+  if (type === 'listen')    return { type, w, skill: 'lis', options: shuffle([w, ...distractors(w, 3, 'en')]), key: 'en' };
   if (type === 'tiles') {
     const letters = w.en.replace(/\s/g, '').split('');
     const extra = letters.length <= 6 ? 3 : 2;
     const noise = Array.from({ length: extra }, () => pick('abcdefghilmnoprstu'.split('')));
-    return { type, w, tiles: shuffle([...letters, ...noise]) };
+    return { type, w, skill: 'spl', tiles: shuffle([...letters, ...noise]) };
   }
-  return { type: 'spell', w };
+  return { type: 'spell', w, skill: 'spl' };
+}
+
+function makeSentence(s, type) {
+  if (type === 'order')  return { type, s, skill: 'snt' };
+  if (type === 's_listen') {
+    const others = sample(store.sentences.filter(x => x.id !== s.id && x.ar), 3);
+    if (others.length < 3) return null;
+    return { type, s, skill: 'snt', options: shuffle([s, ...others]) };
+  }
+  /* fill in the blank: hide one meaningful word */
+  const parts = s.en.split(/\s+/);
+  const candidates = parts
+    .map((t, i) => [t.replace(/[.,!?]/g, ''), i])
+    .filter(([t]) => t.length >= 3 && !/^(the|and|for|you|are|was|with|that|this)$/i.test(t));
+  if (!candidates.length) return { type: 'order', s, skill: 'snt' };
+  const [answer, at] = pick(candidates);
+  const pool = store.words.map(w => w.en).filter(en => /^[a-z]+$/i.test(en) && en.toLowerCase() !== answer.toLowerCase());
+  const opts = shuffle([answer, ...sample([...new Set(pool)], 3)]);
+  return { type: 'blank', s, skill: 'snt', at, answer, options: opts };
 }
 
 /* -------------------------------------------------- view */
@@ -93,14 +135,14 @@ export default function quiz({ params, query, view }) {
   function answer(ok, q, extra = {}) {
     if (locked) return;
     locked = true;
-    const id = q.w?.id;
+    const id = q.w?.id || q.s?.id;
     if (ok) {
       right++;
-      if (id) review(id, 2);
+      if (id) review(id, 2, q.skill);
       addXP(10, 'review');
       haptic(12);
     } else {
-      if (id) review(id, 0);
+      if (id) review(id, 0, q.skill);
       addXP(2, 'review');
       haptic([10, 60, 10]);
       wrongList.push(q);
@@ -109,7 +151,7 @@ export default function quiz({ params, query, view }) {
   }
 
   function showFeedback(ok, q, extra) {
-    const target = q.type === 'order' ? q.s : q.w;
+    const target = q.s || q.w;
     const bar = el('div', { class: 'fbar ' + (ok ? 'fbar--ok' : 'fbar--no') }, [
       el('div', { class: 'fbar__t', html: (ok ? ICON.check : ICON.x) + (ok ? '<span>إجابة صحيحة!</span>' : '<span>الإجابة الصحيحة:</span>') }),
       el('div', { class: 'fbar__d' }, [
@@ -147,13 +189,13 @@ export default function quiz({ params, query, view }) {
         el('div', { class: 'mini', html: `<b>+${AR_NUM(right * 10 + (questions.length - right) * 2)}</b><span>نقطة</span>` }),
       ]),
       wrongList.length ? el('div', { class: 'stack stack--sm', style: 'width:100%;margin-top:var(--sp-5);text-align:start' }, [
-        el('div', { style: 'font-weight:800', text: 'كلمات تحتاج مراجعة' }),
-        ...wrongList.filter(q => q.w).map(q => el('div', { class: 'wordrow' }, [
+        el('div', { style: 'font-weight:800', text: 'تحتاج مراجعة' }),
+        ...wrongList.map(q => q.s || q.w).map(t => el('div', { class: 'wordrow' }, [
           el('div', { class: 'wordrow__main' }, [
-            el('div', { class: 'wordrow__en', text: q.w.en }),
-            el('div', { class: 'wordrow__ar', text: q.w.ar }),
+            el('div', { class: 'wordrow__en', text: t.en }),
+            el('div', { class: 'wordrow__ar', text: t.ar }),
           ]),
-          speakBtn(() => q.w.en),
+          speakBtn(() => t.en),
         ])),
       ]) : null,
       el('div', { class: 'stack', style: 'width:100%;margin-top:var(--sp-5)' }, [
@@ -175,6 +217,7 @@ export default function quiz({ params, query, view }) {
     ({
       mcq_en_ar: drawMCQ, mcq_ar_en: drawMCQ, listen: drawListen,
       spell: drawSpell, tiles: drawTiles, order: drawOrder,
+      blank: drawBlank, s_listen: drawSentenceListen,
     })[q.type](q);
   }
 
@@ -325,6 +368,63 @@ export default function quiz({ params, query, view }) {
       const ok = filled.map(f => f.ch).join('').toLowerCase() === letters.join('').toLowerCase();
       answer(ok, q);
     }
+  }
+
+  /* fill in the missing word */
+  function drawBlank(q) {
+    const parts = q.s.en.split(/\s+/);
+    const shown = parts.map((t, i) => (i === q.at ? '____' : t)).join(' ');
+
+    wrap.append(el('div', { class: 'q-prompt' }, [
+      el('div', { class: 'q-kicker', text: 'أكمل الكلمة الناقصة' }),
+      el('div', { class: 'en', style: 'font-size:1.35rem;font-weight:800;text-align:center', text: shown }),
+      el('div', { style: 'font-size:1.05rem;color:var(--ink-2)', text: q.s.ar }),
+      el('button', { class: 'btn btn--sm btn--ghost', text: '🔊 استمع للجملة', onclick: () => speak(q.s.en) }),
+    ]));
+
+    const opts = el('div', { class: 'opts' });
+    q.options.forEach((o, n) => {
+      const b = el('button', { class: 'opt en' }, [
+        el('span', { class: 'opt__key', text: AR_NUM(n + 1) }),
+        el('span', { class: 'grow', text: o }),
+      ]);
+      b.addEventListener('click', () => {
+        if (locked) return;
+        const ok = o.toLowerCase() === q.answer.toLowerCase();
+        b.classList.add(ok ? 'is-right' : 'is-wrong');
+        if (!ok) [...opts.children].find(c => c.textContent.includes(q.answer))?.classList.add('is-right');
+        answer(ok, q);
+      });
+      opts.append(b);
+    });
+    wrap.append(opts);
+  }
+
+  /* hear a whole sentence, pick its meaning */
+  function drawSentenceListen(q) {
+    unlock();
+    const big = el('button', { class: 'fcard__speak', style: 'width:96px;height:96px', html: ICON.play });
+    big.addEventListener('click', () => speak(q.s.en));
+    wrap.append(el('div', { class: 'q-prompt' }, [
+      el('div', { class: 'q-kicker', text: 'استمع للجملة واختر معناها' }),
+      big,
+      el('button', { class: 'btn btn--sm btn--ghost', text: 'ببطء 🐢', onclick: () => speak(q.s.en, { rate: 0.55 }) }),
+    ]));
+    setTimeout(() => speak(q.s.en), 400);
+
+    const opts = el('div', { class: 'opts' });
+    q.options.forEach(o => {
+      const b = el('button', { class: 'opt', style: 'font-size:.98rem' }, [el('span', { class: 'grow', text: o.ar })]);
+      b.addEventListener('click', () => {
+        if (locked) return;
+        const ok = o.id === q.s.id;
+        b.classList.add(ok ? 'is-right' : 'is-wrong');
+        if (!ok) [...opts.children].find(c => c.textContent.trim() === q.s.ar)?.classList.add('is-right');
+        answer(ok, q);
+      });
+      opts.append(b);
+    });
+    wrap.append(opts);
   }
 
   function drawOrder(q) {

@@ -1,51 +1,382 @@
 {
   "id": "car",
-  "title": { "ar": "السيارة والصيانة", "en": "Car & Repairs" },
+  "title": {
+    "ar": "السيارة والصيانة",
+    "en": "Car & Repairs"
+  },
   "icon": "🚙",
   "level": 3,
   "color": "brand",
   "words": [
-    { "id": "ca_car2", "en": "car", "ar": "سيارة", "tr": "كار", "pos": "n", "emoji": "🚗" },
-    { "id": "ca_engine", "en": "engine", "ar": "محرك", "tr": "إنجِن", "pos": "n", "emoji": "⚙️", "ex": { "en": "The engine makes a strange noise.", "ar": "المحرك يصدر صوتاً غريباً.", "tr": "ذي إنجِن ميكس إيه سترينج نويز" } },
-    { "id": "ca_wheel", "en": "wheel", "ar": "عجلة", "tr": "ويل", "pos": "n", "emoji": "🛞" },
-    { "id": "ca_tire", "en": "tire", "ar": "إطار", "tr": "تايَر", "pos": "n", "emoji": "🛞" },
-    { "id": "ca_brake", "en": "brakes", "ar": "الفرامل", "tr": "بريكس", "pos": "n", "emoji": "🛑" },
-    { "id": "ca_door2", "en": "car door", "ar": "باب السيارة", "tr": "كار دور", "pos": "n", "emoji": "🚪" },
-    { "id": "ca_window2", "en": "window", "ar": "نافذة", "tr": "وِندو", "pos": "n", "emoji": "🪟" },
-    { "id": "ca_mirror2", "en": "mirror", "ar": "مرآة", "tr": "مِرَر", "pos": "n", "emoji": "🪞" },
-    { "id": "ca_light2", "en": "lights", "ar": "الأضواء", "tr": "لايتس", "pos": "n", "emoji": "💡" },
-    { "id": "ca_horn", "en": "horn", "ar": "منبّه (كلاكس)", "tr": "هورن", "pos": "n", "emoji": "📢" },
-    { "id": "ca_key2", "en": "car key", "ar": "مفتاح السيارة", "tr": "كار كي", "pos": "n", "emoji": "🔑" },
-    { "id": "ca_petrol", "en": "petrol / gas", "ar": "بنزين", "tr": "پِترول", "pos": "n", "emoji": "⛽", "ex": { "en": "I need petrol.", "ar": "أحتاج بنزيناً.", "tr": "آي نيد پِترول" } },
-    { "id": "ca_station2", "en": "petrol station", "ar": "محطة وقود", "tr": "پِترول ستيشِن", "pos": "n", "emoji": "⛽" },
-    { "id": "ca_fill2", "en": "fill up", "ar": "يعبّئ الخزان", "tr": "فِل أب", "pos": "v", "emoji": "🛢️" },
-    { "id": "ca_oil2", "en": "engine oil", "ar": "زيت المحرك", "tr": "إنجِن أويل", "pos": "n", "emoji": "🛢️" },
-    { "id": "ca_battery2", "en": "battery", "ar": "بطارية", "tr": "باتَري", "pos": "n", "emoji": "🔋" },
-    { "id": "ca_broken", "en": "broken", "ar": "معطّل / مكسور", "tr": "بروكِن", "pos": "adj", "emoji": "❌", "ex": { "en": "My car is broken.", "ar": "سيارتي معطلة.", "tr": "ماي كار إز بروكِن" } },
-    { "id": "ca_repair", "en": "repair / fix", "ar": "يصلّح", "tr": "رِپير", "pos": "v", "emoji": "🔧" },
-    { "id": "ca_mechanic2", "en": "mechanic", "ar": "ميكانيكي", "tr": "مِكانِك", "pos": "n", "emoji": "👨‍🔧" },
-    { "id": "ca_garage", "en": "garage", "ar": "ورشة / كراج", "tr": "غاراج", "pos": "n", "emoji": "🏚️" },
-    { "id": "ca_park", "en": "park (a car)", "ar": "يركن السيارة", "tr": "پارك", "pos": "v", "emoji": "🅿️" },
-    { "id": "ca_parking", "en": "car park", "ar": "موقف سيارات", "tr": "كار پارك", "pos": "n", "emoji": "🅿️" },
-    { "id": "ca_license", "en": "driving licence", "ar": "رخصة قيادة", "tr": "درايڤِنغ لايسِنس", "pos": "n", "emoji": "🪪" },
-    { "id": "ca_speed", "en": "speed", "ar": "سرعة", "tr": "سپيد", "pos": "n", "emoji": "⚡" },
-    { "id": "ca_slowdown", "en": "slow down", "ar": "خفّف السرعة", "tr": "سلو داون", "pos": "phr", "emoji": "🐢" },
-    { "id": "ca_accident", "en": "accident", "ar": "حادث", "tr": "آكسِدِنت", "pos": "n", "emoji": "💥" },
-    { "id": "ca_insurance", "en": "insurance", "ar": "تأمين", "tr": "إنشورَنس", "pos": "n", "emoji": "📑" },
-    { "id": "ca_seatbelt", "en": "seat belt", "ar": "حزام الأمان", "tr": "سيت بِلت", "pos": "n", "emoji": "🔗", "ex": { "en": "Put on your seat belt.", "ar": "اربط حزام الأمان.", "tr": "پوت أون يور سيت بِلت" } },
-    { "id": "ca_wash4", "en": "car wash", "ar": "غسيل سيارات", "tr": "كار واش", "pos": "n", "emoji": "🚿" },
-    { "id": "ca_howmuch3", "en": "How much will it cost?", "ar": "كم ستكلّف؟", "tr": "هاو مَتش وِل إت كوست", "pos": "phr", "emoji": "💰" }
+    {
+      "id": "ca_car2",
+      "en": "car",
+      "ar": "سيارة",
+      "tr": "كار",
+      "pos": "n",
+      "emoji": "🚗"
+    },
+    {
+      "id": "ca_engine",
+      "en": "engine",
+      "ar": "محرك",
+      "tr": "إنجِن",
+      "pos": "n",
+      "emoji": "⚙️",
+      "ex": {
+        "en": "The engine makes a strange noise.",
+        "ar": "المحرك يصدر صوتاً غريباً.",
+        "tr": "ذي إنجِن ميكس إيه سترينج نويز"
+      }
+    },
+    {
+      "id": "ca_wheel",
+      "en": "wheel",
+      "ar": "عجلة",
+      "tr": "ويل",
+      "pos": "n",
+      "emoji": "🛞"
+    },
+    {
+      "id": "ca_tire",
+      "en": "tire",
+      "ar": "إطار",
+      "tr": "تايَر",
+      "pos": "n",
+      "emoji": "🛞"
+    },
+    {
+      "id": "ca_brake",
+      "en": "brakes",
+      "ar": "الفرامل",
+      "tr": "بريكس",
+      "pos": "n",
+      "emoji": "🛑"
+    },
+    {
+      "id": "ca_door2",
+      "en": "car door",
+      "ar": "باب السيارة",
+      "tr": "كار دور",
+      "pos": "n",
+      "emoji": "🚪"
+    },
+    {
+      "id": "ca_window2",
+      "en": "window",
+      "ar": "نافذة",
+      "tr": "وِندو",
+      "pos": "n",
+      "emoji": "🪟"
+    },
+    {
+      "id": "ca_mirror2",
+      "en": "mirror",
+      "ar": "مرآة",
+      "tr": "مِرَر",
+      "pos": "n",
+      "emoji": "🪞"
+    },
+    {
+      "id": "ca_light2",
+      "en": "lights",
+      "ar": "الأضواء",
+      "tr": "لايتس",
+      "pos": "n",
+      "emoji": "💡"
+    },
+    {
+      "id": "ca_horn",
+      "en": "horn",
+      "ar": "منبّه (كلاكس)",
+      "tr": "هورن",
+      "pos": "n",
+      "emoji": "📢"
+    },
+    {
+      "id": "ca_key2",
+      "en": "car key",
+      "ar": "مفتاح السيارة",
+      "tr": "كار كي",
+      "pos": "n",
+      "emoji": "🔑"
+    },
+    {
+      "id": "ca_petrol",
+      "en": "petrol / gas",
+      "ar": "بنزين",
+      "tr": "پِترول",
+      "pos": "n",
+      "emoji": "⛽",
+      "ex": {
+        "en": "I need petrol.",
+        "ar": "أحتاج بنزيناً.",
+        "tr": "آي نيد پِترول"
+      }
+    },
+    {
+      "id": "ca_station2",
+      "en": "petrol station",
+      "ar": "محطة وقود",
+      "tr": "پِترول ستيشِن",
+      "pos": "n",
+      "emoji": "⛽"
+    },
+    {
+      "id": "ca_fill2",
+      "en": "fill up",
+      "ar": "يعبّئ الخزان",
+      "tr": "فِل أب",
+      "pos": "v",
+      "emoji": "🛢️"
+    },
+    {
+      "id": "ca_oil2",
+      "en": "engine oil",
+      "ar": "زيت المحرك",
+      "tr": "إنجِن أويل",
+      "pos": "n",
+      "emoji": "🛢️"
+    },
+    {
+      "id": "ca_battery2",
+      "en": "battery",
+      "ar": "بطارية",
+      "tr": "باتَري",
+      "pos": "n",
+      "emoji": "🔋"
+    },
+    {
+      "id": "ca_broken",
+      "en": "broken",
+      "ar": "معطّل / مكسور",
+      "tr": "بروكِن",
+      "pos": "adj",
+      "emoji": "❌",
+      "ex": {
+        "en": "My car is broken.",
+        "ar": "سيارتي معطلة.",
+        "tr": "ماي كار إز بروكِن"
+      }
+    },
+    {
+      "id": "ca_repair",
+      "en": "repair / fix",
+      "ar": "يصلّح",
+      "tr": "رِپير",
+      "pos": "v",
+      "emoji": "🔧"
+    },
+    {
+      "id": "ca_mechanic2",
+      "en": "mechanic",
+      "ar": "ميكانيكي",
+      "tr": "مِكانِك",
+      "pos": "n",
+      "emoji": "👨‍🔧"
+    },
+    {
+      "id": "ca_garage",
+      "en": "garage",
+      "ar": "ورشة / كراج",
+      "tr": "غاراج",
+      "pos": "n",
+      "emoji": "🏚️"
+    },
+    {
+      "id": "ca_park",
+      "en": "park (a car)",
+      "ar": "يركن السيارة",
+      "tr": "پارك",
+      "pos": "v",
+      "emoji": "🅿️"
+    },
+    {
+      "id": "ca_parking",
+      "en": "car park",
+      "ar": "موقف سيارات",
+      "tr": "كار پارك",
+      "pos": "n",
+      "emoji": "🅿️"
+    },
+    {
+      "id": "ca_license",
+      "en": "driving licence",
+      "ar": "رخصة قيادة",
+      "tr": "درايڤِنغ لايسِنس",
+      "pos": "n",
+      "emoji": "🪪"
+    },
+    {
+      "id": "ca_speed",
+      "en": "speed",
+      "ar": "سرعة",
+      "tr": "سپيد",
+      "pos": "n",
+      "emoji": "⚡"
+    },
+    {
+      "id": "ca_slowdown",
+      "en": "slow down",
+      "ar": "خفّف السرعة",
+      "tr": "سلو داون",
+      "pos": "phr",
+      "emoji": "🐢"
+    },
+    {
+      "id": "ca_accident",
+      "en": "accident",
+      "ar": "حادث",
+      "tr": "آكسِدِنت",
+      "pos": "n",
+      "emoji": "💥"
+    },
+    {
+      "id": "ca_insurance",
+      "en": "insurance",
+      "ar": "تأمين",
+      "tr": "إنشورَنس",
+      "pos": "n",
+      "emoji": "📑"
+    },
+    {
+      "id": "ca_seatbelt",
+      "en": "seat belt",
+      "ar": "حزام الأمان",
+      "tr": "سيت بِلت",
+      "pos": "n",
+      "emoji": "🔗",
+      "ex": {
+        "en": "Put on your seat belt.",
+        "ar": "اربط حزام الأمان.",
+        "tr": "پوت أون يور سيت بِلت"
+      }
+    },
+    {
+      "id": "ca_wash4",
+      "en": "car wash",
+      "ar": "غسيل سيارات",
+      "tr": "كار واش",
+      "pos": "n",
+      "emoji": "🚿"
+    },
+    {
+      "id": "ca_howmuch3",
+      "en": "How much will it cost?",
+      "ar": "كم ستكلّف؟",
+      "tr": "هاو مَتش وِل إت كوست",
+      "pos": "phr",
+      "emoji": "💰"
+    }
   ],
   "sentences": [
-    { "id": "ca_s1", "en": "My car is broken.", "ar": "سيارتي معطلة.", "tr": "ماي كار إز بروكِن" },
-    { "id": "ca_s2", "en": "Can you repair it today?", "ar": "هل يمكنك إصلاحها اليوم؟", "tr": "كان يو رِپير إت تُوديه" },
-    { "id": "ca_s3", "en": "How much will it cost?", "ar": "كم ستكلّف؟", "tr": "هاو مَتش وِل إت كوست" },
-    { "id": "ca_s4", "en": "Fill it up, please.", "ar": "عبّئ الخزان من فضلك.", "tr": "فِل إت أب، پليز" },
-    { "id": "ca_s5", "en": "Where can I park here?", "ar": "أين يمكنني الركن هنا؟", "tr": "وير كان آي پارك هير" },
-    { "id": "ca_s6", "en": "The brakes are not good.", "ar": "الفرامل ليست جيدة.", "tr": "ذَ بريكس آر نوت غُود" },
-    { "id": "ca_s7", "en": "Put on your seat belt, please.", "ar": "اربط حزام الأمان من فضلك.", "tr": "پوت أون يور سيت بِلت، پليز" },
-    { "id": "ca_s8", "en": "I have a driving licence.", "ar": "لدي رخصة قيادة.", "tr": "آي هاڤ إيه درايڤِنغ لايسِنس" },
-    { "id": "ca_s9", "en": "There was a small accident.", "ar": "وقع حادث صغير.", "tr": "ذير واز إيه سمول آكسِدِنت" },
-    { "id": "ca_s10", "en": "Please slow down.", "ar": "من فضلك خفّف السرعة.", "tr": "پليز سلو داون" }
+    {
+      "id": "ca_s1",
+      "en": "My car is broken.",
+      "ar": "سيارتي معطلة.",
+      "tr": "ماي كار إز بروكِن"
+    },
+    {
+      "id": "ca_s2",
+      "en": "Can you repair it today?",
+      "ar": "هل يمكنك إصلاحها اليوم؟",
+      "tr": "كان يو رِپير إت تُوديه"
+    },
+    {
+      "id": "ca_s3",
+      "en": "How much will it cost?",
+      "ar": "كم ستكلّف؟",
+      "tr": "هاو مَتش وِل إت كوست"
+    },
+    {
+      "id": "ca_s4",
+      "en": "Fill it up, please.",
+      "ar": "عبّئ الخزان من فضلك.",
+      "tr": "فِل إت أب، پليز"
+    },
+    {
+      "id": "ca_s5",
+      "en": "Where can I park here?",
+      "ar": "أين يمكنني الركن هنا؟",
+      "tr": "وير كان آي پارك هير"
+    },
+    {
+      "id": "ca_s6",
+      "en": "The brakes are not good.",
+      "ar": "الفرامل ليست جيدة.",
+      "tr": "ذَ بريكس آر نوت غُود"
+    },
+    {
+      "id": "ca_s7",
+      "en": "Put on your seat belt, please.",
+      "ar": "اربط حزام الأمان من فضلك.",
+      "tr": "پوت أون يور سيت بِلت، پليز"
+    },
+    {
+      "id": "ca_s8",
+      "en": "I have a driving licence.",
+      "ar": "لدي رخصة قيادة.",
+      "tr": "آي هاڤ إيه درايڤِنغ لايسِنس"
+    },
+    {
+      "id": "ca_s9",
+      "en": "There was a small accident.",
+      "ar": "وقع حادث صغير.",
+      "tr": "ذير واز إيه سمول آكسِدِنت"
+    },
+    {
+      "id": "ca_s10",
+      "en": "Please slow down.",
+      "ar": "من فضلك خفّف السرعة.",
+      "tr": "پليز سلو داون"
+    },
+    {
+      "id": "ca_s11",
+      "en": "The car makes a strange noise.",
+      "ar": "السيارة تصدر صوتاً غريباً.",
+      "tr": "ذَ كار ميكس إيه سترينج نويز"
+    },
+    {
+      "id": "ca_s12",
+      "en": "I have a flat tire.",
+      "ar": "لدي إطار مثقوب.",
+      "tr": "آي هاڤ إيه فلات تايَر"
+    },
+    {
+      "id": "ca_s13",
+      "en": "When will it be ready?",
+      "ar": "متى ستكون جاهزة؟",
+      "tr": "وِن وِل إت بي رِدي"
+    },
+    {
+      "id": "ca_s14",
+      "en": "Check the oil, please.",
+      "ar": "افحص الزيت من فضلك.",
+      "tr": "تشِك ذي أويل، پليز"
+    },
+    {
+      "id": "ca_s15",
+      "en": "Twenty litres, please.",
+      "ar": "عشرون لتراً من فضلك.",
+      "tr": "تْوِنتي ليتَرز، پليز"
+    },
+    {
+      "id": "ca_s16",
+      "en": "Is parking free here?",
+      "ar": "هل الوقوف مجاني هنا؟",
+      "tr": "إز پاركِنغ فري هير"
+    },
+    {
+      "id": "ca_s17",
+      "en": "Drive carefully, the road is wet.",
+      "ar": "قُد بحذر، الطريق مبلل.",
+      "tr": "درايڤ كيرفُلي، ذَ رود إز وِت"
+    },
+    {
+      "id": "ca_s18",
+      "en": "I don't have insurance yet.",
+      "ar": "ليس لدي تأمين بعد.",
+      "tr": "آي دونت هاڤ إنشورَنس يِت"
+    }
   ]
 }

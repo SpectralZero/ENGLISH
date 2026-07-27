@@ -2,7 +2,7 @@
    main.js — boot, routes, chrome
    ============================================================ */
 import { $, toast, AR_NUM } from './util.js';
-import { loadAll, allWordIds } from './data.js';
+import { loadAll, allItemIds } from './data.js';
 import { applySettings, touchDay, dueIds } from './store.js';
 import { route, startRouter, go, back, render } from './router.js';
 import { APP_VERSION } from './config.js';
@@ -17,6 +17,7 @@ import alphabet    from './views/alphabet.js';
 import searchView  from './views/search.js';
 import stats       from './views/stats.js';
 import settingsView from './views/settings.js';
+import sentencesView, { sentenceStudy } from './views/sentences.js';
 
 export { APP_VERSION };
 
@@ -27,6 +28,8 @@ route('/unit/:id',  unitView,     { title: 'الدرس' });
 route('/learn/:id', learn,        { plain: true });
 route('/quiz/:id',  quiz,         { plain: true });
 route('/review',    reviewView,   { root: true, title: 'المراجعة' });
+route('/sentences', sentencesView, { root: true, title: 'الجمل اليومية' });
+route('/sentence-study', sentenceStudy, { plain: true });
 route('/alphabet',  alphabet,     { title: 'الحروف' });
 route('/search',    searchView,   { title: 'بحث', hideSearch: true });
 route('/stats',     stats,        { root: true, title: 'تقدّمي' });
@@ -68,7 +71,7 @@ function wireChrome() {
 export function updateBadge() {
   const badge = $('#dueBadge');
   if (!badge) return;
-  const n = dueIds(allWordIds()).length;
+  const n = dueIds(allItemIds()).length;
   badge.hidden = n === 0;
   badge.textContent = AR_NUM(Math.min(99, n));
 }

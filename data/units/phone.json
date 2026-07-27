@@ -1,46 +1,347 @@
 {
   "id": "phone",
-  "title": { "ar": "الهاتف والإنترنت", "en": "Phone & Internet" },
+  "title": {
+    "ar": "الهاتف والإنترنت",
+    "en": "Phone & Internet"
+  },
   "icon": "📱",
   "level": 4,
   "color": "mint",
   "words": [
-    { "id": "ph_phone", "en": "phone", "ar": "هاتف", "tr": "فون", "pos": "n", "emoji": "📱", "ex": { "en": "My phone is new.", "ar": "هاتفي جديد.", "tr": "ماي فون إز نيو" } },
-    { "id": "ph_mobile", "en": "mobile phone", "ar": "هاتف محمول", "tr": "موبايل فون", "pos": "n", "emoji": "📲" },
-    { "id": "ph_call2", "en": "call", "ar": "مكالمة / يتصل", "tr": "كول", "pos": "v", "emoji": "📞", "ex": { "en": "Call me later, please.", "ar": "اتصل بي لاحقاً من فضلك.", "tr": "كول مي ليتَر، پليز" } },
-    { "id": "ph_message", "en": "message", "ar": "رسالة", "tr": "مِسِج", "pos": "n", "emoji": "💬" },
-    { "id": "ph_send2", "en": "send", "ar": "يرسل", "tr": "سِند", "pos": "v", "emoji": "📤" },
-    { "id": "ph_answer3", "en": "answer the phone", "ar": "يرد على الهاتف", "tr": "آنسَر ذَ فون", "pos": "phr", "emoji": "☎️" },
-    { "id": "ph_number2", "en": "phone number", "ar": "رقم الهاتف", "tr": "فون نَمبَر", "pos": "n", "emoji": "#️⃣", "ex": { "en": "What is your phone number?", "ar": "ما رقم هاتفك؟", "tr": "وات إز يور فون نَمبَر" } },
-    { "id": "ph_internet", "en": "internet", "ar": "إنترنت", "tr": "إنتَرنِت", "pos": "n", "emoji": "🌐" },
-    { "id": "ph_wifi", "en": "Wi-Fi", "ar": "واي فاي", "tr": "واي فاي", "pos": "n", "emoji": "📶", "ex": { "en": "What is the Wi-Fi password?", "ar": "ما كلمة سر الواي فاي؟", "tr": "وات إز ذَ واي فاي پاسوِرد" } },
-    { "id": "ph_password", "en": "password", "ar": "كلمة السر", "tr": "پاسوِرد", "pos": "n", "emoji": "🔒" },
-    { "id": "ph_email", "en": "email", "ar": "بريد إلكتروني", "tr": "إيميل", "pos": "n", "emoji": "📧" },
-    { "id": "ph_app", "en": "app", "ar": "تطبيق", "tr": "آپ", "pos": "n", "emoji": "📲" },
-    { "id": "ph_computer", "en": "computer", "ar": "حاسوب", "tr": "كَمپيوتَر", "pos": "n", "emoji": "💻" },
-    { "id": "ph_screen", "en": "screen", "ar": "شاشة", "tr": "سكرين", "pos": "n", "emoji": "🖥️" },
-    { "id": "ph_camera", "en": "camera", "ar": "كاميرا", "tr": "كامِرا", "pos": "n", "emoji": "📷" },
-    { "id": "ph_video", "en": "video", "ar": "فيديو", "tr": "ڤيديو", "pos": "n", "emoji": "🎬" },
-    { "id": "ph_photo2", "en": "picture", "ar": "صورة", "tr": "پِكتشَر", "pos": "n", "emoji": "🖼️" },
-    { "id": "ph_battery", "en": "battery", "ar": "بطارية", "tr": "باتَري", "pos": "n", "emoji": "🔋", "ex": { "en": "My battery is low.", "ar": "بطاريتي منخفضة.", "tr": "ماي باتَري إز لو" } },
-    { "id": "ph_charger", "en": "charger", "ar": "شاحن", "tr": "تشارجَر", "pos": "n", "emoji": "🔌" },
-    { "id": "ph_download", "en": "download", "ar": "يُنزّل", "tr": "داونلود", "pos": "v", "emoji": "⬇️" },
-    { "id": "ph_open4", "en": "open the app", "ar": "يفتح التطبيق", "tr": "أوپِن ذي آپ", "pos": "phr", "emoji": "📂" },
-    { "id": "ph_search2", "en": "search", "ar": "يبحث", "tr": "سيرتش", "pos": "v", "emoji": "🔍" },
-    { "id": "ph_online", "en": "online", "ar": "متصل بالإنترنت", "tr": "أونلاين", "pos": "adj", "emoji": "🟢" },
-    { "id": "ph_slow3", "en": "slow internet", "ar": "إنترنت بطيء", "tr": "سلو إنتَرنِت", "pos": "phr", "emoji": "🐢" },
-    { "id": "ph_share", "en": "share", "ar": "يشارك", "tr": "شير", "pos": "v", "emoji": "🔗" }
+    {
+      "id": "ph_phone",
+      "en": "phone",
+      "ar": "هاتف",
+      "tr": "فون",
+      "pos": "n",
+      "emoji": "📱",
+      "ex": {
+        "en": "My phone is new.",
+        "ar": "هاتفي جديد.",
+        "tr": "ماي فون إز نيو"
+      }
+    },
+    {
+      "id": "ph_mobile",
+      "en": "mobile phone",
+      "ar": "هاتف محمول",
+      "tr": "موبايل فون",
+      "pos": "n",
+      "emoji": "📲"
+    },
+    {
+      "id": "ph_call2",
+      "en": "call",
+      "ar": "مكالمة / يتصل",
+      "tr": "كول",
+      "pos": "v",
+      "emoji": "📞",
+      "ex": {
+        "en": "Call me later, please.",
+        "ar": "اتصل بي لاحقاً من فضلك.",
+        "tr": "كول مي ليتَر، پليز"
+      }
+    },
+    {
+      "id": "ph_message",
+      "en": "message",
+      "ar": "رسالة",
+      "tr": "مِسِج",
+      "pos": "n",
+      "emoji": "💬"
+    },
+    {
+      "id": "ph_send2",
+      "en": "send",
+      "ar": "يرسل",
+      "tr": "سِند",
+      "pos": "v",
+      "emoji": "📤"
+    },
+    {
+      "id": "ph_answer3",
+      "en": "answer the phone",
+      "ar": "يرد على الهاتف",
+      "tr": "آنسَر ذَ فون",
+      "pos": "phr",
+      "emoji": "☎️"
+    },
+    {
+      "id": "ph_number2",
+      "en": "phone number",
+      "ar": "رقم الهاتف",
+      "tr": "فون نَمبَر",
+      "pos": "n",
+      "emoji": "#️⃣",
+      "ex": {
+        "en": "What is your phone number?",
+        "ar": "ما رقم هاتفك؟",
+        "tr": "وات إز يور فون نَمبَر"
+      }
+    },
+    {
+      "id": "ph_internet",
+      "en": "internet",
+      "ar": "إنترنت",
+      "tr": "إنتَرنِت",
+      "pos": "n",
+      "emoji": "🌐"
+    },
+    {
+      "id": "ph_wifi",
+      "en": "Wi-Fi",
+      "ar": "واي فاي",
+      "tr": "واي فاي",
+      "pos": "n",
+      "emoji": "📶",
+      "ex": {
+        "en": "What is the Wi-Fi password?",
+        "ar": "ما كلمة سر الواي فاي؟",
+        "tr": "وات إز ذَ واي فاي پاسوِرد"
+      }
+    },
+    {
+      "id": "ph_password",
+      "en": "password",
+      "ar": "كلمة السر",
+      "tr": "پاسوِرد",
+      "pos": "n",
+      "emoji": "🔒"
+    },
+    {
+      "id": "ph_email",
+      "en": "email",
+      "ar": "بريد إلكتروني",
+      "tr": "إيميل",
+      "pos": "n",
+      "emoji": "📧"
+    },
+    {
+      "id": "ph_app",
+      "en": "app",
+      "ar": "تطبيق",
+      "tr": "آپ",
+      "pos": "n",
+      "emoji": "📲"
+    },
+    {
+      "id": "ph_computer",
+      "en": "computer",
+      "ar": "حاسوب",
+      "tr": "كَمپيوتَر",
+      "pos": "n",
+      "emoji": "💻"
+    },
+    {
+      "id": "ph_screen",
+      "en": "screen",
+      "ar": "شاشة",
+      "tr": "سكرين",
+      "pos": "n",
+      "emoji": "🖥️"
+    },
+    {
+      "id": "ph_camera",
+      "en": "camera",
+      "ar": "كاميرا",
+      "tr": "كامِرا",
+      "pos": "n",
+      "emoji": "📷"
+    },
+    {
+      "id": "ph_video",
+      "en": "video",
+      "ar": "فيديو",
+      "tr": "ڤيديو",
+      "pos": "n",
+      "emoji": "🎬"
+    },
+    {
+      "id": "ph_photo2",
+      "en": "picture",
+      "ar": "صورة",
+      "tr": "پِكتشَر",
+      "pos": "n",
+      "emoji": "🖼️"
+    },
+    {
+      "id": "ph_battery",
+      "en": "battery",
+      "ar": "بطارية",
+      "tr": "باتَري",
+      "pos": "n",
+      "emoji": "🔋",
+      "ex": {
+        "en": "My battery is low.",
+        "ar": "بطاريتي منخفضة.",
+        "tr": "ماي باتَري إز لو"
+      }
+    },
+    {
+      "id": "ph_charger",
+      "en": "charger",
+      "ar": "شاحن",
+      "tr": "تشارجَر",
+      "pos": "n",
+      "emoji": "🔌"
+    },
+    {
+      "id": "ph_download",
+      "en": "download",
+      "ar": "يُنزّل",
+      "tr": "داونلود",
+      "pos": "v",
+      "emoji": "⬇️"
+    },
+    {
+      "id": "ph_open4",
+      "en": "open the app",
+      "ar": "يفتح التطبيق",
+      "tr": "أوپِن ذي آپ",
+      "pos": "phr",
+      "emoji": "📂"
+    },
+    {
+      "id": "ph_search2",
+      "en": "search",
+      "ar": "يبحث",
+      "tr": "سيرتش",
+      "pos": "v",
+      "emoji": "🔍"
+    },
+    {
+      "id": "ph_online",
+      "en": "online",
+      "ar": "متصل بالإنترنت",
+      "tr": "أونلاين",
+      "pos": "adj",
+      "emoji": "🟢"
+    },
+    {
+      "id": "ph_slow3",
+      "en": "slow internet",
+      "ar": "إنترنت بطيء",
+      "tr": "سلو إنتَرنِت",
+      "pos": "phr",
+      "emoji": "🐢"
+    },
+    {
+      "id": "ph_share",
+      "en": "share",
+      "ar": "يشارك",
+      "tr": "شير",
+      "pos": "v",
+      "emoji": "🔗"
+    }
   ],
   "sentences": [
-    { "id": "ph_s1", "en": "What is your phone number?", "ar": "ما رقم هاتفك؟", "tr": "وات إز يور فون نَمبَر" },
-    { "id": "ph_s2", "en": "Please call me tomorrow.", "ar": "من فضلك اتصل بي غداً.", "tr": "پليز كول مي تُومورو" },
-    { "id": "ph_s3", "en": "I will send you a message.", "ar": "سأرسل لك رسالة.", "tr": "آي وِل سِند يو إيه مِسِج" },
-    { "id": "ph_s4", "en": "Is there Wi-Fi here?", "ar": "هل يوجد واي فاي هنا؟", "tr": "إز ذير واي فاي هير" },
-    { "id": "ph_s5", "en": "What is the password?", "ar": "ما كلمة السر؟", "tr": "وات إز ذَ پاسوِرد" },
-    { "id": "ph_s6", "en": "My phone battery is low.", "ar": "بطارية هاتفي منخفضة.", "tr": "ماي فون باتَري إز لو" },
-    { "id": "ph_s7", "en": "Can I borrow your charger?", "ar": "هل يمكنني استعارة شاحنك؟", "tr": "كان آي بورو يور تشارجَر" },
-    { "id": "ph_s8", "en": "The internet is very slow today.", "ar": "الإنترنت بطيء جداً اليوم.", "tr": "ذي إنتَرنِت إز ڤيري سلو تُوديه" },
-    { "id": "ph_s9", "en": "I don't have your email.", "ar": "ليس لدي بريدك الإلكتروني.", "tr": "آي دونت هاڤ يور إيميل" },
-    { "id": "ph_s10", "en": "Send me the picture, please.", "ar": "أرسل لي الصورة من فضلك.", "tr": "سِند مي ذَ پِكتشَر، پليز" }
+    {
+      "id": "ph_s1",
+      "en": "What is your phone number?",
+      "ar": "ما رقم هاتفك؟",
+      "tr": "وات إز يور فون نَمبَر"
+    },
+    {
+      "id": "ph_s2",
+      "en": "Please call me tomorrow.",
+      "ar": "من فضلك اتصل بي غداً.",
+      "tr": "پليز كول مي تُومورو"
+    },
+    {
+      "id": "ph_s3",
+      "en": "I will send you a message.",
+      "ar": "سأرسل لك رسالة.",
+      "tr": "آي وِل سِند يو إيه مِسِج"
+    },
+    {
+      "id": "ph_s4",
+      "en": "Is there Wi-Fi here?",
+      "ar": "هل يوجد واي فاي هنا؟",
+      "tr": "إز ذير واي فاي هير"
+    },
+    {
+      "id": "ph_s5",
+      "en": "What is the password?",
+      "ar": "ما كلمة السر؟",
+      "tr": "وات إز ذَ پاسوِرد"
+    },
+    {
+      "id": "ph_s6",
+      "en": "My phone battery is low.",
+      "ar": "بطارية هاتفي منخفضة.",
+      "tr": "ماي فون باتَري إز لو"
+    },
+    {
+      "id": "ph_s7",
+      "en": "Can I borrow your charger?",
+      "ar": "هل يمكنني استعارة شاحنك؟",
+      "tr": "كان آي بورو يور تشارجَر"
+    },
+    {
+      "id": "ph_s8",
+      "en": "The internet is very slow today.",
+      "ar": "الإنترنت بطيء جداً اليوم.",
+      "tr": "ذي إنتَرنِت إز ڤيري سلو تُوديه"
+    },
+    {
+      "id": "ph_s9",
+      "en": "I don't have your email.",
+      "ar": "ليس لدي بريدك الإلكتروني.",
+      "tr": "آي دونت هاڤ يور إيميل"
+    },
+    {
+      "id": "ph_s10",
+      "en": "Send me the picture, please.",
+      "ar": "أرسل لي الصورة من فضلك.",
+      "tr": "سِند مي ذَ پِكتشَر، پليز"
+    },
+    {
+      "id": "ph_s11",
+      "en": "Sorry, I can't hear you well.",
+      "ar": "آسف، لا أسمعك جيداً.",
+      "tr": "سوري، آي كانت هير يو وِل"
+    },
+    {
+      "id": "ph_s12",
+      "en": "The line is bad here.",
+      "ar": "الشبكة ضعيفة هنا.",
+      "tr": "ذَ لاين إز باد هير"
+    },
+    {
+      "id": "ph_s13",
+      "en": "I will send you the location.",
+      "ar": "سأرسل لك الموقع.",
+      "tr": "آي وِل سِند يو ذَ لُوكيشِن"
+    },
+    {
+      "id": "ph_s14",
+      "en": "My phone is switched off.",
+      "ar": "هاتفي مغلق.",
+      "tr": "ماي فون إز سوِتشد أوف"
+    },
+    {
+      "id": "ph_s15",
+      "en": "Add me on WhatsApp.",
+      "ar": "أضفني على واتساب.",
+      "tr": "آد مي أون واتسآپ"
+    },
+    {
+      "id": "ph_s16",
+      "en": "I didn't get your message.",
+      "ar": "لم تصلني رسالتك.",
+      "tr": "آي دِدنت غِت يور مِسِج"
+    },
+    {
+      "id": "ph_s17",
+      "en": "Can you connect to the Wi-Fi?",
+      "ar": "هل يمكنك الاتصال بالواي فاي؟",
+      "tr": "كان يو كَنِكت تو ذَ واي فاي"
+    },
+    {
+      "id": "ph_s18",
+      "en": "I need to charge my phone.",
+      "ar": "أحتاج لشحن هاتفي.",
+      "tr": "آي نيد تو تشارج ماي فون"
+    }
   ]
 }

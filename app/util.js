@@ -78,6 +78,22 @@ export function editDistance(a, b) {
   return prev[n];
 }
 
+/** JSON with keys in a stable order — needed whenever two objects that
+    were built in different orders must compare equal. */
+export function stableStringify(value) {
+  const seen = new WeakSet();
+  const walk = v => {
+    if (v === null || typeof v !== 'object') return v;
+    if (seen.has(v)) return null;
+    seen.add(v);
+    if (Array.isArray(v)) return v.map(walk);
+    const out = {};
+    for (const k of Object.keys(v).sort()) out[k] = walk(v[k]);
+    return out;
+  };
+  return JSON.stringify(walk(value));
+}
+
 /* ---------------- storage ---------------- */
 export function load(key, fallback) {
   try { const v = localStorage.getItem(key); return v ? JSON.parse(v) : fallback; }

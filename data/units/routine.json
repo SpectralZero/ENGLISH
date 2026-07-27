@@ -1,53 +1,406 @@
 {
   "id": "routine",
-  "title": { "ar": "الروتين اليومي", "en": "Daily Routine" },
+  "title": {
+    "ar": "الروتين اليومي",
+    "en": "Daily Routine"
+  },
   "icon": "⏰",
   "level": 4,
   "color": "amber",
   "words": [
-    { "id": "ro_wakeup", "en": "wake up", "ar": "يستيقظ", "tr": "ويك أب", "pos": "v", "emoji": "⏰", "ex": { "en": "I wake up at six in the morning.", "ar": "أستيقظ في السادسة صباحاً.", "tr": "آي ويك أب آت سِكس إن ذَ مورنِنغ" } },
-    { "id": "ro_getup", "en": "get up", "ar": "ينهض من السرير", "tr": "غِت أب", "pos": "v", "emoji": "🛏️" },
-    { "id": "ro_brush", "en": "brush teeth", "ar": "ينظّف أسنانه", "tr": "برَش تيث", "pos": "phr", "emoji": "🪥" },
-    { "id": "ro_shower", "en": "take a shower", "ar": "يستحم", "tr": "تيك إيه شاوَر", "pos": "phr", "emoji": "🚿" },
-    { "id": "ro_getdressed", "en": "get dressed", "ar": "يرتدي ملابسه", "tr": "غِت درِست", "pos": "phr", "emoji": "👔" },
-    { "id": "ro_breakfast2", "en": "have breakfast", "ar": "يتناول الفطور", "tr": "هاڤ برِكفَست", "pos": "phr", "emoji": "🍳", "ex": { "en": "I have breakfast with my family.", "ar": "أتناول الفطور مع عائلتي.", "tr": "آي هاڤ برِكفَست وِذ ماي فامِلي" } },
-    { "id": "ro_gotowork", "en": "go to work", "ar": "يذهب إلى العمل", "tr": "غو تو وِرك", "pos": "phr", "emoji": "💼" },
-    { "id": "ro_gotoschool", "en": "go to school", "ar": "يذهب إلى المدرسة", "tr": "غو تو سكوول", "pos": "phr", "emoji": "🏫" },
-    { "id": "ro_lunch2", "en": "have lunch", "ar": "يتناول الغداء", "tr": "هاڤ لَنتش", "pos": "phr", "emoji": "🍛" },
-    { "id": "ro_comehome", "en": "come home", "ar": "يعود إلى البيت", "tr": "كَم هوم", "pos": "phr", "emoji": "🏠" },
-    { "id": "ro_rest2", "en": "take a rest", "ar": "يأخذ قسطاً من الراحة", "tr": "تيك إيه رِست", "pos": "phr", "emoji": "🛌" },
-    { "id": "ro_pray", "en": "pray", "ar": "يصلّي", "tr": "پريه", "pos": "v", "emoji": "🕌" },
-    { "id": "ro_study2", "en": "study", "ar": "يذاكر", "tr": "ستَدي", "pos": "v", "emoji": "📚" },
-    { "id": "ro_watchtv", "en": "watch TV", "ar": "يشاهد التلفاز", "tr": "واتش تي ڤي", "pos": "phr", "emoji": "📺" },
-    { "id": "ro_dinner2", "en": "have dinner", "ar": "يتناول العشاء", "tr": "هاڤ دِنَر", "pos": "phr", "emoji": "🍽️" },
-    { "id": "ro_gotobed", "en": "go to bed", "ar": "يذهب للنوم", "tr": "غو تو بِد", "pos": "phr", "emoji": "🛏️", "ex": { "en": "I go to bed at eleven.", "ar": "أذهب للنوم في الحادية عشرة.", "tr": "آي غو تو بِد آت إليڤِن" } },
-    { "id": "ro_everyday2", "en": "every day", "ar": "كل يوم", "tr": "إڤري ديه", "pos": "phr", "emoji": "📅" },
-    { "id": "ro_usually", "en": "usually", "ar": "عادةً", "tr": "يوجُوَلي", "pos": "adv", "emoji": "🔁", "ex": { "en": "I usually walk to work.", "ar": "عادةً أمشي إلى العمل.", "tr": "آي يوجُوَلي ووك تو وِرك" } },
-    { "id": "ro_sometimes2", "en": "sometimes", "ar": "أحياناً", "tr": "سَمتايمز", "pos": "adv", "emoji": "🔀" },
-    { "id": "ro_before2", "en": "before", "ar": "قبل", "tr": "بِفور", "pos": "prep", "emoji": "⏮️" },
-    { "id": "ro_after2", "en": "after", "ar": "بعد", "tr": "آفتَر", "pos": "prep", "emoji": "⏭️" },
-    { "id": "ro_then", "en": "then", "ar": "ثم", "tr": "ذِن", "pos": "adv", "emoji": "➡️" },
-    { "id": "ro_first2", "en": "first", "ar": "أولاً", "tr": "فيرست", "pos": "adv", "emoji": "1️⃣" },
-    { "id": "ro_finally", "en": "finally", "ar": "أخيراً", "tr": "فاينَلي", "pos": "adv", "emoji": "🏁" },
-    { "id": "ro_late2", "en": "be late", "ar": "يتأخر", "tr": "بي ليت", "pos": "phr", "emoji": "⌛" },
-    { "id": "ro_hurry", "en": "hurry up", "ar": "أسرع", "tr": "هَري أب", "pos": "phr", "emoji": "🏃" },
-    { "id": "ro_clean4", "en": "clean the house", "ar": "ينظّف البيت", "tr": "كلين ذَ هاوس", "pos": "phr", "emoji": "🧹" },
-    { "id": "ro_shopping2", "en": "go shopping", "ar": "يذهب للتسوق", "tr": "غو شوپِنغ", "pos": "phr", "emoji": "🛒" },
-    { "id": "ro_exercise", "en": "exercise", "ar": "يمارس الرياضة", "tr": "إكسَرسايز", "pos": "v", "emoji": "🏋️" },
-    { "id": "ro_relax", "en": "relax", "ar": "يسترخي", "tr": "رِلاكس", "pos": "v", "emoji": "😌" }
+    {
+      "id": "ro_wakeup",
+      "en": "wake up",
+      "ar": "يستيقظ",
+      "tr": "ويك أب",
+      "pos": "v",
+      "emoji": "⏰",
+      "ex": {
+        "en": "I wake up at six in the morning.",
+        "ar": "أستيقظ في السادسة صباحاً.",
+        "tr": "آي ويك أب آت سِكس إن ذَ مورنِنغ"
+      }
+    },
+    {
+      "id": "ro_getup",
+      "en": "get up",
+      "ar": "ينهض من السرير",
+      "tr": "غِت أب",
+      "pos": "v",
+      "emoji": "🛏️"
+    },
+    {
+      "id": "ro_brush",
+      "en": "brush teeth",
+      "ar": "ينظّف أسنانه",
+      "tr": "برَش تيث",
+      "pos": "phr",
+      "emoji": "🪥"
+    },
+    {
+      "id": "ro_shower",
+      "en": "take a shower",
+      "ar": "يستحم",
+      "tr": "تيك إيه شاوَر",
+      "pos": "phr",
+      "emoji": "🚿"
+    },
+    {
+      "id": "ro_getdressed",
+      "en": "get dressed",
+      "ar": "يرتدي ملابسه",
+      "tr": "غِت درِست",
+      "pos": "phr",
+      "emoji": "👔"
+    },
+    {
+      "id": "ro_breakfast2",
+      "en": "have breakfast",
+      "ar": "يتناول الفطور",
+      "tr": "هاڤ برِكفَست",
+      "pos": "phr",
+      "emoji": "🍳",
+      "ex": {
+        "en": "I have breakfast with my family.",
+        "ar": "أتناول الفطور مع عائلتي.",
+        "tr": "آي هاڤ برِكفَست وِذ ماي فامِلي"
+      }
+    },
+    {
+      "id": "ro_gotowork",
+      "en": "go to work",
+      "ar": "يذهب إلى العمل",
+      "tr": "غو تو وِرك",
+      "pos": "phr",
+      "emoji": "💼"
+    },
+    {
+      "id": "ro_gotoschool",
+      "en": "go to school",
+      "ar": "يذهب إلى المدرسة",
+      "tr": "غو تو سكوول",
+      "pos": "phr",
+      "emoji": "🏫"
+    },
+    {
+      "id": "ro_lunch2",
+      "en": "have lunch",
+      "ar": "يتناول الغداء",
+      "tr": "هاڤ لَنتش",
+      "pos": "phr",
+      "emoji": "🍛"
+    },
+    {
+      "id": "ro_comehome",
+      "en": "come home",
+      "ar": "يعود إلى البيت",
+      "tr": "كَم هوم",
+      "pos": "phr",
+      "emoji": "🏠"
+    },
+    {
+      "id": "ro_rest2",
+      "en": "take a rest",
+      "ar": "يأخذ قسطاً من الراحة",
+      "tr": "تيك إيه رِست",
+      "pos": "phr",
+      "emoji": "🛌"
+    },
+    {
+      "id": "ro_pray",
+      "en": "pray",
+      "ar": "يصلّي",
+      "tr": "پريه",
+      "pos": "v",
+      "emoji": "🕌"
+    },
+    {
+      "id": "ro_study2",
+      "en": "study",
+      "ar": "يذاكر",
+      "tr": "ستَدي",
+      "pos": "v",
+      "emoji": "📚"
+    },
+    {
+      "id": "ro_watchtv",
+      "en": "watch TV",
+      "ar": "يشاهد التلفاز",
+      "tr": "واتش تي ڤي",
+      "pos": "phr",
+      "emoji": "📺"
+    },
+    {
+      "id": "ro_dinner2",
+      "en": "have dinner",
+      "ar": "يتناول العشاء",
+      "tr": "هاڤ دِنَر",
+      "pos": "phr",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "ro_gotobed",
+      "en": "go to bed",
+      "ar": "يذهب للنوم",
+      "tr": "غو تو بِد",
+      "pos": "phr",
+      "emoji": "🛏️",
+      "ex": {
+        "en": "I go to bed at eleven.",
+        "ar": "أذهب للنوم في الحادية عشرة.",
+        "tr": "آي غو تو بِد آت إليڤِن"
+      }
+    },
+    {
+      "id": "ro_everyday2",
+      "en": "every day",
+      "ar": "كل يوم",
+      "tr": "إڤري ديه",
+      "pos": "phr",
+      "emoji": "📅"
+    },
+    {
+      "id": "ro_usually",
+      "en": "usually",
+      "ar": "عادةً",
+      "tr": "يوجُوَلي",
+      "pos": "adv",
+      "emoji": "🔁",
+      "ex": {
+        "en": "I usually walk to work.",
+        "ar": "عادةً أمشي إلى العمل.",
+        "tr": "آي يوجُوَلي ووك تو وِرك"
+      }
+    },
+    {
+      "id": "ro_sometimes2",
+      "en": "sometimes",
+      "ar": "أحياناً",
+      "tr": "سَمتايمز",
+      "pos": "adv",
+      "emoji": "🔀"
+    },
+    {
+      "id": "ro_before2",
+      "en": "before",
+      "ar": "قبل",
+      "tr": "بِفور",
+      "pos": "prep",
+      "emoji": "⏮️"
+    },
+    {
+      "id": "ro_after2",
+      "en": "after",
+      "ar": "بعد",
+      "tr": "آفتَر",
+      "pos": "prep",
+      "emoji": "⏭️"
+    },
+    {
+      "id": "ro_then",
+      "en": "then",
+      "ar": "ثم",
+      "tr": "ذِن",
+      "pos": "adv",
+      "emoji": "➡️"
+    },
+    {
+      "id": "ro_first2",
+      "en": "first",
+      "ar": "أولاً",
+      "tr": "فيرست",
+      "pos": "adv",
+      "emoji": "1️⃣"
+    },
+    {
+      "id": "ro_finally",
+      "en": "finally",
+      "ar": "أخيراً",
+      "tr": "فاينَلي",
+      "pos": "adv",
+      "emoji": "🏁"
+    },
+    {
+      "id": "ro_late2",
+      "en": "be late",
+      "ar": "يتأخر",
+      "tr": "بي ليت",
+      "pos": "phr",
+      "emoji": "⌛"
+    },
+    {
+      "id": "ro_hurry",
+      "en": "hurry up",
+      "ar": "أسرع",
+      "tr": "هَري أب",
+      "pos": "phr",
+      "emoji": "🏃"
+    },
+    {
+      "id": "ro_clean4",
+      "en": "clean the house",
+      "ar": "ينظّف البيت",
+      "tr": "كلين ذَ هاوس",
+      "pos": "phr",
+      "emoji": "🧹"
+    },
+    {
+      "id": "ro_shopping2",
+      "en": "go shopping",
+      "ar": "يذهب للتسوق",
+      "tr": "غو شوپِنغ",
+      "pos": "phr",
+      "emoji": "🛒"
+    },
+    {
+      "id": "ro_exercise",
+      "en": "exercise",
+      "ar": "يمارس الرياضة",
+      "tr": "إكسَرسايز",
+      "pos": "v",
+      "emoji": "🏋️"
+    },
+    {
+      "id": "ro_relax",
+      "en": "relax",
+      "ar": "يسترخي",
+      "tr": "رِلاكس",
+      "pos": "v",
+      "emoji": "😌"
+    }
   ],
   "sentences": [
-    { "id": "ro_s1", "en": "I wake up at six every day.", "ar": "أستيقظ في السادسة كل يوم.", "tr": "آي ويك أب آت سِكس إڤري ديه" },
-    { "id": "ro_s2", "en": "Then I take a shower.", "ar": "ثم أستحم.", "tr": "ذِن آي تيك إيه شاوَر" },
-    { "id": "ro_s3", "en": "I have breakfast at seven.", "ar": "أتناول الفطور في السابعة.", "tr": "آي هاڤ برِكفَست آت سِڤِن" },
-    { "id": "ro_s4", "en": "I go to work by bus.", "ar": "أذهب إلى العمل بالحافلة.", "tr": "آي غو تو وِرك باي بَس" },
-    { "id": "ro_s5", "en": "I come home at five.", "ar": "أعود إلى البيت في الخامسة.", "tr": "آي كَم هوم آت فايڤ" },
-    { "id": "ro_s6", "en": "After dinner, I study English.", "ar": "بعد العشاء أدرس الإنجليزية.", "tr": "آفتَر دِنَر، آي ستَدي إنغلِش" },
-    { "id": "ro_s7", "en": "I usually sleep at eleven.", "ar": "عادةً أنام في الحادية عشرة.", "tr": "آي يوجُوَلي سليپ آت إليڤِن" },
-    { "id": "ro_s8", "en": "On Friday I clean the house.", "ar": "يوم الجمعة أنظّف البيت.", "tr": "أون فرايديه آي كلين ذَ هاوس" },
-    { "id": "ro_s9", "en": "Hurry up, we are late!", "ar": "أسرع، نحن متأخرون!", "tr": "هَري أب، وي آر ليت" },
-    { "id": "ro_s10", "en": "What do you do every morning?", "ar": "ماذا تفعل كل صباح؟", "tr": "وات دو يو دو إڤري مورنِنغ" },
-    { "id": "ro_s11", "en": "I exercise three times a week.", "ar": "أمارس الرياضة ثلاث مرات في الأسبوع.", "tr": "آي إكسَرسايز ثري تايمز إيه ويك" },
-    { "id": "ro_s12", "en": "I relax and watch TV in the evening.", "ar": "أسترخي وأشاهد التلفاز في المساء.", "tr": "آي رِلاكس آند واتش تي ڤي إن ذي إيفنِنغ" }
+    {
+      "id": "ro_s1",
+      "en": "I wake up at six every day.",
+      "ar": "أستيقظ في السادسة كل يوم.",
+      "tr": "آي ويك أب آت سِكس إڤري ديه"
+    },
+    {
+      "id": "ro_s2",
+      "en": "Then I take a shower.",
+      "ar": "ثم أستحم.",
+      "tr": "ذِن آي تيك إيه شاوَر"
+    },
+    {
+      "id": "ro_s3",
+      "en": "I have breakfast at seven.",
+      "ar": "أتناول الفطور في السابعة.",
+      "tr": "آي هاڤ برِكفَست آت سِڤِن"
+    },
+    {
+      "id": "ro_s4",
+      "en": "I go to work by bus.",
+      "ar": "أذهب إلى العمل بالحافلة.",
+      "tr": "آي غو تو وِرك باي بَس"
+    },
+    {
+      "id": "ro_s5",
+      "en": "I come home at five.",
+      "ar": "أعود إلى البيت في الخامسة.",
+      "tr": "آي كَم هوم آت فايڤ"
+    },
+    {
+      "id": "ro_s6",
+      "en": "After dinner, I study English.",
+      "ar": "بعد العشاء أدرس الإنجليزية.",
+      "tr": "آفتَر دِنَر، آي ستَدي إنغلِش"
+    },
+    {
+      "id": "ro_s7",
+      "en": "I usually sleep at eleven.",
+      "ar": "عادةً أنام في الحادية عشرة.",
+      "tr": "آي يوجُوَلي سليپ آت إليڤِن"
+    },
+    {
+      "id": "ro_s8",
+      "en": "On Friday I clean the house.",
+      "ar": "يوم الجمعة أنظّف البيت.",
+      "tr": "أون فرايديه آي كلين ذَ هاوس"
+    },
+    {
+      "id": "ro_s9",
+      "en": "Hurry up, we are late!",
+      "ar": "أسرع، نحن متأخرون!",
+      "tr": "هَري أب، وي آر ليت"
+    },
+    {
+      "id": "ro_s10",
+      "en": "What do you do every morning?",
+      "ar": "ماذا تفعل كل صباح؟",
+      "tr": "وات دو يو دو إڤري مورنِنغ"
+    },
+    {
+      "id": "ro_s11",
+      "en": "I exercise three times a week.",
+      "ar": "أمارس الرياضة ثلاث مرات في الأسبوع.",
+      "tr": "آي إكسَرسايز ثري تايمز إيه ويك"
+    },
+    {
+      "id": "ro_s12",
+      "en": "I relax and watch TV in the evening.",
+      "ar": "أسترخي وأشاهد التلفاز في المساء.",
+      "tr": "آي رِلاكس آند واتش تي ڤي إن ذي إيفنِنغ"
+    },
+    {
+      "id": "ro_s13",
+      "en": "I set my alarm for six.",
+      "ar": "أضبط المنبه على السادسة.",
+      "tr": "آي سِت ماي ألارم فور سِكس"
+    },
+    {
+      "id": "ro_s14",
+      "en": "I make my bed every morning.",
+      "ar": "أرتّب سريري كل صباح.",
+      "tr": "آي ميك ماي بِد إڤري مورنِنغ"
+    },
+    {
+      "id": "ro_s15",
+      "en": "Then I check my phone.",
+      "ar": "ثم أتفقّد هاتفي.",
+      "tr": "ذِن آي تشِك ماي فون"
+    },
+    {
+      "id": "ro_s16",
+      "en": "I take the bus at seven thirty.",
+      "ar": "آخذ الحافلة في السابعة والنصف.",
+      "tr": "آي تيك ذَ بَس آت سِڤِن ثيرتي"
+    },
+    {
+      "id": "ro_s17",
+      "en": "I have a short break at noon.",
+      "ar": "لدي استراحة قصيرة ظهراً.",
+      "tr": "آي هاڤ إيه شورت بريك آت نون"
+    },
+    {
+      "id": "ro_s18",
+      "en": "After work I go shopping.",
+      "ar": "بعد العمل أذهب للتسوق.",
+      "tr": "آفتَر وِرك آي غو شوپِنغ"
+    },
+    {
+      "id": "ro_s19",
+      "en": "I call my mother every evening.",
+      "ar": "أتصل بأمي كل مساء.",
+      "tr": "آي كول ماي مَذَر إڤري إيفنِنغ"
+    },
+    {
+      "id": "ro_s20",
+      "en": "I read a little before sleeping.",
+      "ar": "أقرأ قليلاً قبل النوم.",
+      "tr": "آي ريد إيه لِتِل بِفور سليپِنغ"
+    },
+    {
+      "id": "ro_s21",
+      "en": "On Saturday I rest at home.",
+      "ar": "يوم السبت أرتاح في البيت.",
+      "tr": "أون ساتَرديه آي رِست آت هوم"
+    },
+    {
+      "id": "ro_s22",
+      "en": "I try to sleep early.",
+      "ar": "أحاول النوم مبكراً.",
+      "tr": "آي تراي تو سليپ إيرلي"
+    }
   ]
 }

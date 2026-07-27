@@ -1,53 +1,403 @@
 {
   "id": "places",
-  "title": { "ar": "المدينة والأماكن", "en": "City & Places" },
+  "title": {
+    "ar": "المدينة والأماكن",
+    "en": "City & Places"
+  },
   "icon": "🏙️",
   "level": 3,
   "color": "brand",
   "words": [
-    { "id": "pl_city", "en": "city", "ar": "مدينة", "tr": "سِتي", "pos": "n", "emoji": "🏙️", "ex": { "en": "I live in a big city.", "ar": "أعيش في مدينة كبيرة.", "tr": "آي لِڤ إن إيه بِغ سِتي" } },
-    { "id": "pl_village", "en": "village", "ar": "قرية", "tr": "ڤِلِج", "pos": "n", "emoji": "🏘️" },
-    { "id": "pl_street", "en": "street", "ar": "شارع", "tr": "ستريت", "pos": "n", "emoji": "🛣️" },
-    { "id": "pl_road", "en": "road", "ar": "طريق", "tr": "رود", "pos": "n", "emoji": "🛤️" },
-    { "id": "pl_place", "en": "place", "ar": "مكان", "tr": "پليس", "pos": "n", "emoji": "📍" },
-    { "id": "pl_shop", "en": "shop", "ar": "متجر", "tr": "شوپ", "pos": "n", "emoji": "🏪" },
-    { "id": "pl_market2", "en": "market", "ar": "سوق", "tr": "ماركِت", "pos": "n", "emoji": "🛒" },
-    { "id": "pl_bank", "en": "bank", "ar": "بنك", "tr": "بانك", "pos": "n", "emoji": "🏦", "ex": { "en": "The bank is closed today.", "ar": "البنك مغلق اليوم.", "tr": "ذَ بانك إز كلوزد تُوديه" } },
-    { "id": "pl_hospital2", "en": "hospital", "ar": "مستشفى", "tr": "هوسپِتَل", "pos": "n", "emoji": "🏥" },
-    { "id": "pl_school2", "en": "school", "ar": "مدرسة", "tr": "سكوول", "pos": "n", "emoji": "🏫" },
-    { "id": "pl_university", "en": "university", "ar": "جامعة", "tr": "يونِڤيرسِتي", "pos": "n", "emoji": "🎓" },
-    { "id": "pl_mosque", "en": "mosque", "ar": "مسجد", "tr": "موسك", "pos": "n", "emoji": "🕌" },
-    { "id": "pl_church", "en": "church", "ar": "كنيسة", "tr": "تشيرتش", "pos": "n", "emoji": "⛪" },
-    { "id": "pl_park", "en": "park", "ar": "حديقة عامة", "tr": "پارك", "pos": "n", "emoji": "🌳", "ex": { "en": "The children play in the park.", "ar": "الأطفال يلعبون في الحديقة.", "tr": "ذَ تشِلدرِن پليه إن ذَ پارك" } },
-    { "id": "pl_restaurant2", "en": "restaurant", "ar": "مطعم", "tr": "رِستُورانت", "pos": "n", "emoji": "🍴" },
-    { "id": "pl_cafe", "en": "café", "ar": "مقهى", "tr": "كافيه", "pos": "n", "emoji": "☕" },
-    { "id": "pl_hotel", "en": "hotel", "ar": "فندق", "tr": "هوتيل", "pos": "n", "emoji": "🏨" },
-    { "id": "pl_airport", "en": "airport", "ar": "مطار", "tr": "إيرپورت", "pos": "n", "emoji": "✈️" },
-    { "id": "pl_station", "en": "station", "ar": "محطة", "tr": "ستيشِن", "pos": "n", "emoji": "🚉" },
-    { "id": "pl_library", "en": "library", "ar": "مكتبة", "tr": "لايبرَري", "pos": "n", "emoji": "📚" },
-    { "id": "pl_pharmacy2", "en": "pharmacy", "ar": "صيدلية", "tr": "فارمَسي", "pos": "n", "emoji": "💊" },
-    { "id": "pl_police2", "en": "police station", "ar": "مركز شرطة", "tr": "پُوليس ستيشِن", "pos": "n", "emoji": "🚓" },
-    { "id": "pl_postoffice", "en": "post office", "ar": "مكتب بريد", "tr": "پوست أوفِس", "pos": "n", "emoji": "📮" },
-    { "id": "pl_supermarket", "en": "supermarket", "ar": "سوبر ماركت", "tr": "سوپَرماركِت", "pos": "n", "emoji": "🛍️" },
-    { "id": "pl_bakery", "en": "bakery", "ar": "مخبز", "tr": "بيكَري", "pos": "n", "emoji": "🥖" },
-    { "id": "pl_stadium", "en": "stadium", "ar": "ملعب", "tr": "ستيديَم", "pos": "n", "emoji": "🏟️" },
-    { "id": "pl_beach", "en": "beach", "ar": "شاطئ", "tr": "بيتش", "pos": "n", "emoji": "🏖️" },
-    { "id": "pl_near", "en": "near", "ar": "قريب من", "tr": "نير", "pos": "prep", "emoji": "📍", "ex": { "en": "The shop is near my house.", "ar": "المتجر قريب من بيتي.", "tr": "ذَ شوپ إز نير ماي هاوس" } },
-    { "id": "pl_far", "en": "far", "ar": "بعيد", "tr": "فار", "pos": "adj", "emoji": "🛣️" },
-    { "id": "pl_here", "en": "here", "ar": "هنا", "tr": "هير", "pos": "adv", "emoji": "📌" },
-    { "id": "pl_there", "en": "there", "ar": "هناك", "tr": "ذير", "pos": "adv", "emoji": "👉" },
-    { "id": "pl_where", "en": "where", "ar": "أين", "tr": "وير", "pos": "q", "emoji": "❓", "ex": { "en": "Where is the bank?", "ar": "أين البنك؟", "tr": "وير إز ذَ بانك" } }
+    {
+      "id": "pl_city",
+      "en": "city",
+      "ar": "مدينة",
+      "tr": "سِتي",
+      "pos": "n",
+      "emoji": "🏙️",
+      "ex": {
+        "en": "I live in a big city.",
+        "ar": "أعيش في مدينة كبيرة.",
+        "tr": "آي لِڤ إن إيه بِغ سِتي"
+      }
+    },
+    {
+      "id": "pl_village",
+      "en": "village",
+      "ar": "قرية",
+      "tr": "ڤِلِج",
+      "pos": "n",
+      "emoji": "🏘️"
+    },
+    {
+      "id": "pl_street",
+      "en": "street",
+      "ar": "شارع",
+      "tr": "ستريت",
+      "pos": "n",
+      "emoji": "🛣️"
+    },
+    {
+      "id": "pl_road",
+      "en": "road",
+      "ar": "طريق",
+      "tr": "رود",
+      "pos": "n",
+      "emoji": "🛤️"
+    },
+    {
+      "id": "pl_place",
+      "en": "place",
+      "ar": "مكان",
+      "tr": "پليس",
+      "pos": "n",
+      "emoji": "📍"
+    },
+    {
+      "id": "pl_shop",
+      "en": "shop",
+      "ar": "متجر",
+      "tr": "شوپ",
+      "pos": "n",
+      "emoji": "🏪"
+    },
+    {
+      "id": "pl_market2",
+      "en": "market",
+      "ar": "سوق",
+      "tr": "ماركِت",
+      "pos": "n",
+      "emoji": "🛒"
+    },
+    {
+      "id": "pl_bank",
+      "en": "bank",
+      "ar": "بنك",
+      "tr": "بانك",
+      "pos": "n",
+      "emoji": "🏦",
+      "ex": {
+        "en": "The bank is closed today.",
+        "ar": "البنك مغلق اليوم.",
+        "tr": "ذَ بانك إز كلوزد تُوديه"
+      }
+    },
+    {
+      "id": "pl_hospital2",
+      "en": "hospital",
+      "ar": "مستشفى",
+      "tr": "هوسپِتَل",
+      "pos": "n",
+      "emoji": "🏥"
+    },
+    {
+      "id": "pl_school2",
+      "en": "school",
+      "ar": "مدرسة",
+      "tr": "سكوول",
+      "pos": "n",
+      "emoji": "🏫"
+    },
+    {
+      "id": "pl_university",
+      "en": "university",
+      "ar": "جامعة",
+      "tr": "يونِڤيرسِتي",
+      "pos": "n",
+      "emoji": "🎓"
+    },
+    {
+      "id": "pl_mosque",
+      "en": "mosque",
+      "ar": "مسجد",
+      "tr": "موسك",
+      "pos": "n",
+      "emoji": "🕌"
+    },
+    {
+      "id": "pl_church",
+      "en": "church",
+      "ar": "كنيسة",
+      "tr": "تشيرتش",
+      "pos": "n",
+      "emoji": "⛪"
+    },
+    {
+      "id": "pl_park",
+      "en": "park",
+      "ar": "حديقة عامة",
+      "tr": "پارك",
+      "pos": "n",
+      "emoji": "🌳",
+      "ex": {
+        "en": "The children play in the park.",
+        "ar": "الأطفال يلعبون في الحديقة.",
+        "tr": "ذَ تشِلدرِن پليه إن ذَ پارك"
+      }
+    },
+    {
+      "id": "pl_restaurant2",
+      "en": "restaurant",
+      "ar": "مطعم",
+      "tr": "رِستُورانت",
+      "pos": "n",
+      "emoji": "🍴"
+    },
+    {
+      "id": "pl_cafe",
+      "en": "café",
+      "ar": "مقهى",
+      "tr": "كافيه",
+      "pos": "n",
+      "emoji": "☕"
+    },
+    {
+      "id": "pl_hotel",
+      "en": "hotel",
+      "ar": "فندق",
+      "tr": "هوتيل",
+      "pos": "n",
+      "emoji": "🏨"
+    },
+    {
+      "id": "pl_airport",
+      "en": "airport",
+      "ar": "مطار",
+      "tr": "إيرپورت",
+      "pos": "n",
+      "emoji": "✈️"
+    },
+    {
+      "id": "pl_station",
+      "en": "station",
+      "ar": "محطة",
+      "tr": "ستيشِن",
+      "pos": "n",
+      "emoji": "🚉"
+    },
+    {
+      "id": "pl_library",
+      "en": "library",
+      "ar": "مكتبة",
+      "tr": "لايبرَري",
+      "pos": "n",
+      "emoji": "📚"
+    },
+    {
+      "id": "pl_pharmacy2",
+      "en": "pharmacy",
+      "ar": "صيدلية",
+      "tr": "فارمَسي",
+      "pos": "n",
+      "emoji": "💊"
+    },
+    {
+      "id": "pl_police2",
+      "en": "police station",
+      "ar": "مركز شرطة",
+      "tr": "پُوليس ستيشِن",
+      "pos": "n",
+      "emoji": "🚓"
+    },
+    {
+      "id": "pl_postoffice",
+      "en": "post office",
+      "ar": "مكتب بريد",
+      "tr": "پوست أوفِس",
+      "pos": "n",
+      "emoji": "📮"
+    },
+    {
+      "id": "pl_supermarket",
+      "en": "supermarket",
+      "ar": "سوبر ماركت",
+      "tr": "سوپَرماركِت",
+      "pos": "n",
+      "emoji": "🛍️"
+    },
+    {
+      "id": "pl_bakery",
+      "en": "bakery",
+      "ar": "مخبز",
+      "tr": "بيكَري",
+      "pos": "n",
+      "emoji": "🥖"
+    },
+    {
+      "id": "pl_stadium",
+      "en": "stadium",
+      "ar": "ملعب",
+      "tr": "ستيديَم",
+      "pos": "n",
+      "emoji": "🏟️"
+    },
+    {
+      "id": "pl_beach",
+      "en": "beach",
+      "ar": "شاطئ",
+      "tr": "بيتش",
+      "pos": "n",
+      "emoji": "🏖️"
+    },
+    {
+      "id": "pl_near",
+      "en": "near",
+      "ar": "قريب من",
+      "tr": "نير",
+      "pos": "prep",
+      "emoji": "📍",
+      "ex": {
+        "en": "The shop is near my house.",
+        "ar": "المتجر قريب من بيتي.",
+        "tr": "ذَ شوپ إز نير ماي هاوس"
+      }
+    },
+    {
+      "id": "pl_far",
+      "en": "far",
+      "ar": "بعيد",
+      "tr": "فار",
+      "pos": "adj",
+      "emoji": "🛣️"
+    },
+    {
+      "id": "pl_here",
+      "en": "here",
+      "ar": "هنا",
+      "tr": "هير",
+      "pos": "adv",
+      "emoji": "📌"
+    },
+    {
+      "id": "pl_there",
+      "en": "there",
+      "ar": "هناك",
+      "tr": "ذير",
+      "pos": "adv",
+      "emoji": "👉"
+    },
+    {
+      "id": "pl_where",
+      "en": "where",
+      "ar": "أين",
+      "tr": "وير",
+      "pos": "q",
+      "emoji": "❓",
+      "ex": {
+        "en": "Where is the bank?",
+        "ar": "أين البنك؟",
+        "tr": "وير إز ذَ بانك"
+      }
+    }
   ],
   "sentences": [
-    { "id": "pl_s1", "en": "Where is the hospital?", "ar": "أين المستشفى؟", "tr": "وير إز ذَ هوسپِتَل" },
-    { "id": "pl_s2", "en": "The bank is on this street.", "ar": "البنك في هذا الشارع.", "tr": "ذَ بانك إز أون ذِس ستريت" },
-    { "id": "pl_s3", "en": "Is it far from here?", "ar": "هل هو بعيد من هنا؟", "tr": "إز إت فار فروم هير" },
-    { "id": "pl_s4", "en": "It is very near.", "ar": "إنه قريب جداً.", "tr": "إت إز ڤيري نير" },
-    { "id": "pl_s5", "en": "I live in a small village.", "ar": "أعيش في قرية صغيرة.", "tr": "آي لِڤ إن إيه سمول ڤِلِج" },
-    { "id": "pl_s6", "en": "There is a café near the park.", "ar": "يوجد مقهى قرب الحديقة.", "tr": "ذير إز إيه كافيه نير ذَ پارك" },
-    { "id": "pl_s7", "en": "I go to the market on Friday.", "ar": "أذهب إلى السوق يوم الجمعة.", "tr": "آي غو تو ذَ ماركِت أون فرايديه" },
-    { "id": "pl_s8", "en": "The hotel is next to the airport.", "ar": "الفندق بجانب المطار.", "tr": "ذَ هوتيل إز نِكست تو ذي إيرپورت" },
-    { "id": "pl_s9", "en": "Excuse me, where is the station?", "ar": "لو سمحت، أين المحطة؟", "tr": "إكسكيوز مي، وير إز ذَ ستيشِن" },
-    { "id": "pl_s10", "en": "My school is in this city.", "ar": "مدرستي في هذه المدينة.", "tr": "ماي سكوول إز إن ذِس سِتي" }
+    {
+      "id": "pl_s1",
+      "en": "Where is the hospital?",
+      "ar": "أين المستشفى؟",
+      "tr": "وير إز ذَ هوسپِتَل"
+    },
+    {
+      "id": "pl_s2",
+      "en": "The bank is on this street.",
+      "ar": "البنك في هذا الشارع.",
+      "tr": "ذَ بانك إز أون ذِس ستريت"
+    },
+    {
+      "id": "pl_s3",
+      "en": "Is it far from here?",
+      "ar": "هل هو بعيد من هنا؟",
+      "tr": "إز إت فار فروم هير"
+    },
+    {
+      "id": "pl_s4",
+      "en": "It is very near.",
+      "ar": "إنه قريب جداً.",
+      "tr": "إت إز ڤيري نير"
+    },
+    {
+      "id": "pl_s5",
+      "en": "I live in a small village.",
+      "ar": "أعيش في قرية صغيرة.",
+      "tr": "آي لِڤ إن إيه سمول ڤِلِج"
+    },
+    {
+      "id": "pl_s6",
+      "en": "There is a café near the park.",
+      "ar": "يوجد مقهى قرب الحديقة.",
+      "tr": "ذير إز إيه كافيه نير ذَ پارك"
+    },
+    {
+      "id": "pl_s7",
+      "en": "I go to the market on Friday.",
+      "ar": "أذهب إلى السوق يوم الجمعة.",
+      "tr": "آي غو تو ذَ ماركِت أون فرايديه"
+    },
+    {
+      "id": "pl_s8",
+      "en": "The hotel is next to the airport.",
+      "ar": "الفندق بجانب المطار.",
+      "tr": "ذَ هوتيل إز نِكست تو ذي إيرپورت"
+    },
+    {
+      "id": "pl_s9",
+      "en": "Excuse me, where is the station?",
+      "ar": "لو سمحت، أين المحطة؟",
+      "tr": "إكسكيوز مي، وير إز ذَ ستيشِن"
+    },
+    {
+      "id": "pl_s10",
+      "en": "My school is in this city.",
+      "ar": "مدرستي في هذه المدينة.",
+      "tr": "ماي سكوول إز إن ذِس سِتي"
+    },
+    {
+      "id": "pl_s11",
+      "en": "Is there a pharmacy near here?",
+      "ar": "هل توجد صيدلية قريبة؟",
+      "tr": "إز ذير إيه فارمَسي نير هير"
+    },
+    {
+      "id": "pl_s12",
+      "en": "How do I get to the city center?",
+      "ar": "كيف أصل إلى وسط المدينة؟",
+      "tr": "هاو دو آي غِت تو ذَ سِتي سِنتَر"
+    },
+    {
+      "id": "pl_s13",
+      "en": "It is about ten minutes on foot.",
+      "ar": "تبعد حوالي عشر دقائق مشياً.",
+      "tr": "إت إز أباوت تِن مِنِتس أون فوت"
+    },
+    {
+      "id": "pl_s14",
+      "en": "I work near the big mosque.",
+      "ar": "أعمل قرب المسجد الكبير.",
+      "tr": "آي وِرك نير ذَ بِغ موسك"
+    },
+    {
+      "id": "pl_s15",
+      "en": "The library opens at eight.",
+      "ar": "المكتبة تفتح في الثامنة.",
+      "tr": "ذَ لايبرَري أوپِنز آت إيت"
+    },
+    {
+      "id": "pl_s16",
+      "en": "Let's meet at the café.",
+      "ar": "لنلتقِ في المقهى.",
+      "tr": "لِتس ميت آت ذَ كافيه"
+    },
+    {
+      "id": "pl_s17",
+      "en": "This street is very busy.",
+      "ar": "هذا الشارع مزدحم جداً.",
+      "tr": "ذِس ستريت إز ڤيري بِزي"
+    },
+    {
+      "id": "pl_s18",
+      "en": "Is it far from the station?",
+      "ar": "هل هو بعيد عن المحطة؟",
+      "tr": "إز إت فار فروم ذَ ستيشِن"
+    }
   ]
 }

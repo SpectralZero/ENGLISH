@@ -1,64 +1,539 @@
 {
   "id": "food",
-  "title": { "ar": "الطعام والشراب", "en": "Food & Drink" },
+  "title": {
+    "ar": "الطعام والشراب",
+    "en": "Food & Drink"
+  },
   "icon": "🍞",
   "level": 2,
   "color": "amber",
   "words": [
-    { "id": "fo_food", "en": "food", "ar": "طعام", "tr": "فوود", "pos": "n", "emoji": "🍽️", "ex": { "en": "The food is very good.", "ar": "الطعام لذيذ جداً.", "tr": "ذَ فوود إز ڤيري غُود" } },
-    { "id": "fo_water", "en": "water", "ar": "ماء", "tr": "ووتَر", "pos": "n", "emoji": "💧", "ex": { "en": "I drink water every day.", "ar": "أشرب الماء كل يوم.", "tr": "آي درِنك ووتَر إڤري ديه" } },
-    { "id": "fo_bread", "en": "bread", "ar": "خبز", "tr": "برِد", "pos": "n", "emoji": "🍞", "ex": { "en": "I eat bread with cheese.", "ar": "آكل الخبز مع الجبن.", "tr": "آي إيت برِد وِذ تشيز" } },
-    { "id": "fo_rice", "en": "rice", "ar": "أرز", "tr": "رايس", "pos": "n", "emoji": "🍚" },
-    { "id": "fo_meat", "en": "meat", "ar": "لحم", "tr": "ميت", "pos": "n", "emoji": "🥩" },
-    { "id": "fo_chicken", "en": "chicken", "ar": "دجاج", "tr": "تشِكِن", "pos": "n", "emoji": "🍗", "ex": { "en": "We have chicken for lunch.", "ar": "لدينا دجاج للغداء.", "tr": "وي هاڤ تشِكِن فور لَنتش" } },
-    { "id": "fo_fish", "en": "fish", "ar": "سمك", "tr": "فِش", "pos": "n", "emoji": "🐟" },
-    { "id": "fo_egg", "en": "egg", "ar": "بيضة", "tr": "إيغ", "pos": "n", "emoji": "🥚" },
-    { "id": "fo_cheese", "en": "cheese", "ar": "جبن", "tr": "تشيز", "pos": "n", "emoji": "🧀" },
-    { "id": "fo_milk", "en": "milk", "ar": "حليب", "tr": "مِلك", "pos": "n", "emoji": "🥛", "ex": { "en": "The baby drinks milk.", "ar": "الرضيع يشرب الحليب.", "tr": "ذَ بيبي درِنكس مِلك" } },
-    { "id": "fo_tea", "en": "tea", "ar": "شاي", "tr": "تي", "pos": "n", "emoji": "🍵" },
-    { "id": "fo_coffee", "en": "coffee", "ar": "قهوة", "tr": "كوفي", "pos": "n", "emoji": "☕", "ex": { "en": "I want a cup of coffee.", "ar": "أريد كوباً من القهوة.", "tr": "آي وانت إيه كَپ أوڤ كوفي" } },
-    { "id": "fo_juice", "en": "juice", "ar": "عصير", "tr": "جوس", "pos": "n", "emoji": "🧃" },
-    { "id": "fo_sugar", "en": "sugar", "ar": "سكر", "tr": "شُوغَر", "pos": "n", "emoji": "🍬" },
-    { "id": "fo_salt", "en": "salt", "ar": "ملح", "tr": "سولت", "pos": "n", "emoji": "🧂" },
-    { "id": "fo_oil", "en": "oil", "ar": "زيت", "tr": "أويل", "pos": "n", "emoji": "🫒" },
-    { "id": "fo_soup", "en": "soup", "ar": "شوربة", "tr": "سوپ", "pos": "n", "emoji": "🍲" },
-    { "id": "fo_salad", "en": "salad", "ar": "سلطة", "tr": "سالَد", "pos": "n", "emoji": "🥗" },
-    { "id": "fo_sandwich", "en": "sandwich", "ar": "شطيرة", "tr": "سانْدْوِتش", "pos": "n", "emoji": "🥪" },
-    { "id": "fo_cake", "en": "cake", "ar": "كعكة", "tr": "كيك", "pos": "n", "emoji": "🍰" },
-    { "id": "fo_breakfast", "en": "breakfast", "ar": "فطور", "tr": "برِكفَست", "pos": "n", "emoji": "🍳", "ex": { "en": "I eat breakfast at seven.", "ar": "أتناول الفطور في السابعة.", "tr": "آي إيت برِكفَست آت سِڤِن" } },
-    { "id": "fo_lunch", "en": "lunch", "ar": "غداء", "tr": "لَنتش", "pos": "n", "emoji": "🍛" },
-    { "id": "fo_dinner", "en": "dinner", "ar": "عشاء", "tr": "دِنَر", "pos": "n", "emoji": "🍽️" },
-    { "id": "fo_eat", "en": "eat", "ar": "يأكل", "tr": "إيت", "pos": "v", "emoji": "😋", "ex": { "en": "I eat rice and chicken.", "ar": "آكل الأرز والدجاج.", "tr": "آي إيت رايس آند تشِكِن" } },
-    { "id": "fo_drink", "en": "drink", "ar": "يشرب", "tr": "درِنك", "pos": "v", "emoji": "🥤" },
-    { "id": "fo_cook", "en": "cook", "ar": "يطبخ", "tr": "كوك", "pos": "v", "emoji": "👨‍🍳", "ex": { "en": "My mother cooks dinner.", "ar": "أمي تطبخ العشاء.", "tr": "ماي مَذَر كوكس دِنَر" } },
-    { "id": "fo_hungry", "en": "hungry", "ar": "جائع", "tr": "هَنغري", "pos": "adj", "emoji": "😖", "ex": { "en": "I am very hungry.", "ar": "أنا جائع جداً.", "tr": "آي آم ڤيري هَنغري" } },
-    { "id": "fo_thirsty", "en": "thirsty", "ar": "عطشان", "tr": "ثيرستي", "pos": "adj", "emoji": "🥵" },
-    { "id": "fo_delicious", "en": "delicious", "ar": "لذيذ", "tr": "دِليشَس", "pos": "adj", "emoji": "😍", "ex": { "en": "This soup is delicious.", "ar": "هذه الشوربة لذيذة.", "tr": "ذِس سوپ إز دِليشَس" } },
-    { "id": "fo_hot", "en": "hot", "ar": "ساخن", "tr": "هوت", "pos": "adj", "emoji": "🔥" },
-    { "id": "fo_cold", "en": "cold", "ar": "بارد", "tr": "كولد", "pos": "adj", "emoji": "🧊" },
-    { "id": "fo_sweet", "en": "sweet", "ar": "حلو", "tr": "سويت", "pos": "adj", "emoji": "🍯" },
-    { "id": "fo_plate", "en": "plate", "ar": "طبق", "tr": "پليت", "pos": "n", "emoji": "🍽️" },
-    { "id": "fo_cup", "en": "cup", "ar": "كوب", "tr": "كَپ", "pos": "n", "emoji": "🥤" },
-    { "id": "fo_glass", "en": "glass", "ar": "كأس زجاجي", "tr": "غلاس", "pos": "n", "emoji": "🥛" },
-    { "id": "fo_spoon", "en": "spoon", "ar": "ملعقة", "tr": "سپون", "pos": "n", "emoji": "🥄" },
-    { "id": "fo_fork", "en": "fork", "ar": "شوكة", "tr": "فورك", "pos": "n", "emoji": "🍴" },
-    { "id": "fo_knife", "en": "knife", "ar": "سكين", "tr": "نايف", "pos": "n", "emoji": "🔪" },
-    { "id": "fo_restaurant", "en": "restaurant", "ar": "مطعم", "tr": "رِستُورانت", "pos": "n", "emoji": "🍴", "ex": { "en": "We eat at a restaurant on Friday.", "ar": "نأكل في مطعم يوم الجمعة.", "tr": "وي إيت آت إيه رِستُورانت أون فرايديه" } },
-    { "id": "fo_menu", "en": "menu", "ar": "قائمة الطعام", "tr": "مِنيو", "pos": "n", "emoji": "📋" },
-    { "id": "fo_bill", "en": "bill", "ar": "الحساب / الفاتورة", "tr": "بِل", "pos": "n", "emoji": "🧾", "ex": { "en": "The bill, please.", "ar": "الحساب من فضلك.", "tr": "ذَ بِل، پليز" } }
+    {
+      "id": "fo_food",
+      "en": "food",
+      "ar": "طعام",
+      "tr": "فوود",
+      "pos": "n",
+      "emoji": "🍽️",
+      "ex": {
+        "en": "The food is very good.",
+        "ar": "الطعام لذيذ جداً.",
+        "tr": "ذَ فوود إز ڤيري غُود"
+      }
+    },
+    {
+      "id": "fo_water",
+      "en": "water",
+      "ar": "ماء",
+      "tr": "ووتَر",
+      "pos": "n",
+      "emoji": "💧",
+      "ex": {
+        "en": "I drink water every day.",
+        "ar": "أشرب الماء كل يوم.",
+        "tr": "آي درِنك ووتَر إڤري ديه"
+      }
+    },
+    {
+      "id": "fo_bread",
+      "en": "bread",
+      "ar": "خبز",
+      "tr": "برِد",
+      "pos": "n",
+      "emoji": "🍞",
+      "ex": {
+        "en": "I eat bread with cheese.",
+        "ar": "آكل الخبز مع الجبن.",
+        "tr": "آي إيت برِد وِذ تشيز"
+      }
+    },
+    {
+      "id": "fo_rice",
+      "en": "rice",
+      "ar": "أرز",
+      "tr": "رايس",
+      "pos": "n",
+      "emoji": "🍚"
+    },
+    {
+      "id": "fo_meat",
+      "en": "meat",
+      "ar": "لحم",
+      "tr": "ميت",
+      "pos": "n",
+      "emoji": "🥩"
+    },
+    {
+      "id": "fo_chicken",
+      "en": "chicken",
+      "ar": "دجاج",
+      "tr": "تشِكِن",
+      "pos": "n",
+      "emoji": "🍗",
+      "ex": {
+        "en": "We have chicken for lunch.",
+        "ar": "لدينا دجاج للغداء.",
+        "tr": "وي هاڤ تشِكِن فور لَنتش"
+      }
+    },
+    {
+      "id": "fo_fish",
+      "en": "fish",
+      "ar": "سمك",
+      "tr": "فِش",
+      "pos": "n",
+      "emoji": "🐟"
+    },
+    {
+      "id": "fo_egg",
+      "en": "egg",
+      "ar": "بيضة",
+      "tr": "إيغ",
+      "pos": "n",
+      "emoji": "🥚"
+    },
+    {
+      "id": "fo_cheese",
+      "en": "cheese",
+      "ar": "جبن",
+      "tr": "تشيز",
+      "pos": "n",
+      "emoji": "🧀"
+    },
+    {
+      "id": "fo_milk",
+      "en": "milk",
+      "ar": "حليب",
+      "tr": "مِلك",
+      "pos": "n",
+      "emoji": "🥛",
+      "ex": {
+        "en": "The baby drinks milk.",
+        "ar": "الرضيع يشرب الحليب.",
+        "tr": "ذَ بيبي درِنكس مِلك"
+      }
+    },
+    {
+      "id": "fo_tea",
+      "en": "tea",
+      "ar": "شاي",
+      "tr": "تي",
+      "pos": "n",
+      "emoji": "🍵"
+    },
+    {
+      "id": "fo_coffee",
+      "en": "coffee",
+      "ar": "قهوة",
+      "tr": "كوفي",
+      "pos": "n",
+      "emoji": "☕",
+      "ex": {
+        "en": "I want a cup of coffee.",
+        "ar": "أريد كوباً من القهوة.",
+        "tr": "آي وانت إيه كَپ أوڤ كوفي"
+      }
+    },
+    {
+      "id": "fo_juice",
+      "en": "juice",
+      "ar": "عصير",
+      "tr": "جوس",
+      "pos": "n",
+      "emoji": "🧃"
+    },
+    {
+      "id": "fo_sugar",
+      "en": "sugar",
+      "ar": "سكر",
+      "tr": "شُوغَر",
+      "pos": "n",
+      "emoji": "🍬"
+    },
+    {
+      "id": "fo_salt",
+      "en": "salt",
+      "ar": "ملح",
+      "tr": "سولت",
+      "pos": "n",
+      "emoji": "🧂"
+    },
+    {
+      "id": "fo_oil",
+      "en": "oil",
+      "ar": "زيت",
+      "tr": "أويل",
+      "pos": "n",
+      "emoji": "🫒"
+    },
+    {
+      "id": "fo_soup",
+      "en": "soup",
+      "ar": "شوربة",
+      "tr": "سوپ",
+      "pos": "n",
+      "emoji": "🍲"
+    },
+    {
+      "id": "fo_salad",
+      "en": "salad",
+      "ar": "سلطة",
+      "tr": "سالَد",
+      "pos": "n",
+      "emoji": "🥗"
+    },
+    {
+      "id": "fo_sandwich",
+      "en": "sandwich",
+      "ar": "شطيرة",
+      "tr": "سانْدْوِتش",
+      "pos": "n",
+      "emoji": "🥪"
+    },
+    {
+      "id": "fo_cake",
+      "en": "cake",
+      "ar": "كعكة",
+      "tr": "كيك",
+      "pos": "n",
+      "emoji": "🍰"
+    },
+    {
+      "id": "fo_breakfast",
+      "en": "breakfast",
+      "ar": "فطور",
+      "tr": "برِكفَست",
+      "pos": "n",
+      "emoji": "🍳",
+      "ex": {
+        "en": "I eat breakfast at seven.",
+        "ar": "أتناول الفطور في السابعة.",
+        "tr": "آي إيت برِكفَست آت سِڤِن"
+      }
+    },
+    {
+      "id": "fo_lunch",
+      "en": "lunch",
+      "ar": "غداء",
+      "tr": "لَنتش",
+      "pos": "n",
+      "emoji": "🍛"
+    },
+    {
+      "id": "fo_dinner",
+      "en": "dinner",
+      "ar": "عشاء",
+      "tr": "دِنَر",
+      "pos": "n",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "fo_eat",
+      "en": "eat",
+      "ar": "يأكل",
+      "tr": "إيت",
+      "pos": "v",
+      "emoji": "😋",
+      "ex": {
+        "en": "I eat rice and chicken.",
+        "ar": "آكل الأرز والدجاج.",
+        "tr": "آي إيت رايس آند تشِكِن"
+      }
+    },
+    {
+      "id": "fo_drink",
+      "en": "drink",
+      "ar": "يشرب",
+      "tr": "درِنك",
+      "pos": "v",
+      "emoji": "🥤"
+    },
+    {
+      "id": "fo_cook",
+      "en": "cook",
+      "ar": "يطبخ",
+      "tr": "كوك",
+      "pos": "v",
+      "emoji": "👨‍🍳",
+      "ex": {
+        "en": "My mother cooks dinner.",
+        "ar": "أمي تطبخ العشاء.",
+        "tr": "ماي مَذَر كوكس دِنَر"
+      }
+    },
+    {
+      "id": "fo_hungry",
+      "en": "hungry",
+      "ar": "جائع",
+      "tr": "هَنغري",
+      "pos": "adj",
+      "emoji": "😖",
+      "ex": {
+        "en": "I am very hungry.",
+        "ar": "أنا جائع جداً.",
+        "tr": "آي آم ڤيري هَنغري"
+      }
+    },
+    {
+      "id": "fo_thirsty",
+      "en": "thirsty",
+      "ar": "عطشان",
+      "tr": "ثيرستي",
+      "pos": "adj",
+      "emoji": "🥵"
+    },
+    {
+      "id": "fo_delicious",
+      "en": "delicious",
+      "ar": "لذيذ",
+      "tr": "دِليشَس",
+      "pos": "adj",
+      "emoji": "😍",
+      "ex": {
+        "en": "This soup is delicious.",
+        "ar": "هذه الشوربة لذيذة.",
+        "tr": "ذِس سوپ إز دِليشَس"
+      }
+    },
+    {
+      "id": "fo_hot",
+      "en": "hot",
+      "ar": "ساخن",
+      "tr": "هوت",
+      "pos": "adj",
+      "emoji": "🔥"
+    },
+    {
+      "id": "fo_cold",
+      "en": "cold",
+      "ar": "بارد",
+      "tr": "كولد",
+      "pos": "adj",
+      "emoji": "🧊"
+    },
+    {
+      "id": "fo_sweet",
+      "en": "sweet",
+      "ar": "حلو",
+      "tr": "سويت",
+      "pos": "adj",
+      "emoji": "🍯"
+    },
+    {
+      "id": "fo_plate",
+      "en": "plate",
+      "ar": "طبق",
+      "tr": "پليت",
+      "pos": "n",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "fo_cup",
+      "en": "cup",
+      "ar": "كوب",
+      "tr": "كَپ",
+      "pos": "n",
+      "emoji": "🥤"
+    },
+    {
+      "id": "fo_glass",
+      "en": "glass",
+      "ar": "كأس زجاجي",
+      "tr": "غلاس",
+      "pos": "n",
+      "emoji": "🥛"
+    },
+    {
+      "id": "fo_spoon",
+      "en": "spoon",
+      "ar": "ملعقة",
+      "tr": "سپون",
+      "pos": "n",
+      "emoji": "🥄"
+    },
+    {
+      "id": "fo_fork",
+      "en": "fork",
+      "ar": "شوكة",
+      "tr": "فورك",
+      "pos": "n",
+      "emoji": "🍴"
+    },
+    {
+      "id": "fo_knife",
+      "en": "knife",
+      "ar": "سكين",
+      "tr": "نايف",
+      "pos": "n",
+      "emoji": "🔪"
+    },
+    {
+      "id": "fo_restaurant",
+      "en": "restaurant",
+      "ar": "مطعم",
+      "tr": "رِستُورانت",
+      "pos": "n",
+      "emoji": "🍴",
+      "ex": {
+        "en": "We eat at a restaurant on Friday.",
+        "ar": "نأكل في مطعم يوم الجمعة.",
+        "tr": "وي إيت آت إيه رِستُورانت أون فرايديه"
+      }
+    },
+    {
+      "id": "fo_menu",
+      "en": "menu",
+      "ar": "قائمة الطعام",
+      "tr": "مِنيو",
+      "pos": "n",
+      "emoji": "📋"
+    },
+    {
+      "id": "fo_bill",
+      "en": "bill",
+      "ar": "الحساب / الفاتورة",
+      "tr": "بِل",
+      "pos": "n",
+      "emoji": "🧾",
+      "ex": {
+        "en": "The bill, please.",
+        "ar": "الحساب من فضلك.",
+        "tr": "ذَ بِل، پليز"
+      }
+    }
   ],
   "sentences": [
-    { "id": "fo_s1", "en": "I am hungry.", "ar": "أنا جائع.", "tr": "آي آم هَنغري" },
-    { "id": "fo_s2", "en": "I want water, please.", "ar": "أريد ماء من فضلك.", "tr": "آي وانت ووتَر، پليز" },
-    { "id": "fo_s3", "en": "What do you eat for breakfast?", "ar": "ماذا تأكل في الفطور؟", "tr": "وات دو يو إيت فور برِكفَست" },
-    { "id": "fo_s4", "en": "This food is delicious.", "ar": "هذا الطعام لذيذ.", "tr": "ذِس فوود إز دِليشَس" },
-    { "id": "fo_s5", "en": "I don't drink coffee.", "ar": "أنا لا أشرب القهوة.", "tr": "آي دونت درِنك كوفي" },
-    { "id": "fo_s6", "en": "Can I have the menu?", "ar": "هل يمكنني الحصول على قائمة الطعام؟", "tr": "كان آي هاڤ ذَ مِنيو" },
-    { "id": "fo_s7", "en": "My mother cooks very well.", "ar": "أمي تطبخ بشكل ممتاز.", "tr": "ماي مَذَر كوكس ڤيري وِل" },
-    { "id": "fo_s8", "en": "The tea is very hot.", "ar": "الشاي ساخن جداً.", "tr": "ذَ تي إز ڤيري هوت" },
-    { "id": "fo_s9", "en": "We have dinner at eight.", "ar": "نتناول العشاء في الثامنة.", "tr": "وي هاڤ دِنَر آت إيت" },
-    { "id": "fo_s10", "en": "The bill, please.", "ar": "الحساب من فضلك.", "tr": "ذَ بِل، پليز" },
-    { "id": "fo_s11", "en": "I like rice with chicken.", "ar": "أحب الأرز مع الدجاج.", "tr": "آي لايك رايس وِذ تشِكِن" },
-    { "id": "fo_s12", "en": "No sugar in my tea, please.", "ar": "بدون سكر في الشاي من فضلك.", "tr": "نو شُوغَر إن ماي تي، پليز" }
+    {
+      "id": "fo_s1",
+      "en": "I am hungry.",
+      "ar": "أنا جائع.",
+      "tr": "آي آم هَنغري"
+    },
+    {
+      "id": "fo_s2",
+      "en": "I want water, please.",
+      "ar": "أريد ماء من فضلك.",
+      "tr": "آي وانت ووتَر، پليز"
+    },
+    {
+      "id": "fo_s3",
+      "en": "What do you eat for breakfast?",
+      "ar": "ماذا تأكل في الفطور؟",
+      "tr": "وات دو يو إيت فور برِكفَست"
+    },
+    {
+      "id": "fo_s4",
+      "en": "This food is delicious.",
+      "ar": "هذا الطعام لذيذ.",
+      "tr": "ذِس فوود إز دِليشَس"
+    },
+    {
+      "id": "fo_s5",
+      "en": "I don't drink coffee.",
+      "ar": "أنا لا أشرب القهوة.",
+      "tr": "آي دونت درِنك كوفي"
+    },
+    {
+      "id": "fo_s6",
+      "en": "Can I have the menu?",
+      "ar": "هل يمكنني الحصول على قائمة الطعام؟",
+      "tr": "كان آي هاڤ ذَ مِنيو"
+    },
+    {
+      "id": "fo_s7",
+      "en": "My mother cooks very well.",
+      "ar": "أمي تطبخ بشكل ممتاز.",
+      "tr": "ماي مَذَر كوكس ڤيري وِل"
+    },
+    {
+      "id": "fo_s8",
+      "en": "The tea is very hot.",
+      "ar": "الشاي ساخن جداً.",
+      "tr": "ذَ تي إز ڤيري هوت"
+    },
+    {
+      "id": "fo_s9",
+      "en": "We have dinner at eight.",
+      "ar": "نتناول العشاء في الثامنة.",
+      "tr": "وي هاڤ دِنَر آت إيت"
+    },
+    {
+      "id": "fo_s10",
+      "en": "The bill, please.",
+      "ar": "الحساب من فضلك.",
+      "tr": "ذَ بِل، پليز"
+    },
+    {
+      "id": "fo_s11",
+      "en": "I like rice with chicken.",
+      "ar": "أحب الأرز مع الدجاج.",
+      "tr": "آي لايك رايس وِذ تشِكِن"
+    },
+    {
+      "id": "fo_s12",
+      "en": "No sugar in my tea, please.",
+      "ar": "بدون سكر في الشاي من فضلك.",
+      "tr": "نو شُوغَر إن ماي تي، پليز"
+    },
+    {
+      "id": "fo_s13",
+      "en": "What is for dinner tonight?",
+      "ar": "ماذا سنتعشى الليلة؟",
+      "tr": "وات إز فور دِنَر تُونايت"
+    },
+    {
+      "id": "fo_s14",
+      "en": "I don't eat meat.",
+      "ar": "أنا لا آكل اللحم.",
+      "tr": "آي دونت إيت ميت"
+    },
+    {
+      "id": "fo_s15",
+      "en": "Add a little more salt.",
+      "ar": "أضف قليلاً من الملح.",
+      "tr": "آد إيه لِتِل مور سولت"
+    },
+    {
+      "id": "fo_s16",
+      "en": "This bread is fresh.",
+      "ar": "هذا الخبز طازج.",
+      "tr": "ذِس برِد إز فرِش"
+    },
+    {
+      "id": "fo_s17",
+      "en": "Would you like some tea?",
+      "ar": "هل تريد بعض الشاي؟",
+      "tr": "وود يو لايك سَم تي"
+    },
+    {
+      "id": "fo_s18",
+      "en": "I am still hungry.",
+      "ar": "ما زلت جائعاً.",
+      "tr": "آيم ستِل هَنغري"
+    },
+    {
+      "id": "fo_s19",
+      "en": "The soup is too hot.",
+      "ar": "الشوربة ساخنة جداً.",
+      "tr": "ذَ سوپ إز تو هوت"
+    },
+    {
+      "id": "fo_s20",
+      "en": "Let's eat something light.",
+      "ar": "لنأكل شيئاً خفيفاً.",
+      "tr": "لِتس إيت سَمثِنغ لايت"
+    },
+    {
+      "id": "fo_s21",
+      "en": "I drink milk every morning.",
+      "ar": "أشرب الحليب كل صباح.",
+      "tr": "آي درِنك مِلك إڤري مورنِنغ"
+    },
+    {
+      "id": "fo_s22",
+      "en": "Put it on the plate, please.",
+      "ar": "ضعه في الطبق من فضلك.",
+      "tr": "پوت إت أون ذَ پليت، پليز"
+    }
   ]
 }

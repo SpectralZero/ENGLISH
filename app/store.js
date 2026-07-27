@@ -97,13 +97,23 @@ export function strength(id) {
   return it.i >= 4 ? 2 : 1;
 }
 
-/** grade: 0 again · 1 hard · 2 good · 3 easy */
-export function review(id, grade) {
+/** grade: 0 again · 1 hard · 2 good · 3 easy
+    skill: 'rec' recognition · 'lis' listening · 'spl' spelling · 'snt' sentence */
+export function review(id, grade, skill) {
   const today = dayKey();
   const it = progress.items[id] || { n: 0, i: 0, e: 2.5, due: today, ok: 0, ko: 0, t: 0 };
 
+  if (skill) {
+    it.sk = it.sk || {};
+    const s = it.sk[skill] || [0, 0];       // [correct, seen]
+    s[1]++;
+    if (grade > 0) s[0]++;
+    it.sk[skill] = s;
+  }
+
   if (grade === 0) {
     it.ko++;
+    it.lapses = (it.lapses || 0) + (it.n > 0 ? 1 : 0);   // forgot something learned
     it.n = 0;
     it.i = 0;                              // repeat again today
     it.e = clamp(it.e - 0.2, 1.3, 2.9);
@@ -134,6 +144,66 @@ export function dueIds(allIds) {
     const A = progress.items[a], B = progress.items[b];
     return (A.due < B.due ? -1 : A.due > B.due ? 1 : 0) || A.i - B.i;
   });
+}
+
+/* ---------------------------------------------------------- difficulty
+   A "leech" is an item you keep forgetting. Rather than let it clog the
+   review queue forever, the app surfaces it so it can be worked on. */
+export function isLeech(id) {
+  const it = progress.items[id];
+  return !!it && (it.lapses || 0) >= 3 && it.i <= 4;
+}
+
+/** 0 = easy … 1 = hardest. Drives which items the app drills first. */
+export function difficulty(id) {
+  const it = progress.items[id];
+  if (!it) return 0.5;                             // unseen: middling priority
+  const tries = (it.ok || 0) + (it.ko || 0);
+  const errRate = tries ? (it.ko || 0) / tries : 0.5;
+  const young = 1 - Math.min(1, (it.i || 0) / 30); // short interval = shaky
+  const lapses = Math.min(1, (it.lapses || 0) / 4);
+  return clamp(errRate * 0.5 + young * 0.3 + lapses * 0.2, 0, 1);
+}
+
+/** What the app should drill next: overdue > shaky > new > mastered.
+    A little jitter keeps two sessions in a row from being identical. */
+export function priority(id) {
+  const it = progress.items[id];
+  if (!it) return 0.55 + Math.random() * 0.1;          // never seen
+  let p = 0.30 + difficulty(id) * 0.45;
+  const overdueDays = daysBetween(it.due, dayKey());   // ≥ 0 means it is due
+  if (overdueDays >= 0) p += 0.40 + Math.min(0.25, overdueDays * 0.05);
+  if (isMastered(id)) p -= 0.35;
+  return p + Math.random() * 0.08;
+}
+
+export function byPriority(ids) {
+  return ids.map(id => [id, priority(id)])
+    .sort((a, b) => b[1] - a[1])
+    .map(([id]) => id);
+}
+
+/** Hardest items first (only ones actually studied). */
+export function weakest(allIds, n = 20) {
+  return allIds
+    .filter(id => progress.items[id] && (progress.items[id].ko || 0) > 0)
+    .sort((a, b) => difficulty(b) - difficulty(a))
+    .slice(0, n);
+}
+
+/** Aggregate accuracy per skill across everything studied. */
+export function skillStats(allIds) {
+  const out = { rec: [0, 0], lis: [0, 0], spl: [0, 0], snt: [0, 0] };
+  for (const id of allIds) {
+    const sk = progress.items[id]?.sk;
+    if (!sk) continue;
+    for (const k of Object.keys(out)) {
+      if (!sk[k]) continue;
+      out[k][0] += sk[k][0];
+      out[k][1] += sk[k][1];
+    }
+  }
+  return out;
 }
 
 export function counts(allIds) {

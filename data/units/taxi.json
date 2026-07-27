@@ -1,0 +1,262 @@
+{
+  "id": "taxi",
+  "title": {
+    "ar": "في سيارة الأجرة",
+    "en": "Taking a Taxi"
+  },
+  "icon": "🚕",
+  "level": 6,
+  "color": "amber",
+  "words": [
+    {
+      "id": "tax_w1",
+      "en": "taxi driver",
+      "ar": "سائق أجرة",
+      "tr": "تاكسي درايڤَر",
+      "pos": "n",
+      "emoji": "🧑‍✈️"
+    },
+    {
+      "id": "tax_w2",
+      "en": "fare",
+      "ar": "الأجرة",
+      "tr": "فير",
+      "pos": "n",
+      "emoji": "💵"
+    },
+    {
+      "id": "tax_w3",
+      "en": "meter",
+      "ar": "العدّاد",
+      "tr": "ميتَر",
+      "pos": "n",
+      "emoji": "🔢"
+    },
+    {
+      "id": "tax_w4",
+      "en": "drop me here",
+      "ar": "أنزلني هنا",
+      "tr": "دروپ مي هير",
+      "pos": "phr",
+      "emoji": "🛑"
+    },
+    {
+      "id": "tax_w5",
+      "en": "pick up",
+      "ar": "يقلّ / يأخذ",
+      "tr": "پِك أب",
+      "pos": "v",
+      "emoji": "🚗"
+    },
+    {
+      "id": "tax_w6",
+      "en": "traffic jam",
+      "ar": "ازدحام مروري",
+      "tr": "ترافِك جام",
+      "pos": "n",
+      "emoji": "🚦"
+    },
+    {
+      "id": "tax_w7",
+      "en": "shortcut",
+      "ar": "طريق مختصر",
+      "tr": "شورتكَت",
+      "pos": "n",
+      "emoji": "↩️"
+    },
+    {
+      "id": "tax_w8",
+      "en": "air conditioning",
+      "ar": "تكييف",
+      "tr": "إير كَندِشِنِنغ",
+      "pos": "n",
+      "emoji": "❄️"
+    },
+    {
+      "id": "tax_w9",
+      "en": "trunk",
+      "ar": "صندوق السيارة",
+      "tr": "ترَنك",
+      "pos": "n",
+      "emoji": "🧳"
+    },
+    {
+      "id": "tax_w10",
+      "en": "receipt",
+      "ar": "إيصال",
+      "tr": "رِسيت",
+      "pos": "n",
+      "emoji": "🧾"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "tax_s1",
+      "en": "Are you free?",
+      "ar": "هل أنت متاح؟",
+      "tr": "آر يو فري"
+    },
+    {
+      "id": "tax_s2",
+      "en": "Take me to this address, please.",
+      "ar": "خذني إلى هذا العنوان من فضلك.",
+      "tr": "تيك مي تو ذِس أدرِس، پليز"
+    },
+    {
+      "id": "tax_s3",
+      "en": "How much to the airport?",
+      "ar": "كم الأجرة إلى المطار؟",
+      "tr": "هاو مَتش تو ذي إيرپورت"
+    },
+    {
+      "id": "tax_s4",
+      "en": "Please use the meter.",
+      "ar": "من فضلك شغّل العدّاد.",
+      "tr": "پليز يوز ذَ ميتَر"
+    },
+    {
+      "id": "tax_s5",
+      "en": "Is that the fixed price?",
+      "ar": "هل هذا سعر ثابت؟",
+      "tr": "إز ذات ذَ فِكست پرايس"
+    },
+    {
+      "id": "tax_s6",
+      "en": "That is too much.",
+      "ar": "هذا كثير.",
+      "tr": "ذات إز تو مَتش"
+    },
+    {
+      "id": "tax_s7",
+      "en": "Can you make it cheaper?",
+      "ar": "هل يمكنك تخفيض السعر؟",
+      "tr": "كان يو ميك إت تشيپَر"
+    },
+    {
+      "id": "tax_s8",
+      "en": "How long will it take?",
+      "ar": "كم سيستغرق الوقت؟",
+      "tr": "هاو لونغ وِل إت تيك"
+    },
+    {
+      "id": "tax_s9",
+      "en": "I am in a hurry.",
+      "ar": "أنا مستعجل.",
+      "tr": "آيم إن إيه هَري"
+    },
+    {
+      "id": "tax_s10",
+      "en": "Please drive slowly.",
+      "ar": "من فضلك قُد ببطء.",
+      "tr": "پليز درايڤ سلولي"
+    },
+    {
+      "id": "tax_s11",
+      "en": "Can you open the trunk?",
+      "ar": "هل يمكنك فتح الصندوق؟",
+      "tr": "كان يو أوپِن ذَ ترَنك"
+    },
+    {
+      "id": "tax_s12",
+      "en": "My luggage is heavy.",
+      "ar": "أمتعتي ثقيلة.",
+      "tr": "ماي لَغِج إز هيڤي"
+    },
+    {
+      "id": "tax_s13",
+      "en": "Could you turn on the air conditioning?",
+      "ar": "هل يمكنك تشغيل التكييف؟",
+      "tr": "كود يو تيرن أون ذي إير كَندِشِنِنغ"
+    },
+    {
+      "id": "tax_s14",
+      "en": "There is a lot of traffic today.",
+      "ar": "يوجد ازدحام كبير اليوم.",
+      "tr": "ذير إز إيه لوت أوڤ ترافِك تُوديه"
+    },
+    {
+      "id": "tax_s15",
+      "en": "Is there another road?",
+      "ar": "هل يوجد طريق آخر؟",
+      "tr": "إز ذير أناذَر رود"
+    },
+    {
+      "id": "tax_s16",
+      "en": "Turn right at the next street.",
+      "ar": "انعطف يميناً في الشارع التالي.",
+      "tr": "تيرن رايت آت ذَ نِكست ستريت"
+    },
+    {
+      "id": "tax_s17",
+      "en": "Go straight, please.",
+      "ar": "امشِ مستقيماً من فضلك.",
+      "tr": "غو ستريت، پليز"
+    },
+    {
+      "id": "tax_s18",
+      "en": "Stop here, please.",
+      "ar": "قف هنا من فضلك.",
+      "tr": "ستوپ هير، پليز"
+    },
+    {
+      "id": "tax_s19",
+      "en": "Wait for me five minutes.",
+      "ar": "انتظرني خمس دقائق.",
+      "tr": "ويت فور مي فايڤ مِنِتس"
+    },
+    {
+      "id": "tax_s20",
+      "en": "I will be right back.",
+      "ar": "سأعود حالاً.",
+      "tr": "آي وِل بي رايت باك"
+    },
+    {
+      "id": "tax_s21",
+      "en": "How much do I owe you?",
+      "ar": "كم أدفع لك؟",
+      "tr": "هاو مَتش دو آي أو يو"
+    },
+    {
+      "id": "tax_s22",
+      "en": "Here you are, keep the change.",
+      "ar": "تفضل، احتفظ بالباقي.",
+      "tr": "هير يو آر، كيپ ذَ تشينج"
+    },
+    {
+      "id": "tax_s23",
+      "en": "Can I have a receipt?",
+      "ar": "هل يمكنني الحصول على إيصال؟",
+      "tr": "كان آي هاڤ إيه رِسيت"
+    },
+    {
+      "id": "tax_s24",
+      "en": "Sorry, I only have a big note.",
+      "ar": "آسف، معي ورقة كبيرة فقط.",
+      "tr": "سوري، آي أونلي هاڤ إيه بِغ نوت"
+    },
+    {
+      "id": "tax_s25",
+      "en": "Do you take cards?",
+      "ar": "هل تقبل البطاقات؟",
+      "tr": "دو يو تيك كاردز"
+    },
+    {
+      "id": "tax_s26",
+      "en": "I think we are lost.",
+      "ar": "أظن أننا تهنا.",
+      "tr": "آي ثِنك وي آر لوست"
+    },
+    {
+      "id": "tax_s27",
+      "en": "Can you call me when you arrive?",
+      "ar": "هل يمكنك الاتصال بي عند وصولك؟",
+      "tr": "كان يو كول مي وِن يو أرايڤ"
+    },
+    {
+      "id": "tax_s28",
+      "en": "Thank you for the ride.",
+      "ar": "شكراً على التوصيلة.",
+      "tr": "ثانك يو فور ذَ رايد"
+    }
+  ]
+}

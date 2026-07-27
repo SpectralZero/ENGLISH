@@ -1,51 +1,396 @@
 {
   "id": "fruits",
-  "title": { "ar": "الفواكه والخضار", "en": "Fruit & Vegetables" },
+  "title": {
+    "ar": "الفواكه والخضار",
+    "en": "Fruit & Vegetables"
+  },
   "icon": "🍎",
   "level": 2,
   "color": "mint",
   "words": [
-    { "id": "fr_fruit", "en": "fruit", "ar": "فاكهة", "tr": "فروت", "pos": "n", "emoji": "🍇", "ex": { "en": "I eat fruit every day.", "ar": "آكل الفاكهة كل يوم.", "tr": "آي إيت فروت إڤري ديه" } },
-    { "id": "fr_vegetable", "en": "vegetable", "ar": "خضار", "tr": "ڤيجتَبِل", "pos": "n", "emoji": "🥦" },
-    { "id": "fr_apple", "en": "apple", "ar": "تفاحة", "tr": "آبِل", "pos": "n", "emoji": "🍎", "ex": { "en": "The apple is red and sweet.", "ar": "التفاحة حمراء وحلوة.", "tr": "ذي آبِل إز رِد آند سويت" } },
-    { "id": "fr_banana", "en": "banana", "ar": "موزة", "tr": "بَنانا", "pos": "n", "emoji": "🍌" },
-    { "id": "fr_orange", "en": "orange", "ar": "برتقالة", "tr": "أورِنج", "pos": "n", "emoji": "🍊" },
-    { "id": "fr_grapes", "en": "grapes", "ar": "عنب", "tr": "غريپس", "pos": "n", "emoji": "🍇" },
-    { "id": "fr_lemon", "en": "lemon", "ar": "ليمون", "tr": "لِمِن", "pos": "n", "emoji": "🍋" },
-    { "id": "fr_watermelon", "en": "watermelon", "ar": "بطيخ", "tr": "ووتَرمِلَن", "pos": "n", "emoji": "🍉" },
-    { "id": "fr_strawberry", "en": "strawberry", "ar": "فراولة", "tr": "سترووبيري", "pos": "n", "emoji": "🍓" },
-    { "id": "fr_mango", "en": "mango", "ar": "مانجو", "tr": "مانغو", "pos": "n", "emoji": "🥭" },
-    { "id": "fr_peach", "en": "peach", "ar": "خوخ", "tr": "پيتش", "pos": "n", "emoji": "🍑" },
-    { "id": "fr_pear", "en": "pear", "ar": "كمثرى", "tr": "پير", "pos": "n", "emoji": "🍐" },
-    { "id": "fr_date", "en": "dates", "ar": "تمر", "tr": "ديتس", "pos": "n", "emoji": "🌴" },
-    { "id": "fr_fig", "en": "fig", "ar": "تين", "tr": "فِغ", "pos": "n", "emoji": "🫐" },
-    { "id": "fr_olive", "en": "olive", "ar": "زيتون", "tr": "أولِڤ", "pos": "n", "emoji": "🫒" },
-    { "id": "fr_tomato", "en": "tomato", "ar": "طماطم", "tr": "تُوميتو", "pos": "n", "emoji": "🍅", "ex": { "en": "I want tomato in my sandwich.", "ar": "أريد طماطم في شطيرتي.", "tr": "آي وانت تُوميتو إن ماي سانْدْوِتش" } },
-    { "id": "fr_potato", "en": "potato", "ar": "بطاطس", "tr": "پُوتيتو", "pos": "n", "emoji": "🥔" },
-    { "id": "fr_onion", "en": "onion", "ar": "بصل", "tr": "أنيَن", "pos": "n", "emoji": "🧅" },
-    { "id": "fr_garlic", "en": "garlic", "ar": "ثوم", "tr": "غارلِك", "pos": "n", "emoji": "🧄" },
-    { "id": "fr_carrot", "en": "carrot", "ar": "جزر", "tr": "كارَت", "pos": "n", "emoji": "🥕" },
-    { "id": "fr_cucumber", "en": "cucumber", "ar": "خيار", "tr": "كيوكَمبَر", "pos": "n", "emoji": "🥒" },
-    { "id": "fr_pepper", "en": "pepper", "ar": "فلفل", "tr": "پِپَر", "pos": "n", "emoji": "🌶️" },
-    { "id": "fr_lettuce", "en": "lettuce", "ar": "خس", "tr": "لِتِس", "pos": "n", "emoji": "🥬" },
-    { "id": "fr_eggplant", "en": "eggplant", "ar": "باذنجان", "tr": "إيغپلانت", "pos": "n", "emoji": "🍆" },
-    { "id": "fr_corn", "en": "corn", "ar": "ذرة", "tr": "كورن", "pos": "n", "emoji": "🌽" },
-    { "id": "fr_beans", "en": "beans", "ar": "فول / فاصولياء", "tr": "بينز", "pos": "n", "emoji": "🫘" },
-    { "id": "fr_fresh", "en": "fresh", "ar": "طازج", "tr": "فرِش", "pos": "adj", "emoji": "🌿", "ex": { "en": "These vegetables are fresh.", "ar": "هذه الخضار طازجة.", "tr": "ذيز ڤيجتَبِلز آر فرِش" } },
-    { "id": "fr_ripe", "en": "ripe", "ar": "ناضج", "tr": "رايپ", "pos": "adj", "emoji": "🍌" },
-    { "id": "fr_market", "en": "market", "ar": "سوق", "tr": "ماركِت", "pos": "n", "emoji": "🏪", "ex": { "en": "I buy fruit from the market.", "ar": "أشتري الفاكهة من السوق.", "tr": "آي باي فروت فروم ذَ ماركِت" } },
-    { "id": "fr_kilo", "en": "kilo", "ar": "كيلو", "tr": "كيلو", "pos": "n", "emoji": "⚖️", "ex": { "en": "One kilo of apples, please.", "ar": "كيلو تفاح من فضلك.", "tr": "وان كيلو أوڤ آبِلز، پليز" } },
-    { "id": "fr_wash", "en": "wash", "ar": "يغسل", "tr": "واش", "pos": "v", "emoji": "🚿" },
-    { "id": "fr_cut", "en": "cut", "ar": "يقطع", "tr": "كَت", "pos": "v", "emoji": "🔪" }
+    {
+      "id": "fr_fruit",
+      "en": "fruit",
+      "ar": "فاكهة",
+      "tr": "فروت",
+      "pos": "n",
+      "emoji": "🍇",
+      "ex": {
+        "en": "I eat fruit every day.",
+        "ar": "آكل الفاكهة كل يوم.",
+        "tr": "آي إيت فروت إڤري ديه"
+      }
+    },
+    {
+      "id": "fr_vegetable",
+      "en": "vegetable",
+      "ar": "خضار",
+      "tr": "ڤيجتَبِل",
+      "pos": "n",
+      "emoji": "🥦"
+    },
+    {
+      "id": "fr_apple",
+      "en": "apple",
+      "ar": "تفاحة",
+      "tr": "آبِل",
+      "pos": "n",
+      "emoji": "🍎",
+      "ex": {
+        "en": "The apple is red and sweet.",
+        "ar": "التفاحة حمراء وحلوة.",
+        "tr": "ذي آبِل إز رِد آند سويت"
+      }
+    },
+    {
+      "id": "fr_banana",
+      "en": "banana",
+      "ar": "موزة",
+      "tr": "بَنانا",
+      "pos": "n",
+      "emoji": "🍌"
+    },
+    {
+      "id": "fr_orange",
+      "en": "orange",
+      "ar": "برتقالة",
+      "tr": "أورِنج",
+      "pos": "n",
+      "emoji": "🍊"
+    },
+    {
+      "id": "fr_grapes",
+      "en": "grapes",
+      "ar": "عنب",
+      "tr": "غريپس",
+      "pos": "n",
+      "emoji": "🍇"
+    },
+    {
+      "id": "fr_lemon",
+      "en": "lemon",
+      "ar": "ليمون",
+      "tr": "لِمِن",
+      "pos": "n",
+      "emoji": "🍋"
+    },
+    {
+      "id": "fr_watermelon",
+      "en": "watermelon",
+      "ar": "بطيخ",
+      "tr": "ووتَرمِلَن",
+      "pos": "n",
+      "emoji": "🍉"
+    },
+    {
+      "id": "fr_strawberry",
+      "en": "strawberry",
+      "ar": "فراولة",
+      "tr": "سترووبيري",
+      "pos": "n",
+      "emoji": "🍓"
+    },
+    {
+      "id": "fr_mango",
+      "en": "mango",
+      "ar": "مانجو",
+      "tr": "مانغو",
+      "pos": "n",
+      "emoji": "🥭"
+    },
+    {
+      "id": "fr_peach",
+      "en": "peach",
+      "ar": "خوخ",
+      "tr": "پيتش",
+      "pos": "n",
+      "emoji": "🍑"
+    },
+    {
+      "id": "fr_pear",
+      "en": "pear",
+      "ar": "كمثرى",
+      "tr": "پير",
+      "pos": "n",
+      "emoji": "🍐"
+    },
+    {
+      "id": "fr_date",
+      "en": "dates",
+      "ar": "تمر",
+      "tr": "ديتس",
+      "pos": "n",
+      "emoji": "🌴"
+    },
+    {
+      "id": "fr_fig",
+      "en": "fig",
+      "ar": "تين",
+      "tr": "فِغ",
+      "pos": "n",
+      "emoji": "🫐"
+    },
+    {
+      "id": "fr_olive",
+      "en": "olive",
+      "ar": "زيتون",
+      "tr": "أولِڤ",
+      "pos": "n",
+      "emoji": "🫒"
+    },
+    {
+      "id": "fr_tomato",
+      "en": "tomato",
+      "ar": "طماطم",
+      "tr": "تُوميتو",
+      "pos": "n",
+      "emoji": "🍅",
+      "ex": {
+        "en": "I want tomato in my sandwich.",
+        "ar": "أريد طماطم في شطيرتي.",
+        "tr": "آي وانت تُوميتو إن ماي سانْدْوِتش"
+      }
+    },
+    {
+      "id": "fr_potato",
+      "en": "potato",
+      "ar": "بطاطس",
+      "tr": "پُوتيتو",
+      "pos": "n",
+      "emoji": "🥔"
+    },
+    {
+      "id": "fr_onion",
+      "en": "onion",
+      "ar": "بصل",
+      "tr": "أنيَن",
+      "pos": "n",
+      "emoji": "🧅"
+    },
+    {
+      "id": "fr_garlic",
+      "en": "garlic",
+      "ar": "ثوم",
+      "tr": "غارلِك",
+      "pos": "n",
+      "emoji": "🧄"
+    },
+    {
+      "id": "fr_carrot",
+      "en": "carrot",
+      "ar": "جزر",
+      "tr": "كارَت",
+      "pos": "n",
+      "emoji": "🥕"
+    },
+    {
+      "id": "fr_cucumber",
+      "en": "cucumber",
+      "ar": "خيار",
+      "tr": "كيوكَمبَر",
+      "pos": "n",
+      "emoji": "🥒"
+    },
+    {
+      "id": "fr_pepper",
+      "en": "pepper",
+      "ar": "فلفل",
+      "tr": "پِپَر",
+      "pos": "n",
+      "emoji": "🌶️"
+    },
+    {
+      "id": "fr_lettuce",
+      "en": "lettuce",
+      "ar": "خس",
+      "tr": "لِتِس",
+      "pos": "n",
+      "emoji": "🥬"
+    },
+    {
+      "id": "fr_eggplant",
+      "en": "eggplant",
+      "ar": "باذنجان",
+      "tr": "إيغپلانت",
+      "pos": "n",
+      "emoji": "🍆"
+    },
+    {
+      "id": "fr_corn",
+      "en": "corn",
+      "ar": "ذرة",
+      "tr": "كورن",
+      "pos": "n",
+      "emoji": "🌽"
+    },
+    {
+      "id": "fr_beans",
+      "en": "beans",
+      "ar": "فول / فاصولياء",
+      "tr": "بينز",
+      "pos": "n",
+      "emoji": "🫘"
+    },
+    {
+      "id": "fr_fresh",
+      "en": "fresh",
+      "ar": "طازج",
+      "tr": "فرِش",
+      "pos": "adj",
+      "emoji": "🌿",
+      "ex": {
+        "en": "These vegetables are fresh.",
+        "ar": "هذه الخضار طازجة.",
+        "tr": "ذيز ڤيجتَبِلز آر فرِش"
+      }
+    },
+    {
+      "id": "fr_ripe",
+      "en": "ripe",
+      "ar": "ناضج",
+      "tr": "رايپ",
+      "pos": "adj",
+      "emoji": "🍌"
+    },
+    {
+      "id": "fr_market",
+      "en": "market",
+      "ar": "سوق",
+      "tr": "ماركِت",
+      "pos": "n",
+      "emoji": "🏪",
+      "ex": {
+        "en": "I buy fruit from the market.",
+        "ar": "أشتري الفاكهة من السوق.",
+        "tr": "آي باي فروت فروم ذَ ماركِت"
+      }
+    },
+    {
+      "id": "fr_kilo",
+      "en": "kilo",
+      "ar": "كيلو",
+      "tr": "كيلو",
+      "pos": "n",
+      "emoji": "⚖️",
+      "ex": {
+        "en": "One kilo of apples, please.",
+        "ar": "كيلو تفاح من فضلك.",
+        "tr": "وان كيلو أوڤ آبِلز، پليز"
+      }
+    },
+    {
+      "id": "fr_wash",
+      "en": "wash",
+      "ar": "يغسل",
+      "tr": "واش",
+      "pos": "v",
+      "emoji": "🚿"
+    },
+    {
+      "id": "fr_cut",
+      "en": "cut",
+      "ar": "يقطع",
+      "tr": "كَت",
+      "pos": "v",
+      "emoji": "🔪"
+    }
   ],
   "sentences": [
-    { "id": "fr_s1", "en": "I like apples and bananas.", "ar": "أحب التفاح والموز.", "tr": "آي لايك آبِلز آند بَناناز" },
-    { "id": "fr_s2", "en": "One kilo of tomatoes, please.", "ar": "كيلو طماطم من فضلك.", "tr": "وان كيلو أوڤ تُوميتوز، پليز" },
-    { "id": "fr_s3", "en": "This fruit is very sweet.", "ar": "هذه الفاكهة حلوة جداً.", "tr": "ذِس فروت إز ڤيري سويت" },
-    { "id": "fr_s4", "en": "Wash the vegetables, please.", "ar": "اغسل الخضار من فضلك.", "tr": "واش ذَ ڤيجتَبِلز، پليز" },
-    { "id": "fr_s5", "en": "I buy fruit from the market.", "ar": "أشتري الفاكهة من السوق.", "tr": "آي باي فروت فروم ذَ ماركِت" },
-    { "id": "fr_s6", "en": "How much is this watermelon?", "ar": "بكم هذا البطيخ؟", "tr": "هاو مَتش إز ذِس ووتَرمِلَن" },
-    { "id": "fr_s7", "en": "The salad has cucumber and lettuce.", "ar": "السلطة فيها خيار وخس.", "tr": "ذَ سالَد هاز كيوكَمبَر آند لِتِس" },
-    { "id": "fr_s8", "en": "We eat dates in Ramadan.", "ar": "نأكل التمر في رمضان.", "tr": "وي إيت ديتس إن رَمَضان" }
+    {
+      "id": "fr_s1",
+      "en": "I like apples and bananas.",
+      "ar": "أحب التفاح والموز.",
+      "tr": "آي لايك آبِلز آند بَناناز"
+    },
+    {
+      "id": "fr_s2",
+      "en": "One kilo of tomatoes, please.",
+      "ar": "كيلو طماطم من فضلك.",
+      "tr": "وان كيلو أوڤ تُوميتوز، پليز"
+    },
+    {
+      "id": "fr_s3",
+      "en": "This fruit is very sweet.",
+      "ar": "هذه الفاكهة حلوة جداً.",
+      "tr": "ذِس فروت إز ڤيري سويت"
+    },
+    {
+      "id": "fr_s4",
+      "en": "Wash the vegetables, please.",
+      "ar": "اغسل الخضار من فضلك.",
+      "tr": "واش ذَ ڤيجتَبِلز، پليز"
+    },
+    {
+      "id": "fr_s5",
+      "en": "I buy fruit from the market.",
+      "ar": "أشتري الفاكهة من السوق.",
+      "tr": "آي باي فروت فروم ذَ ماركِت"
+    },
+    {
+      "id": "fr_s6",
+      "en": "How much is this watermelon?",
+      "ar": "بكم هذا البطيخ؟",
+      "tr": "هاو مَتش إز ذِس ووتَرمِلَن"
+    },
+    {
+      "id": "fr_s7",
+      "en": "The salad has cucumber and lettuce.",
+      "ar": "السلطة فيها خيار وخس.",
+      "tr": "ذَ سالَد هاز كيوكَمبَر آند لِتِس"
+    },
+    {
+      "id": "fr_s8",
+      "en": "We eat dates in Ramadan.",
+      "ar": "نأكل التمر في رمضان.",
+      "tr": "وي إيت ديتس إن رَمَضان"
+    },
+    {
+      "id": "fr_s9",
+      "en": "These grapes are very sweet.",
+      "ar": "هذا العنب حلو جداً.",
+      "tr": "ذيز غريپس آر ڤيري سويت"
+    },
+    {
+      "id": "fr_s10",
+      "en": "Give me two kilos of onions.",
+      "ar": "أعطني كيلوين من البصل.",
+      "tr": "غِڤ مي تو كيلوز أوڤ أنيَنز"
+    },
+    {
+      "id": "fr_s11",
+      "en": "I cut the carrots for the soup.",
+      "ar": "قطّعت الجزر للشوربة.",
+      "tr": "آي كَت ذَ كارَتس فور ذَ سوپ"
+    },
+    {
+      "id": "fr_s12",
+      "en": "The bananas are not ripe yet.",
+      "ar": "الموز لم ينضج بعد.",
+      "tr": "ذَ بَناناز آر نوت رايپ يِت"
+    },
+    {
+      "id": "fr_s13",
+      "en": "Do you have fresh lemons?",
+      "ar": "هل لديك ليمون طازج؟",
+      "tr": "دو يو هاڤ فرِش لِمِنز"
+    },
+    {
+      "id": "fr_s14",
+      "en": "I eat an apple every day.",
+      "ar": "آكل تفاحة كل يوم.",
+      "tr": "آي إيت آن آبِل إڤري ديه"
+    },
+    {
+      "id": "fr_s15",
+      "en": "Wash the fruit before eating.",
+      "ar": "اغسل الفاكهة قبل الأكل.",
+      "tr": "واش ذَ فروت بِفور إيتِنغ"
+    },
+    {
+      "id": "fr_s16",
+      "en": "Potatoes are cheap this week.",
+      "ar": "البطاطس رخيصة هذا الأسبوع.",
+      "tr": "پُوتيتوز آر تشيپ ذِس ويك"
+    }
   ]
 }

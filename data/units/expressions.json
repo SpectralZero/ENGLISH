@@ -1,69 +1,511 @@
 {
   "id": "expressions",
-  "title": { "ar": "عبارات يومية ضرورية", "en": "Everyday Expressions" },
+  "title": {
+    "ar": "عبارات يومية ضرورية",
+    "en": "Everyday Expressions"
+  },
   "icon": "💬",
   "level": 5,
   "color": "brand",
   "words": [
-    { "id": "ex_idk", "en": "I don't know", "ar": "لا أعرف", "tr": "آي دونت نو", "pos": "phr", "emoji": "🤷" },
-    { "id": "ex_iknow", "en": "I know", "ar": "أنا أعرف", "tr": "آي نو", "pos": "phr", "emoji": "💡" },
-    { "id": "ex_ithink", "en": "I think so", "ar": "أظن ذلك", "tr": "آي ثِنك سو", "pos": "phr", "emoji": "🤔" },
-    { "id": "ex_notsure", "en": "I am not sure", "ar": "لست متأكداً", "tr": "آيم نوت شور", "pos": "phr", "emoji": "😕" },
-    { "id": "ex_iunderstand", "en": "I understand", "ar": "أنا أفهم", "tr": "آي أندَرستاند", "pos": "phr", "emoji": "👍" },
-    { "id": "ex_dontunderstand2", "en": "I don't understand", "ar": "لا أفهم", "tr": "آي دونت أندَرستاند", "pos": "phr", "emoji": "❓" },
-    { "id": "ex_repeatplease", "en": "Can you repeat, please?", "ar": "هل يمكنك التكرار من فضلك؟", "tr": "كان يو رِپيت، پليز", "pos": "phr", "emoji": "🔁" },
-    { "id": "ex_speakslow", "en": "Please speak slowly", "ar": "من فضلك تكلم ببطء", "tr": "پليز سپيك سلولي", "pos": "phr", "emoji": "🐢" },
-    { "id": "ex_howsay", "en": "How do you say… in English?", "ar": "كيف تقول… بالإنجليزية؟", "tr": "هاو دو يو سيه … إن إنغلِش", "pos": "phr", "emoji": "🗣️", "ex": { "en": "How do you say 'مفتاح' in English?", "ar": "كيف تقول «مفتاح» بالإنجليزية؟", "tr": "هاو دو يو سيه مفتاح إن إنغلِش" } },
-    { "id": "ex_whatmean", "en": "What does it mean?", "ar": "ماذا يعني ذلك؟", "tr": "وات دَز إت مين", "pos": "phr", "emoji": "📖" },
-    { "id": "ex_writeit", "en": "Can you write it, please?", "ar": "هل يمكنك كتابتها من فضلك؟", "tr": "كان يو رايت إت، پليز", "pos": "phr", "emoji": "✍️" },
-    { "id": "ex_justamoment", "en": "Just a moment", "ar": "لحظة واحدة", "tr": "جَست إيه مومِنت", "pos": "phr", "emoji": "⏱️" },
-    { "id": "ex_imcoming", "en": "I am coming", "ar": "أنا قادم", "tr": "آيم كَمِنغ", "pos": "phr", "emoji": "🏃" },
-    { "id": "ex_letsgo", "en": "Let's go", "ar": "هيا بنا", "tr": "لِتس غو", "pos": "phr", "emoji": "➡️" },
-    { "id": "ex_hurryup2", "en": "Hurry up!", "ar": "أسرع!", "tr": "هَري أب", "pos": "phr", "emoji": "⚡" },
-    { "id": "ex_waitmin", "en": "Wait a minute", "ar": "انتظر دقيقة", "tr": "ويت إيه مِنِت", "pos": "phr", "emoji": "✋" },
-    { "id": "ex_iforgot", "en": "I forgot", "ar": "نسيت", "tr": "آي فَرغوت", "pos": "phr", "emoji": "🤦" },
-    { "id": "ex_iremember", "en": "I remember", "ar": "أتذكر", "tr": "آي رِمِمبَر", "pos": "phr", "emoji": "🧠" },
-    { "id": "ex_never2", "en": "Never mind", "ar": "لا يهم", "tr": "نِڤَر مايند", "pos": "phr", "emoji": "🤷" },
-    { "id": "ex_itsok", "en": "It's okay", "ar": "لا بأس", "tr": "إتس أوكيه", "pos": "phr", "emoji": "🙂" },
-    { "id": "ex_dontworry2", "en": "Don't worry", "ar": "لا تقلق", "tr": "دونت وَري", "pos": "phr", "emoji": "🤗" },
-    { "id": "ex_becareful2", "en": "Be careful", "ar": "انتبه", "tr": "بي كيرفُل", "pos": "phr", "emoji": "⚠️" },
-    { "id": "ex_goodluck", "en": "Good luck", "ar": "حظاً موفقاً", "tr": "غُود لَك", "pos": "phr", "emoji": "🍀" },
-    { "id": "ex_wellwish", "en": "Get well soon", "ar": "سلامتك / شفاك الله", "tr": "غِت وِل سون", "pos": "phr", "emoji": "🌷" },
-    { "id": "ex_congrats2", "en": "Congratulations!", "ar": "مبروك!", "tr": "كَنغراتشُوليشِنز", "pos": "phr", "emoji": "🎉" },
-    { "id": "ex_thanksalot", "en": "Thanks a lot", "ar": "شكراً جزيلاً", "tr": "ثانكس إيه لوت", "pos": "phr", "emoji": "🙏" },
-    { "id": "ex_youtoo", "en": "You too", "ar": "وأنت أيضاً", "tr": "يو تو", "pos": "phr", "emoji": "🔄" },
-    { "id": "ex_mypleasure", "en": "My pleasure", "ar": "من دواعي سروري", "tr": "ماي پليجَر", "pos": "phr", "emoji": "😊" },
-    { "id": "ex_excuseme2", "en": "Excuse me", "ar": "لو سمحت", "tr": "إكسكيوز مي", "pos": "phr", "emoji": "🙋" },
-    { "id": "ex_imsorry", "en": "I am so sorry", "ar": "أنا آسف جداً", "tr": "آيم سو سوري", "pos": "phr", "emoji": "😔" },
-    { "id": "ex_nothanks", "en": "No, thank you", "ar": "لا، شكراً", "tr": "نو، ثانك يو", "pos": "phr", "emoji": "🙅" },
-    { "id": "ex_yesplease", "en": "Yes, please", "ar": "نعم، من فضلك", "tr": "يِس، پليز", "pos": "phr", "emoji": "🙌" },
-    { "id": "ex_canhelp", "en": "Can I help you?", "ar": "هل أستطيع مساعدتك؟", "tr": "كان آي هِلپ يو", "pos": "phr", "emoji": "🤝" },
-    { "id": "ex_needhelp", "en": "I need help", "ar": "أحتاج مساعدة", "tr": "آي نيد هِلپ", "pos": "phr", "emoji": "🆘" },
-    { "id": "ex_whereis", "en": "Where is…?", "ar": "أين…؟", "tr": "وير إز", "pos": "phr", "emoji": "📍" },
-    { "id": "ex_howmuchis", "en": "How much is it?", "ar": "كم ثمنه؟", "tr": "هاو مَتش إز إت", "pos": "phr", "emoji": "💰" },
-    { "id": "ex_whattime2", "en": "What time is it?", "ar": "كم الساعة؟", "tr": "وات تايم إز إت", "pos": "phr", "emoji": "🕐" },
-    { "id": "ex_ilike", "en": "I like it", "ar": "يعجبني", "tr": "آي لايك إت", "pos": "phr", "emoji": "👍" },
-    { "id": "ex_idontlike", "en": "I don't like it", "ar": "لا يعجبني", "tr": "آي دونت لايك إت", "pos": "phr", "emoji": "👎" },
-    { "id": "ex_imtired", "en": "I am tired", "ar": "أنا متعب", "tr": "آيم تايَرد", "pos": "phr", "emoji": "😴" },
-    { "id": "ex_imhungry", "en": "I am hungry", "ar": "أنا جائع", "tr": "آيم هَنغري", "pos": "phr", "emoji": "🍽️" },
-    { "id": "ex_seeyou2", "en": "See you later", "ar": "أراك لاحقاً", "tr": "سي يو ليتَر", "pos": "phr", "emoji": "👋" }
+    {
+      "id": "ex_idk",
+      "en": "I don't know",
+      "ar": "لا أعرف",
+      "tr": "آي دونت نو",
+      "pos": "phr",
+      "emoji": "🤷"
+    },
+    {
+      "id": "ex_iknow",
+      "en": "I know",
+      "ar": "أنا أعرف",
+      "tr": "آي نو",
+      "pos": "phr",
+      "emoji": "💡"
+    },
+    {
+      "id": "ex_ithink",
+      "en": "I think so",
+      "ar": "أظن ذلك",
+      "tr": "آي ثِنك سو",
+      "pos": "phr",
+      "emoji": "🤔"
+    },
+    {
+      "id": "ex_notsure",
+      "en": "I am not sure",
+      "ar": "لست متأكداً",
+      "tr": "آيم نوت شور",
+      "pos": "phr",
+      "emoji": "😕"
+    },
+    {
+      "id": "ex_iunderstand",
+      "en": "I understand",
+      "ar": "أنا أفهم",
+      "tr": "آي أندَرستاند",
+      "pos": "phr",
+      "emoji": "👍"
+    },
+    {
+      "id": "ex_dontunderstand2",
+      "en": "I don't understand",
+      "ar": "لا أفهم",
+      "tr": "آي دونت أندَرستاند",
+      "pos": "phr",
+      "emoji": "❓"
+    },
+    {
+      "id": "ex_repeatplease",
+      "en": "Can you repeat, please?",
+      "ar": "هل يمكنك التكرار من فضلك؟",
+      "tr": "كان يو رِپيت، پليز",
+      "pos": "phr",
+      "emoji": "🔁"
+    },
+    {
+      "id": "ex_speakslow",
+      "en": "Please speak slowly",
+      "ar": "من فضلك تكلم ببطء",
+      "tr": "پليز سپيك سلولي",
+      "pos": "phr",
+      "emoji": "🐢"
+    },
+    {
+      "id": "ex_howsay",
+      "en": "How do you say… in English?",
+      "ar": "كيف تقول… بالإنجليزية؟",
+      "tr": "هاو دو يو سيه … إن إنغلِش",
+      "pos": "phr",
+      "emoji": "🗣️",
+      "ex": {
+        "en": "How do you say 'مفتاح' in English?",
+        "ar": "كيف تقول «مفتاح» بالإنجليزية؟",
+        "tr": "هاو دو يو سيه مفتاح إن إنغلِش"
+      }
+    },
+    {
+      "id": "ex_whatmean",
+      "en": "What does it mean?",
+      "ar": "ماذا يعني ذلك؟",
+      "tr": "وات دَز إت مين",
+      "pos": "phr",
+      "emoji": "📖"
+    },
+    {
+      "id": "ex_writeit",
+      "en": "Can you write it, please?",
+      "ar": "هل يمكنك كتابتها من فضلك؟",
+      "tr": "كان يو رايت إت، پليز",
+      "pos": "phr",
+      "emoji": "✍️"
+    },
+    {
+      "id": "ex_justamoment",
+      "en": "Just a moment",
+      "ar": "لحظة واحدة",
+      "tr": "جَست إيه مومِنت",
+      "pos": "phr",
+      "emoji": "⏱️"
+    },
+    {
+      "id": "ex_imcoming",
+      "en": "I am coming",
+      "ar": "أنا قادم",
+      "tr": "آيم كَمِنغ",
+      "pos": "phr",
+      "emoji": "🏃"
+    },
+    {
+      "id": "ex_letsgo",
+      "en": "Let's go",
+      "ar": "هيا بنا",
+      "tr": "لِتس غو",
+      "pos": "phr",
+      "emoji": "➡️"
+    },
+    {
+      "id": "ex_hurryup2",
+      "en": "Hurry up!",
+      "ar": "أسرع!",
+      "tr": "هَري أب",
+      "pos": "phr",
+      "emoji": "⚡"
+    },
+    {
+      "id": "ex_waitmin",
+      "en": "Wait a minute",
+      "ar": "انتظر دقيقة",
+      "tr": "ويت إيه مِنِت",
+      "pos": "phr",
+      "emoji": "✋"
+    },
+    {
+      "id": "ex_iforgot",
+      "en": "I forgot",
+      "ar": "نسيت",
+      "tr": "آي فَرغوت",
+      "pos": "phr",
+      "emoji": "🤦"
+    },
+    {
+      "id": "ex_iremember",
+      "en": "I remember",
+      "ar": "أتذكر",
+      "tr": "آي رِمِمبَر",
+      "pos": "phr",
+      "emoji": "🧠"
+    },
+    {
+      "id": "ex_never2",
+      "en": "Never mind",
+      "ar": "لا يهم",
+      "tr": "نِڤَر مايند",
+      "pos": "phr",
+      "emoji": "🤷"
+    },
+    {
+      "id": "ex_itsok",
+      "en": "It's okay",
+      "ar": "لا بأس",
+      "tr": "إتس أوكيه",
+      "pos": "phr",
+      "emoji": "🙂"
+    },
+    {
+      "id": "ex_dontworry2",
+      "en": "Don't worry",
+      "ar": "لا تقلق",
+      "tr": "دونت وَري",
+      "pos": "phr",
+      "emoji": "🤗"
+    },
+    {
+      "id": "ex_becareful2",
+      "en": "Be careful",
+      "ar": "انتبه",
+      "tr": "بي كيرفُل",
+      "pos": "phr",
+      "emoji": "⚠️"
+    },
+    {
+      "id": "ex_goodluck",
+      "en": "Good luck",
+      "ar": "حظاً موفقاً",
+      "tr": "غُود لَك",
+      "pos": "phr",
+      "emoji": "🍀"
+    },
+    {
+      "id": "ex_wellwish",
+      "en": "Get well soon",
+      "ar": "سلامتك / شفاك الله",
+      "tr": "غِت وِل سون",
+      "pos": "phr",
+      "emoji": "🌷"
+    },
+    {
+      "id": "ex_congrats2",
+      "en": "Congratulations!",
+      "ar": "مبروك!",
+      "tr": "كَنغراتشُوليشِنز",
+      "pos": "phr",
+      "emoji": "🎉"
+    },
+    {
+      "id": "ex_thanksalot",
+      "en": "Thanks a lot",
+      "ar": "شكراً جزيلاً",
+      "tr": "ثانكس إيه لوت",
+      "pos": "phr",
+      "emoji": "🙏"
+    },
+    {
+      "id": "ex_youtoo",
+      "en": "You too",
+      "ar": "وأنت أيضاً",
+      "tr": "يو تو",
+      "pos": "phr",
+      "emoji": "🔄"
+    },
+    {
+      "id": "ex_mypleasure",
+      "en": "My pleasure",
+      "ar": "من دواعي سروري",
+      "tr": "ماي پليجَر",
+      "pos": "phr",
+      "emoji": "😊"
+    },
+    {
+      "id": "ex_excuseme2",
+      "en": "Excuse me",
+      "ar": "لو سمحت",
+      "tr": "إكسكيوز مي",
+      "pos": "phr",
+      "emoji": "🙋"
+    },
+    {
+      "id": "ex_imsorry",
+      "en": "I am so sorry",
+      "ar": "أنا آسف جداً",
+      "tr": "آيم سو سوري",
+      "pos": "phr",
+      "emoji": "😔"
+    },
+    {
+      "id": "ex_nothanks",
+      "en": "No, thank you",
+      "ar": "لا، شكراً",
+      "tr": "نو، ثانك يو",
+      "pos": "phr",
+      "emoji": "🙅"
+    },
+    {
+      "id": "ex_yesplease",
+      "en": "Yes, please",
+      "ar": "نعم، من فضلك",
+      "tr": "يِس، پليز",
+      "pos": "phr",
+      "emoji": "🙌"
+    },
+    {
+      "id": "ex_canhelp",
+      "en": "Can I help you?",
+      "ar": "هل أستطيع مساعدتك؟",
+      "tr": "كان آي هِلپ يو",
+      "pos": "phr",
+      "emoji": "🤝"
+    },
+    {
+      "id": "ex_needhelp",
+      "en": "I need help",
+      "ar": "أحتاج مساعدة",
+      "tr": "آي نيد هِلپ",
+      "pos": "phr",
+      "emoji": "🆘"
+    },
+    {
+      "id": "ex_whereis",
+      "en": "Where is…?",
+      "ar": "أين…؟",
+      "tr": "وير إز",
+      "pos": "phr",
+      "emoji": "📍"
+    },
+    {
+      "id": "ex_howmuchis",
+      "en": "How much is it?",
+      "ar": "كم ثمنه؟",
+      "tr": "هاو مَتش إز إت",
+      "pos": "phr",
+      "emoji": "💰"
+    },
+    {
+      "id": "ex_whattime2",
+      "en": "What time is it?",
+      "ar": "كم الساعة؟",
+      "tr": "وات تايم إز إت",
+      "pos": "phr",
+      "emoji": "🕐"
+    },
+    {
+      "id": "ex_ilike",
+      "en": "I like it",
+      "ar": "يعجبني",
+      "tr": "آي لايك إت",
+      "pos": "phr",
+      "emoji": "👍"
+    },
+    {
+      "id": "ex_idontlike",
+      "en": "I don't like it",
+      "ar": "لا يعجبني",
+      "tr": "آي دونت لايك إت",
+      "pos": "phr",
+      "emoji": "👎"
+    },
+    {
+      "id": "ex_imtired",
+      "en": "I am tired",
+      "ar": "أنا متعب",
+      "tr": "آيم تايَرد",
+      "pos": "phr",
+      "emoji": "😴"
+    },
+    {
+      "id": "ex_imhungry",
+      "en": "I am hungry",
+      "ar": "أنا جائع",
+      "tr": "آيم هَنغري",
+      "pos": "phr",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "ex_seeyou2",
+      "en": "See you later",
+      "ar": "أراك لاحقاً",
+      "tr": "سي يو ليتَر",
+      "pos": "phr",
+      "emoji": "👋"
+    }
   ],
   "sentences": [
-    { "id": "ex_s1", "en": "Sorry, I don't understand. Can you repeat?", "ar": "آسف، لا أفهم. هل يمكنك التكرار؟", "tr": "سوري، آي دونت أندَرستاند. كان يو رِپيت" },
-    { "id": "ex_s2", "en": "Please speak slowly, I am learning.", "ar": "من فضلك تكلم ببطء، أنا أتعلم.", "tr": "پليز سپيك سلولي، آيم لِرنِنغ" },
-    { "id": "ex_s3", "en": "How do you say this in English?", "ar": "كيف تقول هذا بالإنجليزية؟", "tr": "هاو دو يو سيه ذِس إن إنغلِش" },
-    { "id": "ex_s4", "en": "Just a moment, please.", "ar": "لحظة من فضلك.", "tr": "جَست إيه مومِنت، پليز" },
-    { "id": "ex_s5", "en": "Don't worry, everything is fine.", "ar": "لا تقلق، كل شيء بخير.", "tr": "دونت وَري، إڤريثِنغ إز فاين" },
-    { "id": "ex_s6", "en": "Thanks a lot for your help.", "ar": "شكراً جزيلاً على مساعدتك.", "tr": "ثانكس إيه لوت فور يور هِلپ" },
-    { "id": "ex_s7", "en": "Good luck with your exam!", "ar": "حظاً موفقاً في امتحانك!", "tr": "غُود لَك وِذ يور إغزام" },
-    { "id": "ex_s8", "en": "Can I help you with something?", "ar": "هل أستطيع مساعدتك في شيء؟", "tr": "كان آي هِلپ يو وِذ سَمثِنغ" },
-    { "id": "ex_s9", "en": "I am not sure, but I think yes.", "ar": "لست متأكداً، لكن أظن نعم.", "tr": "آيم نوت شور، بَت آي ثِنك يِس" },
-    { "id": "ex_s10", "en": "Never mind, it is not important.", "ar": "لا يهم، ليس مهماً.", "tr": "نِڤَر مايند، إت إز نوت إمپورتَنت" },
-    { "id": "ex_s11", "en": "Excuse me, where is the station?", "ar": "لو سمحت، أين المحطة؟", "tr": "إكسكيوز مي، وير إز ذَ ستيشِن" },
-    { "id": "ex_s12", "en": "Hurry up, we are late!", "ar": "أسرع، نحن متأخرون!", "tr": "هَري أب، وي آر ليت" },
-    { "id": "ex_s13", "en": "I forgot my keys at home.", "ar": "نسيت مفاتيحي في البيت.", "tr": "آي فَرغوت ماي كيز آت هوم" },
-    { "id": "ex_s14", "en": "Get well soon, my friend.", "ar": "سلامتك يا صديقي.", "tr": "غِت وِل سون، ماي فرِند" },
-    { "id": "ex_s15", "en": "Yes, please. That would be great.", "ar": "نعم من فضلك. سيكون ذلك رائعاً.", "tr": "يِس، پليز. ذات وود بي غريت" },
-    { "id": "ex_s16", "en": "No, thank you. I am fine.", "ar": "لا، شكراً. أنا بخير.", "tr": "نو، ثانك يو. آيم فاين" }
+    {
+      "id": "ex_s1",
+      "en": "Sorry, I don't understand. Can you repeat?",
+      "ar": "آسف، لا أفهم. هل يمكنك التكرار؟",
+      "tr": "سوري، آي دونت أندَرستاند. كان يو رِپيت"
+    },
+    {
+      "id": "ex_s2",
+      "en": "Please speak slowly, I am learning.",
+      "ar": "من فضلك تكلم ببطء، أنا أتعلم.",
+      "tr": "پليز سپيك سلولي، آيم لِرنِنغ"
+    },
+    {
+      "id": "ex_s3",
+      "en": "How do you say this in English?",
+      "ar": "كيف تقول هذا بالإنجليزية؟",
+      "tr": "هاو دو يو سيه ذِس إن إنغلِش"
+    },
+    {
+      "id": "ex_s4",
+      "en": "Just a moment, please.",
+      "ar": "لحظة من فضلك.",
+      "tr": "جَست إيه مومِنت، پليز"
+    },
+    {
+      "id": "ex_s5",
+      "en": "Don't worry, everything is fine.",
+      "ar": "لا تقلق، كل شيء بخير.",
+      "tr": "دونت وَري، إڤريثِنغ إز فاين"
+    },
+    {
+      "id": "ex_s6",
+      "en": "Thanks a lot for your help.",
+      "ar": "شكراً جزيلاً على مساعدتك.",
+      "tr": "ثانكس إيه لوت فور يور هِلپ"
+    },
+    {
+      "id": "ex_s7",
+      "en": "Good luck with your exam!",
+      "ar": "حظاً موفقاً في امتحانك!",
+      "tr": "غُود لَك وِذ يور إغزام"
+    },
+    {
+      "id": "ex_s8",
+      "en": "Can I help you with something?",
+      "ar": "هل أستطيع مساعدتك في شيء؟",
+      "tr": "كان آي هِلپ يو وِذ سَمثِنغ"
+    },
+    {
+      "id": "ex_s9",
+      "en": "I am not sure, but I think yes.",
+      "ar": "لست متأكداً، لكن أظن نعم.",
+      "tr": "آيم نوت شور، بَت آي ثِنك يِس"
+    },
+    {
+      "id": "ex_s10",
+      "en": "Never mind, it is not important.",
+      "ar": "لا يهم، ليس مهماً.",
+      "tr": "نِڤَر مايند، إت إز نوت إمپورتَنت"
+    },
+    {
+      "id": "ex_s11",
+      "en": "Excuse me, where is the station?",
+      "ar": "لو سمحت، أين المحطة؟",
+      "tr": "إكسكيوز مي، وير إز ذَ ستيشِن"
+    },
+    {
+      "id": "ex_s12",
+      "en": "Hurry up, we are late!",
+      "ar": "أسرع، نحن متأخرون!",
+      "tr": "هَري أب، وي آر ليت"
+    },
+    {
+      "id": "ex_s13",
+      "en": "I forgot my keys at home.",
+      "ar": "نسيت مفاتيحي في البيت.",
+      "tr": "آي فَرغوت ماي كيز آت هوم"
+    },
+    {
+      "id": "ex_s14",
+      "en": "Get well soon, my friend.",
+      "ar": "سلامتك يا صديقي.",
+      "tr": "غِت وِل سون، ماي فرِند"
+    },
+    {
+      "id": "ex_s15",
+      "en": "Yes, please. That would be great.",
+      "ar": "نعم من فضلك. سيكون ذلك رائعاً.",
+      "tr": "يِس، پليز. ذات وود بي غريت"
+    },
+    {
+      "id": "ex_s16",
+      "en": "No, thank you. I am fine.",
+      "ar": "لا، شكراً. أنا بخير.",
+      "tr": "نو، ثانك يو. آيم فاين"
+    },
+    {
+      "id": "ex_s17",
+      "en": "What do you mean exactly?",
+      "ar": "ماذا تقصد بالضبط؟",
+      "tr": "وات دو يو مين إغزاكتلي"
+    },
+    {
+      "id": "ex_s18",
+      "en": "Let me think about it.",
+      "ar": "دعني أفكر في الأمر.",
+      "tr": "لِت مي ثِنك أباوت إت"
+    },
+    {
+      "id": "ex_s19",
+      "en": "I am on my way.",
+      "ar": "أنا في الطريق.",
+      "tr": "آيم أون ماي ويه"
+    },
+    {
+      "id": "ex_s20",
+      "en": "It doesn't matter.",
+      "ar": "لا يهم.",
+      "tr": "إت دَزنت ماتَر"
+    },
+    {
+      "id": "ex_s21",
+      "en": "I am not feeling well today.",
+      "ar": "لا أشعر أنني بخير اليوم.",
+      "tr": "آيم نوت فيلِنغ وِل تُوديه"
+    },
+    {
+      "id": "ex_s22",
+      "en": "That is very kind of you.",
+      "ar": "هذا لطف كبير منك.",
+      "tr": "ذات إز ڤيري كايند أوڤ يو"
+    },
+    {
+      "id": "ex_s23",
+      "en": "No problem at all.",
+      "ar": "لا مشكلة إطلاقاً.",
+      "tr": "نو پروبلِم آت أول"
+    },
+    {
+      "id": "ex_s24",
+      "en": "Could you help me, please?",
+      "ar": "هل يمكنك مساعدتي من فضلك؟",
+      "tr": "كود يو هِلپ مي، پليز"
+    },
+    {
+      "id": "ex_s25",
+      "en": "I am learning, be patient with me.",
+      "ar": "أنا أتعلم، كن صبوراً معي.",
+      "tr": "آيم لِرنِنغ، بي پيشِنت وِذ مي"
+    },
+    {
+      "id": "ex_s26",
+      "en": "See you next time.",
+      "ar": "أراك المرة القادمة.",
+      "tr": "سي يو نِكست تايم"
+    }
   ]
 }

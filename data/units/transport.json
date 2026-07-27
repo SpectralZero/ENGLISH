@@ -1,47 +1,360 @@
 {
   "id": "transport",
-  "title": { "ar": "المواصلات", "en": "Transport" },
+  "title": {
+    "ar": "المواصلات",
+    "en": "Transport"
+  },
   "icon": "🚗",
   "level": 3,
   "color": "mint",
   "words": [
-    { "id": "tr_car", "en": "car", "ar": "سيارة", "tr": "كار", "pos": "n", "emoji": "🚗", "ex": { "en": "My car is old.", "ar": "سيارتي قديمة.", "tr": "ماي كار إز أولد" } },
-    { "id": "tr_bus", "en": "bus", "ar": "حافلة", "tr": "بَس", "pos": "n", "emoji": "🚌", "ex": { "en": "I take the bus to work.", "ar": "آخذ الحافلة إلى العمل.", "tr": "آي تيك ذَ بَس تو وِرك" } },
-    { "id": "tr_taxi", "en": "taxi", "ar": "سيارة أجرة", "tr": "تاكسي", "pos": "n", "emoji": "🚕" },
-    { "id": "tr_train", "en": "train", "ar": "قطار", "tr": "ترين", "pos": "n", "emoji": "🚆" },
-    { "id": "tr_plane", "en": "plane", "ar": "طائرة", "tr": "پلين", "pos": "n", "emoji": "✈️" },
-    { "id": "tr_ship", "en": "ship", "ar": "سفينة", "tr": "شِپ", "pos": "n", "emoji": "🚢" },
-    { "id": "tr_boat", "en": "boat", "ar": "قارب", "tr": "بوت", "pos": "n", "emoji": "⛵" },
-    { "id": "tr_bike", "en": "bicycle", "ar": "دراجة", "tr": "بايسِكِل", "pos": "n", "emoji": "🚲" },
-    { "id": "tr_motorbike", "en": "motorbike", "ar": "دراجة نارية", "tr": "موتَربايك", "pos": "n", "emoji": "🏍️" },
-    { "id": "tr_truck", "en": "truck", "ar": "شاحنة", "tr": "ترَك", "pos": "n", "emoji": "🚚" },
-    { "id": "tr_metro", "en": "metro", "ar": "مترو", "tr": "مِترو", "pos": "n", "emoji": "🚇" },
-    { "id": "tr_ticket", "en": "ticket", "ar": "تذكرة", "tr": "تِكِت", "pos": "n", "emoji": "🎫", "ex": { "en": "One ticket, please.", "ar": "تذكرة واحدة من فضلك.", "tr": "وان تِكِت، پليز" } },
-    { "id": "tr_drive", "en": "drive", "ar": "يقود", "tr": "درايڤ", "pos": "v", "emoji": "🚙" },
-    { "id": "tr_ride", "en": "ride", "ar": "يركب", "tr": "رايد", "pos": "v", "emoji": "🚴" },
-    { "id": "tr_go", "en": "go", "ar": "يذهب", "tr": "غو", "pos": "v", "emoji": "➡️", "ex": { "en": "I go to work by bus.", "ar": "أذهب إلى العمل بالحافلة.", "tr": "آي غو تو وِرك باي بَس" } },
-    { "id": "tr_come", "en": "come", "ar": "يأتي", "tr": "كَم", "pos": "v", "emoji": "⬅️" },
-    { "id": "tr_stop", "en": "stop", "ar": "يتوقف / موقف", "tr": "ستوپ", "pos": "v", "emoji": "🛑", "ex": { "en": "Stop here, please.", "ar": "قف هنا من فضلك.", "tr": "ستوپ هير، پليز" } },
-    { "id": "tr_wait", "en": "wait", "ar": "ينتظر", "tr": "ويت", "pos": "v", "emoji": "⏳" },
-    { "id": "tr_arrive", "en": "arrive", "ar": "يصل", "tr": "أرايڤ", "pos": "v", "emoji": "🏁" },
-    { "id": "tr_leave", "en": "leave", "ar": "يغادر", "tr": "ليڤ", "pos": "v", "emoji": "🚪" },
-    { "id": "tr_fast", "en": "fast", "ar": "سريع", "tr": "فاست", "pos": "adj", "emoji": "⚡" },
-    { "id": "tr_slow", "en": "slow", "ar": "بطيء", "tr": "سلو", "pos": "adj", "emoji": "🐢" },
-    { "id": "tr_traffic", "en": "traffic", "ar": "زحمة سير", "tr": "ترافِك", "pos": "n", "emoji": "🚦", "ex": { "en": "There is a lot of traffic today.", "ar": "يوجد زحام كثير اليوم.", "tr": "ذير إز إيه لوت أوڤ ترافِك تُوديه" } },
-    { "id": "tr_gas", "en": "petrol / gas", "ar": "بنزين", "tr": "پِترول", "pos": "n", "emoji": "⛽" },
-    { "id": "tr_driver2", "en": "driver", "ar": "سائق", "tr": "درايڤَر", "pos": "n", "emoji": "🧑‍✈️" },
-    { "id": "tr_seat", "en": "seat", "ar": "مقعد", "tr": "سيت", "pos": "n", "emoji": "💺" }
+    {
+      "id": "tr_car",
+      "en": "car",
+      "ar": "سيارة",
+      "tr": "كار",
+      "pos": "n",
+      "emoji": "🚗",
+      "ex": {
+        "en": "My car is old.",
+        "ar": "سيارتي قديمة.",
+        "tr": "ماي كار إز أولد"
+      }
+    },
+    {
+      "id": "tr_bus",
+      "en": "bus",
+      "ar": "حافلة",
+      "tr": "بَس",
+      "pos": "n",
+      "emoji": "🚌",
+      "ex": {
+        "en": "I take the bus to work.",
+        "ar": "آخذ الحافلة إلى العمل.",
+        "tr": "آي تيك ذَ بَس تو وِرك"
+      }
+    },
+    {
+      "id": "tr_taxi",
+      "en": "taxi",
+      "ar": "سيارة أجرة",
+      "tr": "تاكسي",
+      "pos": "n",
+      "emoji": "🚕"
+    },
+    {
+      "id": "tr_train",
+      "en": "train",
+      "ar": "قطار",
+      "tr": "ترين",
+      "pos": "n",
+      "emoji": "🚆"
+    },
+    {
+      "id": "tr_plane",
+      "en": "plane",
+      "ar": "طائرة",
+      "tr": "پلين",
+      "pos": "n",
+      "emoji": "✈️"
+    },
+    {
+      "id": "tr_ship",
+      "en": "ship",
+      "ar": "سفينة",
+      "tr": "شِپ",
+      "pos": "n",
+      "emoji": "🚢"
+    },
+    {
+      "id": "tr_boat",
+      "en": "boat",
+      "ar": "قارب",
+      "tr": "بوت",
+      "pos": "n",
+      "emoji": "⛵"
+    },
+    {
+      "id": "tr_bike",
+      "en": "bicycle",
+      "ar": "دراجة",
+      "tr": "بايسِكِل",
+      "pos": "n",
+      "emoji": "🚲"
+    },
+    {
+      "id": "tr_motorbike",
+      "en": "motorbike",
+      "ar": "دراجة نارية",
+      "tr": "موتَربايك",
+      "pos": "n",
+      "emoji": "🏍️"
+    },
+    {
+      "id": "tr_truck",
+      "en": "truck",
+      "ar": "شاحنة",
+      "tr": "ترَك",
+      "pos": "n",
+      "emoji": "🚚"
+    },
+    {
+      "id": "tr_metro",
+      "en": "metro",
+      "ar": "مترو",
+      "tr": "مِترو",
+      "pos": "n",
+      "emoji": "🚇"
+    },
+    {
+      "id": "tr_ticket",
+      "en": "ticket",
+      "ar": "تذكرة",
+      "tr": "تِكِت",
+      "pos": "n",
+      "emoji": "🎫",
+      "ex": {
+        "en": "One ticket, please.",
+        "ar": "تذكرة واحدة من فضلك.",
+        "tr": "وان تِكِت، پليز"
+      }
+    },
+    {
+      "id": "tr_drive",
+      "en": "drive",
+      "ar": "يقود",
+      "tr": "درايڤ",
+      "pos": "v",
+      "emoji": "🚙"
+    },
+    {
+      "id": "tr_ride",
+      "en": "ride",
+      "ar": "يركب",
+      "tr": "رايد",
+      "pos": "v",
+      "emoji": "🚴"
+    },
+    {
+      "id": "tr_go",
+      "en": "go",
+      "ar": "يذهب",
+      "tr": "غو",
+      "pos": "v",
+      "emoji": "➡️",
+      "ex": {
+        "en": "I go to work by bus.",
+        "ar": "أذهب إلى العمل بالحافلة.",
+        "tr": "آي غو تو وِرك باي بَس"
+      }
+    },
+    {
+      "id": "tr_come",
+      "en": "come",
+      "ar": "يأتي",
+      "tr": "كَم",
+      "pos": "v",
+      "emoji": "⬅️"
+    },
+    {
+      "id": "tr_stop",
+      "en": "stop",
+      "ar": "يتوقف / موقف",
+      "tr": "ستوپ",
+      "pos": "v",
+      "emoji": "🛑",
+      "ex": {
+        "en": "Stop here, please.",
+        "ar": "قف هنا من فضلك.",
+        "tr": "ستوپ هير، پليز"
+      }
+    },
+    {
+      "id": "tr_wait",
+      "en": "wait",
+      "ar": "ينتظر",
+      "tr": "ويت",
+      "pos": "v",
+      "emoji": "⏳"
+    },
+    {
+      "id": "tr_arrive",
+      "en": "arrive",
+      "ar": "يصل",
+      "tr": "أرايڤ",
+      "pos": "v",
+      "emoji": "🏁"
+    },
+    {
+      "id": "tr_leave",
+      "en": "leave",
+      "ar": "يغادر",
+      "tr": "ليڤ",
+      "pos": "v",
+      "emoji": "🚪"
+    },
+    {
+      "id": "tr_fast",
+      "en": "fast",
+      "ar": "سريع",
+      "tr": "فاست",
+      "pos": "adj",
+      "emoji": "⚡"
+    },
+    {
+      "id": "tr_slow",
+      "en": "slow",
+      "ar": "بطيء",
+      "tr": "سلو",
+      "pos": "adj",
+      "emoji": "🐢"
+    },
+    {
+      "id": "tr_traffic",
+      "en": "traffic",
+      "ar": "زحمة سير",
+      "tr": "ترافِك",
+      "pos": "n",
+      "emoji": "🚦",
+      "ex": {
+        "en": "There is a lot of traffic today.",
+        "ar": "يوجد زحام كثير اليوم.",
+        "tr": "ذير إز إيه لوت أوڤ ترافِك تُوديه"
+      }
+    },
+    {
+      "id": "tr_gas",
+      "en": "petrol / gas",
+      "ar": "بنزين",
+      "tr": "پِترول",
+      "pos": "n",
+      "emoji": "⛽"
+    },
+    {
+      "id": "tr_driver2",
+      "en": "driver",
+      "ar": "سائق",
+      "tr": "درايڤَر",
+      "pos": "n",
+      "emoji": "🧑‍✈️"
+    },
+    {
+      "id": "tr_seat",
+      "en": "seat",
+      "ar": "مقعد",
+      "tr": "سيت",
+      "pos": "n",
+      "emoji": "💺"
+    }
   ],
   "sentences": [
-    { "id": "tr_s1", "en": "I go to work by bus.", "ar": "أذهب إلى العمل بالحافلة.", "tr": "آي غو تو وِرك باي بَس" },
-    { "id": "tr_s2", "en": "How much is the ticket?", "ar": "بكم التذكرة؟", "tr": "هاو مَتش إز ذَ تِكِت" },
-    { "id": "tr_s3", "en": "Stop here, please.", "ar": "توقف هنا من فضلك.", "tr": "ستوپ هير، پليز" },
-    { "id": "tr_s4", "en": "The train is very fast.", "ar": "القطار سريع جداً.", "tr": "ذَ ترين إز ڤيري فاست" },
-    { "id": "tr_s5", "en": "I am waiting for the bus.", "ar": "أنا أنتظر الحافلة.", "tr": "آيم ويتِنغ فور ذَ بَس" },
-    { "id": "tr_s6", "en": "Take me to the airport, please.", "ar": "خذني إلى المطار من فضلك.", "tr": "تيك مي تو ذي إيرپورت، پليز" },
-    { "id": "tr_s7", "en": "My car is in the street.", "ar": "سيارتي في الشارع.", "tr": "ماي كار إز إن ذَ ستريت" },
-    { "id": "tr_s8", "en": "What time does the bus arrive?", "ar": "متى تصل الحافلة؟", "tr": "وات تايم دَز ذَ بَس أرايڤ" },
-    { "id": "tr_s9", "en": "I don't drive a car.", "ar": "أنا لا أقود سيارة.", "tr": "آي دونت درايڤ إيه كار" },
-    { "id": "tr_s10", "en": "The traffic is very slow today.", "ar": "السير بطيء جداً اليوم.", "tr": "ذَ ترافِك إز ڤيري سلو تُوديه" }
+    {
+      "id": "tr_s1",
+      "en": "I go to work by bus.",
+      "ar": "أذهب إلى العمل بالحافلة.",
+      "tr": "آي غو تو وِرك باي بَس"
+    },
+    {
+      "id": "tr_s2",
+      "en": "How much is the ticket?",
+      "ar": "بكم التذكرة؟",
+      "tr": "هاو مَتش إز ذَ تِكِت"
+    },
+    {
+      "id": "tr_s3",
+      "en": "Stop here, please.",
+      "ar": "توقف هنا من فضلك.",
+      "tr": "ستوپ هير، پليز"
+    },
+    {
+      "id": "tr_s4",
+      "en": "The train is very fast.",
+      "ar": "القطار سريع جداً.",
+      "tr": "ذَ ترين إز ڤيري فاست"
+    },
+    {
+      "id": "tr_s5",
+      "en": "I am waiting for the bus.",
+      "ar": "أنا أنتظر الحافلة.",
+      "tr": "آيم ويتِنغ فور ذَ بَس"
+    },
+    {
+      "id": "tr_s6",
+      "en": "Take me to the airport, please.",
+      "ar": "خذني إلى المطار من فضلك.",
+      "tr": "تيك مي تو ذي إيرپورت، پليز"
+    },
+    {
+      "id": "tr_s7",
+      "en": "My car is in the street.",
+      "ar": "سيارتي في الشارع.",
+      "tr": "ماي كار إز إن ذَ ستريت"
+    },
+    {
+      "id": "tr_s8",
+      "en": "What time does the bus arrive?",
+      "ar": "متى تصل الحافلة؟",
+      "tr": "وات تايم دَز ذَ بَس أرايڤ"
+    },
+    {
+      "id": "tr_s9",
+      "en": "I don't drive a car.",
+      "ar": "أنا لا أقود سيارة.",
+      "tr": "آي دونت درايڤ إيه كار"
+    },
+    {
+      "id": "tr_s10",
+      "en": "The traffic is very slow today.",
+      "ar": "السير بطيء جداً اليوم.",
+      "tr": "ذَ ترافِك إز ڤيري سلو تُوديه"
+    },
+    {
+      "id": "tr_s11",
+      "en": "Which bus goes to the market?",
+      "ar": "أي حافلة تذهب إلى السوق؟",
+      "tr": "وِتش بَس غوز تو ذَ ماركِت"
+    },
+    {
+      "id": "tr_s12",
+      "en": "How much is a ticket to the airport?",
+      "ar": "بكم تذكرة إلى المطار؟",
+      "tr": "هاو مَتش إز إيه تِكِت تو ذي إيرپورت"
+    },
+    {
+      "id": "tr_s13",
+      "en": "The next train is at six.",
+      "ar": "القطار القادم في السادسة.",
+      "tr": "ذَ نِكست ترين إز آت سِكس"
+    },
+    {
+      "id": "tr_s14",
+      "en": "I missed the bus.",
+      "ar": "فاتتني الحافلة.",
+      "tr": "آي مِست ذَ بَس"
+    },
+    {
+      "id": "tr_s15",
+      "en": "Please stop at the corner.",
+      "ar": "من فضلك قف عند الزاوية.",
+      "tr": "پليز ستوپ آت ذَ كورنَر"
+    },
+    {
+      "id": "tr_s16",
+      "en": "Is this seat free?",
+      "ar": "هل هذا المقعد فارغ؟",
+      "tr": "إز ذِس سيت فري"
+    },
+    {
+      "id": "tr_s17",
+      "en": "I go to work on foot.",
+      "ar": "أذهب إلى العمل مشياً.",
+      "tr": "آي غو تو وِرك أون فوت"
+    },
+    {
+      "id": "tr_s18",
+      "en": "The road is closed today.",
+      "ar": "الطريق مغلق اليوم.",
+      "tr": "ذَ رود إز كلوزد تُوديه"
+    }
   ]
 }

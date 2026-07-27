@@ -1,49 +1,408 @@
 {
   "id": "family",
-  "title": { "ar": "العائلة", "en": "Family" },
+  "title": {
+    "ar": "العائلة",
+    "en": "Family"
+  },
   "icon": "👨‍👩‍👧",
   "level": 1,
   "color": "mint",
   "words": [
-    { "id": "fa_family", "en": "family", "ar": "عائلة", "tr": "فامِلي", "pos": "n", "emoji": "👨‍👩‍👧", "ex": { "en": "I love my family.", "ar": "أنا أحب عائلتي.", "tr": "آي لَڤ ماي فامِلي" } },
-    { "id": "fa_father", "en": "father", "ar": "أب", "tr": "فاذَر", "pos": "n", "emoji": "👨", "ex": { "en": "My father works in a bank.", "ar": "أبي يعمل في بنك.", "tr": "ماي فاذَر وِركس إن إيه بانك" } },
-    { "id": "fa_dad", "en": "dad", "ar": "بابا", "tr": "داد", "pos": "n", "emoji": "👨" },
-    { "id": "fa_mother", "en": "mother", "ar": "أم", "tr": "مَذَر", "pos": "n", "emoji": "👩", "ex": { "en": "My mother cooks very well.", "ar": "أمي تطبخ جيداً جداً.", "tr": "ماي مَذَر كوكس ڤيري وِل" } },
-    { "id": "fa_mom", "en": "mom", "ar": "ماما", "tr": "موم", "pos": "n", "emoji": "👩" },
-    { "id": "fa_parents", "en": "parents", "ar": "الوالدان", "tr": "پيرِنتس", "pos": "n", "emoji": "👫" },
-    { "id": "fa_son", "en": "son", "ar": "ابن", "tr": "سَن", "pos": "n", "emoji": "👦", "ex": { "en": "He has one son.", "ar": "لديه ابن واحد.", "tr": "هي هاز وان سَن" } },
-    { "id": "fa_daughter", "en": "daughter", "ar": "ابنة", "tr": "دوتَر", "pos": "n", "emoji": "👧" },
-    { "id": "fa_brother", "en": "brother", "ar": "أخ", "tr": "براذَر", "pos": "n", "emoji": "👦", "ex": { "en": "My brother is a student.", "ar": "أخي طالب.", "tr": "ماي براذَر إز إيه ستيودِنت" } },
-    { "id": "fa_sister", "en": "sister", "ar": "أخت", "tr": "سِستَر", "pos": "n", "emoji": "👧", "ex": { "en": "My sister is a nurse.", "ar": "أختي ممرضة.", "tr": "ماي سِستَر إز إيه نِرس" } },
-    { "id": "fa_grandfather", "en": "grandfather", "ar": "جد", "tr": "غراندفاذَر", "pos": "n", "emoji": "👴" },
-    { "id": "fa_grandmother", "en": "grandmother", "ar": "جدة", "tr": "غراندمَذَر", "pos": "n", "emoji": "👵" },
-    { "id": "fa_uncle", "en": "uncle", "ar": "عم / خال", "tr": "أنكِل", "pos": "n", "emoji": "🧔" },
-    { "id": "fa_aunt", "en": "aunt", "ar": "عمة / خالة", "tr": "آنت", "pos": "n", "emoji": "👩" },
-    { "id": "fa_cousin", "en": "cousin", "ar": "ابن العم/الخال", "tr": "كازِن", "pos": "n", "emoji": "🧑" },
-    { "id": "fa_husband", "en": "husband", "ar": "زوج", "tr": "هَزبَند", "pos": "n", "emoji": "🤵" },
-    { "id": "fa_wife", "en": "wife", "ar": "زوجة", "tr": "وايف", "pos": "n", "emoji": "👰" },
-    { "id": "fa_baby2", "en": "baby", "ar": "طفل رضيع", "tr": "بيبي", "pos": "n", "emoji": "👶" },
-    { "id": "fa_home", "en": "home", "ar": "بيت (المنزل)", "tr": "هوم", "pos": "n", "emoji": "🏠", "ex": { "en": "I am at home now.", "ar": "أنا في البيت الآن.", "tr": "آي آم آت هوم ناو" } },
-    { "id": "fa_love", "en": "love", "ar": "حب / يحب", "tr": "لَڤ", "pos": "v", "emoji": "❤️", "ex": { "en": "I love my mother.", "ar": "أنا أحب أمي.", "tr": "آي لَڤ ماي مَذَر" } },
-    { "id": "fa_together", "en": "together", "ar": "معاً", "tr": "تُوغيذَر", "pos": "adv", "emoji": "🤝" },
-    { "id": "fa_married", "en": "married", "ar": "متزوج", "tr": "ماريد", "pos": "adj", "emoji": "💍", "ex": { "en": "My brother is married.", "ar": "أخي متزوج.", "tr": "ماي براذَر إز ماريد" } },
-    { "id": "fa_single", "en": "single", "ar": "أعزب", "tr": "سِنغِل", "pos": "adj", "emoji": "🙂" },
-    { "id": "fa_old", "en": "old", "ar": "كبير في السن", "tr": "أولد", "pos": "adj", "emoji": "👴" },
-    { "id": "fa_young", "en": "young", "ar": "صغير في السن", "tr": "يَنغ", "pos": "adj", "emoji": "🧒" },
-    { "id": "fa_big", "en": "big family", "ar": "عائلة كبيرة", "tr": "بِغ فامِلي", "pos": "phr", "emoji": "👨‍👩‍👧‍👦" },
-    { "id": "fa_relative", "en": "relative", "ar": "قريب (من الأقارب)", "tr": "رِلَتِڤ", "pos": "n", "emoji": "👪" },
-    { "id": "fa_visit", "en": "visit", "ar": "يزور", "tr": "ڤِزِت", "pos": "v", "emoji": "🚪", "ex": { "en": "We visit my grandmother on Friday.", "ar": "نزور جدتي يوم الجمعة.", "tr": "وي ڤِزِت ماي غراندمَذَر أون فرايديه" } }
+    {
+      "id": "fa_family",
+      "en": "family",
+      "ar": "عائلة",
+      "tr": "فامِلي",
+      "pos": "n",
+      "emoji": "👨‍👩‍👧",
+      "ex": {
+        "en": "I love my family.",
+        "ar": "أنا أحب عائلتي.",
+        "tr": "آي لَڤ ماي فامِلي"
+      }
+    },
+    {
+      "id": "fa_father",
+      "en": "father",
+      "ar": "أب",
+      "tr": "فاذَر",
+      "pos": "n",
+      "emoji": "👨",
+      "ex": {
+        "en": "My father works in a bank.",
+        "ar": "أبي يعمل في بنك.",
+        "tr": "ماي فاذَر وِركس إن إيه بانك"
+      }
+    },
+    {
+      "id": "fa_dad",
+      "en": "dad",
+      "ar": "بابا",
+      "tr": "داد",
+      "pos": "n",
+      "emoji": "👨"
+    },
+    {
+      "id": "fa_mother",
+      "en": "mother",
+      "ar": "أم",
+      "tr": "مَذَر",
+      "pos": "n",
+      "emoji": "👩",
+      "ex": {
+        "en": "My mother cooks very well.",
+        "ar": "أمي تطبخ جيداً جداً.",
+        "tr": "ماي مَذَر كوكس ڤيري وِل"
+      }
+    },
+    {
+      "id": "fa_mom",
+      "en": "mom",
+      "ar": "ماما",
+      "tr": "موم",
+      "pos": "n",
+      "emoji": "👩"
+    },
+    {
+      "id": "fa_parents",
+      "en": "parents",
+      "ar": "الوالدان",
+      "tr": "پيرِنتس",
+      "pos": "n",
+      "emoji": "👫"
+    },
+    {
+      "id": "fa_son",
+      "en": "son",
+      "ar": "ابن",
+      "tr": "سَن",
+      "pos": "n",
+      "emoji": "👦",
+      "ex": {
+        "en": "He has one son.",
+        "ar": "لديه ابن واحد.",
+        "tr": "هي هاز وان سَن"
+      }
+    },
+    {
+      "id": "fa_daughter",
+      "en": "daughter",
+      "ar": "ابنة",
+      "tr": "دوتَر",
+      "pos": "n",
+      "emoji": "👧"
+    },
+    {
+      "id": "fa_brother",
+      "en": "brother",
+      "ar": "أخ",
+      "tr": "براذَر",
+      "pos": "n",
+      "emoji": "👦",
+      "ex": {
+        "en": "My brother is a student.",
+        "ar": "أخي طالب.",
+        "tr": "ماي براذَر إز إيه ستيودِنت"
+      }
+    },
+    {
+      "id": "fa_sister",
+      "en": "sister",
+      "ar": "أخت",
+      "tr": "سِستَر",
+      "pos": "n",
+      "emoji": "👧",
+      "ex": {
+        "en": "My sister is a nurse.",
+        "ar": "أختي ممرضة.",
+        "tr": "ماي سِستَر إز إيه نِرس"
+      }
+    },
+    {
+      "id": "fa_grandfather",
+      "en": "grandfather",
+      "ar": "جد",
+      "tr": "غراندفاذَر",
+      "pos": "n",
+      "emoji": "👴"
+    },
+    {
+      "id": "fa_grandmother",
+      "en": "grandmother",
+      "ar": "جدة",
+      "tr": "غراندمَذَر",
+      "pos": "n",
+      "emoji": "👵"
+    },
+    {
+      "id": "fa_uncle",
+      "en": "uncle",
+      "ar": "عم / خال",
+      "tr": "أنكِل",
+      "pos": "n",
+      "emoji": "🧔"
+    },
+    {
+      "id": "fa_aunt",
+      "en": "aunt",
+      "ar": "عمة / خالة",
+      "tr": "آنت",
+      "pos": "n",
+      "emoji": "👩"
+    },
+    {
+      "id": "fa_cousin",
+      "en": "cousin",
+      "ar": "ابن العم/الخال",
+      "tr": "كازِن",
+      "pos": "n",
+      "emoji": "🧑"
+    },
+    {
+      "id": "fa_husband",
+      "en": "husband",
+      "ar": "زوج",
+      "tr": "هَزبَند",
+      "pos": "n",
+      "emoji": "🤵"
+    },
+    {
+      "id": "fa_wife",
+      "en": "wife",
+      "ar": "زوجة",
+      "tr": "وايف",
+      "pos": "n",
+      "emoji": "👰"
+    },
+    {
+      "id": "fa_baby2",
+      "en": "baby",
+      "ar": "طفل رضيع",
+      "tr": "بيبي",
+      "pos": "n",
+      "emoji": "👶"
+    },
+    {
+      "id": "fa_home",
+      "en": "home",
+      "ar": "بيت (المنزل)",
+      "tr": "هوم",
+      "pos": "n",
+      "emoji": "🏠",
+      "ex": {
+        "en": "I am at home now.",
+        "ar": "أنا في البيت الآن.",
+        "tr": "آي آم آت هوم ناو"
+      }
+    },
+    {
+      "id": "fa_love",
+      "en": "love",
+      "ar": "حب / يحب",
+      "tr": "لَڤ",
+      "pos": "v",
+      "emoji": "❤️",
+      "ex": {
+        "en": "I love my mother.",
+        "ar": "أنا أحب أمي.",
+        "tr": "آي لَڤ ماي مَذَر"
+      }
+    },
+    {
+      "id": "fa_together",
+      "en": "together",
+      "ar": "معاً",
+      "tr": "تُوغيذَر",
+      "pos": "adv",
+      "emoji": "🤝"
+    },
+    {
+      "id": "fa_married",
+      "en": "married",
+      "ar": "متزوج",
+      "tr": "ماريد",
+      "pos": "adj",
+      "emoji": "💍",
+      "ex": {
+        "en": "My brother is married.",
+        "ar": "أخي متزوج.",
+        "tr": "ماي براذَر إز ماريد"
+      }
+    },
+    {
+      "id": "fa_single",
+      "en": "single",
+      "ar": "أعزب",
+      "tr": "سِنغِل",
+      "pos": "adj",
+      "emoji": "🙂"
+    },
+    {
+      "id": "fa_old",
+      "en": "old",
+      "ar": "كبير في السن",
+      "tr": "أولد",
+      "pos": "adj",
+      "emoji": "👴"
+    },
+    {
+      "id": "fa_young",
+      "en": "young",
+      "ar": "صغير في السن",
+      "tr": "يَنغ",
+      "pos": "adj",
+      "emoji": "🧒"
+    },
+    {
+      "id": "fa_big",
+      "en": "big family",
+      "ar": "عائلة كبيرة",
+      "tr": "بِغ فامِلي",
+      "pos": "phr",
+      "emoji": "👨‍👩‍👧‍👦"
+    },
+    {
+      "id": "fa_relative",
+      "en": "relative",
+      "ar": "قريب (من الأقارب)",
+      "tr": "رِلَتِڤ",
+      "pos": "n",
+      "emoji": "👪"
+    },
+    {
+      "id": "fa_visit",
+      "en": "visit",
+      "ar": "يزور",
+      "tr": "ڤِزِت",
+      "pos": "v",
+      "emoji": "🚪",
+      "ex": {
+        "en": "We visit my grandmother on Friday.",
+        "ar": "نزور جدتي يوم الجمعة.",
+        "tr": "وي ڤِزِت ماي غراندمَذَر أون فرايديه"
+      }
+    }
   ],
   "sentences": [
-    { "id": "fa_s1", "en": "I have a big family.", "ar": "لدي عائلة كبيرة.", "tr": "آي هاڤ إيه بِغ فامِلي" },
-    { "id": "fa_s2", "en": "My father is a driver.", "ar": "أبي سائق.", "tr": "ماي فاذَر إز إيه درايڤَر" },
-    { "id": "fa_s3", "en": "My mother is at home.", "ar": "أمي في البيت.", "tr": "ماي مَذَر إز آت هوم" },
-    { "id": "fa_s4", "en": "I have two brothers.", "ar": "لدي أخوان.", "tr": "آي هاڤ تو براذَرز" },
-    { "id": "fa_s5", "en": "My sister is ten years old.", "ar": "أختي عمرها عشر سنوات.", "tr": "ماي سِستَر إز تِن يِيرز أولد" },
-    { "id": "fa_s6", "en": "We live together.", "ar": "نحن نعيش معاً.", "tr": "وي لِڤ تُوغيذَر" },
-    { "id": "fa_s7", "en": "This is my wife.", "ar": "هذه زوجتي.", "tr": "ذِس إز ماي وايف" },
-    { "id": "fa_s8", "en": "Do you have children?", "ar": "هل لديك أطفال؟", "tr": "دو يو هاڤ تشِلدرِن" },
-    { "id": "fa_s9", "en": "My grandfather is old.", "ar": "جدي كبير في السن.", "tr": "ماي غراندفاذَر إز أولد" },
-    { "id": "fa_s10", "en": "I love my family very much.", "ar": "أحب عائلتي كثيراً.", "tr": "آي لَڤ ماي فامِلي ڤيري مَتش" }
+    {
+      "id": "fa_s1",
+      "en": "I have a big family.",
+      "ar": "لدي عائلة كبيرة.",
+      "tr": "آي هاڤ إيه بِغ فامِلي"
+    },
+    {
+      "id": "fa_s2",
+      "en": "My father is a driver.",
+      "ar": "أبي سائق.",
+      "tr": "ماي فاذَر إز إيه درايڤَر"
+    },
+    {
+      "id": "fa_s3",
+      "en": "My mother is at home.",
+      "ar": "أمي في البيت.",
+      "tr": "ماي مَذَر إز آت هوم"
+    },
+    {
+      "id": "fa_s4",
+      "en": "I have two brothers.",
+      "ar": "لدي أخوان.",
+      "tr": "آي هاڤ تو براذَرز"
+    },
+    {
+      "id": "fa_s5",
+      "en": "My sister is ten years old.",
+      "ar": "أختي عمرها عشر سنوات.",
+      "tr": "ماي سِستَر إز تِن يِيرز أولد"
+    },
+    {
+      "id": "fa_s6",
+      "en": "We live together.",
+      "ar": "نحن نعيش معاً.",
+      "tr": "وي لِڤ تُوغيذَر"
+    },
+    {
+      "id": "fa_s7",
+      "en": "This is my wife.",
+      "ar": "هذه زوجتي.",
+      "tr": "ذِس إز ماي وايف"
+    },
+    {
+      "id": "fa_s8",
+      "en": "Do you have children?",
+      "ar": "هل لديك أطفال؟",
+      "tr": "دو يو هاڤ تشِلدرِن"
+    },
+    {
+      "id": "fa_s9",
+      "en": "My grandfather is old.",
+      "ar": "جدي كبير في السن.",
+      "tr": "ماي غراندفاذَر إز أولد"
+    },
+    {
+      "id": "fa_s10",
+      "en": "I love my family very much.",
+      "ar": "أحب عائلتي كثيراً.",
+      "tr": "آي لَڤ ماي فامِلي ڤيري مَتش"
+    },
+    {
+      "id": "fa_s11",
+      "en": "My family lives in the same city.",
+      "ar": "عائلتي تسكن في نفس المدينة.",
+      "tr": "ماي فامِلي لِڤز إن ذَ سيم سِتي"
+    },
+    {
+      "id": "fa_s12",
+      "en": "My son goes to school.",
+      "ar": "ابني يذهب إلى المدرسة.",
+      "tr": "ماي سَن غوز تو سكوول"
+    },
+    {
+      "id": "fa_s13",
+      "en": "My daughter is very clever.",
+      "ar": "ابنتي ذكية جداً.",
+      "tr": "ماي دوتَر إز ڤيري كليڤَر"
+    },
+    {
+      "id": "fa_s14",
+      "en": "We visit our parents every week.",
+      "ar": "نزور والدينا كل أسبوع.",
+      "tr": "وي ڤِزِت أوَر پيرِنتس إڤري ويك"
+    },
+    {
+      "id": "fa_s15",
+      "en": "How many people are in your family?",
+      "ar": "كم فرداً في عائلتك؟",
+      "tr": "هاو مِني پيپل آر إن يور فامِلي"
+    },
+    {
+      "id": "fa_s16",
+      "en": "My uncle lives in another city.",
+      "ar": "عمي يسكن في مدينة أخرى.",
+      "tr": "ماي أنكِل لِڤز إن أناذَر سِتي"
+    },
+    {
+      "id": "fa_s17",
+      "en": "My grandmother cooks very well.",
+      "ar": "جدتي تطبخ بشكل ممتاز.",
+      "tr": "ماي غراندمَذَر كوكس ڤيري وِل"
+    },
+    {
+      "id": "fa_s18",
+      "en": "We eat dinner together every night.",
+      "ar": "نتناول العشاء معاً كل ليلة.",
+      "tr": "وي إيت دِنَر تُوغيذَر إڤري نايت"
+    },
+    {
+      "id": "fa_s19",
+      "en": "He is like a brother to me.",
+      "ar": "هو مثل أخ لي.",
+      "tr": "هي إز لايك إيه براذَر تو مي"
+    },
+    {
+      "id": "fa_s20",
+      "en": "Family is everything.",
+      "ar": "العائلة هي كل شيء.",
+      "tr": "فامِلي إز إڤريثِنغ"
+    }
   ]
 }

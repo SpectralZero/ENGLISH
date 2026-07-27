@@ -1,0 +1,238 @@
+{
+  "id": "newfriend",
+  "title": {
+    "ar": "التعرّف على صديق جديد",
+    "en": "Making a New Friend"
+  },
+  "icon": "🤝",
+  "level": 6,
+  "color": "mint",
+  "words": [
+    {
+      "id": "new_w1",
+      "en": "hobby",
+      "ar": "هواية",
+      "tr": "هوبي",
+      "pos": "n",
+      "emoji": "🎨"
+    },
+    {
+      "id": "new_w2",
+      "en": "neighbour",
+      "ar": "جار",
+      "tr": "نيبَر",
+      "pos": "n",
+      "emoji": "🏘️"
+    },
+    {
+      "id": "new_w3",
+      "en": "invite",
+      "ar": "يدعو",
+      "tr": "إنڤايت",
+      "pos": "v",
+      "emoji": "✉️"
+    },
+    {
+      "id": "new_w4",
+      "en": "together",
+      "ar": "معاً",
+      "tr": "تُوغيذَر",
+      "pos": "adv",
+      "emoji": "👥"
+    },
+    {
+      "id": "new_w5",
+      "en": "funny",
+      "ar": "مضحك",
+      "tr": "فَني",
+      "pos": "adj",
+      "emoji": "😄"
+    },
+    {
+      "id": "new_w6",
+      "en": "boring",
+      "ar": "ممل",
+      "tr": "بورِنغ",
+      "pos": "adj",
+      "emoji": "😐"
+    },
+    {
+      "id": "new_w7",
+      "en": "agree",
+      "ar": "يوافق",
+      "tr": "أغري",
+      "pos": "v",
+      "emoji": "👍"
+    },
+    {
+      "id": "new_w8",
+      "en": "favourite",
+      "ar": "المفضل",
+      "tr": "فيڤَرِت",
+      "pos": "adj",
+      "emoji": "⭐"
+    },
+    {
+      "id": "new_w9",
+      "en": "stay in touch",
+      "ar": "يبقى على تواصل",
+      "tr": "ستيه إن تَتش",
+      "pos": "phr",
+      "emoji": "📱"
+    },
+    {
+      "id": "new_w10",
+      "en": "of course",
+      "ar": "بالطبع",
+      "tr": "أوڤ كورس",
+      "pos": "phr",
+      "emoji": "✅"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "new_s1",
+      "en": "Hi, is this seat free?",
+      "ar": "مرحباً، هل هذا المقعد فارغ؟",
+      "tr": "هاي، إز ذِس سيت فري"
+    },
+    {
+      "id": "new_s2",
+      "en": "Yes, of course. Please sit.",
+      "ar": "نعم بالطبع. تفضل بالجلوس.",
+      "tr": "يِس، أوڤ كورس. پليز سِت"
+    },
+    {
+      "id": "new_s3",
+      "en": "My name is Yusuf, and you?",
+      "ar": "اسمي يوسف، وأنت؟",
+      "tr": "ماي نيم إز يوسف، آند يو"
+    },
+    {
+      "id": "new_s4",
+      "en": "Nice to meet you, Yusuf.",
+      "ar": "سعيد بلقائك يا يوسف.",
+      "tr": "نايس تو ميت يو، يوسف"
+    },
+    {
+      "id": "new_s5",
+      "en": "Where are you from originally?",
+      "ar": "من أين أنت أصلاً؟",
+      "tr": "وير آر يو فروم أرِجِنَلي"
+    },
+    {
+      "id": "new_s6",
+      "en": "I am from Morocco.",
+      "ar": "أنا من المغرب.",
+      "tr": "آيم فروم مَروكو"
+    },
+    {
+      "id": "new_s7",
+      "en": "How long have you been here?",
+      "ar": "منذ متى وأنت هنا؟",
+      "tr": "هاو لونغ هاڤ يو بين هير"
+    },
+    {
+      "id": "new_s8",
+      "en": "About two years now.",
+      "ar": "حوالي سنتين الآن.",
+      "tr": "أباوت تو يِيرز ناو"
+    },
+    {
+      "id": "new_s9",
+      "en": "Do you like it here?",
+      "ar": "هل يعجبك المكان هنا؟",
+      "tr": "دو يو لايك إت هير"
+    },
+    {
+      "id": "new_s10",
+      "en": "Yes, the people are very kind.",
+      "ar": "نعم، الناس لطفاء جداً.",
+      "tr": "يِس، ذَ پيپل آر ڤيري كايند"
+    },
+    {
+      "id": "new_s11",
+      "en": "What do you do for work?",
+      "ar": "ماذا تعمل؟",
+      "tr": "وات دو يو دو فور وِرك"
+    },
+    {
+      "id": "new_s12",
+      "en": "I work in a restaurant.",
+      "ar": "أعمل في مطعم.",
+      "tr": "آي وِرك إن إيه رِستُورانت"
+    },
+    {
+      "id": "new_s13",
+      "en": "Do you have family here?",
+      "ar": "هل لديك عائلة هنا؟",
+      "tr": "دو يو هاڤ فامِلي هير"
+    },
+    {
+      "id": "new_s14",
+      "en": "My brother lives near me.",
+      "ar": "أخي يسكن قربي.",
+      "tr": "ماي براذَر لِڤز نير مي"
+    },
+    {
+      "id": "new_s15",
+      "en": "What do you do in your free time?",
+      "ar": "ماذا تفعل في وقت فراغك؟",
+      "tr": "وات دو يو دو إن يور فري تايم"
+    },
+    {
+      "id": "new_s16",
+      "en": "I like football and reading.",
+      "ar": "أحب كرة القدم والقراءة.",
+      "tr": "آي لايك فوتبول آند ريدِنغ"
+    },
+    {
+      "id": "new_s17",
+      "en": "Me too! We should play together.",
+      "ar": "وأنا أيضاً! يجب أن نلعب معاً.",
+      "tr": "مي تو! وي شود پليه تُوغيذَر"
+    },
+    {
+      "id": "new_s18",
+      "en": "That sounds great.",
+      "ar": "يبدو ذلك رائعاً.",
+      "tr": "ذات ساوندز غريت"
+    },
+    {
+      "id": "new_s19",
+      "en": "Are you free on Friday?",
+      "ar": "هل أنت متفرغ يوم الجمعة؟",
+      "tr": "آر يو فري أون فرايديه"
+    },
+    {
+      "id": "new_s20",
+      "en": "You are welcome at my home any time.",
+      "ar": "أهلاً بك في بيتي في أي وقت.",
+      "tr": "يو آر وِلكَم آت ماي هوم إني تايم"
+    },
+    {
+      "id": "new_s21",
+      "en": "Can I have your number?",
+      "ar": "هل يمكنني أخذ رقمك؟",
+      "tr": "كان آي هاڤ يور نَمبَر"
+    },
+    {
+      "id": "new_s22",
+      "en": "Let's stay in touch.",
+      "ar": "لنبقَ على تواصل.",
+      "tr": "لِتس ستيه إن تَتش"
+    },
+    {
+      "id": "new_s23",
+      "en": "I have to go now, my bus is here.",
+      "ar": "يجب أن أذهب الآن، حافلتي وصلت.",
+      "tr": "آي هاڤ تو غو ناو، ماي بَس إز هير"
+    },
+    {
+      "id": "new_s24",
+      "en": "It was really nice talking to you.",
+      "ar": "كان الحديث معك ممتعاً حقاً.",
+      "tr": "إت واز رِيَلي نايس توكِنغ تو يو"
+    }
+  ]
+}

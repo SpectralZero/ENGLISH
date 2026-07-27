@@ -1,0 +1,226 @@
+{
+  "id": "market",
+  "title": {
+    "ar": "في السوق",
+    "en": "At the Market"
+  },
+  "icon": "🧺",
+  "level": 6,
+  "color": "amber",
+  "words": [
+    {
+      "id": "mar_w1",
+      "en": "stall",
+      "ar": "بسطة / كشك",
+      "tr": "ستول",
+      "pos": "n",
+      "emoji": "🏪"
+    },
+    {
+      "id": "mar_w2",
+      "en": "seller",
+      "ar": "بائع",
+      "tr": "سِلَر",
+      "pos": "n",
+      "emoji": "🧑‍🌾"
+    },
+    {
+      "id": "mar_w3",
+      "en": "half a kilo",
+      "ar": "نصف كيلو",
+      "tr": "هاف إيه كيلو",
+      "pos": "phr",
+      "emoji": "⚖️"
+    },
+    {
+      "id": "mar_w4",
+      "en": "a piece",
+      "ar": "قطعة",
+      "tr": "إيه پيس",
+      "pos": "n",
+      "emoji": "🍞"
+    },
+    {
+      "id": "mar_w5",
+      "en": "a bag of",
+      "ar": "كيس من",
+      "tr": "إيه باغ أوڤ",
+      "pos": "phr",
+      "emoji": "🛍️"
+    },
+    {
+      "id": "mar_w6",
+      "en": "weigh",
+      "ar": "يزن",
+      "tr": "ويه",
+      "pos": "v",
+      "emoji": "⚖️"
+    },
+    {
+      "id": "mar_w7",
+      "en": "ripe",
+      "ar": "ناضج",
+      "tr": "رايپ",
+      "pos": "adj",
+      "emoji": "🍑"
+    },
+    {
+      "id": "mar_w8",
+      "en": "rotten",
+      "ar": "فاسد",
+      "tr": "روتِن",
+      "pos": "adj",
+      "emoji": "🤢"
+    },
+    {
+      "id": "mar_w9",
+      "en": "bargain",
+      "ar": "يفاصل في السعر",
+      "tr": "بارغِن",
+      "pos": "v",
+      "emoji": "🤝"
+    },
+    {
+      "id": "mar_w10",
+      "en": "total",
+      "ar": "المجموع",
+      "tr": "توتَل",
+      "pos": "n",
+      "emoji": "🧮"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "mar_s1",
+      "en": "How much is a kilo of tomatoes?",
+      "ar": "بكم كيلو الطماطم؟",
+      "tr": "هاو مَتش إز إيه كيلو أوڤ تُوميتوز"
+    },
+    {
+      "id": "mar_s2",
+      "en": "Give me two kilos, please.",
+      "ar": "أعطني كيلوين من فضلك.",
+      "tr": "غِڤ مي تو كيلوز، پليز"
+    },
+    {
+      "id": "mar_s3",
+      "en": "Half a kilo is enough.",
+      "ar": "نصف كيلو يكفي.",
+      "tr": "هاف إيه كيلو إز إينَف"
+    },
+    {
+      "id": "mar_s4",
+      "en": "Are these fresh?",
+      "ar": "هل هذه طازجة؟",
+      "tr": "آر ذيز فرِش"
+    },
+    {
+      "id": "mar_s5",
+      "en": "They came this morning.",
+      "ar": "وصلت هذا الصباح.",
+      "tr": "ذيه كيم ذِس مورنِنغ"
+    },
+    {
+      "id": "mar_s6",
+      "en": "This one is not ripe.",
+      "ar": "هذه ليست ناضجة.",
+      "tr": "ذِس وان إز نوت رايپ"
+    },
+    {
+      "id": "mar_s7",
+      "en": "Can I choose them myself?",
+      "ar": "هل يمكنني اختيارها بنفسي؟",
+      "tr": "كان آي تشوز ذِم مايسِلف"
+    },
+    {
+      "id": "mar_s8",
+      "en": "That is expensive, my friend.",
+      "ar": "هذا غالٍ يا صديقي.",
+      "tr": "ذات إز إكسپِنسِڤ، ماي فرِند"
+    },
+    {
+      "id": "mar_s9",
+      "en": "Give me a better price.",
+      "ar": "أعطني سعراً أفضل.",
+      "tr": "غِڤ مي إيه بِتَر پرايس"
+    },
+    {
+      "id": "mar_s10",
+      "en": "This is my last price.",
+      "ar": "هذا آخر سعر عندي.",
+      "tr": "ذِس إز ماي لاست پرايس"
+    },
+    {
+      "id": "mar_s11",
+      "en": "Okay, I will take it.",
+      "ar": "حسناً، سآخذه.",
+      "tr": "أوكيه، آي وِل تيك إت"
+    },
+    {
+      "id": "mar_s12",
+      "en": "Do you have bananas today?",
+      "ar": "هل لديك موز اليوم؟",
+      "tr": "دو يو هاڤ بَناناز تُوديه"
+    },
+    {
+      "id": "mar_s13",
+      "en": "I need bread and cheese.",
+      "ar": "أحتاج خبزاً وجبناً.",
+      "tr": "آي نيد برِد آند تشيز"
+    },
+    {
+      "id": "mar_s14",
+      "en": "A bag of rice, please.",
+      "ar": "كيس أرز من فضلك.",
+      "tr": "إيه باغ أوڤ رايس، پليز"
+    },
+    {
+      "id": "mar_s15",
+      "en": "Can you weigh this for me?",
+      "ar": "هل يمكنك وزن هذا لي؟",
+      "tr": "كان يو ويه ذِس فور مي"
+    },
+    {
+      "id": "mar_s16",
+      "en": "How much is everything?",
+      "ar": "كم المجموع؟",
+      "tr": "هاو مَتش إز إڤريثِنغ"
+    },
+    {
+      "id": "mar_s17",
+      "en": "Here is fifty.",
+      "ar": "تفضل خمسين.",
+      "tr": "هير إز فِفتي"
+    },
+    {
+      "id": "mar_s18",
+      "en": "I need change, please.",
+      "ar": "أحتاج الباقي من فضلك.",
+      "tr": "آي نيد تشينج، پليز"
+    },
+    {
+      "id": "mar_s19",
+      "en": "Do you have a bag?",
+      "ar": "هل لديك كيس؟",
+      "tr": "دو يو هاڤ إيه باغ"
+    },
+    {
+      "id": "mar_s20",
+      "en": "It is heavy, can you help me?",
+      "ar": "إنه ثقيل، هل يمكنك مساعدتي؟",
+      "tr": "إت إز هيڤي، كان يو هِلپ مي"
+    },
+    {
+      "id": "mar_s21",
+      "en": "Where can I find fish?",
+      "ar": "أين أجد السمك؟",
+      "tr": "وير كان آي فايند فِش"
+    },
+    {
+      "id": "mar_s22",
+      "en": "See you next week.",
+      "ar": "أراك الأسبوع القادم.",
+      "tr": "سي يو نِكست ويك"
+    }
+  ]
+}

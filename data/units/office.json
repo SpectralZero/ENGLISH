@@ -1,51 +1,387 @@
 {
   "id": "office",
-  "title": { "ar": "المكتب والمعاملات", "en": "Office & Paperwork" },
+  "title": {
+    "ar": "المكتب والمعاملات",
+    "en": "Office & Paperwork"
+  },
   "icon": "📄",
   "level": 4,
   "color": "brand",
   "words": [
-    { "id": "of_document", "en": "document", "ar": "مستند / وثيقة", "tr": "دوكيومِنت", "pos": "n", "emoji": "📄", "ex": { "en": "Bring your documents, please.", "ar": "أحضر وثائقك من فضلك.", "tr": "برِنغ يور دوكيومِنتس، پليز" } },
-    { "id": "of_paper2", "en": "papers", "ar": "أوراق", "tr": "پيپَرز", "pos": "n", "emoji": "🗂️" },
-    { "id": "of_copy", "en": "copy", "ar": "نسخة / ينسخ", "tr": "كوپي", "pos": "n", "emoji": "🖨️" },
-    { "id": "of_print", "en": "print", "ar": "يطبع", "tr": "پرِنت", "pos": "v", "emoji": "🖨️" },
-    { "id": "of_scan", "en": "scan", "ar": "يمسح ضوئياً", "tr": "سكان", "pos": "v", "emoji": "📠" },
-    { "id": "of_file", "en": "file", "ar": "ملف", "tr": "فايل", "pos": "n", "emoji": "📁" },
-    { "id": "of_folder", "en": "folder", "ar": "مجلد", "tr": "فولدَر", "pos": "n", "emoji": "🗃️" },
-    { "id": "of_form2", "en": "application form", "ar": "استمارة طلب", "tr": "أپلِكيشِن فورم", "pos": "n", "emoji": "📝" },
-    { "id": "of_apply", "en": "apply for", "ar": "يتقدّم بطلب", "tr": "أپلاي فور", "pos": "v", "emoji": "✍️", "ex": { "en": "I want to apply for this job.", "ar": "أريد التقدّم لهذه الوظيفة.", "tr": "آي وانت تو أپلاي فور ذِس جوب" } },
-    { "id": "of_cv", "en": "CV / résumé", "ar": "سيرة ذاتية", "tr": "سي ڤي", "pos": "n", "emoji": "📃" },
-    { "id": "of_interview", "en": "interview", "ar": "مقابلة", "tr": "إنتَرڤيو", "pos": "n", "emoji": "🤝", "ex": { "en": "I have an interview tomorrow.", "ar": "لدي مقابلة غداً.", "tr": "آي هاڤ آن إنتَرڤيو تُومورو" } },
-    { "id": "of_contract", "en": "contract", "ar": "عقد", "tr": "كونتراكت", "pos": "n", "emoji": "📜" },
-    { "id": "of_deadline", "en": "deadline", "ar": "الموعد النهائي", "tr": "دِدلاين", "pos": "n", "emoji": "⏰" },
-    { "id": "of_appointment", "en": "appointment", "ar": "موعد", "tr": "أپوينتمِنت", "pos": "n", "emoji": "📅", "ex": { "en": "I have an appointment at ten.", "ar": "لدي موعد في العاشرة.", "tr": "آي هاڤ آن أپوينتمِنت آت تِن" } },
-    { "id": "of_meeting2", "en": "meeting", "ar": "اجتماع", "tr": "ميتِنغ", "pos": "n", "emoji": "👥" },
-    { "id": "of_report", "en": "report", "ar": "تقرير", "tr": "رِپورت", "pos": "n", "emoji": "📊" },
-    { "id": "of_sign2", "en": "sign the paper", "ar": "يوقّع الورقة", "tr": "ساين ذَ پيپَر", "pos": "phr", "emoji": "🖊️" },
-    { "id": "of_stamp2", "en": "official stamp", "ar": "ختم رسمي", "tr": "أوفِشَل ستامپ", "pos": "n", "emoji": "🔏" },
-    { "id": "of_office2", "en": "office", "ar": "مكتب", "tr": "أوفِس", "pos": "n", "emoji": "🏢" },
-    { "id": "of_desk2", "en": "desk", "ar": "مكتب (طاولة)", "tr": "دِسك", "pos": "n", "emoji": "🪑" },
-    { "id": "of_colleague", "en": "colleague", "ar": "زميل عمل", "tr": "كوليغ", "pos": "n", "emoji": "🧑‍💼" },
-    { "id": "of_boss", "en": "boss", "ar": "المدير / الرئيس", "tr": "بوس", "pos": "n", "emoji": "👔" },
-    { "id": "of_email2", "en": "send an email", "ar": "يرسل بريداً إلكترونياً", "tr": "سِند آن إيميل", "pos": "phr", "emoji": "📧" },
-    { "id": "of_call3", "en": "make a call", "ar": "يجري مكالمة", "tr": "ميك إيه كول", "pos": "phr", "emoji": "📞" },
-    { "id": "of_urgent", "en": "urgent", "ar": "عاجل", "tr": "أورجِنت", "pos": "adj", "emoji": "🚨" },
-    { "id": "of_permission", "en": "permission", "ar": "إذن", "tr": "پيرمِشِن", "pos": "n", "emoji": "✅" },
-    { "id": "of_dayoff", "en": "day off", "ar": "يوم إجازة", "tr": "ديه أوف", "pos": "phr", "emoji": "🏖️", "ex": { "en": "Can I take a day off?", "ar": "هل يمكنني أخذ يوم إجازة؟", "tr": "كان آي تيك إيه ديه أوف" } },
-    { "id": "of_late3", "en": "I will be late", "ar": "سأتأخر", "tr": "آي وِل بي ليت", "pos": "phr", "emoji": "⌛" },
-    { "id": "of_done", "en": "It is done", "ar": "تم إنجازه", "tr": "إت إز دَن", "pos": "phr", "emoji": "✔️" },
-    { "id": "of_problem", "en": "There is a problem", "ar": "توجد مشكلة", "tr": "ذير إز إيه پروبلِم", "pos": "phr", "emoji": "⚠️" }
+    {
+      "id": "of_document",
+      "en": "document",
+      "ar": "مستند / وثيقة",
+      "tr": "دوكيومِنت",
+      "pos": "n",
+      "emoji": "📄",
+      "ex": {
+        "en": "Bring your documents, please.",
+        "ar": "أحضر وثائقك من فضلك.",
+        "tr": "برِنغ يور دوكيومِنتس، پليز"
+      }
+    },
+    {
+      "id": "of_paper2",
+      "en": "papers",
+      "ar": "أوراق",
+      "tr": "پيپَرز",
+      "pos": "n",
+      "emoji": "🗂️"
+    },
+    {
+      "id": "of_copy",
+      "en": "copy",
+      "ar": "نسخة / ينسخ",
+      "tr": "كوپي",
+      "pos": "n",
+      "emoji": "🖨️"
+    },
+    {
+      "id": "of_print",
+      "en": "print",
+      "ar": "يطبع",
+      "tr": "پرِنت",
+      "pos": "v",
+      "emoji": "🖨️"
+    },
+    {
+      "id": "of_scan",
+      "en": "scan",
+      "ar": "يمسح ضوئياً",
+      "tr": "سكان",
+      "pos": "v",
+      "emoji": "📠"
+    },
+    {
+      "id": "of_file",
+      "en": "file",
+      "ar": "ملف",
+      "tr": "فايل",
+      "pos": "n",
+      "emoji": "📁"
+    },
+    {
+      "id": "of_folder",
+      "en": "folder",
+      "ar": "مجلد",
+      "tr": "فولدَر",
+      "pos": "n",
+      "emoji": "🗃️"
+    },
+    {
+      "id": "of_form2",
+      "en": "application form",
+      "ar": "استمارة طلب",
+      "tr": "أپلِكيشِن فورم",
+      "pos": "n",
+      "emoji": "📝"
+    },
+    {
+      "id": "of_apply",
+      "en": "apply for",
+      "ar": "يتقدّم بطلب",
+      "tr": "أپلاي فور",
+      "pos": "v",
+      "emoji": "✍️",
+      "ex": {
+        "en": "I want to apply for this job.",
+        "ar": "أريد التقدّم لهذه الوظيفة.",
+        "tr": "آي وانت تو أپلاي فور ذِس جوب"
+      }
+    },
+    {
+      "id": "of_cv",
+      "en": "CV / résumé",
+      "ar": "سيرة ذاتية",
+      "tr": "سي ڤي",
+      "pos": "n",
+      "emoji": "📃"
+    },
+    {
+      "id": "of_interview",
+      "en": "interview",
+      "ar": "مقابلة",
+      "tr": "إنتَرڤيو",
+      "pos": "n",
+      "emoji": "🤝",
+      "ex": {
+        "en": "I have an interview tomorrow.",
+        "ar": "لدي مقابلة غداً.",
+        "tr": "آي هاڤ آن إنتَرڤيو تُومورو"
+      }
+    },
+    {
+      "id": "of_contract",
+      "en": "contract",
+      "ar": "عقد",
+      "tr": "كونتراكت",
+      "pos": "n",
+      "emoji": "📜"
+    },
+    {
+      "id": "of_deadline",
+      "en": "deadline",
+      "ar": "الموعد النهائي",
+      "tr": "دِدلاين",
+      "pos": "n",
+      "emoji": "⏰"
+    },
+    {
+      "id": "of_appointment",
+      "en": "appointment",
+      "ar": "موعد",
+      "tr": "أپوينتمِنت",
+      "pos": "n",
+      "emoji": "📅",
+      "ex": {
+        "en": "I have an appointment at ten.",
+        "ar": "لدي موعد في العاشرة.",
+        "tr": "آي هاڤ آن أپوينتمِنت آت تِن"
+      }
+    },
+    {
+      "id": "of_meeting2",
+      "en": "meeting",
+      "ar": "اجتماع",
+      "tr": "ميتِنغ",
+      "pos": "n",
+      "emoji": "👥"
+    },
+    {
+      "id": "of_report",
+      "en": "report",
+      "ar": "تقرير",
+      "tr": "رِپورت",
+      "pos": "n",
+      "emoji": "📊"
+    },
+    {
+      "id": "of_sign2",
+      "en": "sign the paper",
+      "ar": "يوقّع الورقة",
+      "tr": "ساين ذَ پيپَر",
+      "pos": "phr",
+      "emoji": "🖊️"
+    },
+    {
+      "id": "of_stamp2",
+      "en": "official stamp",
+      "ar": "ختم رسمي",
+      "tr": "أوفِشَل ستامپ",
+      "pos": "n",
+      "emoji": "🔏"
+    },
+    {
+      "id": "of_office2",
+      "en": "office",
+      "ar": "مكتب",
+      "tr": "أوفِس",
+      "pos": "n",
+      "emoji": "🏢"
+    },
+    {
+      "id": "of_desk2",
+      "en": "desk",
+      "ar": "مكتب (طاولة)",
+      "tr": "دِسك",
+      "pos": "n",
+      "emoji": "🪑"
+    },
+    {
+      "id": "of_colleague",
+      "en": "colleague",
+      "ar": "زميل عمل",
+      "tr": "كوليغ",
+      "pos": "n",
+      "emoji": "🧑‍💼"
+    },
+    {
+      "id": "of_boss",
+      "en": "boss",
+      "ar": "المدير / الرئيس",
+      "tr": "بوس",
+      "pos": "n",
+      "emoji": "👔"
+    },
+    {
+      "id": "of_email2",
+      "en": "send an email",
+      "ar": "يرسل بريداً إلكترونياً",
+      "tr": "سِند آن إيميل",
+      "pos": "phr",
+      "emoji": "📧"
+    },
+    {
+      "id": "of_call3",
+      "en": "make a call",
+      "ar": "يجري مكالمة",
+      "tr": "ميك إيه كول",
+      "pos": "phr",
+      "emoji": "📞"
+    },
+    {
+      "id": "of_urgent",
+      "en": "urgent",
+      "ar": "عاجل",
+      "tr": "أورجِنت",
+      "pos": "adj",
+      "emoji": "🚨"
+    },
+    {
+      "id": "of_permission",
+      "en": "permission",
+      "ar": "إذن",
+      "tr": "پيرمِشِن",
+      "pos": "n",
+      "emoji": "✅"
+    },
+    {
+      "id": "of_dayoff",
+      "en": "day off",
+      "ar": "يوم إجازة",
+      "tr": "ديه أوف",
+      "pos": "phr",
+      "emoji": "🏖️",
+      "ex": {
+        "en": "Can I take a day off?",
+        "ar": "هل يمكنني أخذ يوم إجازة؟",
+        "tr": "كان آي تيك إيه ديه أوف"
+      }
+    },
+    {
+      "id": "of_late3",
+      "en": "I will be late",
+      "ar": "سأتأخر",
+      "tr": "آي وِل بي ليت",
+      "pos": "phr",
+      "emoji": "⌛"
+    },
+    {
+      "id": "of_done",
+      "en": "It is done",
+      "ar": "تم إنجازه",
+      "tr": "إت إز دَن",
+      "pos": "phr",
+      "emoji": "✔️"
+    },
+    {
+      "id": "of_problem",
+      "en": "There is a problem",
+      "ar": "توجد مشكلة",
+      "tr": "ذير إز إيه پروبلِم",
+      "pos": "phr",
+      "emoji": "⚠️"
+    }
   ],
   "sentences": [
-    { "id": "of_s1", "en": "I have an appointment at ten o'clock.", "ar": "لدي موعد في الساعة العاشرة.", "tr": "آي هاڤ آن أپوينتمِنت آت تِن أوكلوك" },
-    { "id": "of_s2", "en": "Please sign this document.", "ar": "من فضلك وقّع هذا المستند.", "tr": "پليز ساين ذِس دوكيومِنت" },
-    { "id": "of_s3", "en": "I want to apply for this job.", "ar": "أريد التقدّم لهذه الوظيفة.", "tr": "آي وانت تو أپلاي فور ذِس جوب" },
-    { "id": "of_s4", "en": "Can you send me the file by email?", "ar": "هل يمكنك إرسال الملف بالبريد؟", "tr": "كان يو سِند مي ذَ فايل باي إيميل" },
-    { "id": "of_s5", "en": "I need a copy of my ID.", "ar": "أحتاج نسخة من هويتي.", "tr": "آي نيد إيه كوپي أوڤ ماي آي دي" },
-    { "id": "of_s6", "en": "The meeting is at two.", "ar": "الاجتماع في الثانية.", "tr": "ذَ ميتِنغ إز آت تو" },
-    { "id": "of_s7", "en": "This is urgent, please.", "ar": "هذا عاجل من فضلك.", "tr": "ذِس إز أورجِنت، پليز" },
-    { "id": "of_s8", "en": "Can I take a day off tomorrow?", "ar": "هل يمكنني أخذ إجازة غداً؟", "tr": "كان آي تيك إيه ديه أوف تُومورو" },
-    { "id": "of_s9", "en": "Sorry, I will be ten minutes late.", "ar": "آسف، سأتأخر عشر دقائق.", "tr": "سوري، آي وِل بي تِن مِنِتس ليت" },
-    { "id": "of_s10", "en": "The work is done.", "ar": "العمل أُنجز.", "tr": "ذَ وِرك إز دَن" }
+    {
+      "id": "of_s1",
+      "en": "I have an appointment at ten o'clock.",
+      "ar": "لدي موعد في الساعة العاشرة.",
+      "tr": "آي هاڤ آن أپوينتمِنت آت تِن أوكلوك"
+    },
+    {
+      "id": "of_s2",
+      "en": "Please sign this document.",
+      "ar": "من فضلك وقّع هذا المستند.",
+      "tr": "پليز ساين ذِس دوكيومِنت"
+    },
+    {
+      "id": "of_s3",
+      "en": "I want to apply for this job.",
+      "ar": "أريد التقدّم لهذه الوظيفة.",
+      "tr": "آي وانت تو أپلاي فور ذِس جوب"
+    },
+    {
+      "id": "of_s4",
+      "en": "Can you send me the file by email?",
+      "ar": "هل يمكنك إرسال الملف بالبريد؟",
+      "tr": "كان يو سِند مي ذَ فايل باي إيميل"
+    },
+    {
+      "id": "of_s5",
+      "en": "I need a copy of my ID.",
+      "ar": "أحتاج نسخة من هويتي.",
+      "tr": "آي نيد إيه كوپي أوڤ ماي آي دي"
+    },
+    {
+      "id": "of_s6",
+      "en": "The meeting is at two.",
+      "ar": "الاجتماع في الثانية.",
+      "tr": "ذَ ميتِنغ إز آت تو"
+    },
+    {
+      "id": "of_s7",
+      "en": "This is urgent, please.",
+      "ar": "هذا عاجل من فضلك.",
+      "tr": "ذِس إز أورجِنت، پليز"
+    },
+    {
+      "id": "of_s8",
+      "en": "Can I take a day off tomorrow?",
+      "ar": "هل يمكنني أخذ إجازة غداً؟",
+      "tr": "كان آي تيك إيه ديه أوف تُومورو"
+    },
+    {
+      "id": "of_s9",
+      "en": "Sorry, I will be ten minutes late.",
+      "ar": "آسف، سأتأخر عشر دقائق.",
+      "tr": "سوري، آي وِل بي تِن مِنِتس ليت"
+    },
+    {
+      "id": "of_s10",
+      "en": "The work is done.",
+      "ar": "العمل أُنجز.",
+      "tr": "ذَ وِرك إز دَن"
+    },
+    {
+      "id": "of_s11",
+      "en": "Can we move the meeting to Monday?",
+      "ar": "هل يمكننا تأجيل الاجتماع للاثنين؟",
+      "tr": "كان وي موڤ ذَ ميتِنغ تو مَنديه"
+    },
+    {
+      "id": "of_s12",
+      "en": "I sent you the file this morning.",
+      "ar": "أرسلت لك الملف هذا الصباح.",
+      "tr": "آي سِنت يو ذَ فايل ذِس مورنِنغ"
+    },
+    {
+      "id": "of_s13",
+      "en": "Please print two copies.",
+      "ar": "من فضلك اطبع نسختين.",
+      "tr": "پليز پرِنت تو كوپيز"
+    },
+    {
+      "id": "of_s14",
+      "en": "The deadline is next Sunday.",
+      "ar": "الموعد النهائي الأحد القادم.",
+      "tr": "ذَ دِدلاين إز نِكست سَنديه"
+    },
+    {
+      "id": "of_s15",
+      "en": "I need your signature here.",
+      "ar": "أحتاج توقيعك هنا.",
+      "tr": "آي نيد يور سِغنَتشَر هير"
+    },
+    {
+      "id": "of_s16",
+      "en": "Is the document ready?",
+      "ar": "هل المستند جاهز؟",
+      "tr": "إز ذَ دوكيومِنت رِدي"
+    },
+    {
+      "id": "of_s17",
+      "en": "I have an interview on Tuesday.",
+      "ar": "لدي مقابلة يوم الثلاثاء.",
+      "tr": "آي هاڤ آن إنتَرڤيو أون تيوزديه"
+    },
+    {
+      "id": "of_s18",
+      "en": "Let me know if there is a problem.",
+      "ar": "أخبرني إن كانت هناك مشكلة.",
+      "tr": "لِت مي نو إف ذير إز إيه پروبلِم"
+    }
   ]
 }

@@ -1,47 +1,365 @@
 {
   "id": "prepositions",
-  "title": { "ar": "حروف الجر والاتجاهات", "en": "Prepositions & Directions" },
+  "title": {
+    "ar": "حروف الجر والاتجاهات",
+    "en": "Prepositions & Directions"
+  },
   "icon": "🧭",
   "level": 4,
   "color": "mint",
   "words": [
-    { "id": "pr_in", "en": "in", "ar": "في / داخل", "tr": "إن", "pos": "prep", "emoji": "📥", "ex": { "en": "The book is in the bag.", "ar": "الكتاب في الحقيبة.", "tr": "ذَ بوك إز إن ذَ باغ" } },
-    { "id": "pr_on", "en": "on", "ar": "على", "tr": "أون", "pos": "prep", "emoji": "🔛", "ex": { "en": "The cup is on the table.", "ar": "الكوب على الطاولة.", "tr": "ذَ كَپ إز أون ذَ تيبِل" } },
-    { "id": "pr_under", "en": "under", "ar": "تحت", "tr": "أندَر", "pos": "prep", "emoji": "⬇️", "ex": { "en": "The cat is under the chair.", "ar": "القطة تحت الكرسي.", "tr": "ذَ كات إز أندَر ذَ تشير" } },
-    { "id": "pr_next", "en": "next to", "ar": "بجانب", "tr": "نِكست تو", "pos": "prep", "emoji": "↔️" },
-    { "id": "pr_between", "en": "between", "ar": "بين", "tr": "بِتوين", "pos": "prep", "emoji": "🔀" },
-    { "id": "pr_behind", "en": "behind", "ar": "خلف", "tr": "بِهايند", "pos": "prep", "emoji": "🔙" },
-    { "id": "pr_infront", "en": "in front of", "ar": "أمام", "tr": "إن فرَنت أوڤ", "pos": "prep", "emoji": "🔜" },
-    { "id": "pr_near2", "en": "near", "ar": "قرب", "tr": "نير", "pos": "prep", "emoji": "📍" },
-    { "id": "pr_from", "en": "from", "ar": "من", "tr": "فروم", "pos": "prep", "emoji": "🏁", "ex": { "en": "I am from Iraq.", "ar": "أنا من العراق.", "tr": "آيم فروم إيراك" } },
-    { "id": "pr_to", "en": "to", "ar": "إلى", "tr": "تو", "pos": "prep", "emoji": "➡️" },
-    { "id": "pr_with", "en": "with", "ar": "مع", "tr": "وِذ", "pos": "prep", "emoji": "🤝", "ex": { "en": "Come with me.", "ar": "تعال معي.", "tr": "كَم وِذ مي" } },
-    { "id": "pr_without", "en": "without", "ar": "بدون", "tr": "وِذاوت", "pos": "prep", "emoji": "🚫" },
-    { "id": "pr_for", "en": "for", "ar": "لأجل / لمدة", "tr": "فور", "pos": "prep", "emoji": "🎁" },
-    { "id": "pr_about", "en": "about", "ar": "عن / حول", "tr": "أباوت", "pos": "prep", "emoji": "💬" },
-    { "id": "pr_after", "en": "after", "ar": "بعد", "tr": "آفتَر", "pos": "prep", "emoji": "⏭️" },
-    { "id": "pr_before", "en": "before", "ar": "قبل", "tr": "بِفور", "pos": "prep", "emoji": "⏮️" },
-    { "id": "pr_over", "en": "over / above", "ar": "فوق", "tr": "أوڤَر", "pos": "prep", "emoji": "⬆️" },
-    { "id": "pr_inside", "en": "inside", "ar": "بالداخل", "tr": "إنسايد", "pos": "prep", "emoji": "📦" },
-    { "id": "pr_outside", "en": "outside", "ar": "بالخارج", "tr": "أوتسايد", "pos": "prep", "emoji": "🚪" },
-    { "id": "pr_right2", "en": "right (direction)", "ar": "يمين", "tr": "رايت", "pos": "n", "emoji": "➡️", "ex": { "en": "Turn right at the corner.", "ar": "انعطف يميناً عند الزاوية.", "tr": "تيرن رايت آت ذَ كورنَر" } },
-    { "id": "pr_left", "en": "left", "ar": "يسار", "tr": "لِفت", "pos": "n", "emoji": "⬅️" },
-    { "id": "pr_straight", "en": "straight", "ar": "مستقيم / إلى الأمام", "tr": "ستريت", "pos": "adv", "emoji": "⬆️", "ex": { "en": "Go straight, then turn left.", "ar": "امشِ مستقيماً ثم انعطف يساراً.", "tr": "غو ستريت، ذِن تيرن لِفت" } },
-    { "id": "pr_turn", "en": "turn", "ar": "ينعطف", "tr": "تيرن", "pos": "v", "emoji": "↩️" },
-    { "id": "pr_corner", "en": "corner", "ar": "زاوية / ناصية", "tr": "كورنَر", "pos": "n", "emoji": "📐" },
-    { "id": "pr_up", "en": "up", "ar": "لأعلى", "tr": "أب", "pos": "adv", "emoji": "🔼" },
-    { "id": "pr_down", "en": "down", "ar": "لأسفل", "tr": "داون", "pos": "adv", "emoji": "🔽" }
+    {
+      "id": "pr_in",
+      "en": "in",
+      "ar": "في / داخل",
+      "tr": "إن",
+      "pos": "prep",
+      "emoji": "📥",
+      "ex": {
+        "en": "The book is in the bag.",
+        "ar": "الكتاب في الحقيبة.",
+        "tr": "ذَ بوك إز إن ذَ باغ"
+      }
+    },
+    {
+      "id": "pr_on",
+      "en": "on",
+      "ar": "على",
+      "tr": "أون",
+      "pos": "prep",
+      "emoji": "🔛",
+      "ex": {
+        "en": "The cup is on the table.",
+        "ar": "الكوب على الطاولة.",
+        "tr": "ذَ كَپ إز أون ذَ تيبِل"
+      }
+    },
+    {
+      "id": "pr_under",
+      "en": "under",
+      "ar": "تحت",
+      "tr": "أندَر",
+      "pos": "prep",
+      "emoji": "⬇️",
+      "ex": {
+        "en": "The cat is under the chair.",
+        "ar": "القطة تحت الكرسي.",
+        "tr": "ذَ كات إز أندَر ذَ تشير"
+      }
+    },
+    {
+      "id": "pr_next",
+      "en": "next to",
+      "ar": "بجانب",
+      "tr": "نِكست تو",
+      "pos": "prep",
+      "emoji": "↔️"
+    },
+    {
+      "id": "pr_between",
+      "en": "between",
+      "ar": "بين",
+      "tr": "بِتوين",
+      "pos": "prep",
+      "emoji": "🔀"
+    },
+    {
+      "id": "pr_behind",
+      "en": "behind",
+      "ar": "خلف",
+      "tr": "بِهايند",
+      "pos": "prep",
+      "emoji": "🔙"
+    },
+    {
+      "id": "pr_infront",
+      "en": "in front of",
+      "ar": "أمام",
+      "tr": "إن فرَنت أوڤ",
+      "pos": "prep",
+      "emoji": "🔜"
+    },
+    {
+      "id": "pr_near2",
+      "en": "near",
+      "ar": "قرب",
+      "tr": "نير",
+      "pos": "prep",
+      "emoji": "📍"
+    },
+    {
+      "id": "pr_from",
+      "en": "from",
+      "ar": "من",
+      "tr": "فروم",
+      "pos": "prep",
+      "emoji": "🏁",
+      "ex": {
+        "en": "I am from Iraq.",
+        "ar": "أنا من العراق.",
+        "tr": "آيم فروم إيراك"
+      }
+    },
+    {
+      "id": "pr_to",
+      "en": "to",
+      "ar": "إلى",
+      "tr": "تو",
+      "pos": "prep",
+      "emoji": "➡️"
+    },
+    {
+      "id": "pr_with",
+      "en": "with",
+      "ar": "مع",
+      "tr": "وِذ",
+      "pos": "prep",
+      "emoji": "🤝",
+      "ex": {
+        "en": "Come with me.",
+        "ar": "تعال معي.",
+        "tr": "كَم وِذ مي"
+      }
+    },
+    {
+      "id": "pr_without",
+      "en": "without",
+      "ar": "بدون",
+      "tr": "وِذاوت",
+      "pos": "prep",
+      "emoji": "🚫"
+    },
+    {
+      "id": "pr_for",
+      "en": "for",
+      "ar": "لأجل / لمدة",
+      "tr": "فور",
+      "pos": "prep",
+      "emoji": "🎁"
+    },
+    {
+      "id": "pr_about",
+      "en": "about",
+      "ar": "عن / حول",
+      "tr": "أباوت",
+      "pos": "prep",
+      "emoji": "💬"
+    },
+    {
+      "id": "pr_after",
+      "en": "after",
+      "ar": "بعد",
+      "tr": "آفتَر",
+      "pos": "prep",
+      "emoji": "⏭️"
+    },
+    {
+      "id": "pr_before",
+      "en": "before",
+      "ar": "قبل",
+      "tr": "بِفور",
+      "pos": "prep",
+      "emoji": "⏮️"
+    },
+    {
+      "id": "pr_over",
+      "en": "over / above",
+      "ar": "فوق",
+      "tr": "أوڤَر",
+      "pos": "prep",
+      "emoji": "⬆️"
+    },
+    {
+      "id": "pr_inside",
+      "en": "inside",
+      "ar": "بالداخل",
+      "tr": "إنسايد",
+      "pos": "prep",
+      "emoji": "📦"
+    },
+    {
+      "id": "pr_outside",
+      "en": "outside",
+      "ar": "بالخارج",
+      "tr": "أوتسايد",
+      "pos": "prep",
+      "emoji": "🚪"
+    },
+    {
+      "id": "pr_right2",
+      "en": "right (direction)",
+      "ar": "يمين",
+      "tr": "رايت",
+      "pos": "n",
+      "emoji": "➡️",
+      "ex": {
+        "en": "Turn right at the corner.",
+        "ar": "انعطف يميناً عند الزاوية.",
+        "tr": "تيرن رايت آت ذَ كورنَر"
+      }
+    },
+    {
+      "id": "pr_left",
+      "en": "left",
+      "ar": "يسار",
+      "tr": "لِفت",
+      "pos": "n",
+      "emoji": "⬅️"
+    },
+    {
+      "id": "pr_straight",
+      "en": "straight",
+      "ar": "مستقيم / إلى الأمام",
+      "tr": "ستريت",
+      "pos": "adv",
+      "emoji": "⬆️",
+      "ex": {
+        "en": "Go straight, then turn left.",
+        "ar": "امشِ مستقيماً ثم انعطف يساراً.",
+        "tr": "غو ستريت، ذِن تيرن لِفت"
+      }
+    },
+    {
+      "id": "pr_turn",
+      "en": "turn",
+      "ar": "ينعطف",
+      "tr": "تيرن",
+      "pos": "v",
+      "emoji": "↩️"
+    },
+    {
+      "id": "pr_corner",
+      "en": "corner",
+      "ar": "زاوية / ناصية",
+      "tr": "كورنَر",
+      "pos": "n",
+      "emoji": "📐"
+    },
+    {
+      "id": "pr_up",
+      "en": "up",
+      "ar": "لأعلى",
+      "tr": "أب",
+      "pos": "adv",
+      "emoji": "🔼"
+    },
+    {
+      "id": "pr_down",
+      "en": "down",
+      "ar": "لأسفل",
+      "tr": "داون",
+      "pos": "adv",
+      "emoji": "🔽"
+    }
   ],
   "sentences": [
-    { "id": "pr_s1", "en": "The keys are on the table.", "ar": "المفاتيح على الطاولة.", "tr": "ذَ كيز آر أون ذَ تيبِل" },
-    { "id": "pr_s2", "en": "My bag is under the bed.", "ar": "حقيبتي تحت السرير.", "tr": "ماي باغ إز أندَر ذَ بِد" },
-    { "id": "pr_s3", "en": "The bank is next to the school.", "ar": "البنك بجانب المدرسة.", "tr": "ذَ بانك إز نِكست تو ذَ سكوول" },
-    { "id": "pr_s4", "en": "Go straight and turn right.", "ar": "امشِ مستقيماً ثم انعطف يميناً.", "tr": "غو ستريت آند تيرن رايت" },
-    { "id": "pr_s5", "en": "I live near the market.", "ar": "أسكن قرب السوق.", "tr": "آي لِڤ نير ذَ ماركِت" },
-    { "id": "pr_s6", "en": "Come with me, please.", "ar": "تعال معي من فضلك.", "tr": "كَم وِذ مي، پليز" },
-    { "id": "pr_s7", "en": "I work from nine to five.", "ar": "أعمل من التاسعة إلى الخامسة.", "tr": "آي وِرك فروم ناين تو فايڤ" },
-    { "id": "pr_s8", "en": "The car is in front of the house.", "ar": "السيارة أمام البيت.", "tr": "ذَ كار إز إن فرَنت أوڤ ذَ هاوس" },
-    { "id": "pr_s9", "en": "I drink tea without sugar.", "ar": "أشرب الشاي بدون سكر.", "tr": "آي درِنك تي وِذاوت شُوغَر" },
-    { "id": "pr_s10", "en": "Wait outside, please.", "ar": "انتظر في الخارج من فضلك.", "tr": "ويت أوتسايد، پليز" }
+    {
+      "id": "pr_s1",
+      "en": "The keys are on the table.",
+      "ar": "المفاتيح على الطاولة.",
+      "tr": "ذَ كيز آر أون ذَ تيبِل"
+    },
+    {
+      "id": "pr_s2",
+      "en": "My bag is under the bed.",
+      "ar": "حقيبتي تحت السرير.",
+      "tr": "ماي باغ إز أندَر ذَ بِد"
+    },
+    {
+      "id": "pr_s3",
+      "en": "The bank is next to the school.",
+      "ar": "البنك بجانب المدرسة.",
+      "tr": "ذَ بانك إز نِكست تو ذَ سكوول"
+    },
+    {
+      "id": "pr_s4",
+      "en": "Go straight and turn right.",
+      "ar": "امشِ مستقيماً ثم انعطف يميناً.",
+      "tr": "غو ستريت آند تيرن رايت"
+    },
+    {
+      "id": "pr_s5",
+      "en": "I live near the market.",
+      "ar": "أسكن قرب السوق.",
+      "tr": "آي لِڤ نير ذَ ماركِت"
+    },
+    {
+      "id": "pr_s6",
+      "en": "Come with me, please.",
+      "ar": "تعال معي من فضلك.",
+      "tr": "كَم وِذ مي، پليز"
+    },
+    {
+      "id": "pr_s7",
+      "en": "I work from nine to five.",
+      "ar": "أعمل من التاسعة إلى الخامسة.",
+      "tr": "آي وِرك فروم ناين تو فايڤ"
+    },
+    {
+      "id": "pr_s8",
+      "en": "The car is in front of the house.",
+      "ar": "السيارة أمام البيت.",
+      "tr": "ذَ كار إز إن فرَنت أوڤ ذَ هاوس"
+    },
+    {
+      "id": "pr_s9",
+      "en": "I drink tea without sugar.",
+      "ar": "أشرب الشاي بدون سكر.",
+      "tr": "آي درِنك تي وِذاوت شُوغَر"
+    },
+    {
+      "id": "pr_s10",
+      "en": "Wait outside, please.",
+      "ar": "انتظر في الخارج من فضلك.",
+      "tr": "ويت أوتسايد، پليز"
+    },
+    {
+      "id": "pr_s11",
+      "en": "The pharmacy is between the bank and the café.",
+      "ar": "الصيدلية بين البنك والمقهى.",
+      "tr": "ذَ فارمَسي إز بِتوين ذَ بانك آند ذَ كافيه"
+    },
+    {
+      "id": "pr_s12",
+      "en": "Put the box behind the door.",
+      "ar": "ضع الصندوق خلف الباب.",
+      "tr": "پوت ذَ بوكس بِهايند ذَ دور"
+    },
+    {
+      "id": "pr_s13",
+      "en": "I will be back before six.",
+      "ar": "سأعود قبل السادسة.",
+      "tr": "آي وِل بي باك بِفور سِكس"
+    },
+    {
+      "id": "pr_s14",
+      "en": "We talked about the new job.",
+      "ar": "تحدثنا عن العمل الجديد.",
+      "tr": "وي توكد أباوت ذَ نيو جوب"
+    },
+    {
+      "id": "pr_s15",
+      "en": "He is waiting outside the shop.",
+      "ar": "هو ينتظر خارج المتجر.",
+      "tr": "هي إز ويتِنغ أوتسايد ذَ شوپ"
+    },
+    {
+      "id": "pr_s16",
+      "en": "Go up the stairs, then turn left.",
+      "ar": "اصعد الدرج ثم انعطف يساراً.",
+      "tr": "غو أب ذَ ستيرز، ذِن تيرن لِفت"
+    },
+    {
+      "id": "pr_s17",
+      "en": "I came here with my brother.",
+      "ar": "أتيت إلى هنا مع أخي.",
+      "tr": "آي كيم هير وِذ ماي براذَر"
+    },
+    {
+      "id": "pr_s18",
+      "en": "It is inside the bag.",
+      "ar": "إنه داخل الحقيبة.",
+      "tr": "إت إز إنسايد ذَ باغ"
+    }
   ]
 }

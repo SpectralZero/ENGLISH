@@ -4,7 +4,7 @@
    yourself. Grades feed the SM-2-style scheduler in store.js.
    ============================================================ */
 import { el, AR_NUM, haptic, pct } from '../util.js';
-import { store, allWordIds } from '../data.js';
+import { store, allWordIds, allItemIds, itemById } from '../data.js';
 import { review, addXP, itemOf, counts, settings, dueIds } from '../store.js';
 import { speakBtn, sessionHead, emptyState } from '../ui.js';
 import { speak, unlock } from '../tts.js';
@@ -13,7 +13,8 @@ import { go, back } from '../router.js';
 const MAX = 25;
 
 export default function reviewView({ view }) {
-  const ids = dueIds(allWordIds()).slice(0, MAX);
+  // words and sentences share one queue — both are scheduled the same way
+  const ids = dueIds(allItemIds()).slice(0, MAX);
   const wrap = el('div', { class: 'wrap' });
   view.append(wrap);
 
@@ -31,12 +32,12 @@ export default function reviewView({ view }) {
     return;
   }
 
-  const queue = ids.map(id => store.wordById.get(id)).filter(Boolean);
+  const queue = ids.map(itemById).filter(Boolean);
   let i = 0, revealed = false, done = 0, good = 0;
 
   function grade(g) {
     const w = queue[i];
-    review(w.id, g);
+    review(w.id, g, store.sentenceById.has(w.id) ? 'snt' : 'rec');
     done++;
     if (g > 0) { good++; addXP(8, 'review'); } else { addXP(3, 'review'); queue.push(w); }
     haptic(g > 0 ? 10 : [8, 40, 8]);
@@ -52,7 +53,7 @@ export default function reviewView({ view }) {
       el('div', { class: 'result__grid' }, [
         el('div', { class: 'mini', html: `<b>${AR_NUM(done)}</b><span>كلمة</span>` }),
         el('div', { class: 'mini', html: `<b>${AR_NUM(pct(good, done))}%</b><span>تذكّرت</span>` }),
-        el('div', { class: 'mini', html: `<b>${AR_NUM(dueIds(allWordIds()).length)}</b><span>متبقٍ</span>` }),
+        el('div', { class: 'mini', html: `<b>${AR_NUM(dueIds(allItemIds()).length)}</b><span>متبقٍ</span>` }),
       ]),
       el('div', { class: 'stack', style: 'width:100%;margin-top:var(--sp-5)' }, [
         el('button', { class: 'btn btn--primary btn--lg btn--block', text: 'متابعة', onclick: () => go('/') }),

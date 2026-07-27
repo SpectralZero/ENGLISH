@@ -1,51 +1,382 @@
 {
   "id": "kitchen",
-  "title": { "ar": "المطبخ والطبخ", "en": "Kitchen & Cooking" },
+  "title": {
+    "ar": "المطبخ والطبخ",
+    "en": "Kitchen & Cooking"
+  },
   "icon": "🍳",
   "level": 2,
   "color": "mint",
   "words": [
-    { "id": "ki_pot", "en": "pot", "ar": "قِدر", "tr": "پوت", "pos": "n", "emoji": "🍲" },
-    { "id": "ki_pan", "en": "pan", "ar": "مقلاة", "tr": "پان", "pos": "n", "emoji": "🍳" },
-    { "id": "ki_oven", "en": "oven", "ar": "فرن", "tr": "أوڤِن", "pos": "n", "emoji": "🔥", "ex": { "en": "Put the chicken in the oven.", "ar": "ضع الدجاج في الفرن.", "tr": "پوت ذَ تشِكِن إن ذي أوڤِن" } },
-    { "id": "ki_bowl", "en": "bowl", "ar": "وعاء", "tr": "بول", "pos": "n", "emoji": "🥣" },
-    { "id": "ki_tray", "en": "tray", "ar": "صينية", "tr": "تريه", "pos": "n", "emoji": "🍱" },
-    { "id": "ki_lid", "en": "lid", "ar": "غطاء", "tr": "لِد", "pos": "n", "emoji": "🥘" },
-    { "id": "ki_kettle", "en": "kettle", "ar": "غلاية", "tr": "كِتِل", "pos": "n", "emoji": "🫖" },
-    { "id": "ki_sink", "en": "sink", "ar": "حوض الجلي", "tr": "سِنك", "pos": "n", "emoji": "🚰" },
-    { "id": "ki_tap", "en": "tap", "ar": "صنبور", "tr": "تاپ", "pos": "n", "emoji": "🚿" },
-    { "id": "ki_cupboard", "en": "cupboard", "ar": "خزانة", "tr": "كَبَرد", "pos": "n", "emoji": "🗄️" },
-    { "id": "ki_boil", "en": "boil", "ar": "يغلي / يسلق", "tr": "بويل", "pos": "v", "emoji": "♨️", "ex": { "en": "Boil the water first.", "ar": "اغلِ الماء أولاً.", "tr": "بويل ذَ ووتَر فيرست" } },
-    { "id": "ki_fry", "en": "fry", "ar": "يقلي", "tr": "فراي", "pos": "v", "emoji": "🍳" },
-    { "id": "ki_bake", "en": "bake", "ar": "يخبز", "tr": "بيك", "pos": "v", "emoji": "🥖" },
-    { "id": "ki_mix", "en": "mix", "ar": "يخلط", "tr": "مِكس", "pos": "v", "emoji": "🥄" },
-    { "id": "ki_add", "en": "add", "ar": "يضيف", "tr": "آد", "pos": "v", "emoji": "➕", "ex": { "en": "Add a little salt.", "ar": "أضف قليلاً من الملح.", "tr": "آد إيه لِتِل سولت" } },
-    { "id": "ki_pour", "en": "pour", "ar": "يسكب", "tr": "پور", "pos": "v", "emoji": "🫗" },
-    { "id": "ki_peel", "en": "peel", "ar": "يقشّر", "tr": "پيل", "pos": "v", "emoji": "🥔" },
-    { "id": "ki_slice", "en": "slice", "ar": "يقطّع شرائح", "tr": "سلايس", "pos": "v", "emoji": "🔪" },
-    { "id": "ki_taste", "en": "taste", "ar": "يتذوق", "tr": "تيست", "pos": "v", "emoji": "👅" },
-    { "id": "ki_serve", "en": "serve", "ar": "يقدّم الطعام", "tr": "سيرڤ", "pos": "v", "emoji": "🍽️" },
-    { "id": "ki_recipe", "en": "recipe", "ar": "وصفة", "tr": "رِسِپي", "pos": "n", "emoji": "📖" },
-    { "id": "ki_ingredient", "en": "ingredients", "ar": "مكوّنات", "tr": "إنغريديَنتس", "pos": "n", "emoji": "🧺" },
-    { "id": "ki_flour", "en": "flour", "ar": "طحين", "tr": "فلاوَر", "pos": "n", "emoji": "🌾" },
-    { "id": "ki_butter", "en": "butter", "ar": "زبدة", "tr": "بَتَر", "pos": "n", "emoji": "🧈" },
-    { "id": "ki_spices", "en": "spices", "ar": "بهارات", "tr": "سپايسِز", "pos": "n", "emoji": "🫙" },
-    { "id": "ki_yogurt", "en": "yogurt", "ar": "لبن / زبادي", "tr": "يوغَرت", "pos": "n", "emoji": "🥛" },
-    { "id": "ki_honey", "en": "honey", "ar": "عسل", "tr": "هَني", "pos": "n", "emoji": "🍯" },
-    { "id": "ki_hotpan", "en": "be careful, it's hot", "ar": "انتبه، إنه ساخن", "tr": "بي كيرفُل، إتس هوت", "pos": "phr", "emoji": "🔥" },
-    { "id": "ki_dishes", "en": "wash the dishes", "ar": "يغسل الصحون", "tr": "واش ذَ دِشِز", "pos": "phr", "emoji": "🧽", "ex": { "en": "I wash the dishes after dinner.", "ar": "أغسل الصحون بعد العشاء.", "tr": "آي واش ذَ دِشِز آفتَر دِنَر" } },
-    { "id": "ki_leftover", "en": "leftovers", "ar": "بقايا الطعام", "tr": "لِفت أوڤَرز", "pos": "n", "emoji": "🥡" }
+    {
+      "id": "ki_pot",
+      "en": "pot",
+      "ar": "قِدر",
+      "tr": "پوت",
+      "pos": "n",
+      "emoji": "🍲"
+    },
+    {
+      "id": "ki_pan",
+      "en": "pan",
+      "ar": "مقلاة",
+      "tr": "پان",
+      "pos": "n",
+      "emoji": "🍳"
+    },
+    {
+      "id": "ki_oven",
+      "en": "oven",
+      "ar": "فرن",
+      "tr": "أوڤِن",
+      "pos": "n",
+      "emoji": "🔥",
+      "ex": {
+        "en": "Put the chicken in the oven.",
+        "ar": "ضع الدجاج في الفرن.",
+        "tr": "پوت ذَ تشِكِن إن ذي أوڤِن"
+      }
+    },
+    {
+      "id": "ki_bowl",
+      "en": "bowl",
+      "ar": "وعاء",
+      "tr": "بول",
+      "pos": "n",
+      "emoji": "🥣"
+    },
+    {
+      "id": "ki_tray",
+      "en": "tray",
+      "ar": "صينية",
+      "tr": "تريه",
+      "pos": "n",
+      "emoji": "🍱"
+    },
+    {
+      "id": "ki_lid",
+      "en": "lid",
+      "ar": "غطاء",
+      "tr": "لِد",
+      "pos": "n",
+      "emoji": "🥘"
+    },
+    {
+      "id": "ki_kettle",
+      "en": "kettle",
+      "ar": "غلاية",
+      "tr": "كِتِل",
+      "pos": "n",
+      "emoji": "🫖"
+    },
+    {
+      "id": "ki_sink",
+      "en": "sink",
+      "ar": "حوض الجلي",
+      "tr": "سِنك",
+      "pos": "n",
+      "emoji": "🚰"
+    },
+    {
+      "id": "ki_tap",
+      "en": "tap",
+      "ar": "صنبور",
+      "tr": "تاپ",
+      "pos": "n",
+      "emoji": "🚿"
+    },
+    {
+      "id": "ki_cupboard",
+      "en": "cupboard",
+      "ar": "خزانة",
+      "tr": "كَبَرد",
+      "pos": "n",
+      "emoji": "🗄️"
+    },
+    {
+      "id": "ki_boil",
+      "en": "boil",
+      "ar": "يغلي / يسلق",
+      "tr": "بويل",
+      "pos": "v",
+      "emoji": "♨️",
+      "ex": {
+        "en": "Boil the water first.",
+        "ar": "اغلِ الماء أولاً.",
+        "tr": "بويل ذَ ووتَر فيرست"
+      }
+    },
+    {
+      "id": "ki_fry",
+      "en": "fry",
+      "ar": "يقلي",
+      "tr": "فراي",
+      "pos": "v",
+      "emoji": "🍳"
+    },
+    {
+      "id": "ki_bake",
+      "en": "bake",
+      "ar": "يخبز",
+      "tr": "بيك",
+      "pos": "v",
+      "emoji": "🥖"
+    },
+    {
+      "id": "ki_mix",
+      "en": "mix",
+      "ar": "يخلط",
+      "tr": "مِكس",
+      "pos": "v",
+      "emoji": "🥄"
+    },
+    {
+      "id": "ki_add",
+      "en": "add",
+      "ar": "يضيف",
+      "tr": "آد",
+      "pos": "v",
+      "emoji": "➕",
+      "ex": {
+        "en": "Add a little salt.",
+        "ar": "أضف قليلاً من الملح.",
+        "tr": "آد إيه لِتِل سولت"
+      }
+    },
+    {
+      "id": "ki_pour",
+      "en": "pour",
+      "ar": "يسكب",
+      "tr": "پور",
+      "pos": "v",
+      "emoji": "🫗"
+    },
+    {
+      "id": "ki_peel",
+      "en": "peel",
+      "ar": "يقشّر",
+      "tr": "پيل",
+      "pos": "v",
+      "emoji": "🥔"
+    },
+    {
+      "id": "ki_slice",
+      "en": "slice",
+      "ar": "يقطّع شرائح",
+      "tr": "سلايس",
+      "pos": "v",
+      "emoji": "🔪"
+    },
+    {
+      "id": "ki_taste",
+      "en": "taste",
+      "ar": "يتذوق",
+      "tr": "تيست",
+      "pos": "v",
+      "emoji": "👅"
+    },
+    {
+      "id": "ki_serve",
+      "en": "serve",
+      "ar": "يقدّم الطعام",
+      "tr": "سيرڤ",
+      "pos": "v",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "ki_recipe",
+      "en": "recipe",
+      "ar": "وصفة",
+      "tr": "رِسِپي",
+      "pos": "n",
+      "emoji": "📖"
+    },
+    {
+      "id": "ki_ingredient",
+      "en": "ingredients",
+      "ar": "مكوّنات",
+      "tr": "إنغريديَنتس",
+      "pos": "n",
+      "emoji": "🧺"
+    },
+    {
+      "id": "ki_flour",
+      "en": "flour",
+      "ar": "طحين",
+      "tr": "فلاوَر",
+      "pos": "n",
+      "emoji": "🌾"
+    },
+    {
+      "id": "ki_butter",
+      "en": "butter",
+      "ar": "زبدة",
+      "tr": "بَتَر",
+      "pos": "n",
+      "emoji": "🧈"
+    },
+    {
+      "id": "ki_spices",
+      "en": "spices",
+      "ar": "بهارات",
+      "tr": "سپايسِز",
+      "pos": "n",
+      "emoji": "🫙"
+    },
+    {
+      "id": "ki_yogurt",
+      "en": "yogurt",
+      "ar": "لبن / زبادي",
+      "tr": "يوغَرت",
+      "pos": "n",
+      "emoji": "🥛"
+    },
+    {
+      "id": "ki_honey",
+      "en": "honey",
+      "ar": "عسل",
+      "tr": "هَني",
+      "pos": "n",
+      "emoji": "🍯"
+    },
+    {
+      "id": "ki_hotpan",
+      "en": "be careful, it's hot",
+      "ar": "انتبه، إنه ساخن",
+      "tr": "بي كيرفُل، إتس هوت",
+      "pos": "phr",
+      "emoji": "🔥"
+    },
+    {
+      "id": "ki_dishes",
+      "en": "wash the dishes",
+      "ar": "يغسل الصحون",
+      "tr": "واش ذَ دِشِز",
+      "pos": "phr",
+      "emoji": "🧽",
+      "ex": {
+        "en": "I wash the dishes after dinner.",
+        "ar": "أغسل الصحون بعد العشاء.",
+        "tr": "آي واش ذَ دِشِز آفتَر دِنَر"
+      }
+    },
+    {
+      "id": "ki_leftover",
+      "en": "leftovers",
+      "ar": "بقايا الطعام",
+      "tr": "لِفت أوڤَرز",
+      "pos": "n",
+      "emoji": "🥡"
+    }
   ],
   "sentences": [
-    { "id": "ki_s1", "en": "I am cooking dinner now.", "ar": "أنا أطبخ العشاء الآن.", "tr": "آيم كوكِنغ دِنَر ناو" },
-    { "id": "ki_s2", "en": "Boil the water first.", "ar": "اغلِ الماء أولاً.", "tr": "بويل ذَ ووتَر فيرست" },
-    { "id": "ki_s3", "en": "Add a little salt and pepper.", "ar": "أضف قليلاً من الملح والفلفل.", "tr": "آد إيه لِتِل سولت آند پِپَر" },
-    { "id": "ki_s4", "en": "The food is in the oven.", "ar": "الطعام في الفرن.", "tr": "ذَ فوود إز إن ذي أوڤِن" },
-    { "id": "ki_s5", "en": "Can you help me in the kitchen?", "ar": "هل يمكنك مساعدتي في المطبخ؟", "tr": "كان يو هِلپ مي إن ذَ كِتشِن" },
-    { "id": "ki_s6", "en": "This recipe is very easy.", "ar": "هذه الوصفة سهلة جداً.", "tr": "ذِس رِسِپي إز ڤيري إيزي" },
-    { "id": "ki_s7", "en": "Be careful, the pan is hot.", "ar": "انتبه، المقلاة ساخنة.", "tr": "بي كيرفُل، ذَ پان إز هوت" },
-    { "id": "ki_s8", "en": "I wash the dishes every night.", "ar": "أغسل الصحون كل ليلة.", "tr": "آي واش ذَ دِشِز إڤري نايت" },
-    { "id": "ki_s9", "en": "Put the milk in the fridge.", "ar": "ضع الحليب في الثلاجة.", "tr": "پوت ذَ مِلك إن ذَ فرِدج" },
-    { "id": "ki_s10", "en": "Taste it and tell me.", "ar": "تذوقه وأخبرني.", "tr": "تيست إت آند تِل مي" }
+    {
+      "id": "ki_s1",
+      "en": "I am cooking dinner now.",
+      "ar": "أنا أطبخ العشاء الآن.",
+      "tr": "آيم كوكِنغ دِنَر ناو"
+    },
+    {
+      "id": "ki_s2",
+      "en": "Boil the water first.",
+      "ar": "اغلِ الماء أولاً.",
+      "tr": "بويل ذَ ووتَر فيرست"
+    },
+    {
+      "id": "ki_s3",
+      "en": "Add a little salt and pepper.",
+      "ar": "أضف قليلاً من الملح والفلفل.",
+      "tr": "آد إيه لِتِل سولت آند پِپَر"
+    },
+    {
+      "id": "ki_s4",
+      "en": "The food is in the oven.",
+      "ar": "الطعام في الفرن.",
+      "tr": "ذَ فوود إز إن ذي أوڤِن"
+    },
+    {
+      "id": "ki_s5",
+      "en": "Can you help me in the kitchen?",
+      "ar": "هل يمكنك مساعدتي في المطبخ؟",
+      "tr": "كان يو هِلپ مي إن ذَ كِتشِن"
+    },
+    {
+      "id": "ki_s6",
+      "en": "This recipe is very easy.",
+      "ar": "هذه الوصفة سهلة جداً.",
+      "tr": "ذِس رِسِپي إز ڤيري إيزي"
+    },
+    {
+      "id": "ki_s7",
+      "en": "Be careful, the pan is hot.",
+      "ar": "انتبه، المقلاة ساخنة.",
+      "tr": "بي كيرفُل، ذَ پان إز هوت"
+    },
+    {
+      "id": "ki_s8",
+      "en": "I wash the dishes every night.",
+      "ar": "أغسل الصحون كل ليلة.",
+      "tr": "آي واش ذَ دِشِز إڤري نايت"
+    },
+    {
+      "id": "ki_s9",
+      "en": "Put the milk in the fridge.",
+      "ar": "ضع الحليب في الثلاجة.",
+      "tr": "پوت ذَ مِلك إن ذَ فرِدج"
+    },
+    {
+      "id": "ki_s10",
+      "en": "Taste it and tell me.",
+      "ar": "تذوقه وأخبرني.",
+      "tr": "تيست إت آند تِل مي"
+    },
+    {
+      "id": "ki_s11",
+      "en": "Cut the onions into small pieces.",
+      "ar": "قطّع البصل إلى قطع صغيرة.",
+      "tr": "كَت ذي أنيَنز إنتو سمول پيسِز"
+    },
+    {
+      "id": "ki_s12",
+      "en": "Don't forget to turn off the stove.",
+      "ar": "لا تنسَ إطفاء الموقد.",
+      "tr": "دونت فَرغِت تو تيرن أوف ذَ ستوڤ"
+    },
+    {
+      "id": "ki_s13",
+      "en": "It needs ten more minutes.",
+      "ar": "يحتاج عشر دقائق أخرى.",
+      "tr": "إت نيدز تِن مور مِنِتس"
+    },
+    {
+      "id": "ki_s14",
+      "en": "Mix everything together.",
+      "ar": "اخلط كل شيء معاً.",
+      "tr": "مِكس إڤريثِنغ تُوغيذَر"
+    },
+    {
+      "id": "ki_s15",
+      "en": "The rice is ready.",
+      "ar": "الأرز جاهز.",
+      "tr": "ذَ رايس إز رِدي"
+    },
+    {
+      "id": "ki_s16",
+      "en": "Keep the leftovers in the fridge.",
+      "ar": "احفظ البقايا في الثلاجة.",
+      "tr": "كيپ ذَ لِفت أوڤَرز إن ذَ فرِدج"
+    },
+    {
+      "id": "ki_s17",
+      "en": "Can you pass me the salt?",
+      "ar": "هل يمكنك مناولتي الملح؟",
+      "tr": "كان يو پاس مي ذَ سولت"
+    },
+    {
+      "id": "ki_s18",
+      "en": "I burned the food a little.",
+      "ar": "أحرقت الطعام قليلاً.",
+      "tr": "آي بيرند ذَ فوود إيه لِتِل"
+    }
   ]
 }

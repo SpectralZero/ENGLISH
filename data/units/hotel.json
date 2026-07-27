@@ -1,0 +1,250 @@
+{
+  "id": "hotel",
+  "title": {
+    "ar": "في الفندق",
+    "en": "At the Hotel"
+  },
+  "icon": "🏨",
+  "level": 6,
+  "color": "brand",
+  "words": [
+    {
+      "id": "hot_w1",
+      "en": "reception",
+      "ar": "الاستقبال",
+      "tr": "رِسِپشِن",
+      "pos": "n",
+      "emoji": "🛎️"
+    },
+    {
+      "id": "hot_w2",
+      "en": "single room",
+      "ar": "غرفة مفردة",
+      "tr": "سِنغِل روم",
+      "pos": "n",
+      "emoji": "🛏️"
+    },
+    {
+      "id": "hot_w3",
+      "en": "double room",
+      "ar": "غرفة مزدوجة",
+      "tr": "دَبِل روم",
+      "pos": "n",
+      "emoji": "🛏️"
+    },
+    {
+      "id": "hot_w4",
+      "en": "key card",
+      "ar": "بطاقة الغرفة",
+      "tr": "كي كارد",
+      "pos": "n",
+      "emoji": "🔑"
+    },
+    {
+      "id": "hot_w5",
+      "en": "check in",
+      "ar": "تسجيل الدخول",
+      "tr": "تشِك إن",
+      "pos": "v",
+      "emoji": "📥"
+    },
+    {
+      "id": "hot_w6",
+      "en": "check out",
+      "ar": "تسجيل المغادرة",
+      "tr": "تشِك أوت",
+      "pos": "v",
+      "emoji": "📤"
+    },
+    {
+      "id": "hot_w7",
+      "en": "lift / elevator",
+      "ar": "مصعد",
+      "tr": "لِفت",
+      "pos": "n",
+      "emoji": "🛗"
+    },
+    {
+      "id": "hot_w8",
+      "en": "floor",
+      "ar": "طابق",
+      "tr": "فلور",
+      "pos": "n",
+      "emoji": "🏢"
+    },
+    {
+      "id": "hot_w9",
+      "en": "towel",
+      "ar": "منشفة",
+      "tr": "تاوِل",
+      "pos": "n",
+      "emoji": "🧻"
+    },
+    {
+      "id": "hot_w10",
+      "en": "wake-up call",
+      "ar": "مكالمة إيقاظ",
+      "tr": "ويك أب كول",
+      "pos": "n",
+      "emoji": "⏰"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "hot_s1",
+      "en": "I have a reservation.",
+      "ar": "لدي حجز.",
+      "tr": "آي هاڤ إيه رِزَرڤيشِن"
+    },
+    {
+      "id": "hot_s2",
+      "en": "My name is Ahmed Ali.",
+      "ar": "اسمي أحمد علي.",
+      "tr": "ماي نيم إز أحمد علي"
+    },
+    {
+      "id": "hot_s3",
+      "en": "Do you have any rooms available?",
+      "ar": "هل لديكم غرف متاحة؟",
+      "tr": "دو يو هاڤ إني رومز أڤيلَبِل"
+    },
+    {
+      "id": "hot_s4",
+      "en": "A single room, please.",
+      "ar": "غرفة مفردة من فضلك.",
+      "tr": "إيه سِنغِل روم، پليز"
+    },
+    {
+      "id": "hot_s5",
+      "en": "For two nights.",
+      "ar": "لليلتين.",
+      "tr": "فور تو نايتس"
+    },
+    {
+      "id": "hot_s6",
+      "en": "How much per night?",
+      "ar": "كم سعر الليلة؟",
+      "tr": "هاو مَتش پير نايت"
+    },
+    {
+      "id": "hot_s7",
+      "en": "Is breakfast included?",
+      "ar": "هل الفطور مشمول؟",
+      "tr": "إز برِكفَست إنكلودِد"
+    },
+    {
+      "id": "hot_s8",
+      "en": "Can I see the room first?",
+      "ar": "هل يمكنني رؤية الغرفة أولاً؟",
+      "tr": "كان آي سي ذَ روم فيرست"
+    },
+    {
+      "id": "hot_s9",
+      "en": "Here is your key card.",
+      "ar": "تفضل بطاقة غرفتك.",
+      "tr": "هير إز يور كي كارد"
+    },
+    {
+      "id": "hot_s10",
+      "en": "Your room is on the third floor.",
+      "ar": "غرفتك في الطابق الثالث.",
+      "tr": "يور روم إز أون ذَ ثيرد فلور"
+    },
+    {
+      "id": "hot_s11",
+      "en": "Where is the lift?",
+      "ar": "أين المصعد؟",
+      "tr": "وير إز ذَ لِفت"
+    },
+    {
+      "id": "hot_s12",
+      "en": "What time is breakfast?",
+      "ar": "متى موعد الفطور؟",
+      "tr": "وات تايم إز برِكفَست"
+    },
+    {
+      "id": "hot_s13",
+      "en": "What is the Wi-Fi password?",
+      "ar": "ما كلمة سر الواي فاي؟",
+      "tr": "وات إز ذَ واي فاي پاسوِرد"
+    },
+    {
+      "id": "hot_s14",
+      "en": "The air conditioning is not working.",
+      "ar": "التكييف لا يعمل.",
+      "tr": "ذي إير كَندِشِنِنغ إز نوت وِركِنغ"
+    },
+    {
+      "id": "hot_s15",
+      "en": "Could I have more towels, please?",
+      "ar": "هل يمكنني الحصول على مناشف إضافية؟",
+      "tr": "كود آي هاڤ مور تاوِلز، پليز"
+    },
+    {
+      "id": "hot_s16",
+      "en": "There is no hot water.",
+      "ar": "لا يوجد ماء ساخن.",
+      "tr": "ذير إز نو هوت ووتَر"
+    },
+    {
+      "id": "hot_s17",
+      "en": "The room is too noisy.",
+      "ar": "الغرفة مزعجة جداً.",
+      "tr": "ذَ روم إز تو نويزي"
+    },
+    {
+      "id": "hot_s18",
+      "en": "Can I change my room?",
+      "ar": "هل يمكنني تغيير غرفتي؟",
+      "tr": "كان آي تشينج ماي روم"
+    },
+    {
+      "id": "hot_s19",
+      "en": "I would like a wake-up call at six.",
+      "ar": "أريد مكالمة إيقاظ في السادسة.",
+      "tr": "آي وود لايك إيه ويك أب كول آت سِكس"
+    },
+    {
+      "id": "hot_s20",
+      "en": "Can you keep my luggage?",
+      "ar": "هل يمكنكم حفظ أمتعتي؟",
+      "tr": "كان يو كيپ ماي لَغِج"
+    },
+    {
+      "id": "hot_s21",
+      "en": "I would like to check out.",
+      "ar": "أريد تسجيل المغادرة.",
+      "tr": "آي وود لايك تو تشِك أوت"
+    },
+    {
+      "id": "hot_s22",
+      "en": "Can I have the bill, please?",
+      "ar": "هل يمكنني الحصول على الفاتورة؟",
+      "tr": "كان آي هاڤ ذَ بِل، پليز"
+    },
+    {
+      "id": "hot_s23",
+      "en": "I think there is a mistake in the bill.",
+      "ar": "أظن أن هناك خطأً في الفاتورة.",
+      "tr": "آي ثِنك ذير إز إيه مِستيك إن ذَ بِل"
+    },
+    {
+      "id": "hot_s24",
+      "en": "Can you call a taxi for me?",
+      "ar": "هل يمكنك طلب سيارة أجرة لي؟",
+      "tr": "كان يو كول إيه تاكسي فور مي"
+    },
+    {
+      "id": "hot_s25",
+      "en": "Is there a good restaurant near here?",
+      "ar": "هل يوجد مطعم جيد قريب؟",
+      "tr": "إز ذير إيه غُود رِستُورانت نير هير"
+    },
+    {
+      "id": "hot_s26",
+      "en": "Thank you, everything was great.",
+      "ar": "شكراً، كان كل شيء رائعاً.",
+      "tr": "ثانك يو، إڤريثِنغ واز غريت"
+    }
+  ]
+}

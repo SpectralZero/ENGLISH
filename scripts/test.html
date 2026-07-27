@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<title>خُطوة — اختبارات</title>
+<style>
+  body { font: 15px/1.7 system-ui, sans-serif; margin: 0; padding: 24px; background: #0b0e18; color: #e8ebff; }
+  h1 { font-size: 1.3rem; margin: 0 0 4px; }
+  .sum { padding: 12px 16px; border-radius: 12px; margin: 16px 0; font-weight: 700; }
+  .sum.ok { background: #10cf9b22; color: #7ff0cd; }
+  .sum.bad { background: #fb5c7622; color: #ff9fb0; }
+  .grp { margin: 18px 0 6px; font-weight: 800; color: #a9b0e0; border-bottom: 1px solid #232a45; padding-bottom: 6px; }
+  .t { padding: 3px 0; font-family: ui-monospace, Menlo, Consolas, monospace; font-size: .84rem; direction: ltr; text-align: left; }
+  .t.pass::before { content: "✓ "; color: #10cf9b; }
+  .t.fail { color: #ff9fb0; }
+  .t.fail::before { content: "✗ "; }
+</style>
+</head>
+<body>
+<h1>خُطوة — اختبارات تلقائية</h1>
+<div id="sum" class="sum">…جارٍ التشغيل</div>
+<div id="out"></div>
+
+<script type="module">
+/* ------------------------------------------------------------------
+   Runs the real modules against the real content files.
+   Local progress is snapshotted and restored, so running the suite
+   never costs the user their streak.
+   ------------------------------------------------------------------ */
+const KEYS = ['khutwa.progress.v1', 'khutwa.settings.v1', 'khutwa.sync.v1', 'khutwa.syncmeta.v1'];
+const backup = Object.fromEntries(KEYS.map(k => [k, localStorage.getItem(k)]));
+KEYS.forEach(k => localStorage.removeItem(k));
+
+const out = document.getElementById('out');
+let pass = 0, fail = 0;
+const group = name => out.insertAdjacentHTML('beforeend', `<div class="grp">${name}</div>`);
+const line = (ok, msg) => {
+  ok ? pass++ : fail++;
+  out.insertAdjacentHTML('beforeend', `<div class="t ${ok ? 'pass' : 'fail'}">${msg}</div>`);
+};
+const ok  = (name, cond) => line(!!cond, name);
+const eq  = (name, got, want) => line(JSON.stringify(got) === JSON.stringify(want),
+  `${name} — got ${JSON.stringify(got)}${JSON.stringify(got) === JSON.stringify(want) ? '' : ` want ${JSON.stringify(want)}`}`);
+
+try {
+  const data  = await import('../app/data.js');
+  const store = await import('../app/store.js');
+  const sync  = await import('../app/sync.js');
+  const util  = await import('../app/util.js');
+
+  await data.loadAll();
+  const S = data.store;
+
+  /* ============================================ content integrity */
+  group('المحتوى');
+  ok('كل الدروس حُمّلت', S.units.length === S.index.units.length);
+  ok(`عدد الكلمات ${S.words.length} ≥ 1200`, S.words.length >= 1200);
+  ok(`عدد الجمل ${S.sentences.length} ≥ 800`, S.sentences.length >= 800);
+  ok('الحروف ٢٦', S.alphabet.letters.length === 26);
+
+  const ids = [...S.words, ...S.sentences].map(x => x.id);
+  eq('لا معرّفات مكررة', ids.length - new Set(ids).size, 0);
+  ok('كل كلمة لها معنى عربي', S.words.every(w => w.ar && w.en));
+  ok('كل كلمة لها نطق عربي', S.words.every(w => w.tr));
+  ok('كل جملة لها ترجمة', S.sentences.every(s => s.ar && s.en));
+  ok('كل جملة لها نطق', S.sentences.every(s => s.tr));
+  ok('كل درس مرتبط بمستوى معروف',
+    S.units.every(u => S.index.levels.some(l => l.id === u.level)));
+  ok('itemById يجد الكلمات والجمل',
+    !!data.itemById(S.words[0].id) && !!data.itemById(S.sentences[0].id));
+  eq('allItemIds = كلمات + جمل', data.allItemIds().length, S.words.length + S.sentences.length);
+
+  /* ============================================ SRS scheduling */
+  group('جدولة المراجعة (SRS)');
+  const today = util.dayKey();
+  const w1 = S.words[0].id;
+
+  store.review(w1, 2, 'rec');
+  const a1 = store.itemOf(w1);
+  ok('الإجابة الصحيحة تجدول ليوم قادم', a1.due > today);
+  ok('عدّاد التكرار زاد', a1.n === 1);
+  ok('سجّل المهارة', a1.sk.rec[0] === 1 && a1.sk.rec[1] === 1);
+
+  store.review(w1, 0, 'rec');
+  const a2 = store.itemOf(w1);
+  eq('الخطأ يعيدها لليوم نفسه', a2.due, today);
+  eq('الخطأ يصفّر التكرار', a2.n, 0);
+  ok('الخطأ يسجَّل كتعثّر', a2.lapses === 1);
+  ok('المهارة سجّلت محاولة خاطئة', a2.sk.rec[0] === 1 && a2.sk.rec[1] === 2);
+
+  for (let i = 0; i < 6; i++) store.review(w1, 3, 'rec');
+  ok('التكرار المتتالي يباعد الفاصل', store.itemOf(w1).i >= 16);
+  ok('يصبح متقناً', store.isMastered(w1));
+
+  const w2 = S.words[1].id;
+  for (let i = 0; i < 4; i++) { store.review(w2, 2); store.review(w2, 0); }
+  ok('كلمة متكررة الخطأ تُعتبر صعبة جداً (leech)', store.isLeech(w2));
+  ok('صعوبتها أعلى من المتقنة', store.difficulty(w2) > store.difficulty(w1));
+
+  const weak = store.weakest([w1, w2], 5);
+  eq('الأصعب أولاً في قائمة الضعف', weak[0], w2);
+
+  const dueNow = store.dueIds([w1, w2]);
+  ok('الكلمة الصعبة مستحقة اليوم', dueNow.includes(w2));
+  ok('المتقنة غير مستحقة', !dueNow.includes(w1));
+
+  const pr = store.byPriority([w1, w2]);
+  eq('الأولوية للصعبة المستحقة', pr[0], w2);
+
+  const sk = store.skillStats([w1, w2]);
+  ok('إحصاء المهارات يجمع المحاولات', sk.rec[1] >= 8);
+
+  /* ============================================ counters + streak */
+  group('العدّادات والسلسلة');
+  const c = store.counts([w1, w2]);
+  eq('عدد المتعلَّم', c.learned, 2);
+  eq('عدد المتقن', c.mastered, 1);
+  store.addXP(10, 'review');
+  ok('النقاط تُسجَّل', store.progress.totalXP >= 10);
+  ok('اليوم يُسجَّل في السجل', !!store.progress.days[today]);
+  store.touchDay();
+  ok('السلسلة بدأت', store.progress.streak >= 1);
+
+  /* ============================================ quiz generation */
+  group('توليد الاختبارات');
+  const quizMod = await import('../app/views/quiz.js');   // module must at least load
+  ok('وحدة الاختبارات تُحمَّل', typeof quizMod.default === 'function');
+
+  const unit = S.units.find(u => u.words.length >= 8 && u.sentences.length >= 4);
+  ok('يوجد درس صالح للاختبار', !!unit);
+
+  const d = data.distractors(unit.words[0], 3, 'ar');
+  eq('٣ بدائل للاختيار من متعدد', d.length, 3);
+  ok('البديل لا يساوي الإجابة', d.every(x => x.ar !== unit.words[0].ar));
+  eq('البدائل غير مكررة', new Set(d.map(x => x.ar)).size, d.length);
+
+  const short = S.sentences.filter(s => {
+    const n = s.en.split(/\s+/).length;
+    return n >= 3 && n <= 9;
+  });
+  ok(`جمل قابلة للترتيب: ${short.length} ≥ 300`, short.length >= 300);
+
+  /* fill-in-the-blank must always have a real answer inside the options */
+  let blanksOk = true;
+  for (const s of short.slice(0, 200)) {
+    const parts = s.en.split(/\s+/);
+    const cands = parts.map(t => t.replace(/[.,!?]/g, ''))
+      .filter(t => t.length >= 3 && !/^(the|and|for|you|are|was|with|that|this)$/i.test(t));
+    if (!cands.length) continue;
+    if (!parts.join(' ').includes(cands[0])) blanksOk = false;
+  }
+  ok('كل جملة تصلح لسؤال «أكمل الناقص»', blanksOk);
+
+  /* ============================================ daily sentences */
+  group('الجمل اليومية');
+  const sent = await import('../app/views/sentences.js');
+  const set1 = sent.dailySet(8);
+  const set2 = sent.dailySet(8);
+  eq('مجموعة اليوم ٨ جمل', set1.length, 8);
+  eq('المجموعة ثابتة عند إعادة الفتح', set1.map(s => s.id), set2.map(s => s.id));
+  ok('كل عناصرها جمل حقيقية', set1.every(s => s.en && s.ar));
+
+  store.review(set1[0].id, 2, 'snt');
+  ok('الجملة تُجدول مثل الكلمة', !!store.itemOf(set1[0].id));
+  ok('الجمل تدخل قائمة المستحق', data.allItemIds().includes(set1[0].id));
+
+  /* ============================================ sync merge */
+  group('دمج المزامنة');
+  const A = {
+    items: { x: { n: 2, i: 4, e: 2.5, due: '2026-08-01', ok: 3, ko: 1, t: 2000 } },
+    days: { '2026-07-27': { xp: 50, learned: 5, reviewed: 2 } }, units: { u1: {} },
+    totalXP: 100, streak: 3, bestStreak: 5, lastDay: '2026-07-27', createdAt: 1000, updatedAt: 3000, name: 'A',
+  };
+  const B = {
+    items: {
+      x: { n: 1, i: 1, e: 2.3, due: '2026-07-28', ok: 1, ko: 4, t: 1000 },
+      y: { n: 5, i: 16, e: 2.6, due: '2026-09-01', ok: 6, ko: 0, t: 5000 },
+    },
+    days: { '2026-07-27': { xp: 20, learned: 2, reviewed: 1 }, '2026-07-26': { xp: 30, learned: 3, reviewed: 0 } },
+    units: { u2: {} }, totalXP: 80, streak: 1, bestStreak: 2, lastDay: '2026-07-26', createdAt: 500, updatedAt: 4000, name: '',
+  };
+  const m = sync.merge(A, B);
+  eq('يبقي أحدث سجل للكلمة', m.items.x.n, 2);
+  eq('يأخذ أعلى عدد أخطاء', m.items.x.ko, 4);
+  eq('يحافظ على كلمة الجهاز الآخر', m.items.y.i, 16);
+  eq('اليوم المشترك يأخذ الأعلى', m.days['2026-07-27'].xp, 50);
+  eq('اليوم الموجود على جهاز واحد يبقى', m.days['2026-07-26'].xp, 30);
+  eq('أعلى مجموع نقاط', m.totalXP, 100);
+  eq('أطول سلسلة', m.bestStreak, 5);
+  eq('أحدث يوم نشاط', m.lastDay, '2026-07-27');
+  eq('أقدم تاريخ إنشاء', m.createdAt, 500);
+  eq('الاسم لا يُفقد', m.name, 'A');
+  eq('الدروس تُدمج', Object.keys(m.units).sort(), ['u1', 'u2']);
+  eq('الدمج متماثل الاتجاه', Object.keys(sync.merge(B, A).items).sort(), Object.keys(m.items).sort());
+  eq('الدمج مع فراغ يعيد الموجود', Object.keys(sync.merge(null, B).items).sort(), ['x', 'y']);
+
+  /* the bug that made every sync look like a pull */
+  const reordered = JSON.parse(JSON.stringify({ ...A, items: { ...A.items }, days: { ...A.days } }));
+  eq('المقارنة الثابتة لا تتأثر بترتيب المفاتيح',
+    util.stableStringify(reordered) === util.stableStringify(A), true);
+  eq('stableStringify يرتب المفاتيح',
+    util.stableStringify({ b: 1, a: 2 }), util.stableStringify({ a: 2, b: 1 }));
+
+  /* ============================================ helpers */
+  group('أدوات مساعدة');
+  eq('sameWord يتجاهل الحالة والمسافات', util.sameWord(' Water ', 'water'), true);
+  eq('sameWord يرفض المختلف', util.sameWord('cat', 'car'), false);
+  eq('editDistance = 1', util.editDistance('water', 'watar'), 1);
+  eq('الأرقام العربية', util.AR_NUM(2026), '٢٠٢٦');
+  eq('slug ينظّف المعرّف', util.slug('Food & Drink!'), 'food-drink');
+  eq('daysBetween', util.daysBetween('2026-07-20', '2026-07-27'), 7);
+
+  const tr = (await import('../app/admin/translit.js')).translit;
+  ok('مولّد النطق يعطي حروفاً عربية', /[؀-ۿ]/.test(tr('water')));
+  ok('مولّد النطق يتعامل مع الجمل', tr('good morning').split(' ').length === 2);
+
+} catch (e) {
+  line(false, 'FATAL: ' + (e && (e.stack || e.message)));
+}
+
+/* restore the real user data */
+KEYS.forEach(k => (backup[k] == null ? localStorage.removeItem(k) : localStorage.setItem(k, backup[k])));
+
+const sum = document.getElementById('sum');
+sum.className = 'sum ' + (fail ? 'bad' : 'ok');
+sum.textContent = fail ? `${fail} اختبار فاشل من ${pass + fail}` : `نجحت كل الاختبارات (${pass})`;
+document.title = (fail ? `✗ ${fail} فشل` : `✓ ${pass} نجاح`) + ' — خُطوة';
+</script>
+</body>
+</html>

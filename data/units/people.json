@@ -1,51 +1,439 @@
 {
   "id": "people",
-  "title": { "ar": "الضمائر والناس", "en": "People & Pronouns" },
+  "title": {
+    "ar": "الضمائر والناس",
+    "en": "People & Pronouns"
+  },
   "icon": "🧑",
   "level": 1,
   "color": "brand",
   "words": [
-    { "id": "pe_i", "en": "I", "ar": "أنا", "tr": "آي", "pos": "pron", "emoji": "🙋", "ex": { "en": "I am a student.", "ar": "أنا طالب.", "tr": "آي آم إيه ستيودِنت" } },
-    { "id": "pe_you", "en": "you", "ar": "أنت / أنتم", "tr": "يو", "pos": "pron", "emoji": "👉", "ex": { "en": "You are my friend.", "ar": "أنت صديقي.", "tr": "يو آر ماي فرِند" } },
-    { "id": "pe_he", "en": "he", "ar": "هو", "tr": "هي", "pos": "pron", "emoji": "👨", "ex": { "en": "He is a doctor.", "ar": "هو طبيب.", "tr": "هي إز إيه دُكتَر" } },
-    { "id": "pe_she", "en": "she", "ar": "هي", "tr": "شي", "pos": "pron", "emoji": "👩", "ex": { "en": "She is my sister.", "ar": "هي أختي.", "tr": "شي إز ماي سِستَر" } },
-    { "id": "pe_it", "en": "it", "ar": "هو/هي (لغير العاقل)", "tr": "إت", "pos": "pron", "emoji": "📦", "ex": { "en": "It is a big house.", "ar": "إنه بيت كبير.", "tr": "إت إز إيه بِغ هاوس" } },
-    { "id": "pe_we", "en": "we", "ar": "نحن", "tr": "وي", "pos": "pron", "emoji": "👥", "ex": { "en": "We are happy.", "ar": "نحن سعداء.", "tr": "وي آر هابي" } },
-    { "id": "pe_they", "en": "they", "ar": "هم", "tr": "ذيه", "pos": "pron", "emoji": "👨‍👩‍👦", "ex": { "en": "They are my family.", "ar": "هم عائلتي.", "tr": "ذيه آر ماي فامِلي" } },
-    { "id": "pe_my", "en": "my", "ar": "ـي (ملكي)", "tr": "ماي", "pos": "pron", "emoji": "🫵", "ex": { "en": "This is my book.", "ar": "هذا كتابي.", "tr": "ذِس إز ماي بوك" } },
-    { "id": "pe_your", "en": "your", "ar": "ـك (ملكك)", "tr": "يور", "pos": "pron", "emoji": "🤝" },
-    { "id": "pe_his", "en": "his", "ar": "ـه (ملكه)", "tr": "هِز", "pos": "pron", "emoji": "👦" },
-    { "id": "pe_her", "en": "her", "ar": "ـها (ملكها)", "tr": "هير", "pos": "pron", "emoji": "👧" },
-    { "id": "pe_our", "en": "our", "ar": "ـنا (ملكنا)", "tr": "أوَر", "pos": "pron", "emoji": "🏠" },
-    { "id": "pe_their", "en": "their", "ar": "ـهم (ملكهم)", "tr": "ذير", "pos": "pron", "emoji": "👪" },
-    { "id": "pe_this", "en": "this", "ar": "هذا", "tr": "ذِس", "pos": "pron", "emoji": "👇", "ex": { "en": "This is my car.", "ar": "هذه سيارتي.", "tr": "ذِس إز ماي كار" } },
-    { "id": "pe_that", "en": "that", "ar": "ذلك", "tr": "ذات", "pos": "pron", "emoji": "👆", "ex": { "en": "That is your bag.", "ar": "تلك حقيبتك.", "tr": "ذات إز يور باغ" } },
-    { "id": "pe_these", "en": "these", "ar": "هؤلاء", "tr": "ذيز", "pos": "pron", "emoji": "✌️" },
-    { "id": "pe_those", "en": "those", "ar": "أولئك", "tr": "ذوز", "pos": "pron", "emoji": "👐" },
-    { "id": "pe_man", "en": "man", "ar": "رجل", "tr": "مان", "pos": "n", "emoji": "👨", "ex": { "en": "The man is tall.", "ar": "الرجل طويل.", "tr": "ذَ مان إز تول" } },
-    { "id": "pe_woman", "en": "woman", "ar": "امرأة", "tr": "وُومَن", "pos": "n", "emoji": "👩" },
-    { "id": "pe_boy", "en": "boy", "ar": "ولد", "tr": "بوي", "pos": "n", "emoji": "👦" },
-    { "id": "pe_girl", "en": "girl", "ar": "بنت", "tr": "غيرل", "pos": "n", "emoji": "👧" },
-    { "id": "pe_child", "en": "child", "ar": "طفل", "tr": "تشايلد", "pos": "n", "emoji": "🧒" },
-    { "id": "pe_children", "en": "children", "ar": "أطفال", "tr": "تشِلدرِن", "pos": "n", "emoji": "🧒🧒", "ex": { "en": "The children are playing.", "ar": "الأطفال يلعبون.", "tr": "ذَ تشِلدرِن آر پلييِنغ" } },
-    { "id": "pe_baby", "en": "baby", "ar": "رضيع", "tr": "بيبي", "pos": "n", "emoji": "👶" },
-    { "id": "pe_people", "en": "people", "ar": "ناس", "tr": "پيپل", "pos": "n", "emoji": "👥", "ex": { "en": "Many people are here.", "ar": "ناس كثيرون هنا.", "tr": "مِني پيپل آر هير" } },
-    { "id": "pe_person", "en": "person", "ar": "شخص", "tr": "پيرسِن", "pos": "n", "emoji": "🧍" },
-    { "id": "pe_name", "en": "name", "ar": "اسم", "tr": "نيم", "pos": "n", "emoji": "🪪" },
-    { "id": "pe_neighbor", "en": "neighbor", "ar": "جار", "tr": "نيبَر", "pos": "n", "emoji": "🏘️" },
-    { "id": "pe_guest", "en": "guest", "ar": "ضيف", "tr": "غِست", "pos": "n", "emoji": "🚪" },
-    { "id": "pe_everyone", "en": "everyone", "ar": "الجميع", "tr": "إڤريوان", "pos": "pron", "emoji": "🌍" }
+    {
+      "id": "pe_i",
+      "en": "I",
+      "ar": "أنا",
+      "tr": "آي",
+      "pos": "pron",
+      "emoji": "🙋",
+      "ex": {
+        "en": "I am a student.",
+        "ar": "أنا طالب.",
+        "tr": "آي آم إيه ستيودِنت"
+      }
+    },
+    {
+      "id": "pe_you",
+      "en": "you",
+      "ar": "أنت / أنتم",
+      "tr": "يو",
+      "pos": "pron",
+      "emoji": "👉",
+      "ex": {
+        "en": "You are my friend.",
+        "ar": "أنت صديقي.",
+        "tr": "يو آر ماي فرِند"
+      }
+    },
+    {
+      "id": "pe_he",
+      "en": "he",
+      "ar": "هو",
+      "tr": "هي",
+      "pos": "pron",
+      "emoji": "👨",
+      "ex": {
+        "en": "He is a doctor.",
+        "ar": "هو طبيب.",
+        "tr": "هي إز إيه دُكتَر"
+      }
+    },
+    {
+      "id": "pe_she",
+      "en": "she",
+      "ar": "هي",
+      "tr": "شي",
+      "pos": "pron",
+      "emoji": "👩",
+      "ex": {
+        "en": "She is my sister.",
+        "ar": "هي أختي.",
+        "tr": "شي إز ماي سِستَر"
+      }
+    },
+    {
+      "id": "pe_it",
+      "en": "it",
+      "ar": "هو/هي (لغير العاقل)",
+      "tr": "إت",
+      "pos": "pron",
+      "emoji": "📦",
+      "ex": {
+        "en": "It is a big house.",
+        "ar": "إنه بيت كبير.",
+        "tr": "إت إز إيه بِغ هاوس"
+      }
+    },
+    {
+      "id": "pe_we",
+      "en": "we",
+      "ar": "نحن",
+      "tr": "وي",
+      "pos": "pron",
+      "emoji": "👥",
+      "ex": {
+        "en": "We are happy.",
+        "ar": "نحن سعداء.",
+        "tr": "وي آر هابي"
+      }
+    },
+    {
+      "id": "pe_they",
+      "en": "they",
+      "ar": "هم",
+      "tr": "ذيه",
+      "pos": "pron",
+      "emoji": "👨‍👩‍👦",
+      "ex": {
+        "en": "They are my family.",
+        "ar": "هم عائلتي.",
+        "tr": "ذيه آر ماي فامِلي"
+      }
+    },
+    {
+      "id": "pe_my",
+      "en": "my",
+      "ar": "ـي (ملكي)",
+      "tr": "ماي",
+      "pos": "pron",
+      "emoji": "🫵",
+      "ex": {
+        "en": "This is my book.",
+        "ar": "هذا كتابي.",
+        "tr": "ذِس إز ماي بوك"
+      }
+    },
+    {
+      "id": "pe_your",
+      "en": "your",
+      "ar": "ـك (ملكك)",
+      "tr": "يور",
+      "pos": "pron",
+      "emoji": "🤝"
+    },
+    {
+      "id": "pe_his",
+      "en": "his",
+      "ar": "ـه (ملكه)",
+      "tr": "هِز",
+      "pos": "pron",
+      "emoji": "👦"
+    },
+    {
+      "id": "pe_her",
+      "en": "her",
+      "ar": "ـها (ملكها)",
+      "tr": "هير",
+      "pos": "pron",
+      "emoji": "👧"
+    },
+    {
+      "id": "pe_our",
+      "en": "our",
+      "ar": "ـنا (ملكنا)",
+      "tr": "أوَر",
+      "pos": "pron",
+      "emoji": "🏠"
+    },
+    {
+      "id": "pe_their",
+      "en": "their",
+      "ar": "ـهم (ملكهم)",
+      "tr": "ذير",
+      "pos": "pron",
+      "emoji": "👪"
+    },
+    {
+      "id": "pe_this",
+      "en": "this",
+      "ar": "هذا",
+      "tr": "ذِس",
+      "pos": "pron",
+      "emoji": "👇",
+      "ex": {
+        "en": "This is my car.",
+        "ar": "هذه سيارتي.",
+        "tr": "ذِس إز ماي كار"
+      }
+    },
+    {
+      "id": "pe_that",
+      "en": "that",
+      "ar": "ذلك",
+      "tr": "ذات",
+      "pos": "pron",
+      "emoji": "👆",
+      "ex": {
+        "en": "That is your bag.",
+        "ar": "تلك حقيبتك.",
+        "tr": "ذات إز يور باغ"
+      }
+    },
+    {
+      "id": "pe_these",
+      "en": "these",
+      "ar": "هؤلاء",
+      "tr": "ذيز",
+      "pos": "pron",
+      "emoji": "✌️"
+    },
+    {
+      "id": "pe_those",
+      "en": "those",
+      "ar": "أولئك",
+      "tr": "ذوز",
+      "pos": "pron",
+      "emoji": "👐"
+    },
+    {
+      "id": "pe_man",
+      "en": "man",
+      "ar": "رجل",
+      "tr": "مان",
+      "pos": "n",
+      "emoji": "👨",
+      "ex": {
+        "en": "The man is tall.",
+        "ar": "الرجل طويل.",
+        "tr": "ذَ مان إز تول"
+      }
+    },
+    {
+      "id": "pe_woman",
+      "en": "woman",
+      "ar": "امرأة",
+      "tr": "وُومَن",
+      "pos": "n",
+      "emoji": "👩"
+    },
+    {
+      "id": "pe_boy",
+      "en": "boy",
+      "ar": "ولد",
+      "tr": "بوي",
+      "pos": "n",
+      "emoji": "👦"
+    },
+    {
+      "id": "pe_girl",
+      "en": "girl",
+      "ar": "بنت",
+      "tr": "غيرل",
+      "pos": "n",
+      "emoji": "👧"
+    },
+    {
+      "id": "pe_child",
+      "en": "child",
+      "ar": "طفل",
+      "tr": "تشايلد",
+      "pos": "n",
+      "emoji": "🧒"
+    },
+    {
+      "id": "pe_children",
+      "en": "children",
+      "ar": "أطفال",
+      "tr": "تشِلدرِن",
+      "pos": "n",
+      "emoji": "🧒🧒",
+      "ex": {
+        "en": "The children are playing.",
+        "ar": "الأطفال يلعبون.",
+        "tr": "ذَ تشِلدرِن آر پلييِنغ"
+      }
+    },
+    {
+      "id": "pe_baby",
+      "en": "baby",
+      "ar": "رضيع",
+      "tr": "بيبي",
+      "pos": "n",
+      "emoji": "👶"
+    },
+    {
+      "id": "pe_people",
+      "en": "people",
+      "ar": "ناس",
+      "tr": "پيپل",
+      "pos": "n",
+      "emoji": "👥",
+      "ex": {
+        "en": "Many people are here.",
+        "ar": "ناس كثيرون هنا.",
+        "tr": "مِني پيپل آر هير"
+      }
+    },
+    {
+      "id": "pe_person",
+      "en": "person",
+      "ar": "شخص",
+      "tr": "پيرسِن",
+      "pos": "n",
+      "emoji": "🧍"
+    },
+    {
+      "id": "pe_name",
+      "en": "name",
+      "ar": "اسم",
+      "tr": "نيم",
+      "pos": "n",
+      "emoji": "🪪"
+    },
+    {
+      "id": "pe_neighbor",
+      "en": "neighbor",
+      "ar": "جار",
+      "tr": "نيبَر",
+      "pos": "n",
+      "emoji": "🏘️"
+    },
+    {
+      "id": "pe_guest",
+      "en": "guest",
+      "ar": "ضيف",
+      "tr": "غِست",
+      "pos": "n",
+      "emoji": "🚪"
+    },
+    {
+      "id": "pe_everyone",
+      "en": "everyone",
+      "ar": "الجميع",
+      "tr": "إڤريوان",
+      "pos": "pron",
+      "emoji": "🌍"
+    }
   ],
   "sentences": [
-    { "id": "pe_s1", "en": "I am a teacher.", "ar": "أنا معلّم.", "tr": "آي آم إيه تيتشَر" },
-    { "id": "pe_s2", "en": "You are very kind.", "ar": "أنت لطيف جداً.", "tr": "يو آر ڤيري كايند" },
-    { "id": "pe_s3", "en": "He is my brother.", "ar": "هو أخي.", "tr": "هي إز ماي براذَر" },
-    { "id": "pe_s4", "en": "She is a good student.", "ar": "هي طالبة جيدة.", "tr": "شي إز إيه غُود ستيودِنت" },
-    { "id": "pe_s5", "en": "We are from Morocco.", "ar": "نحن من المغرب.", "tr": "وي آر فروم مورَكو" },
-    { "id": "pe_s6", "en": "They are my neighbors.", "ar": "هم جيراني.", "tr": "ذيه آر ماي نيبَرز" },
-    { "id": "pe_s7", "en": "This is my house.", "ar": "هذا بيتي.", "tr": "ذِس إز ماي هاوس" },
-    { "id": "pe_s8", "en": "That man is my father.", "ar": "ذلك الرجل هو أبي.", "tr": "ذات مان إز ماي فاذَر" },
-    { "id": "pe_s9", "en": "The children are happy.", "ar": "الأطفال سعداء.", "tr": "ذَ تشِلدرِن آر هابي" },
-    { "id": "pe_s10", "en": "Her name is Nour.", "ar": "اسمها نور.", "tr": "هير نيم إز نور" }
+    {
+      "id": "pe_s1",
+      "en": "I am a teacher.",
+      "ar": "أنا معلّم.",
+      "tr": "آي آم إيه تيتشَر"
+    },
+    {
+      "id": "pe_s2",
+      "en": "You are very kind.",
+      "ar": "أنت لطيف جداً.",
+      "tr": "يو آر ڤيري كايند"
+    },
+    {
+      "id": "pe_s3",
+      "en": "He is my brother.",
+      "ar": "هو أخي.",
+      "tr": "هي إز ماي براذَر"
+    },
+    {
+      "id": "pe_s4",
+      "en": "She is a good student.",
+      "ar": "هي طالبة جيدة.",
+      "tr": "شي إز إيه غُود ستيودِنت"
+    },
+    {
+      "id": "pe_s5",
+      "en": "We are from Morocco.",
+      "ar": "نحن من المغرب.",
+      "tr": "وي آر فروم مورَكو"
+    },
+    {
+      "id": "pe_s6",
+      "en": "They are my neighbors.",
+      "ar": "هم جيراني.",
+      "tr": "ذيه آر ماي نيبَرز"
+    },
+    {
+      "id": "pe_s7",
+      "en": "This is my house.",
+      "ar": "هذا بيتي.",
+      "tr": "ذِس إز ماي هاوس"
+    },
+    {
+      "id": "pe_s8",
+      "en": "That man is my father.",
+      "ar": "ذلك الرجل هو أبي.",
+      "tr": "ذات مان إز ماي فاذَر"
+    },
+    {
+      "id": "pe_s9",
+      "en": "The children are happy.",
+      "ar": "الأطفال سعداء.",
+      "tr": "ذَ تشِلدرِن آر هابي"
+    },
+    {
+      "id": "pe_s10",
+      "en": "Her name is Nour.",
+      "ar": "اسمها نور.",
+      "tr": "هير نيم إز نور"
+    },
+    {
+      "id": "pe_s11",
+      "en": "He is a kind person.",
+      "ar": "هو شخص طيب.",
+      "tr": "هي إز إيه كايند پيرسِن"
+    },
+    {
+      "id": "pe_s12",
+      "en": "She is my best friend.",
+      "ar": "هي أفضل صديقة لي.",
+      "tr": "شي إز ماي بِست فرِند"
+    },
+    {
+      "id": "pe_s13",
+      "en": "They live near us.",
+      "ar": "هم يسكنون قربنا.",
+      "tr": "ذيه لِڤ نير أَس"
+    },
+    {
+      "id": "pe_s14",
+      "en": "We are students here.",
+      "ar": "نحن طلاب هنا.",
+      "tr": "وي آر ستيودِنتس هير"
+    },
+    {
+      "id": "pe_s15",
+      "en": "This is his car.",
+      "ar": "هذه سيارته.",
+      "tr": "ذِس إز هِز كار"
+    },
+    {
+      "id": "pe_s16",
+      "en": "That is her bag.",
+      "ar": "تلك حقيبتها.",
+      "tr": "ذات إز هير باغ"
+    },
+    {
+      "id": "pe_s17",
+      "en": "Those children are ours.",
+      "ar": "أولئك الأطفال أطفالنا.",
+      "tr": "ذوز تشِلدرِن آر أوَرز"
+    },
+    {
+      "id": "pe_s18",
+      "en": "Everyone is waiting outside.",
+      "ar": "الجميع ينتظر في الخارج.",
+      "tr": "إڤريوان إز ويتِنغ أوتسايد"
+    },
+    {
+      "id": "pe_s19",
+      "en": "The man over there is my uncle.",
+      "ar": "الرجل هناك هو عمي.",
+      "tr": "ذَ مان أوڤَر ذير إز ماي أنكِل"
+    },
+    {
+      "id": "pe_s20",
+      "en": "I know that woman.",
+      "ar": "أعرف تلك المرأة.",
+      "tr": "آي نو ذات وُومَن"
+    }
   ]
 }

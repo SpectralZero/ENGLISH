@@ -1,61 +1,484 @@
 {
   "id": "adjectives",
-  "title": { "ar": "الصفات والأضداد", "en": "Adjectives" },
+  "title": {
+    "ar": "الصفات والأضداد",
+    "en": "Adjectives"
+  },
   "icon": "✨",
   "level": 4,
   "color": "rose",
   "words": [
-    { "id": "ad_good", "en": "good", "ar": "جيد", "tr": "غُود", "pos": "adj", "emoji": "👍", "ex": { "en": "This is a good idea.", "ar": "هذه فكرة جيدة.", "tr": "ذِس إز إيه غُود آيديا" } },
-    { "id": "ad_bad", "en": "bad", "ar": "سيء", "tr": "باد", "pos": "adj", "emoji": "👎" },
-    { "id": "ad_big2", "en": "big", "ar": "كبير", "tr": "بِغ", "pos": "adj", "emoji": "🐘" },
-    { "id": "ad_small2", "en": "small", "ar": "صغير", "tr": "سمول", "pos": "adj", "emoji": "🐜" },
-    { "id": "ad_long", "en": "long", "ar": "طويل (شيء)", "tr": "لونغ", "pos": "adj", "emoji": "📏" },
-    { "id": "ad_short", "en": "short", "ar": "قصير", "tr": "شورت", "pos": "adj", "emoji": "📐" },
-    { "id": "ad_tall", "en": "tall", "ar": "طويل (شخص)", "tr": "تول", "pos": "adj", "emoji": "🧍", "ex": { "en": "My brother is very tall.", "ar": "أخي طويل جداً.", "tr": "ماي براذَر إز ڤيري تول" } },
-    { "id": "ad_new2", "en": "new", "ar": "جديد", "tr": "نيو", "pos": "adj", "emoji": "🆕" },
-    { "id": "ad_old3", "en": "old", "ar": "قديم / كبير السن", "tr": "أولد", "pos": "adj", "emoji": "📻" },
-    { "id": "ad_young2", "en": "young", "ar": "صغير السن", "tr": "يَنغ", "pos": "adj", "emoji": "🧒" },
-    { "id": "ad_hot3", "en": "hot", "ar": "حار", "tr": "هوت", "pos": "adj", "emoji": "🔥" },
-    { "id": "ad_cold4", "en": "cold", "ar": "بارد", "tr": "كولد", "pos": "adj", "emoji": "🧊" },
-    { "id": "ad_fast2", "en": "fast", "ar": "سريع", "tr": "فاست", "pos": "adj", "emoji": "⚡" },
-    { "id": "ad_slow2", "en": "slow", "ar": "بطيء", "tr": "سلو", "pos": "adj", "emoji": "🐢" },
-    { "id": "ad_easy2", "en": "easy", "ar": "سهل", "tr": "إيزي", "pos": "adj", "emoji": "🙂" },
-    { "id": "ad_hard", "en": "hard / difficult", "ar": "صعب", "tr": "هارد", "pos": "adj", "emoji": "😐" },
-    { "id": "ad_happy", "en": "happy", "ar": "سعيد", "tr": "هابي", "pos": "adj", "emoji": "😀", "ex": { "en": "I am very happy today.", "ar": "أنا سعيد جداً اليوم.", "tr": "آيم ڤيري هابي تُوديه" } },
-    { "id": "ad_sad", "en": "sad", "ar": "حزين", "tr": "ساد", "pos": "adj", "emoji": "😢" },
-    { "id": "ad_beautiful2", "en": "beautiful", "ar": "جميل", "tr": "بيوتِفُل", "pos": "adj", "emoji": "🌷" },
-    { "id": "ad_ugly", "en": "ugly", "ar": "قبيح", "tr": "أغلي", "pos": "adj", "emoji": "🙁" },
-    { "id": "ad_clean3", "en": "clean", "ar": "نظيف", "tr": "كلين", "pos": "adj", "emoji": "🧼" },
-    { "id": "ad_dirty2", "en": "dirty", "ar": "متسخ", "tr": "دِرتي", "pos": "adj", "emoji": "🧹" },
-    { "id": "ad_full", "en": "full", "ar": "ممتلئ", "tr": "فُل", "pos": "adj", "emoji": "🥛" },
-    { "id": "ad_empty", "en": "empty", "ar": "فارغ", "tr": "إمپتي", "pos": "adj", "emoji": "📭" },
-    { "id": "ad_strong", "en": "strong", "ar": "قوي", "tr": "سترونغ", "pos": "adj", "emoji": "💪" },
-    { "id": "ad_weak", "en": "weak", "ar": "ضعيف", "tr": "ويك", "pos": "adj", "emoji": "🥀" },
-    { "id": "ad_rich", "en": "rich", "ar": "غني", "tr": "رِتش", "pos": "adj", "emoji": "💰" },
-    { "id": "ad_poor", "en": "poor", "ar": "فقير", "tr": "پور", "pos": "adj", "emoji": "🪙" },
-    { "id": "ad_right", "en": "right / correct", "ar": "صحيح", "tr": "رايت", "pos": "adj", "emoji": "✅", "ex": { "en": "Your answer is right.", "ar": "إجابتك صحيحة.", "tr": "يور آنسَر إز رايت" } },
-    { "id": "ad_wrong", "en": "wrong", "ar": "خطأ", "tr": "رونغ", "pos": "adj", "emoji": "❌" },
-    { "id": "ad_same", "en": "same", "ar": "نفس الشيء", "tr": "سيم", "pos": "adj", "emoji": "🟰" },
-    { "id": "ad_different", "en": "different", "ar": "مختلف", "tr": "دِفرِنت", "pos": "adj", "emoji": "🔀" },
-    { "id": "ad_important", "en": "important", "ar": "مهم", "tr": "إمپورتَنت", "pos": "adj", "emoji": "❗", "ex": { "en": "This is very important.", "ar": "هذا مهم جداً.", "tr": "ذِس إز ڤيري إمپورتَنت" } },
-    { "id": "ad_ready", "en": "ready", "ar": "جاهز", "tr": "رِدي", "pos": "adj", "emoji": "✅" },
-    { "id": "ad_nice", "en": "nice / kind", "ar": "لطيف", "tr": "نايس", "pos": "adj", "emoji": "😊" },
-    { "id": "ad_quiet", "en": "quiet", "ar": "هادئ", "tr": "كوايَت", "pos": "adj", "emoji": "🤫" },
-    { "id": "ad_loud", "en": "loud", "ar": "صاخب / عالٍ", "tr": "لاود", "pos": "adj", "emoji": "🔊" },
-    { "id": "ad_many", "en": "many / a lot", "ar": "كثير", "tr": "مِني", "pos": "adj", "emoji": "➕" },
-    { "id": "ad_few", "en": "a few / little", "ar": "قليل", "tr": "إيه فيو", "pos": "adj", "emoji": "➖" },
-    { "id": "ad_very", "en": "very", "ar": "جداً", "tr": "ڤيري", "pos": "adv", "emoji": "‼️", "ex": { "en": "The food is very good.", "ar": "الطعام جيد جداً.", "tr": "ذَ فوود إز ڤيري غُود" } }
+    {
+      "id": "ad_good",
+      "en": "good",
+      "ar": "جيد",
+      "tr": "غُود",
+      "pos": "adj",
+      "emoji": "👍",
+      "ex": {
+        "en": "This is a good idea.",
+        "ar": "هذه فكرة جيدة.",
+        "tr": "ذِس إز إيه غُود آيديا"
+      }
+    },
+    {
+      "id": "ad_bad",
+      "en": "bad",
+      "ar": "سيء",
+      "tr": "باد",
+      "pos": "adj",
+      "emoji": "👎"
+    },
+    {
+      "id": "ad_big2",
+      "en": "big",
+      "ar": "كبير",
+      "tr": "بِغ",
+      "pos": "adj",
+      "emoji": "🐘"
+    },
+    {
+      "id": "ad_small2",
+      "en": "small",
+      "ar": "صغير",
+      "tr": "سمول",
+      "pos": "adj",
+      "emoji": "🐜"
+    },
+    {
+      "id": "ad_long",
+      "en": "long",
+      "ar": "طويل (شيء)",
+      "tr": "لونغ",
+      "pos": "adj",
+      "emoji": "📏"
+    },
+    {
+      "id": "ad_short",
+      "en": "short",
+      "ar": "قصير",
+      "tr": "شورت",
+      "pos": "adj",
+      "emoji": "📐"
+    },
+    {
+      "id": "ad_tall",
+      "en": "tall",
+      "ar": "طويل (شخص)",
+      "tr": "تول",
+      "pos": "adj",
+      "emoji": "🧍",
+      "ex": {
+        "en": "My brother is very tall.",
+        "ar": "أخي طويل جداً.",
+        "tr": "ماي براذَر إز ڤيري تول"
+      }
+    },
+    {
+      "id": "ad_new2",
+      "en": "new",
+      "ar": "جديد",
+      "tr": "نيو",
+      "pos": "adj",
+      "emoji": "🆕"
+    },
+    {
+      "id": "ad_old3",
+      "en": "old",
+      "ar": "قديم / كبير السن",
+      "tr": "أولد",
+      "pos": "adj",
+      "emoji": "📻"
+    },
+    {
+      "id": "ad_young2",
+      "en": "young",
+      "ar": "صغير السن",
+      "tr": "يَنغ",
+      "pos": "adj",
+      "emoji": "🧒"
+    },
+    {
+      "id": "ad_hot3",
+      "en": "hot",
+      "ar": "حار",
+      "tr": "هوت",
+      "pos": "adj",
+      "emoji": "🔥"
+    },
+    {
+      "id": "ad_cold4",
+      "en": "cold",
+      "ar": "بارد",
+      "tr": "كولد",
+      "pos": "adj",
+      "emoji": "🧊"
+    },
+    {
+      "id": "ad_fast2",
+      "en": "fast",
+      "ar": "سريع",
+      "tr": "فاست",
+      "pos": "adj",
+      "emoji": "⚡"
+    },
+    {
+      "id": "ad_slow2",
+      "en": "slow",
+      "ar": "بطيء",
+      "tr": "سلو",
+      "pos": "adj",
+      "emoji": "🐢"
+    },
+    {
+      "id": "ad_easy2",
+      "en": "easy",
+      "ar": "سهل",
+      "tr": "إيزي",
+      "pos": "adj",
+      "emoji": "🙂"
+    },
+    {
+      "id": "ad_hard",
+      "en": "hard / difficult",
+      "ar": "صعب",
+      "tr": "هارد",
+      "pos": "adj",
+      "emoji": "😐"
+    },
+    {
+      "id": "ad_happy",
+      "en": "happy",
+      "ar": "سعيد",
+      "tr": "هابي",
+      "pos": "adj",
+      "emoji": "😀",
+      "ex": {
+        "en": "I am very happy today.",
+        "ar": "أنا سعيد جداً اليوم.",
+        "tr": "آيم ڤيري هابي تُوديه"
+      }
+    },
+    {
+      "id": "ad_sad",
+      "en": "sad",
+      "ar": "حزين",
+      "tr": "ساد",
+      "pos": "adj",
+      "emoji": "😢"
+    },
+    {
+      "id": "ad_beautiful2",
+      "en": "beautiful",
+      "ar": "جميل",
+      "tr": "بيوتِفُل",
+      "pos": "adj",
+      "emoji": "🌷"
+    },
+    {
+      "id": "ad_ugly",
+      "en": "ugly",
+      "ar": "قبيح",
+      "tr": "أغلي",
+      "pos": "adj",
+      "emoji": "🙁"
+    },
+    {
+      "id": "ad_clean3",
+      "en": "clean",
+      "ar": "نظيف",
+      "tr": "كلين",
+      "pos": "adj",
+      "emoji": "🧼"
+    },
+    {
+      "id": "ad_dirty2",
+      "en": "dirty",
+      "ar": "متسخ",
+      "tr": "دِرتي",
+      "pos": "adj",
+      "emoji": "🧹"
+    },
+    {
+      "id": "ad_full",
+      "en": "full",
+      "ar": "ممتلئ",
+      "tr": "فُل",
+      "pos": "adj",
+      "emoji": "🥛"
+    },
+    {
+      "id": "ad_empty",
+      "en": "empty",
+      "ar": "فارغ",
+      "tr": "إمپتي",
+      "pos": "adj",
+      "emoji": "📭"
+    },
+    {
+      "id": "ad_strong",
+      "en": "strong",
+      "ar": "قوي",
+      "tr": "سترونغ",
+      "pos": "adj",
+      "emoji": "💪"
+    },
+    {
+      "id": "ad_weak",
+      "en": "weak",
+      "ar": "ضعيف",
+      "tr": "ويك",
+      "pos": "adj",
+      "emoji": "🥀"
+    },
+    {
+      "id": "ad_rich",
+      "en": "rich",
+      "ar": "غني",
+      "tr": "رِتش",
+      "pos": "adj",
+      "emoji": "💰"
+    },
+    {
+      "id": "ad_poor",
+      "en": "poor",
+      "ar": "فقير",
+      "tr": "پور",
+      "pos": "adj",
+      "emoji": "🪙"
+    },
+    {
+      "id": "ad_right",
+      "en": "right / correct",
+      "ar": "صحيح",
+      "tr": "رايت",
+      "pos": "adj",
+      "emoji": "✅",
+      "ex": {
+        "en": "Your answer is right.",
+        "ar": "إجابتك صحيحة.",
+        "tr": "يور آنسَر إز رايت"
+      }
+    },
+    {
+      "id": "ad_wrong",
+      "en": "wrong",
+      "ar": "خطأ",
+      "tr": "رونغ",
+      "pos": "adj",
+      "emoji": "❌"
+    },
+    {
+      "id": "ad_same",
+      "en": "same",
+      "ar": "نفس الشيء",
+      "tr": "سيم",
+      "pos": "adj",
+      "emoji": "🟰"
+    },
+    {
+      "id": "ad_different",
+      "en": "different",
+      "ar": "مختلف",
+      "tr": "دِفرِنت",
+      "pos": "adj",
+      "emoji": "🔀"
+    },
+    {
+      "id": "ad_important",
+      "en": "important",
+      "ar": "مهم",
+      "tr": "إمپورتَنت",
+      "pos": "adj",
+      "emoji": "❗",
+      "ex": {
+        "en": "This is very important.",
+        "ar": "هذا مهم جداً.",
+        "tr": "ذِس إز ڤيري إمپورتَنت"
+      }
+    },
+    {
+      "id": "ad_ready",
+      "en": "ready",
+      "ar": "جاهز",
+      "tr": "رِدي",
+      "pos": "adj",
+      "emoji": "✅"
+    },
+    {
+      "id": "ad_nice",
+      "en": "nice / kind",
+      "ar": "لطيف",
+      "tr": "نايس",
+      "pos": "adj",
+      "emoji": "😊"
+    },
+    {
+      "id": "ad_quiet",
+      "en": "quiet",
+      "ar": "هادئ",
+      "tr": "كوايَت",
+      "pos": "adj",
+      "emoji": "🤫"
+    },
+    {
+      "id": "ad_loud",
+      "en": "loud",
+      "ar": "صاخب / عالٍ",
+      "tr": "لاود",
+      "pos": "adj",
+      "emoji": "🔊"
+    },
+    {
+      "id": "ad_many",
+      "en": "many / a lot",
+      "ar": "كثير",
+      "tr": "مِني",
+      "pos": "adj",
+      "emoji": "➕"
+    },
+    {
+      "id": "ad_few",
+      "en": "a few / little",
+      "ar": "قليل",
+      "tr": "إيه فيو",
+      "pos": "adj",
+      "emoji": "➖"
+    },
+    {
+      "id": "ad_very",
+      "en": "very",
+      "ar": "جداً",
+      "tr": "ڤيري",
+      "pos": "adv",
+      "emoji": "‼️",
+      "ex": {
+        "en": "The food is very good.",
+        "ar": "الطعام جيد جداً.",
+        "tr": "ذَ فوود إز ڤيري غُود"
+      }
+    }
   ],
   "sentences": [
-    { "id": "ad_s1", "en": "This car is very old.", "ar": "هذه السيارة قديمة جداً.", "tr": "ذِس كار إز ڤيري أولد" },
-    { "id": "ad_s2", "en": "My house is small but clean.", "ar": "بيتي صغير لكنه نظيف.", "tr": "ماي هاوس إز سمول بَت كلين" },
-    { "id": "ad_s3", "en": "English is easy for me now.", "ar": "الإنجليزية سهلة بالنسبة لي الآن.", "tr": "إنغلِش إز إيزي فور مي ناو" },
-    { "id": "ad_s4", "en": "She is a kind woman.", "ar": "هي امرأة لطيفة.", "tr": "شي إز إيه كايند وُومَن" },
-    { "id": "ad_s5", "en": "The bag is too heavy.", "ar": "الحقيبة ثقيلة جداً.", "tr": "ذَ باغ إز تو هيڤي" },
-    { "id": "ad_s6", "en": "Your answer is correct.", "ar": "إجابتك صحيحة.", "tr": "يور آنسَر إز كَرِكت" },
-    { "id": "ad_s7", "en": "I am ready now.", "ar": "أنا جاهز الآن.", "tr": "آيم رِدي ناو" },
-    { "id": "ad_s8", "en": "This lesson is important.", "ar": "هذا الدرس مهم.", "tr": "ذِس لِسِن إز إمپورتَنت" },
-    { "id": "ad_s9", "en": "The room is very quiet.", "ar": "الغرفة هادئة جداً.", "tr": "ذَ روم إز ڤيري كوايَت" },
-    { "id": "ad_s10", "en": "I have many friends.", "ar": "لدي أصدقاء كثيرون.", "tr": "آي هاڤ مِني فرِندز" }
+    {
+      "id": "ad_s1",
+      "en": "This car is very old.",
+      "ar": "هذه السيارة قديمة جداً.",
+      "tr": "ذِس كار إز ڤيري أولد"
+    },
+    {
+      "id": "ad_s2",
+      "en": "My house is small but clean.",
+      "ar": "بيتي صغير لكنه نظيف.",
+      "tr": "ماي هاوس إز سمول بَت كلين"
+    },
+    {
+      "id": "ad_s3",
+      "en": "English is easy for me now.",
+      "ar": "الإنجليزية سهلة بالنسبة لي الآن.",
+      "tr": "إنغلِش إز إيزي فور مي ناو"
+    },
+    {
+      "id": "ad_s4",
+      "en": "She is a kind woman.",
+      "ar": "هي امرأة لطيفة.",
+      "tr": "شي إز إيه كايند وُومَن"
+    },
+    {
+      "id": "ad_s5",
+      "en": "The bag is too heavy.",
+      "ar": "الحقيبة ثقيلة جداً.",
+      "tr": "ذَ باغ إز تو هيڤي"
+    },
+    {
+      "id": "ad_s6",
+      "en": "Your answer is correct.",
+      "ar": "إجابتك صحيحة.",
+      "tr": "يور آنسَر إز كَرِكت"
+    },
+    {
+      "id": "ad_s7",
+      "en": "I am ready now.",
+      "ar": "أنا جاهز الآن.",
+      "tr": "آيم رِدي ناو"
+    },
+    {
+      "id": "ad_s8",
+      "en": "This lesson is important.",
+      "ar": "هذا الدرس مهم.",
+      "tr": "ذِس لِسِن إز إمپورتَنت"
+    },
+    {
+      "id": "ad_s9",
+      "en": "The room is very quiet.",
+      "ar": "الغرفة هادئة جداً.",
+      "tr": "ذَ روم إز ڤيري كوايَت"
+    },
+    {
+      "id": "ad_s10",
+      "en": "I have many friends.",
+      "ar": "لدي أصدقاء كثيرون.",
+      "tr": "آي هاڤ مِني فرِندز"
+    },
+    {
+      "id": "ad_s11",
+      "en": "The test was easier than I thought.",
+      "ar": "كان الاختبار أسهل مما ظننت.",
+      "tr": "ذَ تِست واز إيزيَر ذان آي ثوت"
+    },
+    {
+      "id": "ad_s12",
+      "en": "This bag is heavier than that one.",
+      "ar": "هذه الحقيبة أثقل من تلك.",
+      "tr": "ذِس باغ إز هيڤيَر ذان ذات وان"
+    },
+    {
+      "id": "ad_s13",
+      "en": "He is the tallest in the class.",
+      "ar": "هو الأطول في الصف.",
+      "tr": "هي إز ذَ تولِست إن ذَ كلاس"
+    },
+    {
+      "id": "ad_s14",
+      "en": "That was a wonderful day.",
+      "ar": "كان يوماً رائعاً.",
+      "tr": "ذات واز إيه وَندَرفُل ديه"
+    },
+    {
+      "id": "ad_s15",
+      "en": "The water is too cold.",
+      "ar": "الماء بارد جداً.",
+      "tr": "ذَ ووتَر إز تو كولد"
+    },
+    {
+      "id": "ad_s16",
+      "en": "My phone is old but good.",
+      "ar": "هاتفي قديم لكنه جيد.",
+      "tr": "ماي فون إز أولد بَت غُود"
+    },
+    {
+      "id": "ad_s17",
+      "en": "It is a very quiet street.",
+      "ar": "إنه شارع هادئ جداً.",
+      "tr": "إت إز إيه ڤيري كوايَت ستريت"
+    },
+    {
+      "id": "ad_s18",
+      "en": "Are you sure it is correct?",
+      "ar": "هل أنت متأكد أنه صحيح؟",
+      "tr": "آر يو شور إت إز كَرِكت"
+    },
+    {
+      "id": "ad_s19",
+      "en": "The box is empty.",
+      "ar": "الصندوق فارغ.",
+      "tr": "ذَ بوكس إز إمپتي"
+    },
+    {
+      "id": "ad_s20",
+      "en": "This is different from that.",
+      "ar": "هذا مختلف عن ذاك.",
+      "tr": "ذِس إز دِفرِنت فروم ذات"
+    }
   ]
 }

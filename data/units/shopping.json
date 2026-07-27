@@ -1,53 +1,416 @@
 {
   "id": "shopping",
-  "title": { "ar": "التسوق والمال", "en": "Shopping & Money" },
+  "title": {
+    "ar": "التسوق والمال",
+    "en": "Shopping & Money"
+  },
   "icon": "🛒",
   "level": 3,
   "color": "amber",
   "words": [
-    { "id": "sh_money", "en": "money", "ar": "مال", "tr": "مَني", "pos": "n", "emoji": "💰", "ex": { "en": "I don't have money now.", "ar": "ليس لدي مال الآن.", "tr": "آي دونت هاڤ مَني ناو" } },
-    { "id": "sh_price", "en": "price", "ar": "سعر", "tr": "پرايس", "pos": "n", "emoji": "🏷️" },
-    { "id": "sh_buy", "en": "buy", "ar": "يشتري", "tr": "باي", "pos": "v", "emoji": "🛍️", "ex": { "en": "I want to buy bread.", "ar": "أريد أن أشتري خبزاً.", "tr": "آي وانت تو باي برِد" } },
-    { "id": "sh_sell", "en": "sell", "ar": "يبيع", "tr": "سِل", "pos": "v", "emoji": "🤝" },
-    { "id": "sh_pay", "en": "pay", "ar": "يدفع", "tr": "پيه", "pos": "v", "emoji": "💳", "ex": { "en": "Can I pay by card?", "ar": "هل يمكنني الدفع بالبطاقة؟", "tr": "كان آي پيه باي كارد" } },
-    { "id": "sh_cash", "en": "cash", "ar": "نقداً", "tr": "كاش", "pos": "n", "emoji": "💵" },
-    { "id": "sh_card", "en": "card", "ar": "بطاقة", "tr": "كارد", "pos": "n", "emoji": "💳" },
-    { "id": "sh_change", "en": "change", "ar": "الباقي (فكة)", "tr": "تشينج", "pos": "n", "emoji": "🪙" },
-    { "id": "sh_howmuch", "en": "how much", "ar": "بكم / كم الثمن", "tr": "هاو مَتش", "pos": "q", "emoji": "❓", "ex": { "en": "How much is this?", "ar": "بكم هذا؟", "tr": "هاو مَتش إز ذِس" } },
-    { "id": "sh_expensive2", "en": "expensive", "ar": "غالي", "tr": "إكسپِنسِڤ", "pos": "adj", "emoji": "💸" },
-    { "id": "sh_cheap2", "en": "cheap", "ar": "رخيص", "tr": "تشيپ", "pos": "adj", "emoji": "🏷️" },
-    { "id": "sh_discount", "en": "discount", "ar": "خصم", "tr": "دِسكاونت", "pos": "n", "emoji": "🔻" },
-    { "id": "sh_free2", "en": "free (no cost)", "ar": "مجاني", "tr": "فري", "pos": "adj", "emoji": "🎁" },
-    { "id": "sh_open2", "en": "open", "ar": "مفتوح", "tr": "أوپِن", "pos": "adj", "emoji": "🟢" },
-    { "id": "sh_closed", "en": "closed", "ar": "مغلق", "tr": "كلوزد", "pos": "adj", "emoji": "🔴" },
-    { "id": "sh_bag3", "en": "bag", "ar": "كيس", "tr": "باغ", "pos": "n", "emoji": "🛍️" },
-    { "id": "sh_receipt", "en": "receipt", "ar": "إيصال", "tr": "رِسيت", "pos": "n", "emoji": "🧾" },
-    { "id": "sh_customer", "en": "customer", "ar": "زبون", "tr": "كَستَمَر", "pos": "n", "emoji": "🧑" },
-    { "id": "sh_want", "en": "want", "ar": "يريد", "tr": "وانت", "pos": "v", "emoji": "🙋", "ex": { "en": "I want this one.", "ar": "أريد هذا.", "tr": "آي وانت ذِس وان" } },
-    { "id": "sh_need", "en": "need", "ar": "يحتاج", "tr": "نيد", "pos": "v", "emoji": "❗" },
-    { "id": "sh_have", "en": "have", "ar": "يملك / لديه", "tr": "هاڤ", "pos": "v", "emoji": "🫱", "ex": { "en": "Do you have this in black?", "ar": "هل لديك هذا باللون الأسود؟", "tr": "دو يو هاڤ ذِس إن بلاك" } },
-    { "id": "sh_give", "en": "give", "ar": "يعطي", "tr": "غِڤ", "pos": "v", "emoji": "🎁" },
-    { "id": "sh_take", "en": "take", "ar": "يأخذ", "tr": "تيك", "pos": "v", "emoji": "🫴" },
-    { "id": "sh_dollar", "en": "dollar", "ar": "دولار", "tr": "دولَر", "pos": "n", "emoji": "💵" },
-    { "id": "sh_riyal", "en": "riyal", "ar": "ريال", "tr": "رِيال", "pos": "n", "emoji": "🪙" },
-    { "id": "sh_bill2", "en": "bill", "ar": "فاتورة", "tr": "بِل", "pos": "n", "emoji": "🧾" },
-    { "id": "sh_size2", "en": "size", "ar": "مقاس / حجم", "tr": "سايز", "pos": "n", "emoji": "📏" },
-    { "id": "sh_this2", "en": "this one", "ar": "هذا الشيء", "tr": "ذِس وان", "pos": "phr", "emoji": "👇" },
-    { "id": "sh_other", "en": "another one", "ar": "واحد آخر", "tr": "أناذَر وان", "pos": "phr", "emoji": "🔄" },
-    { "id": "sh_look", "en": "look at", "ar": "ينظر إلى", "tr": "لوك آت", "pos": "v", "emoji": "👀" }
+    {
+      "id": "sh_money",
+      "en": "money",
+      "ar": "مال",
+      "tr": "مَني",
+      "pos": "n",
+      "emoji": "💰",
+      "ex": {
+        "en": "I don't have money now.",
+        "ar": "ليس لدي مال الآن.",
+        "tr": "آي دونت هاڤ مَني ناو"
+      }
+    },
+    {
+      "id": "sh_price",
+      "en": "price",
+      "ar": "سعر",
+      "tr": "پرايس",
+      "pos": "n",
+      "emoji": "🏷️"
+    },
+    {
+      "id": "sh_buy",
+      "en": "buy",
+      "ar": "يشتري",
+      "tr": "باي",
+      "pos": "v",
+      "emoji": "🛍️",
+      "ex": {
+        "en": "I want to buy bread.",
+        "ar": "أريد أن أشتري خبزاً.",
+        "tr": "آي وانت تو باي برِد"
+      }
+    },
+    {
+      "id": "sh_sell",
+      "en": "sell",
+      "ar": "يبيع",
+      "tr": "سِل",
+      "pos": "v",
+      "emoji": "🤝"
+    },
+    {
+      "id": "sh_pay",
+      "en": "pay",
+      "ar": "يدفع",
+      "tr": "پيه",
+      "pos": "v",
+      "emoji": "💳",
+      "ex": {
+        "en": "Can I pay by card?",
+        "ar": "هل يمكنني الدفع بالبطاقة؟",
+        "tr": "كان آي پيه باي كارد"
+      }
+    },
+    {
+      "id": "sh_cash",
+      "en": "cash",
+      "ar": "نقداً",
+      "tr": "كاش",
+      "pos": "n",
+      "emoji": "💵"
+    },
+    {
+      "id": "sh_card",
+      "en": "card",
+      "ar": "بطاقة",
+      "tr": "كارد",
+      "pos": "n",
+      "emoji": "💳"
+    },
+    {
+      "id": "sh_change",
+      "en": "change",
+      "ar": "الباقي (فكة)",
+      "tr": "تشينج",
+      "pos": "n",
+      "emoji": "🪙"
+    },
+    {
+      "id": "sh_howmuch",
+      "en": "how much",
+      "ar": "بكم / كم الثمن",
+      "tr": "هاو مَتش",
+      "pos": "q",
+      "emoji": "❓",
+      "ex": {
+        "en": "How much is this?",
+        "ar": "بكم هذا؟",
+        "tr": "هاو مَتش إز ذِس"
+      }
+    },
+    {
+      "id": "sh_expensive2",
+      "en": "expensive",
+      "ar": "غالي",
+      "tr": "إكسپِنسِڤ",
+      "pos": "adj",
+      "emoji": "💸"
+    },
+    {
+      "id": "sh_cheap2",
+      "en": "cheap",
+      "ar": "رخيص",
+      "tr": "تشيپ",
+      "pos": "adj",
+      "emoji": "🏷️"
+    },
+    {
+      "id": "sh_discount",
+      "en": "discount",
+      "ar": "خصم",
+      "tr": "دِسكاونت",
+      "pos": "n",
+      "emoji": "🔻"
+    },
+    {
+      "id": "sh_free2",
+      "en": "free (no cost)",
+      "ar": "مجاني",
+      "tr": "فري",
+      "pos": "adj",
+      "emoji": "🎁"
+    },
+    {
+      "id": "sh_open2",
+      "en": "open",
+      "ar": "مفتوح",
+      "tr": "أوپِن",
+      "pos": "adj",
+      "emoji": "🟢"
+    },
+    {
+      "id": "sh_closed",
+      "en": "closed",
+      "ar": "مغلق",
+      "tr": "كلوزد",
+      "pos": "adj",
+      "emoji": "🔴"
+    },
+    {
+      "id": "sh_bag3",
+      "en": "bag",
+      "ar": "كيس",
+      "tr": "باغ",
+      "pos": "n",
+      "emoji": "🛍️"
+    },
+    {
+      "id": "sh_receipt",
+      "en": "receipt",
+      "ar": "إيصال",
+      "tr": "رِسيت",
+      "pos": "n",
+      "emoji": "🧾"
+    },
+    {
+      "id": "sh_customer",
+      "en": "customer",
+      "ar": "زبون",
+      "tr": "كَستَمَر",
+      "pos": "n",
+      "emoji": "🧑"
+    },
+    {
+      "id": "sh_want",
+      "en": "want",
+      "ar": "يريد",
+      "tr": "وانت",
+      "pos": "v",
+      "emoji": "🙋",
+      "ex": {
+        "en": "I want this one.",
+        "ar": "أريد هذا.",
+        "tr": "آي وانت ذِس وان"
+      }
+    },
+    {
+      "id": "sh_need",
+      "en": "need",
+      "ar": "يحتاج",
+      "tr": "نيد",
+      "pos": "v",
+      "emoji": "❗"
+    },
+    {
+      "id": "sh_have",
+      "en": "have",
+      "ar": "يملك / لديه",
+      "tr": "هاڤ",
+      "pos": "v",
+      "emoji": "🫱",
+      "ex": {
+        "en": "Do you have this in black?",
+        "ar": "هل لديك هذا باللون الأسود؟",
+        "tr": "دو يو هاڤ ذِس إن بلاك"
+      }
+    },
+    {
+      "id": "sh_give",
+      "en": "give",
+      "ar": "يعطي",
+      "tr": "غِڤ",
+      "pos": "v",
+      "emoji": "🎁"
+    },
+    {
+      "id": "sh_take",
+      "en": "take",
+      "ar": "يأخذ",
+      "tr": "تيك",
+      "pos": "v",
+      "emoji": "🫴"
+    },
+    {
+      "id": "sh_dollar",
+      "en": "dollar",
+      "ar": "دولار",
+      "tr": "دولَر",
+      "pos": "n",
+      "emoji": "💵"
+    },
+    {
+      "id": "sh_riyal",
+      "en": "riyal",
+      "ar": "ريال",
+      "tr": "رِيال",
+      "pos": "n",
+      "emoji": "🪙"
+    },
+    {
+      "id": "sh_bill2",
+      "en": "bill",
+      "ar": "فاتورة",
+      "tr": "بِل",
+      "pos": "n",
+      "emoji": "🧾"
+    },
+    {
+      "id": "sh_size2",
+      "en": "size",
+      "ar": "مقاس / حجم",
+      "tr": "سايز",
+      "pos": "n",
+      "emoji": "📏"
+    },
+    {
+      "id": "sh_this2",
+      "en": "this one",
+      "ar": "هذا الشيء",
+      "tr": "ذِس وان",
+      "pos": "phr",
+      "emoji": "👇"
+    },
+    {
+      "id": "sh_other",
+      "en": "another one",
+      "ar": "واحد آخر",
+      "tr": "أناذَر وان",
+      "pos": "phr",
+      "emoji": "🔄"
+    },
+    {
+      "id": "sh_look",
+      "en": "look at",
+      "ar": "ينظر إلى",
+      "tr": "لوك آت",
+      "pos": "v",
+      "emoji": "👀"
+    }
   ],
   "sentences": [
-    { "id": "sh_s1", "en": "How much is this, please?", "ar": "بكم هذا من فضلك؟", "tr": "هاو مَتش إز ذِس، پليز" },
-    { "id": "sh_s2", "en": "It is too expensive.", "ar": "إنه غالٍ جداً.", "tr": "إت إز تو إكسپِنسِڤ" },
-    { "id": "sh_s3", "en": "Do you have a smaller size?", "ar": "هل لديك مقاس أصغر؟", "tr": "دو يو هاڤ إيه سمولَر سايز" },
-    { "id": "sh_s4", "en": "I want two, please.", "ar": "أريد اثنين من فضلك.", "tr": "آي وانت تو، پليز" },
-    { "id": "sh_s5", "en": "Can I pay by card?", "ar": "هل يمكنني الدفع بالبطاقة؟", "tr": "كان آي پيه باي كارد" },
-    { "id": "sh_s6", "en": "Here is your change.", "ar": "تفضل الباقي.", "tr": "هير إز يور تشينج" },
-    { "id": "sh_s7", "en": "The shop is closed now.", "ar": "المتجر مغلق الآن.", "tr": "ذَ شوپ إز كلوزد ناو" },
-    { "id": "sh_s8", "en": "I am just looking, thank you.", "ar": "أنا فقط أتفرج، شكراً.", "tr": "آيم جَست لوكِنغ، ثانك يو" },
-    { "id": "sh_s9", "en": "Is there a discount?", "ar": "هل يوجد خصم؟", "tr": "إز ذير إيه دِسكاونت" },
-    { "id": "sh_s10", "en": "I need a bag, please.", "ar": "أحتاج كيساً من فضلك.", "tr": "آي نيد إيه باغ، پليز" },
-    { "id": "sh_s11", "en": "I don't have enough money.", "ar": "ليس لدي مال كافٍ.", "tr": "آي دونت هاڤ إينَف مَني" },
-    { "id": "sh_s12", "en": "Give me the receipt, please.", "ar": "أعطني الإيصال من فضلك.", "tr": "غِڤ مي ذَ رِسيت، پليز" }
+    {
+      "id": "sh_s1",
+      "en": "How much is this, please?",
+      "ar": "بكم هذا من فضلك؟",
+      "tr": "هاو مَتش إز ذِس، پليز"
+    },
+    {
+      "id": "sh_s2",
+      "en": "It is too expensive.",
+      "ar": "إنه غالٍ جداً.",
+      "tr": "إت إز تو إكسپِنسِڤ"
+    },
+    {
+      "id": "sh_s3",
+      "en": "Do you have a smaller size?",
+      "ar": "هل لديك مقاس أصغر؟",
+      "tr": "دو يو هاڤ إيه سمولَر سايز"
+    },
+    {
+      "id": "sh_s4",
+      "en": "I want two, please.",
+      "ar": "أريد اثنين من فضلك.",
+      "tr": "آي وانت تو، پليز"
+    },
+    {
+      "id": "sh_s5",
+      "en": "Can I pay by card?",
+      "ar": "هل يمكنني الدفع بالبطاقة؟",
+      "tr": "كان آي پيه باي كارد"
+    },
+    {
+      "id": "sh_s6",
+      "en": "Here is your change.",
+      "ar": "تفضل الباقي.",
+      "tr": "هير إز يور تشينج"
+    },
+    {
+      "id": "sh_s7",
+      "en": "The shop is closed now.",
+      "ar": "المتجر مغلق الآن.",
+      "tr": "ذَ شوپ إز كلوزد ناو"
+    },
+    {
+      "id": "sh_s8",
+      "en": "I am just looking, thank you.",
+      "ar": "أنا فقط أتفرج، شكراً.",
+      "tr": "آيم جَست لوكِنغ، ثانك يو"
+    },
+    {
+      "id": "sh_s9",
+      "en": "Is there a discount?",
+      "ar": "هل يوجد خصم؟",
+      "tr": "إز ذير إيه دِسكاونت"
+    },
+    {
+      "id": "sh_s10",
+      "en": "I need a bag, please.",
+      "ar": "أحتاج كيساً من فضلك.",
+      "tr": "آي نيد إيه باغ، پليز"
+    },
+    {
+      "id": "sh_s11",
+      "en": "I don't have enough money.",
+      "ar": "ليس لدي مال كافٍ.",
+      "tr": "آي دونت هاڤ إينَف مَني"
+    },
+    {
+      "id": "sh_s12",
+      "en": "Give me the receipt, please.",
+      "ar": "أعطني الإيصال من فضلك.",
+      "tr": "غِڤ مي ذَ رِسيت، پليز"
+    },
+    {
+      "id": "sh_s13",
+      "en": "Can I look around first?",
+      "ar": "هل يمكنني التفرج أولاً؟",
+      "tr": "كان آي لوك أراوند فيرست"
+    },
+    {
+      "id": "sh_s14",
+      "en": "Do you have another colour?",
+      "ar": "هل لديك لون آخر؟",
+      "tr": "دو يو هاڤ أناذَر كَلَر"
+    },
+    {
+      "id": "sh_s15",
+      "en": "That is too much for me.",
+      "ar": "هذا كثير بالنسبة لي.",
+      "tr": "ذات إز تو مَتش فور مي"
+    },
+    {
+      "id": "sh_s16",
+      "en": "Can you give me a better price?",
+      "ar": "هل يمكنك إعطائي سعراً أفضل؟",
+      "tr": "كان يو غِڤ مي إيه بِتَر پرايس"
+    },
+    {
+      "id": "sh_s17",
+      "en": "I will take this one.",
+      "ar": "سآخذ هذا.",
+      "tr": "آي وِل تيك ذِس وان"
+    },
+    {
+      "id": "sh_s18",
+      "en": "Where do I pay?",
+      "ar": "أين أدفع؟",
+      "tr": "وير دو آي پيه"
+    },
+    {
+      "id": "sh_s19",
+      "en": "Keep the change.",
+      "ar": "احتفظ بالباقي.",
+      "tr": "كيپ ذَ تشينج"
+    },
+    {
+      "id": "sh_s20",
+      "en": "Do you accept cards?",
+      "ar": "هل تقبلون البطاقات؟",
+      "tr": "دو يو أكسِپت كاردز"
+    },
+    {
+      "id": "sh_s21",
+      "en": "I need a receipt, please.",
+      "ar": "أحتاج إيصالاً من فضلك.",
+      "tr": "آي نيد إيه رِسيت، پليز"
+    },
+    {
+      "id": "sh_s22",
+      "en": "It is on sale today.",
+      "ar": "إنه بتخفيض اليوم.",
+      "tr": "إت إز أون سيل تُوديه"
+    }
   ]
 }

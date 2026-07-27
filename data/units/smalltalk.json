@@ -1,55 +1,386 @@
 {
   "id": "smalltalk",
-  "title": { "ar": "الحديث مع الناس", "en": "Small Talk" },
+  "title": {
+    "ar": "الحديث مع الناس",
+    "en": "Small Talk"
+  },
   "icon": "🗣️",
   "level": 4,
   "color": "mint",
   "words": [
-    { "id": "sm_howsit", "en": "How is it going?", "ar": "كيف تسير الأمور؟", "tr": "هاو إز إت غويِنغ", "pos": "phr", "emoji": "💬" },
-    { "id": "sm_longtime", "en": "Long time no see!", "ar": "لم أرك منذ زمن!", "tr": "لونغ تايم نو سي", "pos": "phr", "emoji": "🤗" },
-    { "id": "sm_whatsnew", "en": "What's new?", "ar": "ما الجديد؟", "tr": "واتس نيو", "pos": "phr", "emoji": "🆕" },
-    { "id": "sm_notbad", "en": "Not bad", "ar": "لا بأس", "tr": "نوت باد", "pos": "phr", "emoji": "🙂" },
-    { "id": "sm_sofar", "en": "So far so good", "ar": "كل شيء جيد حتى الآن", "tr": "سو فار سو غُود", "pos": "phr", "emoji": "👌" },
-    { "id": "sm_busy2", "en": "I have been busy", "ar": "كنت مشغولاً", "tr": "آيڤ بين بِزي", "pos": "phr", "emoji": "⏳" },
-    { "id": "sm_family2", "en": "How is your family?", "ar": "كيف حال عائلتك؟", "tr": "هاو إز يور فامِلي", "pos": "phr", "emoji": "👨‍👩‍👧" },
-    { "id": "sm_theyfine", "en": "They are fine, thanks", "ar": "هم بخير، شكراً", "tr": "ذيه آر فاين، ثانكس", "pos": "phr", "emoji": "😊" },
-    { "id": "sm_weather2", "en": "Nice weather today!", "ar": "طقس جميل اليوم!", "tr": "نايس وِذَر تُوديه", "pos": "phr", "emoji": "🌤️" },
-    { "id": "sm_whatdo", "en": "What do you do?", "ar": "ماذا تعمل؟", "tr": "وات دو يو دو", "pos": "phr", "emoji": "💼" },
-    { "id": "sm_howlong2", "en": "How long have you been here?", "ar": "منذ متى وأنت هنا؟", "tr": "هاو لونغ هاڤ يو بين هير", "pos": "phr", "emoji": "🕰️" },
-    { "id": "sm_reallyq", "en": "Really?", "ar": "حقاً؟", "tr": "رِيَلي", "pos": "interj", "emoji": "😮" },
-    { "id": "sm_thatsgreat", "en": "That's great!", "ar": "هذا رائع!", "tr": "ذاتس غريت", "pos": "phr", "emoji": "🎉" },
-    { "id": "sm_thatsashame", "en": "That's a shame", "ar": "يا للأسف", "tr": "ذاتس إيه شيم", "pos": "phr", "emoji": "😔" },
-    { "id": "sm_iagree", "en": "I agree", "ar": "أنا أوافق", "tr": "آي أغري", "pos": "phr", "emoji": "🤝" },
-    { "id": "sm_idisagree", "en": "I don't think so", "ar": "لا أظن ذلك", "tr": "آي دونت ثِنك سو", "pos": "phr", "emoji": "🙅" },
-    { "id": "sm_maybe3", "en": "Maybe you are right", "ar": "ربما أنت محق", "tr": "ميبي يو آر رايت", "pos": "phr", "emoji": "🤔" },
-    { "id": "sm_byway", "en": "By the way", "ar": "بالمناسبة", "tr": "باي ذَ ويه", "pos": "phr", "emoji": "💡" },
-    { "id": "sm_ofcourse", "en": "Of course", "ar": "بالطبع", "tr": "أوڤ كورس", "pos": "phr", "emoji": "✅" },
-    { "id": "sm_nop", "en": "No problem", "ar": "لا مشكلة", "tr": "نو پروبلِم", "pos": "phr", "emoji": "👍" },
-    { "id": "sm_youfirst", "en": "After you", "ar": "تفضّل أنت أولاً", "tr": "آفتَر يو", "pos": "phr", "emoji": "🚪" },
-    { "id": "sm_takecare", "en": "Take care", "ar": "اعتنِ بنفسك", "tr": "تيك كير", "pos": "phr", "emoji": "🫶" },
-    { "id": "sm_saidhello", "en": "Say hello to your family", "ar": "سلّم على عائلتك", "tr": "سيه هَلو تو يور فامِلي", "pos": "phr", "emoji": "👋" },
-    { "id": "sm_gotogo", "en": "I have to go now", "ar": "يجب أن أذهب الآن", "tr": "آي هاڤ تو غو ناو", "pos": "phr", "emoji": "🏃" },
-    { "id": "sm_nicetalking", "en": "Nice talking to you", "ar": "سُررت بالحديث معك", "tr": "نايس توكِنغ تو يو", "pos": "phr", "emoji": "😊" },
-    { "id": "sm_seeyousoon", "en": "See you soon", "ar": "أراك قريباً", "tr": "سي يو سون", "pos": "phr", "emoji": "👋" },
-    { "id": "sm_whatsyournumber", "en": "Can I have your number?", "ar": "هل يمكنني أخذ رقمك؟", "tr": "كان آي هاڤ يور نَمبَر", "pos": "phr", "emoji": "📱" },
-    { "id": "sm_letsmeet", "en": "Let's meet tomorrow", "ar": "لنلتقِ غداً", "tr": "لِتس ميت تُومورو", "pos": "phr", "emoji": "📅" },
-    { "id": "sm_invite", "en": "You are welcome at my home", "ar": "أهلاً بك في بيتي", "tr": "يو آر وِلكَم آت ماي هوم", "pos": "phr", "emoji": "🏠" },
-    { "id": "sm_excuseint", "en": "Sorry to interrupt", "ar": "آسف للمقاطعة", "tr": "سوري تو إنتَرَبت", "pos": "phr", "emoji": "🙋" }
+    {
+      "id": "sm_howsit",
+      "en": "How is it going?",
+      "ar": "كيف تسير الأمور؟",
+      "tr": "هاو إز إت غويِنغ",
+      "pos": "phr",
+      "emoji": "💬"
+    },
+    {
+      "id": "sm_longtime",
+      "en": "Long time no see!",
+      "ar": "لم أرك منذ زمن!",
+      "tr": "لونغ تايم نو سي",
+      "pos": "phr",
+      "emoji": "🤗"
+    },
+    {
+      "id": "sm_whatsnew",
+      "en": "What's new?",
+      "ar": "ما الجديد؟",
+      "tr": "واتس نيو",
+      "pos": "phr",
+      "emoji": "🆕"
+    },
+    {
+      "id": "sm_notbad",
+      "en": "Not bad",
+      "ar": "لا بأس",
+      "tr": "نوت باد",
+      "pos": "phr",
+      "emoji": "🙂"
+    },
+    {
+      "id": "sm_sofar",
+      "en": "So far so good",
+      "ar": "كل شيء جيد حتى الآن",
+      "tr": "سو فار سو غُود",
+      "pos": "phr",
+      "emoji": "👌"
+    },
+    {
+      "id": "sm_busy2",
+      "en": "I have been busy",
+      "ar": "كنت مشغولاً",
+      "tr": "آيڤ بين بِزي",
+      "pos": "phr",
+      "emoji": "⏳"
+    },
+    {
+      "id": "sm_family2",
+      "en": "How is your family?",
+      "ar": "كيف حال عائلتك؟",
+      "tr": "هاو إز يور فامِلي",
+      "pos": "phr",
+      "emoji": "👨‍👩‍👧"
+    },
+    {
+      "id": "sm_theyfine",
+      "en": "They are fine, thanks",
+      "ar": "هم بخير، شكراً",
+      "tr": "ذيه آر فاين، ثانكس",
+      "pos": "phr",
+      "emoji": "😊"
+    },
+    {
+      "id": "sm_weather2",
+      "en": "Nice weather today!",
+      "ar": "طقس جميل اليوم!",
+      "tr": "نايس وِذَر تُوديه",
+      "pos": "phr",
+      "emoji": "🌤️"
+    },
+    {
+      "id": "sm_whatdo",
+      "en": "What do you do?",
+      "ar": "ماذا تعمل؟",
+      "tr": "وات دو يو دو",
+      "pos": "phr",
+      "emoji": "💼"
+    },
+    {
+      "id": "sm_howlong2",
+      "en": "How long have you been here?",
+      "ar": "منذ متى وأنت هنا؟",
+      "tr": "هاو لونغ هاڤ يو بين هير",
+      "pos": "phr",
+      "emoji": "🕰️"
+    },
+    {
+      "id": "sm_reallyq",
+      "en": "Really?",
+      "ar": "حقاً؟",
+      "tr": "رِيَلي",
+      "pos": "interj",
+      "emoji": "😮"
+    },
+    {
+      "id": "sm_thatsgreat",
+      "en": "That's great!",
+      "ar": "هذا رائع!",
+      "tr": "ذاتس غريت",
+      "pos": "phr",
+      "emoji": "🎉"
+    },
+    {
+      "id": "sm_thatsashame",
+      "en": "That's a shame",
+      "ar": "يا للأسف",
+      "tr": "ذاتس إيه شيم",
+      "pos": "phr",
+      "emoji": "😔"
+    },
+    {
+      "id": "sm_iagree",
+      "en": "I agree",
+      "ar": "أنا أوافق",
+      "tr": "آي أغري",
+      "pos": "phr",
+      "emoji": "🤝"
+    },
+    {
+      "id": "sm_idisagree",
+      "en": "I don't think so",
+      "ar": "لا أظن ذلك",
+      "tr": "آي دونت ثِنك سو",
+      "pos": "phr",
+      "emoji": "🙅"
+    },
+    {
+      "id": "sm_maybe3",
+      "en": "Maybe you are right",
+      "ar": "ربما أنت محق",
+      "tr": "ميبي يو آر رايت",
+      "pos": "phr",
+      "emoji": "🤔"
+    },
+    {
+      "id": "sm_byway",
+      "en": "By the way",
+      "ar": "بالمناسبة",
+      "tr": "باي ذَ ويه",
+      "pos": "phr",
+      "emoji": "💡"
+    },
+    {
+      "id": "sm_ofcourse",
+      "en": "Of course",
+      "ar": "بالطبع",
+      "tr": "أوڤ كورس",
+      "pos": "phr",
+      "emoji": "✅"
+    },
+    {
+      "id": "sm_nop",
+      "en": "No problem",
+      "ar": "لا مشكلة",
+      "tr": "نو پروبلِم",
+      "pos": "phr",
+      "emoji": "👍"
+    },
+    {
+      "id": "sm_youfirst",
+      "en": "After you",
+      "ar": "تفضّل أنت أولاً",
+      "tr": "آفتَر يو",
+      "pos": "phr",
+      "emoji": "🚪"
+    },
+    {
+      "id": "sm_takecare",
+      "en": "Take care",
+      "ar": "اعتنِ بنفسك",
+      "tr": "تيك كير",
+      "pos": "phr",
+      "emoji": "🫶"
+    },
+    {
+      "id": "sm_saidhello",
+      "en": "Say hello to your family",
+      "ar": "سلّم على عائلتك",
+      "tr": "سيه هَلو تو يور فامِلي",
+      "pos": "phr",
+      "emoji": "👋"
+    },
+    {
+      "id": "sm_gotogo",
+      "en": "I have to go now",
+      "ar": "يجب أن أذهب الآن",
+      "tr": "آي هاڤ تو غو ناو",
+      "pos": "phr",
+      "emoji": "🏃"
+    },
+    {
+      "id": "sm_nicetalking",
+      "en": "Nice talking to you",
+      "ar": "سُررت بالحديث معك",
+      "tr": "نايس توكِنغ تو يو",
+      "pos": "phr",
+      "emoji": "😊"
+    },
+    {
+      "id": "sm_seeyousoon",
+      "en": "See you soon",
+      "ar": "أراك قريباً",
+      "tr": "سي يو سون",
+      "pos": "phr",
+      "emoji": "👋"
+    },
+    {
+      "id": "sm_whatsyournumber",
+      "en": "Can I have your number?",
+      "ar": "هل يمكنني أخذ رقمك؟",
+      "tr": "كان آي هاڤ يور نَمبَر",
+      "pos": "phr",
+      "emoji": "📱"
+    },
+    {
+      "id": "sm_letsmeet",
+      "en": "Let's meet tomorrow",
+      "ar": "لنلتقِ غداً",
+      "tr": "لِتس ميت تُومورو",
+      "pos": "phr",
+      "emoji": "📅"
+    },
+    {
+      "id": "sm_invite",
+      "en": "You are welcome at my home",
+      "ar": "أهلاً بك في بيتي",
+      "tr": "يو آر وِلكَم آت ماي هوم",
+      "pos": "phr",
+      "emoji": "🏠"
+    },
+    {
+      "id": "sm_excuseint",
+      "en": "Sorry to interrupt",
+      "ar": "آسف للمقاطعة",
+      "tr": "سوري تو إنتَرَبت",
+      "pos": "phr",
+      "emoji": "🙋"
+    }
   ],
   "sentences": [
-    { "id": "sm_s1", "en": "Hi! Long time no see.", "ar": "أهلاً! لم أرك منذ زمن.", "tr": "هاي! لونغ تايم نو سي" },
-    { "id": "sm_s2", "en": "How is your family?", "ar": "كيف حال عائلتك؟", "tr": "هاو إز يور فامِلي" },
-    { "id": "sm_s3", "en": "They are fine, thank you.", "ar": "هم بخير، شكراً لك.", "tr": "ذيه آر فاين، ثانك يو" },
-    { "id": "sm_s4", "en": "What do you do for work?", "ar": "ماذا تعمل؟", "tr": "وات دو يو دو فور وِرك" },
-    { "id": "sm_s5", "en": "I have been here for two years.", "ar": "أنا هنا منذ سنتين.", "tr": "آيڤ بين هير فور تو يِيرز" },
-    { "id": "sm_s6", "en": "That's great news!", "ar": "هذه أخبار رائعة!", "tr": "ذاتس غريت نيوز" },
-    { "id": "sm_s7", "en": "By the way, where do you live?", "ar": "بالمناسبة، أين تسكن؟", "tr": "باي ذَ ويه، وير دو يو لِڤ" },
-    { "id": "sm_s8", "en": "Sorry, I have to go now.", "ar": "آسف، يجب أن أذهب الآن.", "tr": "سوري، آي هاڤ تو غو ناو" },
-    { "id": "sm_s9", "en": "It was nice talking to you.", "ar": "سُررت بالحديث معك.", "tr": "إت واز نايس توكِنغ تو يو" },
-    { "id": "sm_s10", "en": "Take care, see you soon.", "ar": "اعتنِ بنفسك، أراك قريباً.", "tr": "تيك كير، سي يو سون" },
-    { "id": "sm_s11", "en": "Can I have your phone number?", "ar": "هل يمكنني أخذ رقم هاتفك؟", "tr": "كان آي هاڤ يور فون نَمبَر" },
-    { "id": "sm_s12", "en": "You are welcome at my home any time.", "ar": "أهلاً بك في بيتي في أي وقت.", "tr": "يو آر وِلكَم آت ماي هوم إني تايم" },
-    { "id": "sm_s13", "en": "Say hello to your brother.", "ar": "سلّم على أخيك.", "tr": "سيه هَلو تو يور براذَر" },
-    { "id": "sm_s14", "en": "Let's meet tomorrow evening.", "ar": "لنلتقِ مساء الغد.", "tr": "لِتس ميت تُومورو إيفنِنغ" }
+    {
+      "id": "sm_s1",
+      "en": "Hi! Long time no see.",
+      "ar": "أهلاً! لم أرك منذ زمن.",
+      "tr": "هاي! لونغ تايم نو سي"
+    },
+    {
+      "id": "sm_s2",
+      "en": "How is your family?",
+      "ar": "كيف حال عائلتك؟",
+      "tr": "هاو إز يور فامِلي"
+    },
+    {
+      "id": "sm_s3",
+      "en": "They are fine, thank you.",
+      "ar": "هم بخير، شكراً لك.",
+      "tr": "ذيه آر فاين، ثانك يو"
+    },
+    {
+      "id": "sm_s4",
+      "en": "What do you do for work?",
+      "ar": "ماذا تعمل؟",
+      "tr": "وات دو يو دو فور وِرك"
+    },
+    {
+      "id": "sm_s5",
+      "en": "I have been here for two years.",
+      "ar": "أنا هنا منذ سنتين.",
+      "tr": "آيڤ بين هير فور تو يِيرز"
+    },
+    {
+      "id": "sm_s6",
+      "en": "That's great news!",
+      "ar": "هذه أخبار رائعة!",
+      "tr": "ذاتس غريت نيوز"
+    },
+    {
+      "id": "sm_s7",
+      "en": "By the way, where do you live?",
+      "ar": "بالمناسبة، أين تسكن؟",
+      "tr": "باي ذَ ويه، وير دو يو لِڤ"
+    },
+    {
+      "id": "sm_s8",
+      "en": "Sorry, I have to go now.",
+      "ar": "آسف، يجب أن أذهب الآن.",
+      "tr": "سوري، آي هاڤ تو غو ناو"
+    },
+    {
+      "id": "sm_s9",
+      "en": "It was nice talking to you.",
+      "ar": "سُررت بالحديث معك.",
+      "tr": "إت واز نايس توكِنغ تو يو"
+    },
+    {
+      "id": "sm_s10",
+      "en": "Take care, see you soon.",
+      "ar": "اعتنِ بنفسك، أراك قريباً.",
+      "tr": "تيك كير، سي يو سون"
+    },
+    {
+      "id": "sm_s11",
+      "en": "Can I have your phone number?",
+      "ar": "هل يمكنني أخذ رقم هاتفك؟",
+      "tr": "كان آي هاڤ يور فون نَمبَر"
+    },
+    {
+      "id": "sm_s12",
+      "en": "You are welcome at my home any time.",
+      "ar": "أهلاً بك في بيتي في أي وقت.",
+      "tr": "يو آر وِلكَم آت ماي هوم إني تايم"
+    },
+    {
+      "id": "sm_s13",
+      "en": "Say hello to your brother.",
+      "ar": "سلّم على أخيك.",
+      "tr": "سيه هَلو تو يور براذَر"
+    },
+    {
+      "id": "sm_s14",
+      "en": "Let's meet tomorrow evening.",
+      "ar": "لنلتقِ مساء الغد.",
+      "tr": "لِتس ميت تُومورو إيفنِنغ"
+    },
+    {
+      "id": "sm_s15",
+      "en": "Do you live around here?",
+      "ar": "هل تسكن في هذه المنطقة؟",
+      "tr": "دو يو لِڤ أراوند هير"
+    },
+    {
+      "id": "sm_s16",
+      "en": "How was your weekend?",
+      "ar": "كيف كانت عطلتك؟",
+      "tr": "هاو واز يور ويكِند"
+    },
+    {
+      "id": "sm_s17",
+      "en": "It was quiet, thank God.",
+      "ar": "كانت هادئة، الحمد لله.",
+      "tr": "إت واز كوايَت، ثانك غود"
+    },
+    {
+      "id": "sm_s18",
+      "en": "That sounds interesting.",
+      "ar": "يبدو ذلك مثيراً للاهتمام.",
+      "tr": "ذات ساوندز إنتِرِستِنغ"
+    },
+    {
+      "id": "sm_s19",
+      "en": "I have heard a lot about you.",
+      "ar": "سمعت الكثير عنك.",
+      "tr": "آيڤ هيرد إيه لوت أباوت يو"
+    },
+    {
+      "id": "sm_s20",
+      "en": "We should meet more often.",
+      "ar": "يجب أن نلتقي أكثر.",
+      "tr": "وي شود ميت مور أوفِن"
+    },
+    {
+      "id": "sm_s21",
+      "en": "Give me a call when you arrive.",
+      "ar": "اتصل بي عندما تصل.",
+      "tr": "غِڤ مي إيه كول وِن يو أرايڤ"
+    },
+    {
+      "id": "sm_s22",
+      "en": "Thank you for coming.",
+      "ar": "شكراً لحضورك.",
+      "tr": "ثانك يو فور كَمِنغ"
+    }
   ]
 }

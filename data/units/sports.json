@@ -1,51 +1,381 @@
 {
   "id": "sports",
-  "title": { "ar": "الرياضة والهوايات", "en": "Sports & Hobbies" },
+  "title": {
+    "ar": "الرياضة والهوايات",
+    "en": "Sports & Hobbies"
+  },
   "icon": "⚽",
   "level": 3,
   "color": "mint",
   "words": [
-    { "id": "sp_sport", "en": "sport", "ar": "رياضة", "tr": "سپورت", "pos": "n", "emoji": "🏅", "ex": { "en": "What sport do you like?", "ar": "ما الرياضة التي تحبها؟", "tr": "وات سپورت دو يو لايك" } },
-    { "id": "sp_football", "en": "football", "ar": "كرة القدم", "tr": "فوتبول", "pos": "n", "emoji": "⚽", "ex": { "en": "I play football on Friday.", "ar": "ألعب كرة القدم يوم الجمعة.", "tr": "آي پليه فوتبول أون فرايديه" } },
-    { "id": "sp_basketball", "en": "basketball", "ar": "كرة السلة", "tr": "باسكِتبول", "pos": "n", "emoji": "🏀" },
-    { "id": "sp_swimming", "en": "swimming", "ar": "السباحة", "tr": "سوِمِنغ", "pos": "n", "emoji": "🏊" },
-    { "id": "sp_running", "en": "running", "ar": "الجري", "tr": "رَنِنغ", "pos": "n", "emoji": "🏃" },
-    { "id": "sp_walking", "en": "walking", "ar": "المشي", "tr": "ووكِنغ", "pos": "n", "emoji": "🚶" },
-    { "id": "sp_cycling", "en": "cycling", "ar": "ركوب الدراجة", "tr": "سايكلِنغ", "pos": "n", "emoji": "🚴" },
-    { "id": "sp_gym", "en": "gym", "ar": "نادي رياضي", "tr": "جِم", "pos": "n", "emoji": "🏋️" },
-    { "id": "sp_team", "en": "team", "ar": "فريق", "tr": "تيم", "pos": "n", "emoji": "👥" },
-    { "id": "sp_player", "en": "player", "ar": "لاعب", "tr": "پليَر", "pos": "n", "emoji": "🧑‍🦱" },
-    { "id": "sp_match", "en": "match / game", "ar": "مباراة", "tr": "ماتش", "pos": "n", "emoji": "🆚", "ex": { "en": "The match starts at eight.", "ar": "المباراة تبدأ في الثامنة.", "tr": "ذَ ماتش ستارتس آت إيت" } },
-    { "id": "sp_win", "en": "win", "ar": "يفوز", "tr": "وِن", "pos": "v", "emoji": "🏆" },
-    { "id": "sp_lose", "en": "lose", "ar": "يخسر", "tr": "لوز", "pos": "v", "emoji": "😞" },
-    { "id": "sp_goal", "en": "goal", "ar": "هدف", "tr": "غول", "pos": "n", "emoji": "🥅" },
-    { "id": "sp_ball", "en": "ball", "ar": "كرة", "tr": "بول", "pos": "n", "emoji": "⚽" },
-    { "id": "sp_practice", "en": "practice / train", "ar": "يتدرّب", "tr": "پراكتِس", "pos": "v", "emoji": "🔁" },
-    { "id": "sp_hobby", "en": "hobby", "ar": "هواية", "tr": "هوبي", "pos": "n", "emoji": "🎨", "ex": { "en": "Reading is my favorite hobby.", "ar": "القراءة هوايتي المفضلة.", "tr": "ريدِنغ إز ماي فيڤَرِت هوبي" } },
-    { "id": "sp_reading", "en": "reading", "ar": "القراءة", "tr": "ريدِنغ", "pos": "n", "emoji": "📚" },
-    { "id": "sp_drawing", "en": "drawing", "ar": "الرسم", "tr": "درووِنغ", "pos": "n", "emoji": "✏️" },
-    { "id": "sp_cooking2", "en": "cooking", "ar": "الطبخ", "tr": "كوكِنغ", "pos": "n", "emoji": "👨‍🍳" },
-    { "id": "sp_music", "en": "music", "ar": "موسيقى", "tr": "ميوزِك", "pos": "n", "emoji": "🎵" },
-    { "id": "sp_singing", "en": "singing", "ar": "الغناء", "tr": "سِنغِنغ", "pos": "n", "emoji": "🎤" },
-    { "id": "sp_fishing", "en": "fishing", "ar": "صيد السمك", "tr": "فِشِنغ", "pos": "n", "emoji": "🎣" },
-    { "id": "sp_travel2", "en": "travelling", "ar": "السفر", "tr": "تراڤِلِنغ", "pos": "n", "emoji": "🧳" },
-    { "id": "sp_photography", "en": "photography", "ar": "التصوير", "tr": "فُوتوغرَفي", "pos": "n", "emoji": "📷" },
-    { "id": "sp_game2", "en": "video games", "ar": "ألعاب فيديو", "tr": "ڤيديو غيمز", "pos": "n", "emoji": "🎮" },
-    { "id": "sp_free3", "en": "free time", "ar": "وقت الفراغ", "tr": "فري تايم", "pos": "phr", "emoji": "🕒", "ex": { "en": "What do you do in your free time?", "ar": "ماذا تفعل في وقت فراغك؟", "tr": "وات دو يو دو إن يور فري تايم" } },
-    { "id": "sp_join", "en": "join", "ar": "ينضم", "tr": "جوين", "pos": "v", "emoji": "🤝" },
-    { "id": "sp_tired3", "en": "out of breath", "ar": "لاهث / متعب من الجهد", "tr": "أوت أوڤ برِث", "pos": "phr", "emoji": "😮‍💨" },
-    { "id": "sp_healthy2", "en": "keep fit", "ar": "يحافظ على لياقته", "tr": "كيپ فِت", "pos": "phr", "emoji": "💪" }
+    {
+      "id": "sp_sport",
+      "en": "sport",
+      "ar": "رياضة",
+      "tr": "سپورت",
+      "pos": "n",
+      "emoji": "🏅",
+      "ex": {
+        "en": "What sport do you like?",
+        "ar": "ما الرياضة التي تحبها؟",
+        "tr": "وات سپورت دو يو لايك"
+      }
+    },
+    {
+      "id": "sp_football",
+      "en": "football",
+      "ar": "كرة القدم",
+      "tr": "فوتبول",
+      "pos": "n",
+      "emoji": "⚽",
+      "ex": {
+        "en": "I play football on Friday.",
+        "ar": "ألعب كرة القدم يوم الجمعة.",
+        "tr": "آي پليه فوتبول أون فرايديه"
+      }
+    },
+    {
+      "id": "sp_basketball",
+      "en": "basketball",
+      "ar": "كرة السلة",
+      "tr": "باسكِتبول",
+      "pos": "n",
+      "emoji": "🏀"
+    },
+    {
+      "id": "sp_swimming",
+      "en": "swimming",
+      "ar": "السباحة",
+      "tr": "سوِمِنغ",
+      "pos": "n",
+      "emoji": "🏊"
+    },
+    {
+      "id": "sp_running",
+      "en": "running",
+      "ar": "الجري",
+      "tr": "رَنِنغ",
+      "pos": "n",
+      "emoji": "🏃"
+    },
+    {
+      "id": "sp_walking",
+      "en": "walking",
+      "ar": "المشي",
+      "tr": "ووكِنغ",
+      "pos": "n",
+      "emoji": "🚶"
+    },
+    {
+      "id": "sp_cycling",
+      "en": "cycling",
+      "ar": "ركوب الدراجة",
+      "tr": "سايكلِنغ",
+      "pos": "n",
+      "emoji": "🚴"
+    },
+    {
+      "id": "sp_gym",
+      "en": "gym",
+      "ar": "نادي رياضي",
+      "tr": "جِم",
+      "pos": "n",
+      "emoji": "🏋️"
+    },
+    {
+      "id": "sp_team",
+      "en": "team",
+      "ar": "فريق",
+      "tr": "تيم",
+      "pos": "n",
+      "emoji": "👥"
+    },
+    {
+      "id": "sp_player",
+      "en": "player",
+      "ar": "لاعب",
+      "tr": "پليَر",
+      "pos": "n",
+      "emoji": "🧑‍🦱"
+    },
+    {
+      "id": "sp_match",
+      "en": "match / game",
+      "ar": "مباراة",
+      "tr": "ماتش",
+      "pos": "n",
+      "emoji": "🆚",
+      "ex": {
+        "en": "The match starts at eight.",
+        "ar": "المباراة تبدأ في الثامنة.",
+        "tr": "ذَ ماتش ستارتس آت إيت"
+      }
+    },
+    {
+      "id": "sp_win",
+      "en": "win",
+      "ar": "يفوز",
+      "tr": "وِن",
+      "pos": "v",
+      "emoji": "🏆"
+    },
+    {
+      "id": "sp_lose",
+      "en": "lose",
+      "ar": "يخسر",
+      "tr": "لوز",
+      "pos": "v",
+      "emoji": "😞"
+    },
+    {
+      "id": "sp_goal",
+      "en": "goal",
+      "ar": "هدف",
+      "tr": "غول",
+      "pos": "n",
+      "emoji": "🥅"
+    },
+    {
+      "id": "sp_ball",
+      "en": "ball",
+      "ar": "كرة",
+      "tr": "بول",
+      "pos": "n",
+      "emoji": "⚽"
+    },
+    {
+      "id": "sp_practice",
+      "en": "practice / train",
+      "ar": "يتدرّب",
+      "tr": "پراكتِس",
+      "pos": "v",
+      "emoji": "🔁"
+    },
+    {
+      "id": "sp_hobby",
+      "en": "hobby",
+      "ar": "هواية",
+      "tr": "هوبي",
+      "pos": "n",
+      "emoji": "🎨",
+      "ex": {
+        "en": "Reading is my favorite hobby.",
+        "ar": "القراءة هوايتي المفضلة.",
+        "tr": "ريدِنغ إز ماي فيڤَرِت هوبي"
+      }
+    },
+    {
+      "id": "sp_reading",
+      "en": "reading",
+      "ar": "القراءة",
+      "tr": "ريدِنغ",
+      "pos": "n",
+      "emoji": "📚"
+    },
+    {
+      "id": "sp_drawing",
+      "en": "drawing",
+      "ar": "الرسم",
+      "tr": "درووِنغ",
+      "pos": "n",
+      "emoji": "✏️"
+    },
+    {
+      "id": "sp_cooking2",
+      "en": "cooking",
+      "ar": "الطبخ",
+      "tr": "كوكِنغ",
+      "pos": "n",
+      "emoji": "👨‍🍳"
+    },
+    {
+      "id": "sp_music",
+      "en": "music",
+      "ar": "موسيقى",
+      "tr": "ميوزِك",
+      "pos": "n",
+      "emoji": "🎵"
+    },
+    {
+      "id": "sp_singing",
+      "en": "singing",
+      "ar": "الغناء",
+      "tr": "سِنغِنغ",
+      "pos": "n",
+      "emoji": "🎤"
+    },
+    {
+      "id": "sp_fishing",
+      "en": "fishing",
+      "ar": "صيد السمك",
+      "tr": "فِشِنغ",
+      "pos": "n",
+      "emoji": "🎣"
+    },
+    {
+      "id": "sp_travel2",
+      "en": "travelling",
+      "ar": "السفر",
+      "tr": "تراڤِلِنغ",
+      "pos": "n",
+      "emoji": "🧳"
+    },
+    {
+      "id": "sp_photography",
+      "en": "photography",
+      "ar": "التصوير",
+      "tr": "فُوتوغرَفي",
+      "pos": "n",
+      "emoji": "📷"
+    },
+    {
+      "id": "sp_game2",
+      "en": "video games",
+      "ar": "ألعاب فيديو",
+      "tr": "ڤيديو غيمز",
+      "pos": "n",
+      "emoji": "🎮"
+    },
+    {
+      "id": "sp_free3",
+      "en": "free time",
+      "ar": "وقت الفراغ",
+      "tr": "فري تايم",
+      "pos": "phr",
+      "emoji": "🕒",
+      "ex": {
+        "en": "What do you do in your free time?",
+        "ar": "ماذا تفعل في وقت فراغك؟",
+        "tr": "وات دو يو دو إن يور فري تايم"
+      }
+    },
+    {
+      "id": "sp_join",
+      "en": "join",
+      "ar": "ينضم",
+      "tr": "جوين",
+      "pos": "v",
+      "emoji": "🤝"
+    },
+    {
+      "id": "sp_tired3",
+      "en": "out of breath",
+      "ar": "لاهث / متعب من الجهد",
+      "tr": "أوت أوڤ برِث",
+      "pos": "phr",
+      "emoji": "😮‍💨"
+    },
+    {
+      "id": "sp_healthy2",
+      "en": "keep fit",
+      "ar": "يحافظ على لياقته",
+      "tr": "كيپ فِت",
+      "pos": "phr",
+      "emoji": "💪"
+    }
   ],
   "sentences": [
-    { "id": "sp_s1", "en": "I play football every week.", "ar": "ألعب كرة القدم كل أسبوع.", "tr": "آي پليه فوتبول إڤري ويك" },
-    { "id": "sp_s2", "en": "What do you do in your free time?", "ar": "ماذا تفعل في وقت فراغك؟", "tr": "وات دو يو دو إن يور فري تايم" },
-    { "id": "sp_s3", "en": "My favorite hobby is reading.", "ar": "هوايتي المفضلة هي القراءة.", "tr": "ماي فيڤَرِت هوبي إز ريدِنغ" },
-    { "id": "sp_s4", "en": "I go to the gym three times a week.", "ar": "أذهب إلى النادي ثلاث مرات أسبوعياً.", "tr": "آي غو تو ذَ جِم ثري تايمز إيه ويك" },
-    { "id": "sp_s5", "en": "Our team won the match.", "ar": "فريقنا فاز بالمباراة.", "tr": "أوَر تيم وُن ذَ ماتش" },
-    { "id": "sp_s6", "en": "Do you want to play with us?", "ar": "هل تريد اللعب معنا؟", "tr": "دو يو وانت تو پليه وِذ أَس" },
-    { "id": "sp_s7", "en": "I like swimming in summer.", "ar": "أحب السباحة في الصيف.", "tr": "آي لايك سوِمِنغ إن سَمَر" },
-    { "id": "sp_s8", "en": "I walk for an hour every day.", "ar": "أمشي ساعة كل يوم.", "tr": "آي ووك فور آن آوَر إڤري ديه" },
-    { "id": "sp_s9", "en": "He is a very good player.", "ar": "هو لاعب جيد جداً.", "tr": "هي إز إيه ڤيري غُود پليَر" },
-    { "id": "sp_s10", "en": "Sport keeps me healthy.", "ar": "الرياضة تبقيني بصحة جيدة.", "tr": "سپورت كيپس مي هِلثي" }
+    {
+      "id": "sp_s1",
+      "en": "I play football every week.",
+      "ar": "ألعب كرة القدم كل أسبوع.",
+      "tr": "آي پليه فوتبول إڤري ويك"
+    },
+    {
+      "id": "sp_s2",
+      "en": "What do you do in your free time?",
+      "ar": "ماذا تفعل في وقت فراغك؟",
+      "tr": "وات دو يو دو إن يور فري تايم"
+    },
+    {
+      "id": "sp_s3",
+      "en": "My favorite hobby is reading.",
+      "ar": "هوايتي المفضلة هي القراءة.",
+      "tr": "ماي فيڤَرِت هوبي إز ريدِنغ"
+    },
+    {
+      "id": "sp_s4",
+      "en": "I go to the gym three times a week.",
+      "ar": "أذهب إلى النادي ثلاث مرات أسبوعياً.",
+      "tr": "آي غو تو ذَ جِم ثري تايمز إيه ويك"
+    },
+    {
+      "id": "sp_s5",
+      "en": "Our team won the match.",
+      "ar": "فريقنا فاز بالمباراة.",
+      "tr": "أوَر تيم وُن ذَ ماتش"
+    },
+    {
+      "id": "sp_s6",
+      "en": "Do you want to play with us?",
+      "ar": "هل تريد اللعب معنا؟",
+      "tr": "دو يو وانت تو پليه وِذ أَس"
+    },
+    {
+      "id": "sp_s7",
+      "en": "I like swimming in summer.",
+      "ar": "أحب السباحة في الصيف.",
+      "tr": "آي لايك سوِمِنغ إن سَمَر"
+    },
+    {
+      "id": "sp_s8",
+      "en": "I walk for an hour every day.",
+      "ar": "أمشي ساعة كل يوم.",
+      "tr": "آي ووك فور آن آوَر إڤري ديه"
+    },
+    {
+      "id": "sp_s9",
+      "en": "He is a very good player.",
+      "ar": "هو لاعب جيد جداً.",
+      "tr": "هي إز إيه ڤيري غُود پليَر"
+    },
+    {
+      "id": "sp_s10",
+      "en": "Sport keeps me healthy.",
+      "ar": "الرياضة تبقيني بصحة جيدة.",
+      "tr": "سپورت كيپس مي هِلثي"
+    },
+    {
+      "id": "sp_s11",
+      "en": "The game starts in ten minutes.",
+      "ar": "المباراة تبدأ بعد عشر دقائق.",
+      "tr": "ذَ غيم ستارتس إن تِن مِنِتس"
+    },
+    {
+      "id": "sp_s12",
+      "en": "I go running every morning.",
+      "ar": "أذهب للجري كل صباح.",
+      "tr": "آي غو رَنِنغ إڤري مورنِنغ"
+    },
+    {
+      "id": "sp_s13",
+      "en": "Which team do you support?",
+      "ar": "أي فريق تشجّع؟",
+      "tr": "وِتش تيم دو يو سَپورت"
+    },
+    {
+      "id": "sp_s14",
+      "en": "We lost, but it was fun.",
+      "ar": "خسرنا، لكنه كان ممتعاً.",
+      "tr": "وي لوست، بَت إت واز فَن"
+    },
+    {
+      "id": "sp_s15",
+      "en": "I am tired after training.",
+      "ar": "أنا متعب بعد التدريب.",
+      "tr": "آيم تايَرد آفتَر ترينِنغ"
+    },
+    {
+      "id": "sp_s16",
+      "en": "Sport is good for the body.",
+      "ar": "الرياضة مفيدة للجسم.",
+      "tr": "سپورت إز غُود فور ذَ بودي"
+    },
+    {
+      "id": "sp_s17",
+      "en": "I like listening to music while walking.",
+      "ar": "أحب سماع الموسيقى أثناء المشي.",
+      "tr": "آي لايك لِسِنِنغ تو ميوزِك وايل ووكِنغ"
+    }
   ]
 }
