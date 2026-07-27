@@ -3,7 +3,7 @@
    App shell: cache-first (fast, works with no signal)
    Content JSON: network-first (so published updates arrive)
    ============================================================ */
-const VERSION = 'khutwa-v1.0.0';
+const VERSION = 'khutwa-v1.1.0';
 const SHELL = VERSION + '-shell';
 const DATA  = VERSION + '-data';
 
@@ -21,6 +21,7 @@ const SHELL_FILES = [
   './app/router.js',
   './app/ui.js',
   './app/config.js',
+  './app/sync.js',
   './app/views/home.js',
   './app/views/units.js',
   './app/views/learn.js',

@@ -2,8 +2,19 @@
    config.js — app-wide constants
    ============================================================ */
 
-export const APP_VERSION = '1.0.0';
+export const APP_VERSION = '1.1.0';
 export const APP_NAME = 'خُطوة';
+
+/* Selectable themes. `swatch` drives the little preview tile in
+   Settings: [page background, card, accent]. Keep in sync with the
+   [data-theme="…"] blocks in css/theme.css. */
+export const THEMES = [
+  { id: 'auto',     ar: 'تلقائي',       swatch: ['linear-gradient(135deg,#f4f5fb 0 50%,#080b18 50% 100%)', '#8e93b5', 'linear-gradient(135deg,#6c5cff,#22d3ee)'] },
+  { id: 'light',    ar: 'فاتح',         swatch: ['#f4f5fb', '#ffffff', 'linear-gradient(135deg,#6c5cff,#22d3ee)'] },
+  { id: 'dark',     ar: 'داكن',         swatch: ['#080b18', '#171d33', 'linear-gradient(135deg,#6c5cff,#22d3ee)'] },
+  { id: 'midnight', ar: 'منتصف الليل',  swatch: ['#000000', '#12121c', 'linear-gradient(135deg,#7c5cff,#2ee6ff)'] },
+  { id: 'ember',    ar: 'ليلي دافئ',    swatch: ['#15110d', '#28211a', 'linear-gradient(135deg,#f5a524,#e0568a)'] },
+];
 
 /* The hidden admin console.
    NOTE: this is a static site — the console code is downloadable by

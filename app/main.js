@@ -6,6 +6,7 @@ import { loadAll, allWordIds } from './data.js';
 import { applySettings, touchDay, dueIds } from './store.js';
 import { route, startRouter, go, back, render } from './router.js';
 import { APP_VERSION } from './config.js';
+import { startAuto, configured as syncOn } from './sync.js';
 
 import home        from './views/home.js';
 import { unitsView, unitView } from './views/units.js';
@@ -91,4 +92,10 @@ function registerSW() {
   setTimeout(() => boot.remove(), 500);
 
   registerSW();
+
+  // progress sync — silent, and only on a device where the owner set it up
+  if (syncOn()) {
+    startAuto();
+    window.addEventListener('sync:applied', () => { updateBadge(); render(); });
+  }
 })();

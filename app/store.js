@@ -49,17 +49,24 @@ const DEFAULT_PROGRESS = {
   lastDay: '',
   totalXP: 0,
   createdAt: Date.now(),
+  updatedAt: 0,
   name: '',
 };
 
 export const progress = Object.assign({}, DEFAULT_PROGRESS, load(K_PROG, {}));
 
 let saveTimer;
+function touched() {
+  progress.updatedAt = Date.now();
+  // sync.js listens for this instead of store.js importing it (avoids a cycle)
+  window.dispatchEvent(new CustomEvent('progress:change'));
+}
 export function persist() {
   clearTimeout(saveTimer);
+  touched();
   saveTimer = setTimeout(() => save(K_PROG, progress), 160);
 }
-export function persistNow() { clearTimeout(saveTimer); save(K_PROG, progress); }
+export function persistNow() { clearTimeout(saveTimer); touched(); save(K_PROG, progress); }
 
 export function resetProgress() {
   Object.assign(progress, structuredClone(DEFAULT_PROGRESS), { createdAt: Date.now() });

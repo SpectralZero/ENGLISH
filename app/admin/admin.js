@@ -14,8 +14,10 @@ import {
   draftFiles, hasDraft, clearDraft, reindex, getDraft,
 } from '../data.js';
 import { ICON } from '../ui.js';
+import { progress } from '../store.js';
 import { translit } from './translit.js';
 import * as gh from './github.js';
+import * as sync from '../sync.js';
 import { ADMIN, APP_VERSION } from '../config.js';
 import { go } from '../router.js';
 
@@ -79,6 +81,7 @@ const TABS = [
   { id: 'quick',   label: '⚡ إضافة سريعة' },
   { id: 'import',  label: '📥 استيراد' },
   { id: 'publish', label: '☁️ النشر' },
+  { id: 'sync',    label: '🔄 مزامنة تقدّمي' },
   { id: 'tools',   label: '🛠️ أدوات' },
 ];
 let activeTab = 'content';
@@ -105,7 +108,7 @@ function renderConsole(view) {
   });
   wrap.append(tabs, panel);
 
-  ({ content: panContent, quick: panQuick, import: panImport, publish: panPublish, tools: panTools })[activeTab](panel, view);
+  ({ content: panContent, quick: panQuick, import: panImport, publish: panPublish, sync: panSync, tools: panTools })[activeTab](panel, view);
 }
 
 const refresh = () => renderConsole($('#view'));
@@ -635,7 +638,120 @@ function panPublish(panel) {
   ]));
 }
 
-/* ============================================================ 5 · tools */
+/* ============================================================ 5 · progress sync */
+function panSync(panel) {
+  const g = {
+    owner:  el('input', { class: 'input mono', value: sync.cfg.owner, placeholder: 'SpectralZero' }),
+    repo:   el('input', { class: 'input mono', value: sync.cfg.repo, placeholder: 'english-progress (خاص)' }),
+    branch: el('input', { class: 'input mono', value: sync.cfg.branch || 'main', placeholder: 'main' }),
+    path:   el('input', { class: 'input mono', value: sync.cfg.path, placeholder: 'progress/main.json' }),
+    token:  el('input', { class: 'input mono', type: 'password', value: sync.cfg.token, placeholder: 'github_pat_…' }),
+  };
+  const status = el('div', { class: 'small muted' });
+  const saveCfg = () => sync.saveCfg({
+    owner: g.owner.value.trim(), repo: g.repo.value.trim(),
+    branch: g.branch.value.trim() || 'main',
+    path: g.path.value.trim() || 'progress/main.json',
+    token: g.token.value.trim(),
+  });
+
+  const stamp = t => (t ? new Date(t).toLocaleString('ar') : '—');
+
+  panel.append(el('div', { class: 'stack' }, [
+    el('div', { class: 'card stack', style: 'padding:var(--sp-4)' }, [
+      el('div', { style: 'font-weight:800', text: 'حالة المزامنة' }),
+      el('div', { class: 'small muted' }, [`آخر سحب: ${stamp(sync.meta.lastPull)}`]),
+      el('div', { class: 'small muted' }, [`آخر رفع: ${stamp(sync.meta.lastPush)}`]),
+      sync.meta.error ? el('div', { class: 'small', style: 'color:var(--rose)', text: sync.meta.error }) : null,
+      el('div', { class: 'small' }, [
+        `هذا الجهاز: ${AR_NUM(Object.keys(progress.items || {}).length)} كلمة · ${AR_NUM(progress.totalXP || 0)} نقطة`,
+      ]),
+    ]),
+
+    el('div', { class: 'card stack', style: 'padding:var(--sp-4)' }, [
+      el('div', { style: 'font-weight:800', text: 'مستودع خاص لحفظ التقدّم' }),
+      el('p', { class: 'small muted' }, [
+        'أنشئ مستودعاً جديداً على GitHub واجعله Private، ثم أعطِ التوكن صلاحية Contents: Read and write عليه. ملف واحد فقط سيُحفظ فيه.',
+      ]),
+      field('اسم المستخدم', g.owner),
+      field('اسم المستودع (خاص)', g.repo),
+      el('div', { class: 'row' }, [
+        el('div', { class: 'grow' }, [el('label', { class: 'label', text: 'الفرع' }), g.branch]),
+        el('div', { class: 'grow' }, [el('label', { class: 'label', text: 'مسار الملف' }), g.path]),
+      ]),
+      field('التوكن (لا يغادر هذا الجهاز)', g.token),
+      el('div', { class: 'row' }, [
+        el('button', {
+          class: 'btn btn--sm btn--ghost', text: '🔌 اختبار',
+          onclick: async () => {
+            saveCfg();
+            status.textContent = 'جارٍ الاختبار…';
+            try {
+              const r = await sync.checkAccess();
+              status.innerHTML = `<span style="color:var(--mint)">${esc(r.name)} · ${r.private ? 'خاص ✓' : '⚠️ عام — يُفضّل جعله خاصاً'} · ${r.push ? 'كتابة ✓' : 'بدون كتابة ✗'}</span>`;
+            } catch (e) { status.innerHTML = `<span style="color:var(--rose)">${esc(e.message)}</span>`; }
+          },
+        }),
+        el('button', { class: 'btn btn--sm btn--quiet', text: 'حفظ', onclick: () => { saveCfg(); toast('تم الحفظ', 'ok'); refresh(); } }),
+        el('button', {
+          class: 'btn btn--sm btn--quiet', text: 'حذف التوكن',
+          onclick: () => { sync.forget(); g.token.value = ''; toast('تم حذف التوكن'); refresh(); },
+        }),
+      ]),
+      status,
+      row2('مزامنة تلقائية', 'عند فتح التطبيق وإغلاقه', sync.cfg.auto, v => { sync.saveCfg({ auto: v }); }),
+    ]),
+
+    el('button', {
+      class: 'btn btn--primary btn--lg btn--block', html: ICON.cloud + '<span>مزامنة الآن</span>',
+      onclick: async ev => {
+        saveCfg();
+        if (!sync.configured()) return toast('أكمل الإعدادات أولاً', 'err');
+        ev.currentTarget.disabled = true;
+        const r = await sync.syncNow();
+        ev.currentTarget.disabled = false;
+        toast(r.ok ? (r.pulled ? 'تمت المزامنة وتم تحديث هذا الجهاز' : 'تمت المزامنة ✓') : 'فشل: ' + r.reason, r.ok ? 'ok' : 'err');
+        refresh();
+      },
+    }),
+
+    el('div', { class: 'card stack', style: 'padding:var(--sp-4)' }, [
+      el('div', { style: 'font-weight:800', text: 'في حالات خاصة' }),
+      el('p', { class: 'small muted' }, ['استعمل هذين الزرين فقط إذا اختلطت النسخ وتريد فرض جهة واحدة.']),
+      el('button', {
+        class: 'btn btn--ghost btn--block', text: '⤓ استبدال هذا الجهاز بنسخة السحابة',
+        onclick: async () => {
+          if (!await confirmSheet('استبدال تقدّم هذا الجهاز؟', 'سيُحذف تقدّم هذا الجهاز ويُستبدل بما في المستودع.', { danger: true, okText: 'استبدال' })) return;
+          try { await sync.pullOverwrite(); toast('تم', 'ok'); setTimeout(() => location.reload(), 700); }
+          catch (e) { toast(e.message, 'err'); }
+        },
+      }),
+      el('button', {
+        class: 'btn btn--ghost btn--block', text: '⤒ استبدال نسخة السحابة بهذا الجهاز',
+        onclick: async () => {
+          if (!await confirmSheet('استبدال النسخة السحابية؟', 'سيُكتب تقدّم هذا الجهاز فوق ما في المستودع.', { danger: true, okText: 'استبدال' })) return;
+          try { await sync.pushOverwrite(); toast('تم الرفع', 'ok'); refresh(); }
+          catch (e) { toast(e.message, 'err'); }
+        },
+      }),
+    ]),
+
+    el('p', { class: 'small muted' }, [
+      'ملاحظة: أي شخص تشاركه رابط التطبيق لن يملك التوكن، لذلك يبقى تقدّمه على جهازه فقط ولن يختلط بتقدّمك أبداً.',
+    ]),
+  ]));
+}
+
+function row2(title, sub, checked, onChange) {
+  const input = el('input', { type: 'checkbox', checked: !!checked });
+  input.addEventListener('change', () => onChange(input.checked));
+  return el('div', { class: 'setrow', style: 'padding-inline:0' }, [
+    el('div', { class: 'setrow__t', html: `${title}<small>${sub}</small>` }),
+    el('label', { class: 'switch' }, [input, el('i')]),
+  ]);
+}
+
+/* ============================================================ 6 · tools */
 function panTools(panel) {
   /* content audit */
   const missingTr = store.words.filter(w => !w.tr);

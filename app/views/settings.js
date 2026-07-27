@@ -7,7 +7,8 @@ import { settings, setSetting, progress, resetProgress, importProgress } from '.
 import { englishVoices, speak, unlock } from '../tts.js';
 import { sectionTitle } from '../ui.js';
 import { go } from '../router.js';
-import { APP_VERSION } from '../config.js';
+import { APP_VERSION, THEMES } from '../config.js';
+import * as sync from '../sync.js';
 
 export default function settingsView({ view }) {
   const wrap = el('div', { class: 'wrap stack' });
@@ -25,11 +26,12 @@ export default function settingsView({ view }) {
 
   /* ---------------- appearance ---------------- */
   wrap.append(sectionTitle('المظهر'));
+  wrap.append(el('div', { class: 'card stack', style: 'padding:var(--sp-4)' }, [
+    el('div', { class: 'label', style: 'margin:0', text: 'السمة' }),
+    themePicker(),
+  ]));
   wrap.append(el('div', { class: 'setgroup' }, [
-    row('السمة', 'فاتح أو داكن', seg(
-      [{ v: 'auto', label: 'تلقائي' }, { v: 'light', label: 'فاتح' }, { v: 'dark', label: 'داكن' }],
-      settings.theme, v => setSetting('theme', v))),
-    row('حجم الخط', '', seg(
+    row('حجم الخط', 'اختر ما يريح عينك', seg(
       [{ v: 0.92, label: 'ص' }, { v: 1, label: 'م' }, { v: 1.12, label: 'ك' }, { v: 1.25, label: 'كك' }],
       settings.fontScale, v => setSetting('fontScale', v))),
   ]));
@@ -63,33 +65,37 @@ export default function settingsView({ view }) {
 
   /* ---------------- data ---------------- */
   wrap.append(sectionTitle('بياناتي'));
-  wrap.append(el('div', { class: 'setgroup' }, [
-    el('button', { class: 'setrow', style: 'width:100%;text-align:start' }, [
-      el('div', { class: 'setrow__t', html: 'حفظ نسخة من تقدّمي<small>ملف يمكنك استرجاعه لاحقاً</small>' }),
-    ]),
-    el('button', { class: 'setrow', style: 'width:100%;text-align:start' }, [
-      el('div', { class: 'setrow__t', html: 'استرجاع نسخة<small>من ملف محفوظ</small>' }),
-    ]),
-    el('button', { class: 'setrow', style: 'width:100%;text-align:start' }, [
-      el('div', { class: 'setrow__t', style: 'color:var(--rose)', html: 'مسح كل التقدّم<small>لا يمكن التراجع</small>' }),
-    ]),
-  ]));
-  const dataRows = wrap.querySelectorAll('.setgroup:last-child .setrow');
-  dataRows[0].addEventListener('click', () => {
+
+  const rowSave = el('button', { class: 'setrow', style: 'width:100%;text-align:start' }, [
+    el('div', { class: 'setrow__t', html: 'حفظ نسخة من تقدّمي<small>ملف يمكنك استرجاعه لاحقاً</small>' }),
+  ]);
+  const rowLoad = el('button', { class: 'setrow', style: 'width:100%;text-align:start' }, [
+    el('div', { class: 'setrow__t', html: 'استرجاع نسخة<small>من ملف محفوظ</small>' }),
+  ]);
+  const rowWipe = el('button', { class: 'setrow', style: 'width:100%;text-align:start' }, [
+    el('div', { class: 'setrow__t', style: 'color:var(--rose)', html: 'مسح كل التقدّم<small>لا يمكن التراجع</small>' }),
+  ]);
+
+  rowSave.addEventListener('click', () => {
     downloadFile(`khutwa-progress-${dayKey()}.json`, JSON.stringify(progress, null, 2));
     toast('تم تنزيل النسخة', 'ok');
   });
-  dataRows[1].addEventListener('click', async () => {
+  rowLoad.addEventListener('click', async () => {
     const txt = await readFile('.json');
     if (!txt) return;
     try { importProgress(JSON.parse(txt)); toast('تم الاسترجاع', 'ok'); setTimeout(() => location.reload(), 700); }
     catch { toast('ملف غير صالح', 'err'); }
   });
-  dataRows[2].addEventListener('click', async () => {
+  rowWipe.addEventListener('click', async () => {
     if (await confirmSheet('مسح كل التقدّم؟', 'ستفقد كل الكلمات المتعلّمة والنقاط والسلسلة.', { danger: true, okText: 'مسح' })) {
       resetProgress(); toast('تم المسح'); setTimeout(() => location.reload(), 600);
     }
   });
+
+  wrap.append(el('div', { class: 'setgroup' }, [
+    sync.configured() ? syncRow() : null,
+    rowSave, rowLoad, rowWipe,
+  ]));
 
   /* ---------------- about + hidden admin door ---------------- */
   let taps = 0, tapTimer;
@@ -106,6 +112,59 @@ export default function settingsView({ view }) {
   wrap.append(version);
 
   view.append(wrap);
+}
+
+/* ---------------- theme picker ---------------- */
+function themePicker() {
+  const box = el('div', { class: 'themes' });
+  THEMES.forEach(t => {
+    const card = el('button', { class: 'theme-card' + (settings.theme === t.id ? ' is-on' : ''), 'aria-label': t.ar }, [
+      el('span', { class: 'theme-swatch', style: `background:${t.swatch[0]}` }, [
+        el('i', { class: 'sw-accent', style: `background:${t.swatch[2]}` }),
+        el('i', { style: `background:${t.swatch[1]}` }),
+        el('i', { style: `background:${t.swatch[1]};width:70%` }),
+      ]),
+      el('span', { text: t.ar }),
+    ]);
+    card.addEventListener('click', () => {
+      setSetting('theme', t.id);
+      [...box.children].forEach(c => c.classList.remove('is-on'));
+      card.classList.add('is-on');
+    });
+    box.append(card);
+  });
+  return box;
+}
+
+/* ---------------- sync row (only when the owner configured it) ---------------- */
+function syncRow() {
+  const dot = el('i', { class: 'sync-dot' });
+  const label = el('small');
+
+  const paint = (s = sync.state) => {
+    dot.className = 'sync-dot ' + ({ busy: 'is-busy', ok: 'is-ok', error: 'is-err' }[s] || '');
+    const t = sync.meta.lastPull;
+    label.textContent = s === 'busy' ? 'جارٍ المزامنة…'
+      : sync.meta.error ? 'فشلت آخر مزامنة'
+      : t ? 'آخر مزامنة: ' + new Date(t).toLocaleString('ar', { hour: '2-digit', minute: '2-digit', day: 'numeric', month: 'short' })
+      : 'لم تتم المزامنة بعد';
+  };
+  paint();
+  const off = sync.onSync(s => paint(s));
+  window.addEventListener('hashchange', off, { once: true });
+
+  const btn = el('button', { class: 'btn btn--sm btn--ghost nowrap', text: 'مزامنة الآن' });
+  btn.addEventListener('click', async () => {
+    const r = await sync.syncNow();
+    toast(r.ok ? 'تمت المزامنة ✓' : 'تعذّرت المزامنة', r.ok ? 'ok' : 'err');
+    if (r.ok && r.pulled) setTimeout(() => location.reload(), 600);
+  });
+
+  return el('div', { class: 'setrow' }, [
+    dot,
+    el('div', { class: 'setrow__t' }, ['مزامنة التقدّم', label]),
+    btn,
+  ]);
 }
 
 /* ---------------- small builders ---------------- */

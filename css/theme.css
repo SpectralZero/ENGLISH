@@ -91,6 +91,61 @@
   --tint-2: rgba(124, 110, 255, .09);
 }
 
+/* -------- midnight · pure black, built for OLED -------- */
+[data-theme="midnight"] {
+  --brand-1: #7c5cff;
+  --brand-2: #b45cf6;
+  --brand-3: #2ee6ff;
+  --grad-brand: linear-gradient(135deg, #7c5cff 0%, #b45cf6 52%, #2ee6ff 130%);
+  --bg:        #000000;
+  --bg-deep:   #000000;
+  --surface:   #0b0b12;
+  --surface-2: #12121c;
+  --surface-3: #1b1b28;
+  --line:      #1d1d2b;
+  --line-2:    #2c2c40;
+  --ink:       #f6f6ff;
+  --ink-2:     #a9a9c8;
+  --ink-3:     #74748f;
+  --shadow-1: 0 1px 2px rgba(0, 0, 0, .8), 0 6px 20px rgba(0, 0, 0, .6);
+  --shadow-2: 0 12px 38px rgba(124, 92, 255, .28);
+  --shadow-pop: 0 24px 64px rgba(0, 0, 0, .85);
+  --glass: rgba(0, 0, 0, .74);
+  --tint: rgba(124, 92, 255, .18);
+  --tint-2: rgba(46, 230, 255, .07);
+}
+
+/* -------- ember · warm charcoal, easy at night -------- */
+[data-theme="ember"] {
+  --brand-1: #f5a524;
+  --brand-2: #f4763b;
+  --brand-3: #ffcf6b;
+  --grad-brand: linear-gradient(135deg, #f5a524 0%, #f4763b 58%, #e0568a 130%);
+  --grad-mint:  linear-gradient(135deg, #4ec9a0 0%, #86d9b4 100%);
+  /* keep the four accent families telling themselves apart in a warm palette */
+  --grad-amber: linear-gradient(135deg, #ffd166 0%, #f2a03d 100%);
+  --grad-rose:  linear-gradient(135deg, #ff8fab 0%, #c2569b 100%);
+  --mint:  #4ec9a0;
+  --amber: #ffc46b;
+  --rose:  #ff7a8a;
+  --bg:        #15110d;
+  --bg-deep:   #0e0b08;
+  --surface:   #201a14;
+  --surface-2: #28211a;
+  --surface-3: #322920;
+  --line:      #362b21;
+  --line-2:    #483a2c;
+  --ink:       #f9efe3;
+  --ink-2:     #cdb9a3;
+  --ink-3:     #9c8a75;
+  --shadow-1: 0 1px 2px rgba(0, 0, 0, .5), 0 6px 18px rgba(0, 0, 0, .42);
+  --shadow-2: 0 12px 34px rgba(244, 118, 59, .22);
+  --shadow-pop: 0 22px 60px rgba(0, 0, 0, .7);
+  --glass: rgba(21, 17, 13, .78);
+  --tint: rgba(245, 165, 36, .15);
+  --tint-2: rgba(244, 118, 59, .08);
+}
+
 @media (prefers-color-scheme: dark) {
   [data-theme="auto"] {
     --bg:        #080b18;

@@ -1,11 +1,12 @@
 {
-  "version": 1,
+  "version": 2,
   "updated": "2026-07-27",
   "levels": [
     { "id": 1, "ar": "المستوى الأول — البداية", "en": "Starter" },
     { "id": 2, "ar": "المستوى الثاني — الحياة اليومية", "en": "Daily life" },
     { "id": 3, "ar": "المستوى الثالث — العالم حولك", "en": "Around you" },
-    { "id": 4, "ar": "المستوى الرابع — أساسيات اللغة", "en": "Language basics" }
+    { "id": 4, "ar": "المستوى الرابع — أساسيات اللغة", "en": "Language basics" },
+    { "id": 5, "ar": "المستوى الخامس — تتحدث بثقة", "en": "Speaking with confidence" }
   ],
   "units": [
     { "id": "greetings",   "file": "units/greetings.json",   "title": { "ar": "التحيات والتعارف", "en": "Greetings" },       "icon": "👋", "level": 1 },
@@ -21,6 +22,8 @@
     { "id": "clothes",     "file": "units/clothes.json",     "title": { "ar": "الملابس", "en": "Clothes" },                  "icon": "👕", "level": 2 },
     { "id": "body",        "file": "units/body.json",        "title": { "ar": "الجسم والصحة", "en": "Body & Health" },       "icon": "💪", "level": 2 },
     { "id": "school",      "file": "units/school.json",      "title": { "ar": "المدرسة والدراسة", "en": "School" },          "icon": "🏫", "level": 2 },
+    { "id": "restaurant",  "file": "units/restaurant.json",  "title": { "ar": "في المطعم", "en": "At the Restaurant" },     "icon": "🍽️", "level": 2 },
+    { "id": "kitchen",     "file": "units/kitchen.json",     "title": { "ar": "المطبخ والطبخ", "en": "Kitchen & Cooking" }, "icon": "🍳", "level": 2 },
 
     { "id": "jobs",        "file": "units/jobs.json",        "title": { "ar": "العمل والمهن", "en": "Work & Jobs" },         "icon": "💼", "level": 3 },
     { "id": "places",      "file": "units/places.json",      "title": { "ar": "المدينة والأماكن", "en": "City & Places" },   "icon": "🏙️", "level": 3 },
@@ -28,6 +31,10 @@
     { "id": "shopping",    "file": "units/shopping.json",    "title": { "ar": "التسوق والمال", "en": "Shopping & Money" },   "icon": "🛒", "level": 3 },
     { "id": "weather",     "file": "units/weather.json",     "title": { "ar": "الطقس والطبيعة", "en": "Weather & Nature" },  "icon": "🌤️", "level": 3 },
     { "id": "animals",     "file": "units/animals.json",     "title": { "ar": "الحيوانات", "en": "Animals" },                "icon": "🐾", "level": 3 },
+    { "id": "countries",   "file": "units/countries.json",   "title": { "ar": "الدول والجنسيات", "en": "Countries" },       "icon": "🌍", "level": 3 },
+    { "id": "sports",      "file": "units/sports.json",      "title": { "ar": "الرياضة والهوايات", "en": "Sports" },        "icon": "⚽", "level": 3 },
+    { "id": "bank",        "file": "units/bank.json",        "title": { "ar": "البنك والبريد", "en": "Bank & Post" },       "icon": "🏦", "level": 3 },
+    { "id": "car",         "file": "units/car.json",         "title": { "ar": "السيارة والصيانة", "en": "Car & Repairs" },  "icon": "🚙", "level": 3 },
 
     { "id": "verbs",       "file": "units/verbs.json",       "title": { "ar": "أفعال أساسية", "en": "Basic Verbs" },         "icon": "⚡", "level": 4 },
     { "id": "adjectives",  "file": "units/adjectives.json",  "title": { "ar": "الصفات والأضداد", "en": "Adjectives" },       "icon": "✨", "level": 4 },
@@ -36,6 +43,13 @@
     { "id": "travel",      "file": "units/travel.json",      "title": { "ar": "السفر والمطار", "en": "Travel" },             "icon": "✈️", "level": 4 },
     { "id": "phone",       "file": "units/phone.json",       "title": { "ar": "الهاتف والإنترنت", "en": "Phone & Internet" },"icon": "📱", "level": 4 },
     { "id": "feelings",    "file": "units/feelings.json",    "title": { "ar": "المشاعر", "en": "Feelings" },                 "icon": "😊", "level": 4 },
-    { "id": "routine",     "file": "units/routine.json",     "title": { "ar": "الروتين اليومي", "en": "Daily Routine" },     "icon": "⏰", "level": 4 }
+    { "id": "routine",     "file": "units/routine.json",     "title": { "ar": "الروتين اليومي", "en": "Daily Routine" },     "icon": "⏰", "level": 4 },
+    { "id": "office",      "file": "units/office.json",      "title": { "ar": "المكتب والمعاملات", "en": "Office" },        "icon": "📄", "level": 4 },
+    { "id": "emergency",   "file": "units/emergency.json",   "title": { "ar": "الطوارئ والسلامة", "en": "Emergency" },      "icon": "🚨", "level": 4 },
+    { "id": "smalltalk",   "file": "units/smalltalk.json",   "title": { "ar": "الحديث مع الناس", "en": "Small Talk" },      "icon": "🗣️", "level": 4 },
+
+    { "id": "expressions", "file": "units/expressions.json", "title": { "ar": "عبارات يومية ضرورية", "en": "Expressions" }, "icon": "💬", "level": 5 },
+    { "id": "past",        "file": "units/past.json",        "title": { "ar": "الأفعال في الماضي", "en": "Past Tense" },    "icon": "⏪", "level": 5 },
+    { "id": "future",      "file": "units/future.json",      "title": { "ar": "المستقبل والخطط", "en": "Future & Plans" },  "icon": "🔮", "level": 5 }
   ]
 }

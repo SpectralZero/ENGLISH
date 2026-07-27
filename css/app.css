@@ -410,6 +410,40 @@
 .seg button { padding: 7px 14px; border-radius: var(--r-pill); font-size: .84rem; font-weight: 700; color: var(--ink-3); transition: all var(--fast); }
 .seg button.is-on { background: var(--surface); color: var(--ink); box-shadow: var(--shadow-1); }
 
+/* ---------------- theme picker ---------------- */
+.themes {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(96px, 1fr));
+  gap: var(--sp-3);
+}
+.theme-card {
+  position: relative; padding: 8px 8px 10px; border-radius: var(--r-md);
+  border: 2px solid var(--line); background: var(--surface);
+  display: grid; gap: 8px; justify-items: center;
+  transition: transform var(--fast), border-color var(--fast);
+}
+.theme-card:active { transform: scale(.95); }
+.theme-card.is-on { border-color: var(--brand-1); }
+.theme-card.is-on::after {
+  content: "✓"; position: absolute; top: 6px; inset-inline-end: 8px;
+  width: 18px; height: 18px; border-radius: 50%;
+  background: var(--grad-brand); color: #fff;
+  font-size: .68rem; font-weight: 800; display: grid; place-items: center;
+}
+.theme-swatch {
+  width: 100%; aspect-ratio: 1 / .82; border-radius: 12px;
+  border: 1px solid rgba(128, 128, 128, .25);
+  padding: 7px; display: grid; align-content: space-between; gap: 5px; overflow: hidden;
+}
+.theme-swatch i { display: block; height: 5px; border-radius: 99px; }
+.theme-swatch .sw-accent { height: 15px; width: 60%; border-radius: 8px; }
+.theme-card span { font-size: .74rem; font-weight: 700; color: var(--ink-2); }
+
+/* ---------------- sync ---------------- */
+.sync-dot { width: 9px; height: 9px; border-radius: 50%; background: var(--ink-3); flex: none; }
+.sync-dot.is-ok   { background: var(--mint); }
+.sync-dot.is-busy { background: var(--amber); animation: pulse 900ms infinite; }
+.sync-dot.is-err  { background: var(--rose); }
+
 /* ---------------- search ---------------- */
 .searchbar { display: flex; align-items: center; gap: var(--sp-2); padding: 0 var(--sp-4); background: var(--surface); border: 1.5px solid var(--line); border-radius: var(--r-pill); }
 .searchbar input { flex: 1; border: 0; background: none; min-height: var(--tap); }
