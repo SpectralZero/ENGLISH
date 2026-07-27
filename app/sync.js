@@ -14,14 +14,20 @@ import { progress, persistNow, importProgress } from './store.js';
 const K_CFG = 'khutwa.sync.v1';
 const K_META = 'khutwa.syncmeta.v1';
 
+/* Pre-filled for this owner's private progress repo — only the token
+   is missing, and it is entered once per device and remembered. */
 export const cfg = Object.assign(
-  { owner: '', repo: '', branch: 'main', path: 'progress/main.json', token: '', auto: true },
+  { owner: 'SpectralZero', repo: 'eng_sync', branch: 'main', path: 'progress/main.json', token: '', auto: true },
   load(K_CFG, {})
 );
 
 export const meta = Object.assign({ lastPull: 0, lastPush: 0, sha: '', error: '' }, load(K_META, {}));
 
-export function saveCfg(patch) { Object.assign(cfg, patch); save(K_CFG, cfg); }
+export function saveCfg(patch) {
+  Object.assign(cfg, patch);
+  save(K_CFG, cfg);
+  window.dispatchEvent(new CustomEvent('sync:config'));
+}
 export function saveMeta(patch) { Object.assign(meta, patch); save(K_META, meta); }
 export function forget() { saveCfg({ token: '' }); }
 export const configured = () => !!(cfg.owner && cfg.repo && cfg.token && cfg.path);
@@ -93,8 +99,18 @@ async function writeRemote(obj, sha) {
     branch: cfg.branch,
     ...(sha ? { sha } : {}),
   };
-  const r = await api(fileURL(), { method: 'PUT', body: JSON.stringify(body) });
-  return r.content.sha;
+  try {
+    const r = await api(fileURL(), { method: 'PUT', body: JSON.stringify(body) });
+    return r.content.sha;
+  } catch (e) {
+    // A brand-new repo has no branch yet — let GitHub create the default one.
+    if (e.status === 404 && /branch/i.test(e.message)) {
+      delete body.branch;
+      const r = await api(fileURL(), { method: 'PUT', body: JSON.stringify(body) });
+      return r.content.sha;
+    }
+    throw e;
+  }
 }
 
 /* --------------------------------------------------- merging
@@ -144,10 +160,21 @@ export function merge(a, b) {
 
 /* --------------------------------------------------- public API */
 let running = null;
+let paused = false;
+
+/** Sessions (learn / quiz / review) pause syncing: pulling mid-session
+    would swap the data under the user's feet. Anything pending fires
+    the moment the session ends. */
+export function pause() { paused = true; }
+export function resume() {
+  paused = false;
+  if (dirty && configured() && cfg.auto) scheduleAuto(1500);
+}
 
 /** Pull remote, merge with local, push back if anything changed. */
-export function syncNow({ silent = false } = {}) {
+export function syncNow({ silent = false, force = false } = {}) {
   if (!configured()) return Promise.resolve({ ok: false, reason: 'not-configured' });
+  if (paused && !force) return Promise.resolve({ ok: false, reason: 'paused' });
   if (running) return running;
 
   running = (async () => {
@@ -214,24 +241,41 @@ export async function pushOverwrite() {
 
 /* --------------------------------------------------- auto sync */
 let dirty = false;
+let autoTimer = null;
+let started = false;
+
 export function markDirty() { dirty = true; }
 
-export function startAuto() {
+/** Coalesce a burst of answers into one commit ~20s after the last one. */
+export function scheduleAuto(delay = 20000) {
   if (!configured() || !cfg.auto) return;
+  clearTimeout(autoTimer);
+  autoTimer = setTimeout(() => {
+    if (!dirty || paused || !navigator.onLine) return;
+    dirty = false;
+    syncNow({ silent: true });
+  }, delay);
+}
 
-  // on launch (and whenever the app returns to the foreground)
+export function startAuto() {
+  if (started || !configured()) return;
+  started = true;
+
   const maybe = () => {
-    if (!navigator.onLine) return;
+    if (!navigator.onLine || paused) return;
     const stale = Date.now() - (meta.lastPull || 0) > 3 * 60 * 1000;
     if (stale || dirty) { dirty = false; syncNow({ silent: true }); }
   };
-  maybe();
+  if (cfg.auto) maybe();                      // on launch
 
-  window.addEventListener('progress:change', markDirty);
+  window.addEventListener('progress:change', () => {
+    markDirty();
+    scheduleAuto();                            // …and while studying
+  });
 
   document.addEventListener('visibilitychange', () => {
     if (document.visibilityState === 'visible') maybe();
-    else if (dirty && navigator.onLine) { dirty = false; syncNow({ silent: true }); }
+    else if (dirty && navigator.onLine && !paused) { dirty = false; syncNow({ silent: true }); }
   });
   window.addEventListener('online', maybe);
   // last chance before the app is closed

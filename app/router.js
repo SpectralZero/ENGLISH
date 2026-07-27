@@ -58,6 +58,8 @@ export async function render() {
   $('#btnSearch').hidden = !!match.opts.hideSearch;
   $('#topTitle').textContent = match.opts.title || 'خُطوة';
 
+  window.dispatchEvent(new CustomEvent('route:change', { detail: { path, plain } }));
+
   view.innerHTML = '';
   view.scrollTop = 0;
   window.scrollTo(0, 0);

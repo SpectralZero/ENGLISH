@@ -6,7 +6,7 @@ import { loadAll, allWordIds } from './data.js';
 import { applySettings, touchDay, dueIds } from './store.js';
 import { route, startRouter, go, back, render } from './router.js';
 import { APP_VERSION } from './config.js';
-import { startAuto, configured as syncOn } from './sync.js';
+import { startAuto, configured as syncOn, onSync, state as syncState, pause as syncPause, resume as syncResume } from './sync.js';
 
 import home        from './views/home.js';
 import { unitsView, unitView } from './views/units.js';
@@ -38,11 +38,27 @@ route('*',          home,         { root: true, title: 'خُطوة' });
 function wireChrome() {
   $('#btnBack').addEventListener('click', () => back());
   $('#btnSearch').addEventListener('click', () => go('/search'));
+
+  /* one-tap sync, always within reach while studying */
+  const btnSync = $('#btnSync');
+  const paintSync = (s = syncState) => {
+    btnSync.hidden = !syncOn();
+    btnSync.dataset.state = s;
+  };
+  btnSync.addEventListener('click', async () => {
+    const m = await import('./views/settings.js');
+    m.runSync(btnSync);
+  });
+  onSync(s => paintSync(s));
+  window.addEventListener('sync:config', () => paintSync());
+  paintSync();
   $('#view').addEventListener('scroll', () => {}, { passive: true });
   window.addEventListener('scroll', () => {
     $('#topbar').classList.toggle('is-stuck', window.scrollY > 6);
   }, { passive: true });
   window.addEventListener('hashchange', updateBadge);
+  // don't let a background sync swap the data mid-lesson
+  window.addEventListener('route:change', e => (e.detail?.plain ? syncPause() : syncResume()));
   // only settings that change what is on screen force a redraw
   window.addEventListener('settings:change', e => {
     if (['showTranslit', 'dailyGoal'].includes(e.detail?.key)) render();
@@ -61,7 +77,23 @@ export function updateBadge() {
 function registerSW() {
   if (!('serviceWorker' in navigator)) return;
   if (location.protocol === 'file:') return;
+
+  // If a worker is already in charge, a new one taking over means the app
+  // was updated — reload once so the user actually sees the new version
+  // instead of last week's cached shell.
+  const hadController = !!navigator.serviceWorker.controller;
+  let reloading = false;
+  navigator.serviceWorker.addEventListener('controllerchange', () => {
+    if (!hadController || reloading) return;
+    reloading = true;
+    location.reload();
+  });
+
   navigator.serviceWorker.register(new URL('../sw.js', import.meta.url), { scope: './' })
+    .then(reg => {
+      reg.update?.();
+      setInterval(() => reg.update?.(), 60 * 60 * 1000);   // check hourly
+    })
     .catch(err => console.warn('SW failed', err));
 }
 

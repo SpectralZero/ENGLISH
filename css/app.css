@@ -46,6 +46,25 @@
   transition: background var(--fast), transform var(--fast);
 }
 .topbar__btn:active { background: var(--surface-3); transform: scale(.92); }
+.topbar__btn[disabled] { opacity: .5; }
+
+/* sync button state */
+/* the dot only appears when it has something to report */
+.topbar__dot {
+  position: absolute; top: 7px; inset-inline-end: 7px;
+  width: 8px; height: 8px; border-radius: 50%;
+  background: transparent; opacity: 0;
+  transition: opacity var(--fast), background var(--fast);
+}
+#btnSync[data-state="ok"] .topbar__dot,
+#btnSync[data-state="busy"] .topbar__dot,
+#btnSync[data-state="error"] .topbar__dot { opacity: 1; }
+#btnSync { position: relative; }
+#btnSync[data-state="ok"]    .topbar__dot { background: var(--mint); }
+#btnSync[data-state="error"] .topbar__dot { background: var(--rose); }
+#btnSync[data-state="busy"]  .topbar__dot { background: var(--amber); }
+#btnSync[data-state="busy"]  .ico { animation: spin 1.1s linear infinite; }
+@keyframes spin { to { transform: rotate(-360deg); } }
 [dir="rtl"] #btnBack .ico { transform: scaleX(-1); }
 
 /* ---------------- view / layout ---------------- */

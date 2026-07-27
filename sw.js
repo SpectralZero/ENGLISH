@@ -3,7 +3,7 @@
    App shell: cache-first (fast, works with no signal)
    Content JSON: network-first (so published updates arrive)
    ============================================================ */
-const VERSION = 'khutwa-v1.1.0';
+const VERSION = 'khutwa-v1.2.0';
 const SHELL = VERSION + '-shell';
 const DATA  = VERSION + '-data';
 

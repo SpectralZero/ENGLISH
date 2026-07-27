@@ -2,7 +2,7 @@
    views/settings.js — learner preferences + backup
    (the admin door is hidden at the very bottom)
    ============================================================ */
-import { el, AR_NUM, toast, downloadFile, readFile, confirmSheet, dayKey } from '../util.js';
+import { el, esc, AR_NUM, toast, downloadFile, readFile, confirmSheet, sheet, dayKey } from '../util.js';
 import { settings, setSetting, progress, resetProgress, importProgress } from '../store.js';
 import { englishVoices, speak, unlock } from '../tts.js';
 import { sectionTitle } from '../ui.js';
@@ -93,7 +93,7 @@ export default function settingsView({ view }) {
   });
 
   wrap.append(el('div', { class: 'setgroup' }, [
-    sync.configured() ? syncRow() : null,
+    syncRow(),
     rowSave, rowLoad, rowWipe,
   ]));
 
@@ -136,35 +136,119 @@ function themePicker() {
   return box;
 }
 
-/* ---------------- sync row (only when the owner configured it) ---------------- */
+/* ---------------- sync row ---------------- */
 function syncRow() {
+  if (!sync.configured()) {
+    const row = el('button', { class: 'setrow', style: 'width:100%;text-align:start' }, [
+      el('div', { class: 'setrow__t', html: '☁️ تفعيل المزامنة<small>احفظ تقدّمك وانقله بين أجهزتك</small>' }),
+      el('span', { class: 'chip chip--brand', text: 'إعداد' }),
+    ]);
+    row.addEventListener('click', () => syncSetupSheet(() => go('/settings')));
+    return row;
+  }
+
   const dot = el('i', { class: 'sync-dot' });
   const label = el('small');
 
   const paint = (s = sync.state) => {
-    dot.className = 'sync-dot ' + ({ busy: 'is-busy', ok: 'is-ok', error: 'is-err' }[s] || '');
-    const t = sync.meta.lastPull;
+    dot.className = 'sync-dot ' + ({ busy: 'is-busy', ok: 'is-ok', error: 'is-err' }[s] || 'is-ok');
+    const t = sync.meta.lastPush || sync.meta.lastPull;
     label.textContent = s === 'busy' ? 'جارٍ المزامنة…'
-      : sync.meta.error ? 'فشلت آخر مزامنة'
+      : sync.meta.error ? 'فشلت آخر مزامنة — اضغط للإعادة'
       : t ? 'آخر مزامنة: ' + new Date(t).toLocaleString('ar', { hour: '2-digit', minute: '2-digit', day: 'numeric', month: 'short' })
-      : 'لم تتم المزامنة بعد';
+      : 'جاهز — لم تتم المزامنة بعد';
   };
   paint();
   const off = sync.onSync(s => paint(s));
   window.addEventListener('hashchange', off, { once: true });
 
-  const btn = el('button', { class: 'btn btn--sm btn--ghost nowrap', text: 'مزامنة الآن' });
-  btn.addEventListener('click', async () => {
-    const r = await sync.syncNow();
-    toast(r.ok ? 'تمت المزامنة ✓' : 'تعذّرت المزامنة', r.ok ? 'ok' : 'err');
-    if (r.ok && r.pulled) setTimeout(() => location.reload(), 600);
-  });
+  const btn = el('button', { class: 'btn btn--sm btn--ghost nowrap', text: '↻ مزامنة الآن' });
+  btn.addEventListener('click', () => runSync(btn));
 
-  return el('div', { class: 'setrow' }, [
+  const row = el('div', { class: 'setrow' }, [
     dot,
     el('div', { class: 'setrow__t' }, ['مزامنة التقدّم', label]),
     btn,
   ]);
+  row.addEventListener('click', e => {
+    if (e.target === btn || btn.contains(e.target)) return;
+    syncSetupSheet(() => go('/settings'));
+  });
+  return row;
+}
+
+/** Runs a sync and reports it, from anywhere in the app. */
+export async function runSync(btn) {
+  if (!sync.configured()) return syncSetupSheet();
+  btn?.setAttribute('disabled', '');
+  const r = await sync.syncNow({ force: true });
+  btn?.removeAttribute('disabled');
+  if (r.ok) {
+    toast(r.pulled ? 'تمت المزامنة — تم تحديث تقدّمك' : 'تم حفظ تقدّمك ✓', 'ok');
+    if (r.pulled) setTimeout(() => location.reload(), 800);
+  } else {
+    toast('تعذّرت المزامنة: ' + (r.reason || ''), 'err');
+  }
+  return r;
+}
+
+/** First-run setup: ask for the token once, then remember it. */
+export function syncSetupSheet(onDone) {
+  const g = {
+    owner: el('input', { class: 'input mono', value: sync.cfg.owner, placeholder: 'اسم المستخدم' }),
+    repo:  el('input', { class: 'input mono', value: sync.cfg.repo, placeholder: 'اسم المستودع الخاص' }),
+    token: el('input', { class: 'input mono', type: 'password', value: sync.cfg.token, placeholder: 'github_pat_…', autocomplete: 'off' }),
+  };
+  const status = el('div', { class: 'small', style: 'min-height:22px' });
+
+  const save = async () => {
+    sync.saveCfg({ owner: g.owner.value.trim(), repo: g.repo.value.trim(), token: g.token.value.trim() });
+    if (!sync.configured()) { status.innerHTML = '<span style="color:var(--rose)">أكمل الحقول الثلاثة</span>'; return; }
+    status.textContent = 'جارٍ التحقق…';
+    try {
+      const r = await sync.checkAccess();
+      if (!r.push) throw new Error('التوكن بدون صلاحية الكتابة (Contents: Read and write)');
+      status.innerHTML = `<span style="color:var(--mint)">متصل بـ ${esc(r.name)}${r.private ? ' (خاص ✓)' : ' — ⚠️ المستودع عام'}</span>`;
+      sync.startAuto();
+      const first = await sync.syncNow({ force: true });
+      toast(first.ok ? 'تم تفعيل المزامنة ✓' : 'تم الحفظ، لكن المزامنة الأولى فشلت', first.ok ? 'ok' : 'err');
+      s.close();
+      onDone?.();
+    } catch (e) {
+      status.innerHTML = `<span style="color:var(--rose)">${esc(e.message)}</span>`;
+    }
+  };
+
+  const body = el('div', { class: 'stack' }, [
+    el('p', { class: 'small muted' }, [
+      'تُحفظ نسخة من تقدّمك في مستودع GitHub خاص بك. التوكن يبقى على هذا الجهاز فقط، ويُطلب مرة واحدة ثم يُحفظ.',
+    ]),
+    field('اسم المستخدم على GitHub', g.owner),
+    field('المستودع الخاص', g.repo),
+    field('التوكن (Contents: Read and write)', g.token),
+    status,
+    el('button', { class: 'btn btn--primary btn--lg btn--block', text: 'تفعيل المزامنة', onclick: save }),
+    sync.configured() ? el('button', {
+      class: 'btn btn--quiet btn--block', style: 'color:var(--rose)', text: 'إيقاف المزامنة وحذف التوكن',
+      onclick: () => { sync.forget(); toast('تم إيقاف المزامنة'); s.close(); onDone?.(); },
+    }) : null,
+    el('details', {}, [
+      el('summary', { class: 'small muted', style: 'cursor:pointer', text: 'كيف أنشئ التوكن؟' }),
+      el('ol', { class: 'small muted', style: 'padding-inline-start:20px;line-height:1.9' }, [
+        el('li', { text: 'GitHub → Settings → Developer settings → Personal access tokens → Fine-grained tokens' }),
+        el('li', { text: 'Generate new token → Only select repositories → اختر المستودع الخاص' }),
+        el('li', { text: 'Repository permissions → Contents → Read and write' }),
+        el('li', { text: 'انسخ التوكن والصقه هنا' }),
+      ]),
+    ]),
+  ]);
+  const s = sheet('المزامنة بين الأجهزة', body);
+  setTimeout(() => (sync.cfg.token ? g.token : g.owner).focus(), 150);
+  return s;
+}
+
+function field(label, input) {
+  return el('div', {}, [el('label', { class: 'label', text: label }), input]);
 }
 
 /* ---------------- small builders ---------------- */
