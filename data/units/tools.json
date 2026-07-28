@@ -1,0 +1,394 @@
+{
+  "id": "tools",
+  "title": {
+    "ar": "الأدوات والمعدّات",
+    "en": "Tools & Equipment"
+  },
+  "icon": "🧰",
+  "level": 3,
+  "color": "amber",
+  "words": [
+    {
+      "id": "tl_w1",
+      "en": "tool",
+      "ar": "أداة",
+      "tr": "توول",
+      "pos": "n",
+      "emoji": "🔧"
+    },
+    {
+      "id": "tl_w2",
+      "en": "hammer",
+      "ar": "مطرقة",
+      "tr": "هامَر",
+      "pos": "n",
+      "emoji": "🔨"
+    },
+    {
+      "id": "tl_w3",
+      "en": "nail",
+      "ar": "مسمار",
+      "tr": "نيل",
+      "pos": "n",
+      "emoji": "📌"
+    },
+    {
+      "id": "tl_w4",
+      "en": "screw",
+      "ar": "برغي",
+      "tr": "سكرو",
+      "pos": "n",
+      "emoji": "🔩"
+    },
+    {
+      "id": "tl_w5",
+      "en": "screwdriver",
+      "ar": "مفك",
+      "tr": "سكرودرايڤَر",
+      "pos": "n",
+      "emoji": "🪛"
+    },
+    {
+      "id": "tl_w6",
+      "en": "drill",
+      "ar": "مثقاب",
+      "tr": "درِل",
+      "pos": "n",
+      "emoji": "🛠️"
+    },
+    {
+      "id": "tl_w7",
+      "en": "saw",
+      "ar": "منشار",
+      "tr": "سو",
+      "pos": "n",
+      "emoji": "🪚"
+    },
+    {
+      "id": "tl_w8",
+      "en": "knife",
+      "ar": "سكين",
+      "tr": "نايف",
+      "pos": "n",
+      "emoji": "🔪"
+    },
+    {
+      "id": "tl_w9",
+      "en": "scissors",
+      "ar": "مقص",
+      "tr": "سِزَرز",
+      "pos": "n",
+      "emoji": "✂️"
+    },
+    {
+      "id": "tl_w10",
+      "en": "rope",
+      "ar": "حبل",
+      "tr": "روپ",
+      "pos": "n",
+      "emoji": "🪢"
+    },
+    {
+      "id": "tl_w11",
+      "en": "ladder",
+      "ar": "سُلّم",
+      "tr": "لادَر",
+      "pos": "n",
+      "emoji": "🪜"
+    },
+    {
+      "id": "tl_w12",
+      "en": "brush",
+      "ar": "فرشاة",
+      "tr": "برَش",
+      "pos": "n",
+      "emoji": "🖌️"
+    },
+    {
+      "id": "tl_w13",
+      "en": "paint",
+      "ar": "دهان / يدهن",
+      "tr": "پينت",
+      "pos": "n",
+      "emoji": "🎨"
+    },
+    {
+      "id": "tl_w14",
+      "en": "glue",
+      "ar": "غراء",
+      "tr": "غلو",
+      "pos": "n",
+      "emoji": "🧴"
+    },
+    {
+      "id": "tl_w15",
+      "en": "tape",
+      "ar": "شريط لاصق",
+      "tr": "تيپ",
+      "pos": "n",
+      "emoji": "📏"
+    },
+    {
+      "id": "tl_w16",
+      "en": "measure",
+      "ar": "يقيس",
+      "tr": "مِجَر",
+      "pos": "v",
+      "emoji": "📐"
+    },
+    {
+      "id": "tl_w17",
+      "en": "ruler",
+      "ar": "مسطرة",
+      "tr": "رولَر",
+      "pos": "n",
+      "emoji": "📏"
+    },
+    {
+      "id": "tl_w18",
+      "en": "box",
+      "ar": "صندوق",
+      "tr": "بوكس",
+      "pos": "n",
+      "emoji": "📦"
+    },
+    {
+      "id": "tl_w19",
+      "en": "bucket",
+      "ar": "دلو",
+      "tr": "بَكِت",
+      "pos": "n",
+      "emoji": "🪣"
+    },
+    {
+      "id": "tl_w20",
+      "en": "broom",
+      "ar": "مكنسة",
+      "tr": "بروم",
+      "pos": "n",
+      "emoji": "🧹"
+    },
+    {
+      "id": "tl_w21",
+      "en": "machine",
+      "ar": "آلة",
+      "tr": "مَشين",
+      "pos": "n",
+      "emoji": "⚙️"
+    },
+    {
+      "id": "tl_w22",
+      "en": "engine",
+      "ar": "محرك",
+      "tr": "إنجِن",
+      "pos": "n",
+      "emoji": "🛠️"
+    },
+    {
+      "id": "tl_w23",
+      "en": "wire",
+      "ar": "سلك",
+      "tr": "وايَر",
+      "pos": "n",
+      "emoji": "🔌"
+    },
+    {
+      "id": "tl_w24",
+      "en": "switch",
+      "ar": "مفتاح كهرباء",
+      "tr": "سوِتش",
+      "pos": "n",
+      "emoji": "💡"
+    },
+    {
+      "id": "tl_w25",
+      "en": "plug",
+      "ar": "قابس",
+      "tr": "پلَغ",
+      "pos": "n",
+      "emoji": "🔌"
+    },
+    {
+      "id": "tl_w26",
+      "en": "socket",
+      "ar": "مقبس",
+      "tr": "سوكِت",
+      "pos": "n",
+      "emoji": "🔌"
+    },
+    {
+      "id": "tl_w27",
+      "en": "battery",
+      "ar": "بطارية",
+      "tr": "باتَري",
+      "pos": "n",
+      "emoji": "🔋"
+    },
+    {
+      "id": "tl_w28",
+      "en": "torch",
+      "ar": "مصباح يدوي",
+      "tr": "تورتش",
+      "pos": "n",
+      "emoji": "🔦"
+    },
+    {
+      "id": "tl_w29",
+      "en": "gloves",
+      "ar": "قفازات",
+      "tr": "غلَڤز",
+      "pos": "n",
+      "emoji": "🧤"
+    },
+    {
+      "id": "tl_w30",
+      "en": "helmet",
+      "ar": "خوذة",
+      "tr": "هِلمِت",
+      "pos": "n",
+      "emoji": "⛑️"
+    },
+    {
+      "id": "tl_w31",
+      "en": "fix",
+      "ar": "يصلح",
+      "tr": "فِكس",
+      "pos": "v",
+      "emoji": "🔧"
+    },
+    {
+      "id": "tl_w32",
+      "en": "build",
+      "ar": "يبني",
+      "tr": "بِلد",
+      "pos": "v",
+      "emoji": "🏗️"
+    },
+    {
+      "id": "tl_w33",
+      "en": "break",
+      "ar": "يكسر",
+      "tr": "بريك",
+      "pos": "v",
+      "emoji": "💥"
+    },
+    {
+      "id": "tl_w34",
+      "en": "tighten",
+      "ar": "يشد / يربط",
+      "tr": "تايتِن",
+      "pos": "v",
+      "emoji": "🔩"
+    },
+    {
+      "id": "tl_w35",
+      "en": "loose",
+      "ar": "مفكوك / غير مشدود",
+      "tr": "لوس",
+      "pos": "adj",
+      "emoji": "🔓"
+    },
+    {
+      "id": "tl_w36",
+      "en": "sharp",
+      "ar": "حاد",
+      "tr": "شارپ",
+      "pos": "adj",
+      "emoji": "🗡️"
+    },
+    {
+      "id": "tl_w37",
+      "en": "heavy",
+      "ar": "ثقيل",
+      "tr": "هيڤي",
+      "pos": "adj",
+      "emoji": "🏋️"
+    },
+    {
+      "id": "tl_w38",
+      "en": "light (weight)",
+      "ar": "خفيف",
+      "tr": "لايت",
+      "pos": "adj",
+      "emoji": "🪶"
+    },
+    {
+      "id": "tl_w39",
+      "en": "useful",
+      "ar": "مفيد",
+      "tr": "يوسفُل",
+      "pos": "adj",
+      "emoji": "👍"
+    },
+    {
+      "id": "tl_w40",
+      "en": "careful",
+      "ar": "حذر",
+      "tr": "كيرفُل",
+      "pos": "adj",
+      "emoji": "⚠️"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "tl_s1",
+      "en": "Can you lend me a hammer?",
+      "ar": "هل يمكنك إعارتي مطرقة؟",
+      "tr": "كان يو لِند مي إيه هامَر"
+    },
+    {
+      "id": "tl_s2",
+      "en": "I need to fix the door.",
+      "ar": "أحتاج إصلاح الباب.",
+      "tr": "آي نيد تو فِكس ذَ دور"
+    },
+    {
+      "id": "tl_s3",
+      "en": "Be careful, the knife is sharp.",
+      "ar": "انتبه، السكين حادة.",
+      "tr": "بي كيرفُل، ذَ نايف إز شارپ"
+    },
+    {
+      "id": "tl_s4",
+      "en": "This box is too heavy for me.",
+      "ar": "هذا الصندوق ثقيل عليّ.",
+      "tr": "ذِس بوكس إز تو هيڤي فور مي"
+    },
+    {
+      "id": "tl_s5",
+      "en": "Hold the ladder, please.",
+      "ar": "أمسك السلم من فضلك.",
+      "tr": "هولد ذَ لادَر، پليز"
+    },
+    {
+      "id": "tl_s6",
+      "en": "The switch is not working.",
+      "ar": "مفتاح الكهرباء لا يعمل.",
+      "tr": "ذَ سوِتش إز نوت وِركِنغ"
+    },
+    {
+      "id": "tl_s7",
+      "en": "Where are my gloves?",
+      "ar": "أين قفازاتي؟",
+      "tr": "وير آر ماي غلَڤز"
+    },
+    {
+      "id": "tl_s8",
+      "en": "Put on your helmet first.",
+      "ar": "ارتدِ الخوذة أولاً.",
+      "tr": "پوت أون يور هِلمِت فيرست"
+    },
+    {
+      "id": "tl_s9",
+      "en": "We will paint the wall tomorrow.",
+      "ar": "سندهن الجدار غداً.",
+      "tr": "وي وِل پينت ذَ وول تُومورو"
+    },
+    {
+      "id": "tl_s10",
+      "en": "I broke it by mistake.",
+      "ar": "كسرته بالخطأ.",
+      "tr": "آي بروك إت باي مِستيك"
+    }
+  ]
+}

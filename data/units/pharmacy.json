@@ -1,0 +1,214 @@
+{
+  "id": "pharmacy",
+  "title": {
+    "ar": "في الصيدلية",
+    "en": "At the Pharmacy"
+  },
+  "icon": "💊",
+  "level": 6,
+  "color": "mint",
+  "words": [
+    {
+      "id": "ph2_w1",
+      "en": "pharmacist",
+      "ar": "صيدلي",
+      "tr": "فارمَسِست",
+      "pos": "n",
+      "emoji": "🧑‍⚕️"
+    },
+    {
+      "id": "ph2_w2",
+      "en": "painkiller",
+      "ar": "مسكّن ألم",
+      "tr": "پينكِلَر",
+      "pos": "n",
+      "emoji": "💊"
+    },
+    {
+      "id": "ph2_w3",
+      "en": "antibiotic",
+      "ar": "مضاد حيوي",
+      "tr": "آنتِبايوتِك",
+      "pos": "n",
+      "emoji": "💊"
+    },
+    {
+      "id": "ph2_w4",
+      "en": "syrup",
+      "ar": "شراب دواء",
+      "tr": "سيرَپ",
+      "pos": "n",
+      "emoji": "🧴"
+    },
+    {
+      "id": "ph2_w5",
+      "en": "cream",
+      "ar": "مرهم",
+      "tr": "كريم",
+      "pos": "n",
+      "emoji": "🧴"
+    },
+    {
+      "id": "ph2_w6",
+      "en": "drops",
+      "ar": "قطرة",
+      "tr": "دروپس",
+      "pos": "n",
+      "emoji": "💧"
+    },
+    {
+      "id": "ph2_w7",
+      "en": "plaster",
+      "ar": "لاصق جروح",
+      "tr": "پلاستَر",
+      "pos": "n",
+      "emoji": "🩹"
+    },
+    {
+      "id": "ph2_w8",
+      "en": "dose",
+      "ar": "جرعة",
+      "tr": "دوس",
+      "pos": "n",
+      "emoji": "⚖️"
+    },
+    {
+      "id": "ph2_w9",
+      "en": "before food",
+      "ar": "قبل الأكل",
+      "tr": "بِفور فوود",
+      "pos": "phr",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "ph2_w10",
+      "en": "after food",
+      "ar": "بعد الأكل",
+      "tr": "آفتَر فوود",
+      "pos": "phr",
+      "emoji": "🍽️"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ph2_s1",
+      "en": "Do you have something for a headache?",
+      "ar": "هل لديك شيء للصداع؟",
+      "tr": "دو يو هاڤ سَمثِنغ فور إيه هِدإيك"
+    },
+    {
+      "id": "ph2_s2",
+      "en": "I have a prescription from the doctor.",
+      "ar": "لدي وصفة من الطبيب.",
+      "tr": "آي هاڤ إيه پرِسكرِپشِن فروم ذَ دُكتَر"
+    },
+    {
+      "id": "ph2_s3",
+      "en": "Is this available without a prescription?",
+      "ar": "هل هذا متاح بدون وصفة؟",
+      "tr": "إز ذِس أڤيلَبِل وِذاوت إيه پرِسكرِپشِن"
+    },
+    {
+      "id": "ph2_s4",
+      "en": "How many times a day?",
+      "ar": "كم مرة في اليوم؟",
+      "tr": "هاو مِني تايمز إيه ديه"
+    },
+    {
+      "id": "ph2_s5",
+      "en": "Take one pill every eight hours.",
+      "ar": "خذ حبة كل ثماني ساعات.",
+      "tr": "تيك وان پِل إڤري إيت آوَرز"
+    },
+    {
+      "id": "ph2_s6",
+      "en": "Should I take it before or after food?",
+      "ar": "هل آخذه قبل الأكل أم بعده؟",
+      "tr": "شود آي تيك إت بِفور أور آفتَر فوود"
+    },
+    {
+      "id": "ph2_s7",
+      "en": "Are there any side effects?",
+      "ar": "هل توجد آثار جانبية؟",
+      "tr": "آر ذير إني سايد إفِكتس"
+    },
+    {
+      "id": "ph2_s8",
+      "en": "It may make you sleepy.",
+      "ar": "قد يسبب لك النعاس.",
+      "tr": "إت ميه ميك يو سليپي"
+    },
+    {
+      "id": "ph2_s9",
+      "en": "Is it safe for children?",
+      "ar": "هل هو آمن للأطفال؟",
+      "tr": "إز إت سيف فور تشِلدرِن"
+    },
+    {
+      "id": "ph2_s10",
+      "en": "My son is five years old.",
+      "ar": "ابني عمره خمس سنوات.",
+      "tr": "ماي سَن إز فايڤ يِيرز أولد"
+    },
+    {
+      "id": "ph2_s11",
+      "en": "I am allergic to penicillin.",
+      "ar": "لدي حساسية من البنسلين.",
+      "tr": "آيم أليرجِك تو پِنِسِلِن"
+    },
+    {
+      "id": "ph2_s12",
+      "en": "Do you have a cheaper alternative?",
+      "ar": "هل لديك بديل أرخص؟",
+      "tr": "دو يو هاڤ إيه تشيپَر أولتيرنَتِڤ"
+    },
+    {
+      "id": "ph2_s13",
+      "en": "I need something for a cough.",
+      "ar": "أحتاج شيئاً للسعال.",
+      "tr": "آي نيد سَمثِنغ فور إيه كوف"
+    },
+    {
+      "id": "ph2_s14",
+      "en": "Do you sell vitamins?",
+      "ar": "هل تبيعون فيتامينات؟",
+      "tr": "دو يو سِل ڤيتَمِنز"
+    },
+    {
+      "id": "ph2_s15",
+      "en": "I also need plasters and cream.",
+      "ar": "أحتاج أيضاً لاصق جروح ومرهم.",
+      "tr": "آي أولسو نيد پلاستَرز آند كريم"
+    },
+    {
+      "id": "ph2_s16",
+      "en": "How much is everything?",
+      "ar": "كم المجموع؟",
+      "tr": "هاو مَتش إز إڤريثِنغ"
+    },
+    {
+      "id": "ph2_s17",
+      "en": "Keep it away from children.",
+      "ar": "ابقه بعيداً عن الأطفال.",
+      "tr": "كيپ إت أويه فروم تشِلدرِن"
+    },
+    {
+      "id": "ph2_s18",
+      "en": "When does it expire?",
+      "ar": "متى تنتهي صلاحيته؟",
+      "tr": "وِن دَز إت إكسپايَر"
+    },
+    {
+      "id": "ph2_s19",
+      "en": "Thank you, that is all.",
+      "ar": "شكراً، هذا كل شيء.",
+      "tr": "ثانك يو، ذات إز أول"
+    },
+    {
+      "id": "ph2_s20",
+      "en": "If it gets worse, see a doctor.",
+      "ar": "إذا ساء الأمر، راجع طبيباً.",
+      "tr": "إف إت غِتس وِرس، سي إيه دُكتَر"
+    }
+  ]
+}

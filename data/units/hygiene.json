@@ -1,0 +1,362 @@
+{
+  "id": "hygiene",
+  "title": {
+    "ar": "النظافة والعناية",
+    "en": "Hygiene & Care"
+  },
+  "icon": "🧼",
+  "level": 2,
+  "color": "mint",
+  "words": [
+    {
+      "id": "hy_w1",
+      "en": "soap",
+      "ar": "صابون",
+      "tr": "سوپ",
+      "pos": "n",
+      "emoji": "🧼"
+    },
+    {
+      "id": "hy_w2",
+      "en": "shampoo",
+      "ar": "شامبو",
+      "tr": "شامپو",
+      "pos": "n",
+      "emoji": "🧴"
+    },
+    {
+      "id": "hy_w3",
+      "en": "toothbrush",
+      "ar": "فرشاة أسنان",
+      "tr": "توثبرَش",
+      "pos": "n",
+      "emoji": "🪥"
+    },
+    {
+      "id": "hy_w4",
+      "en": "toothpaste",
+      "ar": "معجون أسنان",
+      "tr": "توثپيست",
+      "pos": "n",
+      "emoji": "🦷"
+    },
+    {
+      "id": "hy_w5",
+      "en": "towel",
+      "ar": "منشفة",
+      "tr": "تاوِل",
+      "pos": "n",
+      "emoji": "🧻"
+    },
+    {
+      "id": "hy_w6",
+      "en": "comb",
+      "ar": "مشط",
+      "tr": "كوم",
+      "pos": "n",
+      "emoji": "💈"
+    },
+    {
+      "id": "hy_w7",
+      "en": "mirror",
+      "ar": "مرآة",
+      "tr": "مِرَر",
+      "pos": "n",
+      "emoji": "🪞"
+    },
+    {
+      "id": "hy_w8",
+      "en": "razor",
+      "ar": "شفرة حلاقة",
+      "tr": "ريزَر",
+      "pos": "n",
+      "emoji": "🪒"
+    },
+    {
+      "id": "hy_w9",
+      "en": "perfume",
+      "ar": "عطر",
+      "tr": "پيرفيوم",
+      "pos": "n",
+      "emoji": "🌸"
+    },
+    {
+      "id": "hy_w10",
+      "en": "deodorant",
+      "ar": "مزيل عرق",
+      "tr": "ديودَرَنت",
+      "pos": "n",
+      "emoji": "🧴"
+    },
+    {
+      "id": "hy_w11",
+      "en": "tissue",
+      "ar": "منديل ورقي",
+      "tr": "تِشو",
+      "pos": "n",
+      "emoji": "🤧"
+    },
+    {
+      "id": "hy_w12",
+      "en": "wash hands",
+      "ar": "يغسل يديه",
+      "tr": "واش هاندز",
+      "pos": "phr",
+      "emoji": "🖐️"
+    },
+    {
+      "id": "hy_w13",
+      "en": "take a shower",
+      "ar": "يستحم",
+      "tr": "تيك إيه شاوَر",
+      "pos": "phr",
+      "emoji": "🚿"
+    },
+    {
+      "id": "hy_w14",
+      "en": "brush teeth",
+      "ar": "ينظف أسنانه",
+      "tr": "برَش تيث",
+      "pos": "phr",
+      "emoji": "🪥"
+    },
+    {
+      "id": "hy_w15",
+      "en": "shave",
+      "ar": "يحلق",
+      "tr": "شيڤ",
+      "pos": "v",
+      "emoji": "🧔"
+    },
+    {
+      "id": "hy_w16",
+      "en": "haircut",
+      "ar": "قص شعر",
+      "tr": "هيركَت",
+      "pos": "n",
+      "emoji": "💇"
+    },
+    {
+      "id": "hy_w17",
+      "en": "nails",
+      "ar": "أظافر",
+      "tr": "نيلز",
+      "pos": "n",
+      "emoji": "💅"
+    },
+    {
+      "id": "hy_w18",
+      "en": "clean",
+      "ar": "نظيف / ينظف",
+      "tr": "كلين",
+      "pos": "adj",
+      "emoji": "✨"
+    },
+    {
+      "id": "hy_w19",
+      "en": "dirty",
+      "ar": "متسخ",
+      "tr": "دِرتي",
+      "pos": "adj",
+      "emoji": "🧹"
+    },
+    {
+      "id": "hy_w20",
+      "en": "smell",
+      "ar": "رائحة / يشم",
+      "tr": "سمِل",
+      "pos": "n",
+      "emoji": "👃"
+    },
+    {
+      "id": "hy_w21",
+      "en": "fresh",
+      "ar": "منعش",
+      "tr": "فرِش",
+      "pos": "adj",
+      "emoji": "🌿"
+    },
+    {
+      "id": "hy_w22",
+      "en": "dry",
+      "ar": "جاف / يجفف",
+      "tr": "دراي",
+      "pos": "adj",
+      "emoji": "🌵"
+    },
+    {
+      "id": "hy_w23",
+      "en": "wet",
+      "ar": "مبلل",
+      "tr": "وِت",
+      "pos": "adj",
+      "emoji": "💧"
+    },
+    {
+      "id": "hy_w24",
+      "en": "germs",
+      "ar": "جراثيم",
+      "tr": "جيرمز",
+      "pos": "n",
+      "emoji": "🦠"
+    },
+    {
+      "id": "hy_w25",
+      "en": "healthy habit",
+      "ar": "عادة صحية",
+      "tr": "هِلثي هابِت",
+      "pos": "phr",
+      "emoji": "💚"
+    },
+    {
+      "id": "hy_w26",
+      "en": "laundry",
+      "ar": "غسيل الملابس",
+      "tr": "لوندري",
+      "pos": "n",
+      "emoji": "🧺"
+    },
+    {
+      "id": "hy_w27",
+      "en": "iron",
+      "ar": "مكواة / يكوي",
+      "tr": "آيَرن",
+      "pos": "n",
+      "emoji": "👔"
+    },
+    {
+      "id": "hy_w28",
+      "en": "change clothes",
+      "ar": "يغيّر ملابسه",
+      "tr": "تشينج كلوذز",
+      "pos": "phr",
+      "emoji": "👕"
+    },
+    {
+      "id": "hy_w29",
+      "en": "bin",
+      "ar": "سلة قمامة",
+      "tr": "بِن",
+      "pos": "n",
+      "emoji": "🗑️"
+    },
+    {
+      "id": "hy_w30",
+      "en": "rubbish",
+      "ar": "قمامة",
+      "tr": "رَبِش",
+      "pos": "n",
+      "emoji": "🚮"
+    },
+    {
+      "id": "hy_w31",
+      "en": "sweep",
+      "ar": "يكنس",
+      "tr": "سويپ",
+      "pos": "v",
+      "emoji": "🧹"
+    },
+    {
+      "id": "hy_w32",
+      "en": "tidy",
+      "ar": "مرتّب",
+      "tr": "تايدي",
+      "pos": "adj",
+      "emoji": "📦"
+    },
+    {
+      "id": "hy_w33",
+      "en": "messy",
+      "ar": "فوضوي",
+      "tr": "مِسي",
+      "pos": "adj",
+      "emoji": "🌀"
+    },
+    {
+      "id": "hy_w34",
+      "en": "bathroom",
+      "ar": "حمّام",
+      "tr": "باثروم",
+      "pos": "n",
+      "emoji": "🚻"
+    },
+    {
+      "id": "hy_w35",
+      "en": "hot water",
+      "ar": "ماء ساخن",
+      "tr": "هوت ووتَر",
+      "pos": "phr",
+      "emoji": "♨️"
+    },
+    {
+      "id": "hy_w36",
+      "en": "cold water",
+      "ar": "ماء بارد",
+      "tr": "كولد ووتَر",
+      "pos": "phr",
+      "emoji": "🧊"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "hy_s1",
+      "en": "Wash your hands before eating.",
+      "ar": "اغسل يديك قبل الأكل.",
+      "tr": "واش يور هاندز بِفور إيتِنغ"
+    },
+    {
+      "id": "hy_s2",
+      "en": "I take a shower every morning.",
+      "ar": "أستحم كل صباح.",
+      "tr": "آي تيك إيه شاوَر إڤري مورنِنغ"
+    },
+    {
+      "id": "hy_s3",
+      "en": "Do you have any soap?",
+      "ar": "هل لديك صابون؟",
+      "tr": "دو يو هاڤ إني سوپ"
+    },
+    {
+      "id": "hy_s4",
+      "en": "The towel is wet.",
+      "ar": "المنشفة مبللة.",
+      "tr": "ذَ تاوِل إز وِت"
+    },
+    {
+      "id": "hy_s5",
+      "en": "I brush my teeth twice a day.",
+      "ar": "أنظف أسناني مرتين يومياً.",
+      "tr": "آي برَش ماي تيث تْوايس إيه ديه"
+    },
+    {
+      "id": "hy_s6",
+      "en": "Please put the rubbish in the bin.",
+      "ar": "ضع القمامة في السلة من فضلك.",
+      "tr": "پليز پوت ذَ رَبِش إن ذَ بِن"
+    },
+    {
+      "id": "hy_s7",
+      "en": "I need a haircut.",
+      "ar": "أحتاج قص شعر.",
+      "tr": "آي نيد إيه هيركَت"
+    },
+    {
+      "id": "hy_s8",
+      "en": "This room is very tidy.",
+      "ar": "هذه الغرفة مرتبة جداً.",
+      "tr": "ذِس روم إز ڤيري تايدي"
+    },
+    {
+      "id": "hy_s9",
+      "en": "I do the laundry on Friday.",
+      "ar": "أغسل الملابس يوم الجمعة.",
+      "tr": "آي دو ذَ لوندري أون فرايديه"
+    },
+    {
+      "id": "hy_s10",
+      "en": "Keeping clean keeps you healthy.",
+      "ar": "النظافة تحافظ على صحتك.",
+      "tr": "كيپِنغ كلين كيپس يو هِلثي"
+    }
+  ]
+}

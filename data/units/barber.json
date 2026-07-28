@@ -1,0 +1,190 @@
+{
+  "id": "barber",
+  "title": {
+    "ar": "عند الحلاق",
+    "en": "At the Barber"
+  },
+  "icon": "💈",
+  "level": 6,
+  "color": "amber",
+  "words": [
+    {
+      "id": "br_w1",
+      "en": "haircut",
+      "ar": "قصة شعر",
+      "tr": "هيركَت",
+      "pos": "n",
+      "emoji": "✂️"
+    },
+    {
+      "id": "br_w2",
+      "en": "trim",
+      "ar": "تشذيب",
+      "tr": "ترِم",
+      "pos": "n",
+      "emoji": "✂️"
+    },
+    {
+      "id": "br_w3",
+      "en": "shave",
+      "ar": "حلاقة",
+      "tr": "شيڤ",
+      "pos": "n",
+      "emoji": "🪒"
+    },
+    {
+      "id": "br_w4",
+      "en": "beard",
+      "ar": "لحية",
+      "tr": "بيرد",
+      "pos": "n",
+      "emoji": "🧔"
+    },
+    {
+      "id": "br_w5",
+      "en": "short on the sides",
+      "ar": "قصير من الجانبين",
+      "tr": "شورت أون ذَ سايدز",
+      "pos": "phr",
+      "emoji": "💇"
+    },
+    {
+      "id": "br_w6",
+      "en": "a little more",
+      "ar": "قليلاً أكثر",
+      "tr": "إيه لِتِل مور",
+      "pos": "phr",
+      "emoji": "➕"
+    },
+    {
+      "id": "br_w7",
+      "en": "that is enough",
+      "ar": "هذا يكفي",
+      "tr": "ذات إز إينَف",
+      "pos": "phr",
+      "emoji": "🛑"
+    },
+    {
+      "id": "br_w8",
+      "en": "mirror",
+      "ar": "مرآة",
+      "tr": "مِرَر",
+      "pos": "n",
+      "emoji": "🪞"
+    },
+    {
+      "id": "br_w9",
+      "en": "appointment",
+      "ar": "موعد",
+      "tr": "أپوينتمِنت",
+      "pos": "n",
+      "emoji": "📅"
+    },
+    {
+      "id": "br_w10",
+      "en": "tip",
+      "ar": "بقشيش",
+      "tr": "تِپ",
+      "pos": "n",
+      "emoji": "💵"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "br_s1",
+      "en": "How long is the wait?",
+      "ar": "كم مدة الانتظار؟",
+      "tr": "هاو لونغ إز ذَ ويت"
+    },
+    {
+      "id": "br_s2",
+      "en": "About twenty minutes.",
+      "ar": "حوالي عشرين دقيقة.",
+      "tr": "أباوت تْوِنتي مِنِتس"
+    },
+    {
+      "id": "br_s3",
+      "en": "I would like a haircut, please.",
+      "ar": "أريد قصة شعر من فضلك.",
+      "tr": "آي وود لايك إيه هيركَت، پليز"
+    },
+    {
+      "id": "br_s4",
+      "en": "How would you like it?",
+      "ar": "كيف تريدها؟",
+      "tr": "هاو وود يو لايك إت"
+    },
+    {
+      "id": "br_s5",
+      "en": "Short on the sides, please.",
+      "ar": "قصير من الجانبين من فضلك.",
+      "tr": "شورت أون ذَ سايدز، پليز"
+    },
+    {
+      "id": "br_s6",
+      "en": "Not too short on top.",
+      "ar": "ليس قصيراً جداً من الأعلى.",
+      "tr": "نوت تو شورت أون توپ"
+    },
+    {
+      "id": "br_s7",
+      "en": "Just a trim, please.",
+      "ar": "تشذيب فقط من فضلك.",
+      "tr": "جَست إيه ترِم، پليز"
+    },
+    {
+      "id": "br_s8",
+      "en": "Can you trim my beard too?",
+      "ar": "هل يمكنك تشذيب لحيتي أيضاً؟",
+      "tr": "كان يو ترِم ماي بيرد تو"
+    },
+    {
+      "id": "br_s9",
+      "en": "A little more here, please.",
+      "ar": "قليلاً أكثر هنا من فضلك.",
+      "tr": "إيه لِتِل مور هير، پليز"
+    },
+    {
+      "id": "br_s10",
+      "en": "That is enough, thank you.",
+      "ar": "هذا يكفي، شكراً.",
+      "tr": "ذات إز إينَف، ثانك يو"
+    },
+    {
+      "id": "br_s11",
+      "en": "Is it okay like this?",
+      "ar": "هل هو جيد هكذا؟",
+      "tr": "إز إت أوكيه لايك ذِس"
+    },
+    {
+      "id": "br_s12",
+      "en": "Yes, it looks great.",
+      "ar": "نعم، يبدو رائعاً.",
+      "tr": "يِس، إت لوكس غريت"
+    },
+    {
+      "id": "br_s13",
+      "en": "How much do I owe you?",
+      "ar": "كم أدفع لك؟",
+      "tr": "هاو مَتش دو آي أو يو"
+    },
+    {
+      "id": "br_s14",
+      "en": "Keep the change.",
+      "ar": "احتفظ بالباقي.",
+      "tr": "كيپ ذَ تشينج"
+    },
+    {
+      "id": "br_s15",
+      "en": "Do I need an appointment next time?",
+      "ar": "هل أحتاج موعداً في المرة القادمة؟",
+      "tr": "دو آي نيد آن أپوينتمِنت نِكست تايم"
+    },
+    {
+      "id": "br_s16",
+      "en": "See you next month.",
+      "ar": "أراك الشهر القادم.",
+      "tr": "سي يو نِكست مَنث"
+    }
+  ]
+}

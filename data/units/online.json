@@ -1,0 +1,362 @@
+{
+  "id": "online",
+  "title": {
+    "ar": "التسوق الإلكتروني",
+    "en": "Online Shopping"
+  },
+  "icon": "📦",
+  "level": 4,
+  "color": "brand",
+  "words": [
+    {
+      "id": "ol_w1",
+      "en": "order",
+      "ar": "طلب / يطلب",
+      "tr": "أوردَر",
+      "pos": "n",
+      "emoji": "🛒"
+    },
+    {
+      "id": "ol_w2",
+      "en": "cart",
+      "ar": "سلة المشتريات",
+      "tr": "كارت",
+      "pos": "n",
+      "emoji": "🛒"
+    },
+    {
+      "id": "ol_w3",
+      "en": "add to cart",
+      "ar": "يضيف للسلة",
+      "tr": "آد تو كارت",
+      "pos": "phr",
+      "emoji": "➕"
+    },
+    {
+      "id": "ol_w4",
+      "en": "checkout",
+      "ar": "إتمام الشراء",
+      "tr": "تشِكأوت",
+      "pos": "n",
+      "emoji": "💳"
+    },
+    {
+      "id": "ol_w5",
+      "en": "delivery",
+      "ar": "توصيل",
+      "tr": "دِليڤَري",
+      "pos": "n",
+      "emoji": "🚚"
+    },
+    {
+      "id": "ol_w6",
+      "en": "shipping",
+      "ar": "الشحن",
+      "tr": "شِپِنغ",
+      "pos": "n",
+      "emoji": "📦"
+    },
+    {
+      "id": "ol_w7",
+      "en": "address",
+      "ar": "عنوان",
+      "tr": "أدرِس",
+      "pos": "n",
+      "emoji": "🏠"
+    },
+    {
+      "id": "ol_w8",
+      "en": "tracking number",
+      "ar": "رقم التتبع",
+      "tr": "تراكِنغ نَمبَر",
+      "pos": "n",
+      "emoji": "🔢"
+    },
+    {
+      "id": "ol_w9",
+      "en": "arrive",
+      "ar": "يصل",
+      "tr": "أرايڤ",
+      "pos": "v",
+      "emoji": "📬"
+    },
+    {
+      "id": "ol_w10",
+      "en": "delay",
+      "ar": "تأخير",
+      "tr": "دِليه",
+      "pos": "n",
+      "emoji": "⏳"
+    },
+    {
+      "id": "ol_w11",
+      "en": "in stock",
+      "ar": "متوفر",
+      "tr": "إن ستوك",
+      "pos": "phr",
+      "emoji": "✅"
+    },
+    {
+      "id": "ol_w12",
+      "en": "out of stock",
+      "ar": "غير متوفر",
+      "tr": "أوت أوڤ ستوك",
+      "pos": "phr",
+      "emoji": "❌"
+    },
+    {
+      "id": "ol_w13",
+      "en": "review",
+      "ar": "تقييم",
+      "tr": "رِڤيو",
+      "pos": "n",
+      "emoji": "⭐"
+    },
+    {
+      "id": "ol_w14",
+      "en": "rating",
+      "ar": "تقييم بالنجوم",
+      "tr": "ريتِنغ",
+      "pos": "n",
+      "emoji": "🌟"
+    },
+    {
+      "id": "ol_w15",
+      "en": "offer",
+      "ar": "عرض",
+      "tr": "أوفَر",
+      "pos": "n",
+      "emoji": "🏷️"
+    },
+    {
+      "id": "ol_w16",
+      "en": "sale",
+      "ar": "تخفيضات",
+      "tr": "سيل",
+      "pos": "n",
+      "emoji": "🔻"
+    },
+    {
+      "id": "ol_w17",
+      "en": "coupon",
+      "ar": "قسيمة خصم",
+      "tr": "كوپون",
+      "pos": "n",
+      "emoji": "🎟️"
+    },
+    {
+      "id": "ol_w18",
+      "en": "refund",
+      "ar": "استرجاع المبلغ",
+      "tr": "رِفَند",
+      "pos": "n",
+      "emoji": "💵"
+    },
+    {
+      "id": "ol_w19",
+      "en": "return the item",
+      "ar": "يُرجع المنتج",
+      "tr": "رِتيرن ذي آيتِم",
+      "pos": "phr",
+      "emoji": "↩️"
+    },
+    {
+      "id": "ol_w20",
+      "en": "exchange",
+      "ar": "يستبدل",
+      "tr": "إكستشينج",
+      "pos": "v",
+      "emoji": "🔁"
+    },
+    {
+      "id": "ol_w21",
+      "en": "warranty",
+      "ar": "ضمان",
+      "tr": "وارَنتي",
+      "pos": "n",
+      "emoji": "🛡️"
+    },
+    {
+      "id": "ol_w22",
+      "en": "damaged",
+      "ar": "تالف",
+      "tr": "دامِجد",
+      "pos": "adj",
+      "emoji": "💔"
+    },
+    {
+      "id": "ol_w23",
+      "en": "wrong item",
+      "ar": "منتج خاطئ",
+      "tr": "رونغ آيتِم",
+      "pos": "phr",
+      "emoji": "⚠️"
+    },
+    {
+      "id": "ol_w24",
+      "en": "cash on delivery",
+      "ar": "الدفع عند الاستلام",
+      "tr": "كاش أون دِليڤَري",
+      "pos": "phr",
+      "emoji": "💵"
+    },
+    {
+      "id": "ol_w25",
+      "en": "online payment",
+      "ar": "دفع إلكتروني",
+      "tr": "أونلاين پيمِنت",
+      "pos": "n",
+      "emoji": "💳"
+    },
+    {
+      "id": "ol_w26",
+      "en": "confirm",
+      "ar": "يؤكد",
+      "tr": "كَنفيرم",
+      "pos": "v",
+      "emoji": "✔️"
+    },
+    {
+      "id": "ol_w27",
+      "en": "cancel",
+      "ar": "يلغي",
+      "tr": "كانسِل",
+      "pos": "v",
+      "emoji": "🚫"
+    },
+    {
+      "id": "ol_w28",
+      "en": "customer service",
+      "ar": "خدمة العملاء",
+      "tr": "كَستَمَر سيرڤِس",
+      "pos": "n",
+      "emoji": "☎️"
+    },
+    {
+      "id": "ol_w29",
+      "en": "complaint",
+      "ar": "شكوى",
+      "tr": "كَمپلينت",
+      "pos": "n",
+      "emoji": "😤"
+    },
+    {
+      "id": "ol_w30",
+      "en": "size chart",
+      "ar": "جدول المقاسات",
+      "tr": "سايز تشارت",
+      "pos": "n",
+      "emoji": "📏"
+    },
+    {
+      "id": "ol_w31",
+      "en": "photo of the item",
+      "ar": "صورة المنتج",
+      "tr": "فوتو أوڤ ذي آيتِم",
+      "pos": "phr",
+      "emoji": "📸"
+    },
+    {
+      "id": "ol_w32",
+      "en": "description",
+      "ar": "وصف",
+      "tr": "دِسكرِپشِن",
+      "pos": "n",
+      "emoji": "📝"
+    },
+    {
+      "id": "ol_w33",
+      "en": "seller",
+      "ar": "البائع",
+      "tr": "سِلَر",
+      "pos": "n",
+      "emoji": "🧑‍💼"
+    },
+    {
+      "id": "ol_w34",
+      "en": "buyer",
+      "ar": "المشتري",
+      "tr": "بايَر",
+      "pos": "n",
+      "emoji": "🙋"
+    },
+    {
+      "id": "ol_w35",
+      "en": "secure",
+      "ar": "آمن",
+      "tr": "سِكيور",
+      "pos": "adj",
+      "emoji": "🔐"
+    },
+    {
+      "id": "ol_w36",
+      "en": "fake",
+      "ar": "مزيّف",
+      "tr": "فيك",
+      "pos": "adj",
+      "emoji": "🚩"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ol_s1",
+      "en": "My order has not arrived yet.",
+      "ar": "طلبي لم يصل بعد.",
+      "tr": "ماي أوردَر هاز نوت أرايڤد يِت"
+    },
+    {
+      "id": "ol_s2",
+      "en": "Do you deliver to this address?",
+      "ar": "هل توصلون إلى هذا العنوان؟",
+      "tr": "دو يو دِليڤَر تو ذِس أدرِس"
+    },
+    {
+      "id": "ol_s3",
+      "en": "I received the wrong item.",
+      "ar": "استلمت منتجاً خاطئاً.",
+      "tr": "آي رِسيڤد ذَ رونغ آيتِم"
+    },
+    {
+      "id": "ol_s4",
+      "en": "Can I return it?",
+      "ar": "هل يمكنني إرجاعه؟",
+      "tr": "كان آي رِتيرن إت"
+    },
+    {
+      "id": "ol_s5",
+      "en": "I want a refund, please.",
+      "ar": "أريد استرجاع المبلغ من فضلك.",
+      "tr": "آي وانت إيه رِفَند، پليز"
+    },
+    {
+      "id": "ol_s6",
+      "en": "Is cash on delivery possible?",
+      "ar": "هل الدفع عند الاستلام ممكن؟",
+      "tr": "إز كاش أون دِليڤَري پوسِبِل"
+    },
+    {
+      "id": "ol_s7",
+      "en": "The item arrived damaged.",
+      "ar": "وصل المنتج تالفاً.",
+      "tr": "ذي آيتِم أرايڤد دامِجد"
+    },
+    {
+      "id": "ol_s8",
+      "en": "Read the reviews before you buy.",
+      "ar": "اقرأ التقييمات قبل الشراء.",
+      "tr": "ريد ذَ رِڤيوز بِفور يو باي"
+    },
+    {
+      "id": "ol_s9",
+      "en": "This offer ends tomorrow.",
+      "ar": "هذا العرض ينتهي غداً.",
+      "tr": "ذِس أوفَر إندز تُومورو"
+    },
+    {
+      "id": "ol_s10",
+      "en": "I want to cancel my order.",
+      "ar": "أريد إلغاء طلبي.",
+      "tr": "آي وانت تو كانسِل ماي أوردَر"
+    }
+  ]
+}

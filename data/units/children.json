@@ -1,0 +1,362 @@
+{
+  "id": "children",
+  "title": {
+    "ar": "الأطفال والرعاية",
+    "en": "Children & Care"
+  },
+  "icon": "🧸",
+  "level": 3,
+  "color": "rose",
+  "words": [
+    {
+      "id": "cd_w1",
+      "en": "baby",
+      "ar": "رضيع",
+      "tr": "بيبي",
+      "pos": "n",
+      "emoji": "👶"
+    },
+    {
+      "id": "cd_w2",
+      "en": "toddler",
+      "ar": "طفل صغير",
+      "tr": "تودلَر",
+      "pos": "n",
+      "emoji": "🚼"
+    },
+    {
+      "id": "cd_w3",
+      "en": "kid",
+      "ar": "طفل",
+      "tr": "كِد",
+      "pos": "n",
+      "emoji": "🧒"
+    },
+    {
+      "id": "cd_w4",
+      "en": "nursery",
+      "ar": "حضانة",
+      "tr": "نيرسَري",
+      "pos": "n",
+      "emoji": "🏫"
+    },
+    {
+      "id": "cd_w5",
+      "en": "kindergarten",
+      "ar": "روضة",
+      "tr": "كِندَرغارتِن",
+      "pos": "n",
+      "emoji": "🎒"
+    },
+    {
+      "id": "cd_w6",
+      "en": "toy",
+      "ar": "لعبة",
+      "tr": "توي",
+      "pos": "n",
+      "emoji": "🧸"
+    },
+    {
+      "id": "cd_w7",
+      "en": "doll",
+      "ar": "دمية",
+      "tr": "دول",
+      "pos": "n",
+      "emoji": "🪆"
+    },
+    {
+      "id": "cd_w8",
+      "en": "ball",
+      "ar": "كرة",
+      "tr": "بول",
+      "pos": "n",
+      "emoji": "⚽"
+    },
+    {
+      "id": "cd_w9",
+      "en": "nappy / diaper",
+      "ar": "حفاضة",
+      "tr": "دايپَر",
+      "pos": "n",
+      "emoji": "🚼"
+    },
+    {
+      "id": "cd_w10",
+      "en": "bottle",
+      "ar": "رضّاعة",
+      "tr": "بوتِل",
+      "pos": "n",
+      "emoji": "🍼"
+    },
+    {
+      "id": "cd_w11",
+      "en": "milk",
+      "ar": "حليب",
+      "tr": "مِلك",
+      "pos": "n",
+      "emoji": "🥛"
+    },
+    {
+      "id": "cd_w12",
+      "en": "cry",
+      "ar": "يبكي",
+      "tr": "كراي",
+      "pos": "v",
+      "emoji": "😢"
+    },
+    {
+      "id": "cd_w13",
+      "en": "laugh",
+      "ar": "يضحك",
+      "tr": "لاف",
+      "pos": "v",
+      "emoji": "😄"
+    },
+    {
+      "id": "cd_w14",
+      "en": "sleep",
+      "ar": "ينام",
+      "tr": "سليپ",
+      "pos": "v",
+      "emoji": "😴"
+    },
+    {
+      "id": "cd_w15",
+      "en": "nap",
+      "ar": "قيلولة",
+      "tr": "ناپ",
+      "pos": "n",
+      "emoji": "🛌"
+    },
+    {
+      "id": "cd_w16",
+      "en": "feed",
+      "ar": "يُطعم",
+      "tr": "فيد",
+      "pos": "v",
+      "emoji": "🥣"
+    },
+    {
+      "id": "cd_w17",
+      "en": "carry",
+      "ar": "يحمل",
+      "tr": "كاري",
+      "pos": "v",
+      "emoji": "🤱"
+    },
+    {
+      "id": "cd_w18",
+      "en": "walk",
+      "ar": "يمشي",
+      "tr": "ووك",
+      "pos": "v",
+      "emoji": "🚶"
+    },
+    {
+      "id": "cd_w19",
+      "en": "crawl",
+      "ar": "يزحف",
+      "tr": "كرول",
+      "pos": "v",
+      "emoji": "🍼"
+    },
+    {
+      "id": "cd_w20",
+      "en": "grow",
+      "ar": "ينمو",
+      "tr": "غرو",
+      "pos": "v",
+      "emoji": "🌱"
+    },
+    {
+      "id": "cd_w21",
+      "en": "teach",
+      "ar": "يعلّم",
+      "tr": "تيتش",
+      "pos": "v",
+      "emoji": "📚"
+    },
+    {
+      "id": "cd_w22",
+      "en": "take care of",
+      "ar": "يعتني بـ",
+      "tr": "تيك كير أوڤ",
+      "pos": "phr",
+      "emoji": "💗"
+    },
+    {
+      "id": "cd_w23",
+      "en": "babysitter",
+      "ar": "جليسة أطفال",
+      "tr": "بيبي سِتَر",
+      "pos": "n",
+      "emoji": "🧑‍🍼"
+    },
+    {
+      "id": "cd_w24",
+      "en": "playground",
+      "ar": "ملعب أطفال",
+      "tr": "پليهغراوند",
+      "pos": "n",
+      "emoji": "🛝"
+    },
+    {
+      "id": "cd_w25",
+      "en": "careful",
+      "ar": "حذر",
+      "tr": "كيرفُل",
+      "pos": "adj",
+      "emoji": "⚠️"
+    },
+    {
+      "id": "cd_w26",
+      "en": "safe",
+      "ar": "آمن",
+      "tr": "سيف",
+      "pos": "adj",
+      "emoji": "🛡️"
+    },
+    {
+      "id": "cd_w27",
+      "en": "dangerous",
+      "ar": "خطير",
+      "tr": "دينجَرَس",
+      "pos": "adj",
+      "emoji": "☠️"
+    },
+    {
+      "id": "cd_w28",
+      "en": "quiet",
+      "ar": "هادئ",
+      "tr": "كوايَت",
+      "pos": "adj",
+      "emoji": "🤫"
+    },
+    {
+      "id": "cd_w29",
+      "en": "noisy",
+      "ar": "مزعج الصوت",
+      "tr": "نويزي",
+      "pos": "adj",
+      "emoji": "📢"
+    },
+    {
+      "id": "cd_w30",
+      "en": "naughty",
+      "ar": "مشاغب",
+      "tr": "نوتي",
+      "pos": "adj",
+      "emoji": "😈"
+    },
+    {
+      "id": "cd_w31",
+      "en": "well-behaved",
+      "ar": "مؤدب",
+      "tr": "وِل بِهيڤد",
+      "pos": "adj",
+      "emoji": "😇"
+    },
+    {
+      "id": "cd_w32",
+      "en": "vaccination",
+      "ar": "تطعيم",
+      "tr": "ڤاكسِنيشِن",
+      "pos": "n",
+      "emoji": "💉"
+    },
+    {
+      "id": "cd_w33",
+      "en": "school bag",
+      "ar": "حقيبة مدرسية",
+      "tr": "سكوول باغ",
+      "pos": "n",
+      "emoji": "🎒"
+    },
+    {
+      "id": "cd_w34",
+      "en": "homework",
+      "ar": "واجب",
+      "tr": "هومويرك",
+      "pos": "n",
+      "emoji": "📓"
+    },
+    {
+      "id": "cd_w35",
+      "en": "story",
+      "ar": "قصة",
+      "tr": "ستوري",
+      "pos": "n",
+      "emoji": "📖"
+    },
+    {
+      "id": "cd_w36",
+      "en": "bedtime",
+      "ar": "وقت النوم",
+      "tr": "بِدتايم",
+      "pos": "n",
+      "emoji": "🌙"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "cd_s1",
+      "en": "The baby is sleeping now.",
+      "ar": "الرضيع نائم الآن.",
+      "tr": "ذَ بيبي إز سليپِنغ ناو"
+    },
+    {
+      "id": "cd_s2",
+      "en": "My son goes to nursery.",
+      "ar": "ابني يذهب إلى الحضانة.",
+      "tr": "ماي سَن غوز تو نيرسَري"
+    },
+    {
+      "id": "cd_s3",
+      "en": "Please be quiet, the baby is asleep.",
+      "ar": "من فضلك اهدأ، الرضيع نائم.",
+      "tr": "پليز بي كوايَت، ذَ بيبي إز أسليپ"
+    },
+    {
+      "id": "cd_s4",
+      "en": "She is learning to walk.",
+      "ar": "هي تتعلم المشي.",
+      "tr": "شي إز لِرنِنغ تو ووك"
+    },
+    {
+      "id": "cd_s5",
+      "en": "Don't touch that, it is dangerous.",
+      "ar": "لا تلمس ذلك، إنه خطير.",
+      "tr": "دونت تَتش ذات، إت إز دينجَرَس"
+    },
+    {
+      "id": "cd_s6",
+      "en": "I read him a story at bedtime.",
+      "ar": "أقرأ له قصة وقت النوم.",
+      "tr": "آي ريد هِم إيه ستوري آت بِدتايم"
+    },
+    {
+      "id": "cd_s7",
+      "en": "The children are playing outside.",
+      "ar": "الأطفال يلعبون في الخارج.",
+      "tr": "ذَ تشِلدرِن آر پليينغ أوتسايد"
+    },
+    {
+      "id": "cd_s8",
+      "en": "Have you done your homework?",
+      "ar": "هل أنهيت واجبك؟",
+      "tr": "هاڤ يو دَن يور هومويرك"
+    },
+    {
+      "id": "cd_s9",
+      "en": "He needs his vaccination this week.",
+      "ar": "يحتاج تطعيمه هذا الأسبوع.",
+      "tr": "هي نيدز هِز ڤاكسِنيشِن ذِس ويك"
+    },
+    {
+      "id": "cd_s10",
+      "en": "Take care of your little sister.",
+      "ar": "اعتنِ بأختك الصغيرة.",
+      "tr": "تيك كير أوڤ يور لِتِل سِستَر"
+    }
+  ]
+}

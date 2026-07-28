@@ -1,0 +1,434 @@
+{
+  "id": "connectors",
+  "title": {
+    "ar": "أدوات الربط والظروف",
+    "en": "Connectors & Adverbs"
+  },
+  "icon": "🔗",
+  "level": 5,
+  "color": "amber",
+  "words": [
+    {
+      "id": "cnn_w1",
+      "en": "and",
+      "ar": "و",
+      "tr": "آند",
+      "pos": "conj",
+      "emoji": "➕"
+    },
+    {
+      "id": "cnn_w2",
+      "en": "but",
+      "ar": "لكن",
+      "tr": "بَت",
+      "pos": "conj",
+      "emoji": "↔️"
+    },
+    {
+      "id": "cnn_w3",
+      "en": "or",
+      "ar": "أو",
+      "tr": "أور",
+      "pos": "conj",
+      "emoji": "🔀"
+    },
+    {
+      "id": "cnn_w4",
+      "en": "because",
+      "ar": "لأن",
+      "tr": "بِكوز",
+      "pos": "conj",
+      "emoji": "❓"
+    },
+    {
+      "id": "cnn_w5",
+      "en": "so",
+      "ar": "لذلك",
+      "tr": "سو",
+      "pos": "conj",
+      "emoji": "➡️"
+    },
+    {
+      "id": "cnn_w6",
+      "en": "if",
+      "ar": "إذا",
+      "tr": "إف",
+      "pos": "conj",
+      "emoji": "🤔"
+    },
+    {
+      "id": "cnn_w7",
+      "en": "when",
+      "ar": "عندما",
+      "tr": "وِن",
+      "pos": "conj",
+      "emoji": "⏰"
+    },
+    {
+      "id": "cnn_w8",
+      "en": "while",
+      "ar": "بينما",
+      "tr": "وايل",
+      "pos": "conj",
+      "emoji": "⏳"
+    },
+    {
+      "id": "cnn_w9",
+      "en": "after",
+      "ar": "بعد أن",
+      "tr": "آفتَر",
+      "pos": "conj",
+      "emoji": "⏭️"
+    },
+    {
+      "id": "cnn_w10",
+      "en": "before",
+      "ar": "قبل أن",
+      "tr": "بِفور",
+      "pos": "conj",
+      "emoji": "⏮️"
+    },
+    {
+      "id": "cnn_w11",
+      "en": "until",
+      "ar": "حتى",
+      "tr": "أنتِل",
+      "pos": "conj",
+      "emoji": "🏁"
+    },
+    {
+      "id": "cnn_w12",
+      "en": "although",
+      "ar": "رغم أن",
+      "tr": "أولذو",
+      "pos": "conj",
+      "emoji": "🤷"
+    },
+    {
+      "id": "cnn_w13",
+      "en": "also",
+      "ar": "أيضاً",
+      "tr": "أولسو",
+      "pos": "adv",
+      "emoji": "➕"
+    },
+    {
+      "id": "cnn_w14",
+      "en": "too",
+      "ar": "أيضاً",
+      "tr": "تو",
+      "pos": "adv",
+      "emoji": "🔁"
+    },
+    {
+      "id": "cnn_w15",
+      "en": "as well",
+      "ar": "كذلك",
+      "tr": "آز وِل",
+      "pos": "phr",
+      "emoji": "✔️"
+    },
+    {
+      "id": "cnn_w16",
+      "en": "however",
+      "ar": "لكن مع ذلك",
+      "tr": "هاو إڤَر",
+      "pos": "adv",
+      "emoji": "↩️"
+    },
+    {
+      "id": "cnn_w17",
+      "en": "for example",
+      "ar": "على سبيل المثال",
+      "tr": "فور إغزامپِل",
+      "pos": "phr",
+      "emoji": "💡"
+    },
+    {
+      "id": "cnn_w18",
+      "en": "that is why",
+      "ar": "لهذا السبب",
+      "tr": "ذات إز واي",
+      "pos": "phr",
+      "emoji": "🎯"
+    },
+    {
+      "id": "cnn_w19",
+      "en": "first of all",
+      "ar": "أولاً",
+      "tr": "فيرست أوڤ أول",
+      "pos": "phr",
+      "emoji": "1️⃣"
+    },
+    {
+      "id": "cnn_w20",
+      "en": "then",
+      "ar": "ثم",
+      "tr": "ذِن",
+      "pos": "adv",
+      "emoji": "2️⃣"
+    },
+    {
+      "id": "cnn_w21",
+      "en": "finally",
+      "ar": "أخيراً",
+      "tr": "فاينَلي",
+      "pos": "adv",
+      "emoji": "🏁"
+    },
+    {
+      "id": "cnn_w22",
+      "en": "suddenly",
+      "ar": "فجأة",
+      "tr": "سَدِنلي",
+      "pos": "adv",
+      "emoji": "⚡"
+    },
+    {
+      "id": "cnn_w23",
+      "en": "usually",
+      "ar": "عادةً",
+      "tr": "يوجُوَلي",
+      "pos": "adv",
+      "emoji": "🔁"
+    },
+    {
+      "id": "cnn_w24",
+      "en": "often",
+      "ar": "غالباً",
+      "tr": "أوفِن",
+      "pos": "adv",
+      "emoji": "📊"
+    },
+    {
+      "id": "cnn_w25",
+      "en": "rarely",
+      "ar": "نادراً",
+      "tr": "ريرلي",
+      "pos": "adv",
+      "emoji": "🌒"
+    },
+    {
+      "id": "cnn_w26",
+      "en": "almost",
+      "ar": "تقريباً",
+      "tr": "أولموست",
+      "pos": "adv",
+      "emoji": "≈"
+    },
+    {
+      "id": "cnn_w27",
+      "en": "exactly",
+      "ar": "بالضبط",
+      "tr": "إغزاكتلي",
+      "pos": "adv",
+      "emoji": "🎯"
+    },
+    {
+      "id": "cnn_w28",
+      "en": "probably",
+      "ar": "على الأرجح",
+      "tr": "پروبَبلي",
+      "pos": "adv",
+      "emoji": "🤔"
+    },
+    {
+      "id": "cnn_w29",
+      "en": "certainly",
+      "ar": "بالتأكيد",
+      "tr": "سيرتِنلي",
+      "pos": "adv",
+      "emoji": "✅"
+    },
+    {
+      "id": "cnn_w30",
+      "en": "quickly",
+      "ar": "بسرعة",
+      "tr": "كوِكلي",
+      "pos": "adv",
+      "emoji": "⚡"
+    },
+    {
+      "id": "cnn_w31",
+      "en": "slowly",
+      "ar": "ببطء",
+      "tr": "سلولي",
+      "pos": "adv",
+      "emoji": "🐢"
+    },
+    {
+      "id": "cnn_w32",
+      "en": "carefully",
+      "ar": "بحذر",
+      "tr": "كيرفُلي",
+      "pos": "adv",
+      "emoji": "⚠️"
+    },
+    {
+      "id": "cnn_w33",
+      "en": "together",
+      "ar": "معاً",
+      "tr": "تُوغيذَر",
+      "pos": "adv",
+      "emoji": "👥"
+    },
+    {
+      "id": "cnn_w34",
+      "en": "alone",
+      "ar": "وحده",
+      "tr": "ألون",
+      "pos": "adv",
+      "emoji": "🧍"
+    },
+    {
+      "id": "cnn_w35",
+      "en": "again",
+      "ar": "مرة أخرى",
+      "tr": "أغين",
+      "pos": "adv",
+      "emoji": "🔄"
+    },
+    {
+      "id": "cnn_w36",
+      "en": "still",
+      "ar": "ما زال",
+      "tr": "ستِل",
+      "pos": "adv",
+      "emoji": "⏳"
+    },
+    {
+      "id": "cnn_w37",
+      "en": "already",
+      "ar": "بالفعل",
+      "tr": "أولرِدي",
+      "pos": "adv",
+      "emoji": "✔️"
+    },
+    {
+      "id": "cnn_w38",
+      "en": "yet",
+      "ar": "بعد (في النفي)",
+      "tr": "يِت",
+      "pos": "adv",
+      "emoji": "⌛"
+    },
+    {
+      "id": "cnn_w39",
+      "en": "ever",
+      "ar": "من قبل",
+      "tr": "إڤَر",
+      "pos": "adv",
+      "emoji": "❓"
+    },
+    {
+      "id": "cnn_w40",
+      "en": "never",
+      "ar": "أبداً",
+      "tr": "نِڤَر",
+      "pos": "adv",
+      "emoji": "🚫"
+    },
+    {
+      "id": "cnn_w41",
+      "en": "everywhere",
+      "ar": "في كل مكان",
+      "tr": "إڤريوير",
+      "pos": "adv",
+      "emoji": "🌍"
+    },
+    {
+      "id": "cnn_w42",
+      "en": "somewhere",
+      "ar": "في مكان ما",
+      "tr": "سَموير",
+      "pos": "adv",
+      "emoji": "📍"
+    },
+    {
+      "id": "cnn_w43",
+      "en": "nowhere",
+      "ar": "لا مكان",
+      "tr": "نووير",
+      "pos": "adv",
+      "emoji": "🚫"
+    },
+    {
+      "id": "cnn_w44",
+      "en": "anyway",
+      "ar": "على أي حال",
+      "tr": "إنيويه",
+      "pos": "adv",
+      "emoji": "🤷"
+    },
+    {
+      "id": "cnn_w45",
+      "en": "at least",
+      "ar": "على الأقل",
+      "tr": "آت ليست",
+      "pos": "phr",
+      "emoji": "➖"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "cnn_s1",
+      "en": "I was tired, so I went home.",
+      "ar": "كنت متعباً، لذلك ذهبت إلى البيت.",
+      "tr": "آي واز تايَرد، سو آي وِنت هوم"
+    },
+    {
+      "id": "cnn_s2",
+      "en": "I like tea but not coffee.",
+      "ar": "أحب الشاي لكن ليس القهوة.",
+      "tr": "آي لايك تي بَت نوت كوفي"
+    },
+    {
+      "id": "cnn_s3",
+      "en": "If it rains, we will stay home.",
+      "ar": "إذا أمطرت، سنبقى في البيت.",
+      "tr": "إف إت رينز، وي وِل ستيه هوم"
+    },
+    {
+      "id": "cnn_s4",
+      "en": "I called you because I needed help.",
+      "ar": "اتصلت بك لأنني احتجت المساعدة.",
+      "tr": "آي كولد يو بِكوز آي نيدِد هِلپ"
+    },
+    {
+      "id": "cnn_s5",
+      "en": "First of all, thank you for coming.",
+      "ar": "أولاً، شكراً لحضورك.",
+      "tr": "فيرست أوڤ أول، ثانك يو فور كَمِنغ"
+    },
+    {
+      "id": "cnn_s6",
+      "en": "I have already eaten, thanks.",
+      "ar": "لقد أكلت بالفعل، شكراً.",
+      "tr": "آي هاڤ أولرِدي إيتِن، ثانكس"
+    },
+    {
+      "id": "cnn_s7",
+      "en": "He usually arrives at eight.",
+      "ar": "هو عادةً يصل في الثامنة.",
+      "tr": "هي يوجُوَلي أرايڤز آت إيت"
+    },
+    {
+      "id": "cnn_s8",
+      "en": "Please speak more slowly.",
+      "ar": "من فضلك تكلم ببطء أكثر.",
+      "tr": "پليز سپيك مور سلولي"
+    },
+    {
+      "id": "cnn_s9",
+      "en": "I have never been there.",
+      "ar": "لم أذهب إلى هناك أبداً.",
+      "tr": "آي هاڤ نِڤَر بين ذير"
+    },
+    {
+      "id": "cnn_s10",
+      "en": "Although it was late, he came.",
+      "ar": "رغم أن الوقت كان متأخراً، أتى.",
+      "tr": "أولذو إت واز ليت، هي كيم"
+    }
+  ]
+}

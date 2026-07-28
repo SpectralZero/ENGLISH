@@ -16,10 +16,26 @@ export function unitsView({ view }) {
     ['ابدأ من الأعلى وانزل بالترتيب. كل درس يحتوي كلمات + جمل + اختبار.']));
 
   for (const [level, units] of unitsByLevel()) {
+    const levelIds = units.flatMap(u => u.words.map(w => w.id));
+    const lc = counts(levelIds);
     wrap.append(el('div', { class: 'level-head' }, [
       el('b', { text: levelName(level) }),
       el('span'),
       el('span', { class: 'chip', text: `${AR_NUM(units.length)} دروس` }),
+    ]));
+
+    /* one exam per level — 20 questions drawn from every lesson in it */
+    wrap.append(el('button', {
+      class: 'card',
+      style: 'width:100%;padding:12px var(--sp-4);display:flex;gap:var(--sp-3);align-items:center;text-align:start;margin-bottom:var(--sp-3)',
+      onclick: () => go(`/quiz/level-${level}?mode=exam`),
+    }, [
+      el('span', { style: 'font-size:1.3rem', text: '📋' }),
+      el('div', { class: 'grow' }, [
+        el('div', { style: 'font-weight:800', text: 'امتحان المستوى' }),
+        el('div', { class: 'small muted', text: `${AR_NUM(20)} سؤالاً من ${AR_NUM(levelIds.length)} كلمة · تعلّمت ${AR_NUM(lc.learned)}` }),
+      ]),
+      el('span', { class: 'chip chip--brand', text: 'ابدأ' }),
     ]));
 
     wrap.append(el('div', { class: 'unitgrid' }, units.map(u => {

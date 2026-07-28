@@ -1,0 +1,214 @@
+{
+  "id": "neighbours",
+  "title": {
+    "ar": "مع الجيران",
+    "en": "With the Neighbours"
+  },
+  "icon": "🏘️",
+  "level": 6,
+  "color": "brand",
+  "words": [
+    {
+      "id": "nb_w1",
+      "en": "neighbour",
+      "ar": "جار",
+      "tr": "نيبَر",
+      "pos": "n",
+      "emoji": "🏘️"
+    },
+    {
+      "id": "nb_w2",
+      "en": "upstairs",
+      "ar": "الطابق الأعلى",
+      "tr": "أپستيرز",
+      "pos": "adv",
+      "emoji": "⬆️"
+    },
+    {
+      "id": "nb_w3",
+      "en": "downstairs",
+      "ar": "الطابق الأسفل",
+      "tr": "داونستيرز",
+      "pos": "adv",
+      "emoji": "⬇️"
+    },
+    {
+      "id": "nb_w4",
+      "en": "noise",
+      "ar": "ضجيج",
+      "tr": "نويز",
+      "pos": "n",
+      "emoji": "🔊"
+    },
+    {
+      "id": "nb_w5",
+      "en": "borrow",
+      "ar": "يستعير",
+      "tr": "بورو",
+      "pos": "v",
+      "emoji": "🤲"
+    },
+    {
+      "id": "nb_w6",
+      "en": "favour",
+      "ar": "معروف / خدمة",
+      "tr": "فيڤَر",
+      "pos": "n",
+      "emoji": "🤝"
+    },
+    {
+      "id": "nb_w7",
+      "en": "keys",
+      "ar": "مفاتيح",
+      "tr": "كيز",
+      "pos": "n",
+      "emoji": "🔑"
+    },
+    {
+      "id": "nb_w8",
+      "en": "parking space",
+      "ar": "موقف سيارة",
+      "tr": "پاركِنغ سپيس",
+      "pos": "n",
+      "emoji": "🅿️"
+    },
+    {
+      "id": "nb_w9",
+      "en": "rubbish day",
+      "ar": "يوم القمامة",
+      "tr": "رَبِش ديه",
+      "pos": "n",
+      "emoji": "🗑️"
+    },
+    {
+      "id": "nb_w10",
+      "en": "welcome",
+      "ar": "أهلاً",
+      "tr": "وِلكَم",
+      "pos": "interj",
+      "emoji": "👋"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "nb_s1",
+      "en": "Hello, we are your new neighbours.",
+      "ar": "مرحباً، نحن جيرانك الجدد.",
+      "tr": "هَلو، وي آر يور نيو نيبَرز"
+    },
+    {
+      "id": "nb_s2",
+      "en": "Welcome! Nice to meet you.",
+      "ar": "أهلاً! سعيد بلقائك.",
+      "tr": "وِلكَم! نايس تو ميت يو"
+    },
+    {
+      "id": "nb_s3",
+      "en": "We live in the flat upstairs.",
+      "ar": "نسكن في الشقة العلوية.",
+      "tr": "وي لِڤ إن ذَ فلات أپستيرز"
+    },
+    {
+      "id": "nb_s4",
+      "en": "If you need anything, just ask.",
+      "ar": "إذا احتجت أي شيء، اطلب فقط.",
+      "tr": "إف يو نيد إنيثِنغ، جَست آسك"
+    },
+    {
+      "id": "nb_s5",
+      "en": "Can I ask you a favour?",
+      "ar": "هل يمكنني طلب خدمة منك؟",
+      "tr": "كان آي آسك يو إيه فيڤَر"
+    },
+    {
+      "id": "nb_s6",
+      "en": "Could I borrow some sugar?",
+      "ar": "هل يمكنني استعارة بعض السكر؟",
+      "tr": "كود آي بورو سَم شُوغَر"
+    },
+    {
+      "id": "nb_s7",
+      "en": "Of course, no problem.",
+      "ar": "بالطبع، لا مشكلة.",
+      "tr": "أوڤ كورس، نو پروبلِم"
+    },
+    {
+      "id": "nb_s8",
+      "en": "Sorry about the noise last night.",
+      "ar": "آسف على الضجيج ليلة أمس.",
+      "tr": "سوري أباوت ذَ نويز لاست نايت"
+    },
+    {
+      "id": "nb_s9",
+      "en": "It is fine, don't worry.",
+      "ar": "لا بأس، لا تقلق.",
+      "tr": "إت إز فاين، دونت وَري"
+    },
+    {
+      "id": "nb_s10",
+      "en": "Could you keep it down, please?",
+      "ar": "هل يمكنك خفض الصوت من فضلك؟",
+      "tr": "كود يو كيپ إت داون، پليز"
+    },
+    {
+      "id": "nb_s11",
+      "en": "My children are sleeping.",
+      "ar": "أطفالي نائمون.",
+      "tr": "ماي تشِلدرِن آر سليپِنغ"
+    },
+    {
+      "id": "nb_s12",
+      "en": "Is this your parking space?",
+      "ar": "هل هذا موقفك؟",
+      "tr": "إز ذِس يور پاركِنغ سپيس"
+    },
+    {
+      "id": "nb_s13",
+      "en": "Sorry, I will move the car.",
+      "ar": "آسف، سأحرك السيارة.",
+      "tr": "سوري، آي وِل موڤ ذَ كار"
+    },
+    {
+      "id": "nb_s14",
+      "en": "When is the rubbish day here?",
+      "ar": "متى يوم القمامة هنا؟",
+      "tr": "وِن إز ذَ رَبِش ديه هير"
+    },
+    {
+      "id": "nb_s15",
+      "en": "Every Tuesday morning.",
+      "ar": "كل صباح ثلاثاء.",
+      "tr": "إڤري تيوزديه مورنِنغ"
+    },
+    {
+      "id": "nb_s16",
+      "en": "Can you water my plants next week?",
+      "ar": "هل يمكنك سقي نباتاتي الأسبوع القادم؟",
+      "tr": "كان يو ووتَر ماي پلانتس نِكست ويك"
+    },
+    {
+      "id": "nb_s17",
+      "en": "I am travelling for a few days.",
+      "ar": "سأسافر لبضعة أيام.",
+      "tr": "آيم تراڤِلِنغ فور إيه فيو ديز"
+    },
+    {
+      "id": "nb_s18",
+      "en": "Here are my keys, thank you.",
+      "ar": "تفضل مفاتيحي، شكراً.",
+      "tr": "هير آر ماي كيز، ثانك يو"
+    },
+    {
+      "id": "nb_s19",
+      "en": "You are welcome any time.",
+      "ar": "أهلاً بك في أي وقت.",
+      "tr": "يو آر وِلكَم إني تايم"
+    },
+    {
+      "id": "nb_s20",
+      "en": "Have a good evening.",
+      "ar": "طاب مساؤك.",
+      "tr": "هاڤ إيه غُود إيفنِنغ"
+    }
+  ]
+}

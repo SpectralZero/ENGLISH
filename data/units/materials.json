@@ -1,0 +1,318 @@
+{
+  "id": "materials",
+  "title": {
+    "ar": "المواد والخامات",
+    "en": "Materials"
+  },
+  "icon": "🪵",
+  "level": 3,
+  "color": "brand",
+  "words": [
+    {
+      "id": "mt_w1",
+      "en": "wood",
+      "ar": "خشب",
+      "tr": "وود",
+      "pos": "n",
+      "emoji": "🪵"
+    },
+    {
+      "id": "mt_w2",
+      "en": "metal",
+      "ar": "معدن",
+      "tr": "مِتَل",
+      "pos": "n",
+      "emoji": "🔩"
+    },
+    {
+      "id": "mt_w3",
+      "en": "iron",
+      "ar": "حديد",
+      "tr": "آيَرن",
+      "pos": "n",
+      "emoji": "⛓️"
+    },
+    {
+      "id": "mt_w4",
+      "en": "steel",
+      "ar": "فولاذ",
+      "tr": "ستيل",
+      "pos": "n",
+      "emoji": "🏗️"
+    },
+    {
+      "id": "mt_w5",
+      "en": "gold",
+      "ar": "ذهب",
+      "tr": "غولد",
+      "pos": "n",
+      "emoji": "🥇"
+    },
+    {
+      "id": "mt_w6",
+      "en": "silver",
+      "ar": "فضة",
+      "tr": "سِلڤَر",
+      "pos": "n",
+      "emoji": "🥈"
+    },
+    {
+      "id": "mt_w7",
+      "en": "glass",
+      "ar": "زجاج",
+      "tr": "غلاس",
+      "pos": "n",
+      "emoji": "🪟"
+    },
+    {
+      "id": "mt_w8",
+      "en": "plastic",
+      "ar": "بلاستيك",
+      "tr": "پلاستِك",
+      "pos": "n",
+      "emoji": "🧴"
+    },
+    {
+      "id": "mt_w9",
+      "en": "paper",
+      "ar": "ورق",
+      "tr": "پيپَر",
+      "pos": "n",
+      "emoji": "📄"
+    },
+    {
+      "id": "mt_w10",
+      "en": "cotton",
+      "ar": "قطن",
+      "tr": "كوتِن",
+      "pos": "n",
+      "emoji": "🌾"
+    },
+    {
+      "id": "mt_w11",
+      "en": "wool",
+      "ar": "صوف",
+      "tr": "وول",
+      "pos": "n",
+      "emoji": "🧶"
+    },
+    {
+      "id": "mt_w12",
+      "en": "silk",
+      "ar": "حرير",
+      "tr": "سِلك",
+      "pos": "n",
+      "emoji": "🧣"
+    },
+    {
+      "id": "mt_w13",
+      "en": "leather",
+      "ar": "جلد",
+      "tr": "لِذَر",
+      "pos": "n",
+      "emoji": "👞"
+    },
+    {
+      "id": "mt_w14",
+      "en": "stone",
+      "ar": "حجر",
+      "tr": "ستون",
+      "pos": "n",
+      "emoji": "🪨"
+    },
+    {
+      "id": "mt_w15",
+      "en": "brick",
+      "ar": "طوب",
+      "tr": "برِك",
+      "pos": "n",
+      "emoji": "🧱"
+    },
+    {
+      "id": "mt_w16",
+      "en": "cement",
+      "ar": "إسمنت",
+      "tr": "سِمِنت",
+      "pos": "n",
+      "emoji": "🏗️"
+    },
+    {
+      "id": "mt_w17",
+      "en": "sand",
+      "ar": "رمل",
+      "tr": "ساند",
+      "pos": "n",
+      "emoji": "🏖️"
+    },
+    {
+      "id": "mt_w18",
+      "en": "clay",
+      "ar": "طين",
+      "tr": "كليه",
+      "pos": "n",
+      "emoji": "🏺"
+    },
+    {
+      "id": "mt_w19",
+      "en": "rubber",
+      "ar": "مطاط",
+      "tr": "رَبَر",
+      "pos": "n",
+      "emoji": "🛞"
+    },
+    {
+      "id": "mt_w20",
+      "en": "cloth",
+      "ar": "قماش",
+      "tr": "كلوث",
+      "pos": "n",
+      "emoji": "🧵"
+    },
+    {
+      "id": "mt_w21",
+      "en": "soft",
+      "ar": "ناعم",
+      "tr": "سوفت",
+      "pos": "adj",
+      "emoji": "☁️"
+    },
+    {
+      "id": "mt_w22",
+      "en": "hard",
+      "ar": "صلب",
+      "tr": "هارد",
+      "pos": "adj",
+      "emoji": "🪨"
+    },
+    {
+      "id": "mt_w23",
+      "en": "smooth",
+      "ar": "أملس",
+      "tr": "سموذ",
+      "pos": "adj",
+      "emoji": "✨"
+    },
+    {
+      "id": "mt_w24",
+      "en": "rough",
+      "ar": "خشن",
+      "tr": "رَف",
+      "pos": "adj",
+      "emoji": "🪵"
+    },
+    {
+      "id": "mt_w25",
+      "en": "strong",
+      "ar": "متين",
+      "tr": "سترونغ",
+      "pos": "adj",
+      "emoji": "💪"
+    },
+    {
+      "id": "mt_w26",
+      "en": "thick",
+      "ar": "سميك",
+      "tr": "ثِك",
+      "pos": "adj",
+      "emoji": "📚"
+    },
+    {
+      "id": "mt_w27",
+      "en": "thin",
+      "ar": "رقيق",
+      "tr": "ثِن",
+      "pos": "adj",
+      "emoji": "📄"
+    },
+    {
+      "id": "mt_w28",
+      "en": "transparent",
+      "ar": "شفاف",
+      "tr": "ترانسپيرَنت",
+      "pos": "adj",
+      "emoji": "🔍"
+    },
+    {
+      "id": "mt_w29",
+      "en": "made of",
+      "ar": "مصنوع من",
+      "tr": "ميد أوڤ",
+      "pos": "phr",
+      "emoji": "🏭"
+    },
+    {
+      "id": "mt_w30",
+      "en": "quality",
+      "ar": "جودة",
+      "tr": "كوالِتي",
+      "pos": "n",
+      "emoji": "⭐"
+    },
+    {
+      "id": "mt_w31",
+      "en": "natural",
+      "ar": "طبيعي",
+      "tr": "ناتشَرَل",
+      "pos": "adj",
+      "emoji": "🌿"
+    },
+    {
+      "id": "mt_w32",
+      "en": "artificial",
+      "ar": "صناعي",
+      "tr": "آرتِفِشَل",
+      "pos": "adj",
+      "emoji": "🏭"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "mt_s1",
+      "en": "This table is made of wood.",
+      "ar": "هذه الطاولة مصنوعة من الخشب.",
+      "tr": "ذِس تيبِل إز ميد أوڤ وود"
+    },
+    {
+      "id": "mt_s2",
+      "en": "I prefer cotton shirts.",
+      "ar": "أفضّل القمصان القطنية.",
+      "tr": "آي پرِفير كوتِن شيرتس"
+    },
+    {
+      "id": "mt_s3",
+      "en": "Be careful, it is glass.",
+      "ar": "انتبه، إنه زجاج.",
+      "tr": "بي كيرفُل، إت إز غلاس"
+    },
+    {
+      "id": "mt_s4",
+      "en": "The bag is real leather.",
+      "ar": "الحقيبة جلد حقيقي.",
+      "tr": "ذَ باغ إز رِيَل لِذَر"
+    },
+    {
+      "id": "mt_s5",
+      "en": "This plastic is very thin.",
+      "ar": "هذا البلاستيك رقيق جداً.",
+      "tr": "ذِس پلاستِك إز ڤيري ثِن"
+    },
+    {
+      "id": "mt_s6",
+      "en": "The quality is very good.",
+      "ar": "الجودة ممتازة.",
+      "tr": "ذَ كوالِتي إز ڤيري غُود"
+    },
+    {
+      "id": "mt_s7",
+      "en": "The house is built of stone.",
+      "ar": "البيت مبني من الحجر.",
+      "tr": "ذَ هاوس إز بِلت أوڤ ستون"
+    },
+    {
+      "id": "mt_s8",
+      "en": "Wool is warm in winter.",
+      "ar": "الصوف دافئ في الشتاء.",
+      "tr": "وول إز وورم إن وِنتَر"
+    }
+  ]
+}

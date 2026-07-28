@@ -1,0 +1,378 @@
+{
+  "id": "university",
+  "title": {
+    "ar": "الدراسة الجامعية",
+    "en": "College & Study"
+  },
+  "icon": "🎓",
+  "level": 4,
+  "color": "brand",
+  "words": [
+    {
+      "id": "un_w1",
+      "en": "university",
+      "ar": "جامعة",
+      "tr": "يونِڤيرسِتي",
+      "pos": "n",
+      "emoji": "🎓"
+    },
+    {
+      "id": "un_w2",
+      "en": "college",
+      "ar": "كلية",
+      "tr": "كولِج",
+      "pos": "n",
+      "emoji": "🏛️"
+    },
+    {
+      "id": "un_w3",
+      "en": "course",
+      "ar": "مساق / دورة",
+      "tr": "كورس",
+      "pos": "n",
+      "emoji": "📘"
+    },
+    {
+      "id": "un_w4",
+      "en": "subject",
+      "ar": "مادة دراسية",
+      "tr": "سَبجِكت",
+      "pos": "n",
+      "emoji": "📗"
+    },
+    {
+      "id": "un_w5",
+      "en": "lecture",
+      "ar": "محاضرة",
+      "tr": "لِكتشَر",
+      "pos": "n",
+      "emoji": "🎤"
+    },
+    {
+      "id": "un_w6",
+      "en": "professor",
+      "ar": "أستاذ جامعي",
+      "tr": "پرُوفِسَر",
+      "pos": "n",
+      "emoji": "👨‍🏫"
+    },
+    {
+      "id": "un_w7",
+      "en": "classmate",
+      "ar": "زميل دراسة",
+      "tr": "كلاسميت",
+      "pos": "n",
+      "emoji": "🧑‍🤝‍🧑"
+    },
+    {
+      "id": "un_w8",
+      "en": "semester",
+      "ar": "فصل دراسي",
+      "tr": "سِمِستَر",
+      "pos": "n",
+      "emoji": "📅"
+    },
+    {
+      "id": "un_w9",
+      "en": "degree",
+      "ar": "شهادة جامعية",
+      "tr": "دِغري",
+      "pos": "n",
+      "emoji": "📜"
+    },
+    {
+      "id": "un_w10",
+      "en": "certificate",
+      "ar": "شهادة",
+      "tr": "سِرتِفِكِت",
+      "pos": "n",
+      "emoji": "🧾"
+    },
+    {
+      "id": "un_w11",
+      "en": "research",
+      "ar": "بحث",
+      "tr": "رِسيرتش",
+      "pos": "n",
+      "emoji": "🔬"
+    },
+    {
+      "id": "un_w12",
+      "en": "project",
+      "ar": "مشروع",
+      "tr": "پروجِكت",
+      "pos": "n",
+      "emoji": "🗂️"
+    },
+    {
+      "id": "un_w13",
+      "en": "essay",
+      "ar": "مقال",
+      "tr": "إسيه",
+      "pos": "n",
+      "emoji": "📝"
+    },
+    {
+      "id": "un_w14",
+      "en": "notes",
+      "ar": "ملاحظات",
+      "tr": "نوتس",
+      "pos": "n",
+      "emoji": "🗒️"
+    },
+    {
+      "id": "un_w15",
+      "en": "library",
+      "ar": "مكتبة",
+      "tr": "لايبرَري",
+      "pos": "n",
+      "emoji": "📚"
+    },
+    {
+      "id": "un_w16",
+      "en": "borrow",
+      "ar": "يستعير",
+      "tr": "بورو",
+      "pos": "v",
+      "emoji": "🤲"
+    },
+    {
+      "id": "un_w17",
+      "en": "return",
+      "ar": "يُعيد",
+      "tr": "رِتيرن",
+      "pos": "v",
+      "emoji": "↩️"
+    },
+    {
+      "id": "un_w18",
+      "en": "deadline",
+      "ar": "موعد التسليم",
+      "tr": "دِدلاين",
+      "pos": "n",
+      "emoji": "⏰"
+    },
+    {
+      "id": "un_w19",
+      "en": "pass",
+      "ar": "ينجح",
+      "tr": "پاس",
+      "pos": "v",
+      "emoji": "✅"
+    },
+    {
+      "id": "un_w20",
+      "en": "fail",
+      "ar": "يرسب",
+      "tr": "فيل",
+      "pos": "v",
+      "emoji": "❌"
+    },
+    {
+      "id": "un_w21",
+      "en": "mark / grade",
+      "ar": "درجة",
+      "tr": "مارك",
+      "pos": "n",
+      "emoji": "💯"
+    },
+    {
+      "id": "un_w22",
+      "en": "result",
+      "ar": "نتيجة",
+      "tr": "رِزَلت",
+      "pos": "n",
+      "emoji": "📊"
+    },
+    {
+      "id": "un_w23",
+      "en": "revise",
+      "ar": "يراجع",
+      "tr": "رِڤايز",
+      "pos": "v",
+      "emoji": "🔁"
+    },
+    {
+      "id": "un_w24",
+      "en": "memorize",
+      "ar": "يحفظ",
+      "tr": "مِمَرايز",
+      "pos": "v",
+      "emoji": "🧠"
+    },
+    {
+      "id": "un_w25",
+      "en": "concentrate",
+      "ar": "يركّز",
+      "tr": "كونسِنتريت",
+      "pos": "v",
+      "emoji": "🎯"
+    },
+    {
+      "id": "un_w26",
+      "en": "understand",
+      "ar": "يفهم",
+      "tr": "أندَرستاند",
+      "pos": "v",
+      "emoji": "💡"
+    },
+    {
+      "id": "un_w27",
+      "en": "explain",
+      "ar": "يشرح",
+      "tr": "إكسپلين",
+      "pos": "v",
+      "emoji": "🗣️"
+    },
+    {
+      "id": "un_w28",
+      "en": "ask a question",
+      "ar": "يطرح سؤالاً",
+      "tr": "آسك إيه كوِستشِن",
+      "pos": "phr",
+      "emoji": "🙋"
+    },
+    {
+      "id": "un_w29",
+      "en": "group work",
+      "ar": "عمل جماعي",
+      "tr": "غروپ وِرك",
+      "pos": "phr",
+      "emoji": "👥"
+    },
+    {
+      "id": "un_w30",
+      "en": "presentation",
+      "ar": "عرض تقديمي",
+      "tr": "پرِزِنتيشِن",
+      "pos": "n",
+      "emoji": "📽️"
+    },
+    {
+      "id": "un_w31",
+      "en": "scholarship",
+      "ar": "منحة دراسية",
+      "tr": "سكولَرشِپ",
+      "pos": "n",
+      "emoji": "🎖️"
+    },
+    {
+      "id": "un_w32",
+      "en": "fees",
+      "ar": "رسوم دراسية",
+      "tr": "فيز",
+      "pos": "n",
+      "emoji": "💰"
+    },
+    {
+      "id": "un_w33",
+      "en": "register",
+      "ar": "يسجّل",
+      "tr": "رِجِستَر",
+      "pos": "v",
+      "emoji": "✍️"
+    },
+    {
+      "id": "un_w34",
+      "en": "attend",
+      "ar": "يحضر",
+      "tr": "أتِند",
+      "pos": "v",
+      "emoji": "🚪"
+    },
+    {
+      "id": "un_w35",
+      "en": "absent",
+      "ar": "غائب",
+      "tr": "آبسِنت",
+      "pos": "adj",
+      "emoji": "🚫"
+    },
+    {
+      "id": "un_w36",
+      "en": "difficult subject",
+      "ar": "مادة صعبة",
+      "tr": "دِفِكَلت سَبجِكت",
+      "pos": "phr",
+      "emoji": "😰"
+    },
+    {
+      "id": "un_w37",
+      "en": "study hard",
+      "ar": "يدرس بجد",
+      "tr": "ستَدي هارد",
+      "pos": "phr",
+      "emoji": "📖"
+    },
+    {
+      "id": "un_w38",
+      "en": "graduate",
+      "ar": "يتخرّج",
+      "tr": "غراجُويت",
+      "pos": "v",
+      "emoji": "🎓"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "un_s1",
+      "en": "I study at the university.",
+      "ar": "أدرس في الجامعة.",
+      "tr": "آي ستَدي آت ذَ يونِڤيرسِتي"
+    },
+    {
+      "id": "un_s2",
+      "en": "The lecture starts at nine.",
+      "ar": "المحاضرة تبدأ في التاسعة.",
+      "tr": "ذَ لِكتشَر ستارتس آت ناين"
+    },
+    {
+      "id": "un_s3",
+      "en": "I have an essay to finish.",
+      "ar": "لدي مقال يجب أن أنهيه.",
+      "tr": "آي هاڤ آن إسيه تو فِنِش"
+    },
+    {
+      "id": "un_s4",
+      "en": "Can I borrow your notes?",
+      "ar": "هل يمكنني استعارة ملاحظاتك؟",
+      "tr": "كان آي بورو يور نوتس"
+    },
+    {
+      "id": "un_s5",
+      "en": "The deadline is on Sunday.",
+      "ar": "موعد التسليم يوم الأحد.",
+      "tr": "ذَ دِدلاين إز أون سَنديه"
+    },
+    {
+      "id": "un_s6",
+      "en": "I passed all my subjects.",
+      "ar": "نجحت في كل موادي.",
+      "tr": "آي پاست أول ماي سَبجِكتس"
+    },
+    {
+      "id": "un_s7",
+      "en": "This subject is difficult for me.",
+      "ar": "هذه المادة صعبة عليّ.",
+      "tr": "ذِس سَبجِكت إز دِفِكَلت فور مي"
+    },
+    {
+      "id": "un_s8",
+      "en": "I want to graduate next year.",
+      "ar": "أريد التخرج العام القادم.",
+      "tr": "آي وانت تو غراجُويت نِكست يِير"
+    },
+    {
+      "id": "un_s9",
+      "en": "Could you explain that again?",
+      "ar": "هل يمكنك شرح ذلك مرة أخرى؟",
+      "tr": "كود يو إكسپلين ذات أغين"
+    },
+    {
+      "id": "un_s10",
+      "en": "I study better in the library.",
+      "ar": "أدرس بشكل أفضل في المكتبة.",
+      "tr": "آي ستَدي بِتَر إن ذَ لايبرَري"
+    }
+  ]
+}

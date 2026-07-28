@@ -1,0 +1,318 @@
+{
+  "id": "environment",
+  "title": {
+    "ar": "البيئة والحياة",
+    "en": "Environment"
+  },
+  "icon": "🌱",
+  "level": 4,
+  "color": "mint",
+  "words": [
+    {
+      "id": "ev_w1",
+      "en": "environment",
+      "ar": "بيئة",
+      "tr": "إنڤايرَنمِنت",
+      "pos": "n",
+      "emoji": "🌍"
+    },
+    {
+      "id": "ev_w2",
+      "en": "nature",
+      "ar": "طبيعة",
+      "tr": "نيتشَر",
+      "pos": "n",
+      "emoji": "🌿"
+    },
+    {
+      "id": "ev_w3",
+      "en": "pollution",
+      "ar": "تلوّث",
+      "tr": "پَلوشِن",
+      "pos": "n",
+      "emoji": "🏭"
+    },
+    {
+      "id": "ev_w4",
+      "en": "clean air",
+      "ar": "هواء نظيف",
+      "tr": "كلين إير",
+      "pos": "phr",
+      "emoji": "💨"
+    },
+    {
+      "id": "ev_w5",
+      "en": "rubbish / waste",
+      "ar": "نفايات",
+      "tr": "ويست",
+      "pos": "n",
+      "emoji": "🗑️"
+    },
+    {
+      "id": "ev_w6",
+      "en": "recycle",
+      "ar": "يعيد التدوير",
+      "tr": "ريسايكِل",
+      "pos": "v",
+      "emoji": "♻️"
+    },
+    {
+      "id": "ev_w7",
+      "en": "plastic bag",
+      "ar": "كيس بلاستيك",
+      "tr": "پلاستِك باغ",
+      "pos": "n",
+      "emoji": "🛍️"
+    },
+    {
+      "id": "ev_w8",
+      "en": "save water",
+      "ar": "يوفّر الماء",
+      "tr": "سيڤ ووتَر",
+      "pos": "phr",
+      "emoji": "💧"
+    },
+    {
+      "id": "ev_w9",
+      "en": "electricity",
+      "ar": "كهرباء",
+      "tr": "إلِكترِسِتي",
+      "pos": "n",
+      "emoji": "⚡"
+    },
+    {
+      "id": "ev_w10",
+      "en": "energy",
+      "ar": "طاقة",
+      "tr": "إنَرجي",
+      "pos": "n",
+      "emoji": "🔋"
+    },
+    {
+      "id": "ev_w11",
+      "en": "solar",
+      "ar": "شمسي",
+      "tr": "سولَر",
+      "pos": "adj",
+      "emoji": "☀️"
+    },
+    {
+      "id": "ev_w12",
+      "en": "forest",
+      "ar": "غابة",
+      "tr": "فورِست",
+      "pos": "n",
+      "emoji": "🌳"
+    },
+    {
+      "id": "ev_w13",
+      "en": "plant",
+      "ar": "نبتة / يزرع",
+      "tr": "پلانت",
+      "pos": "n",
+      "emoji": "🌱"
+    },
+    {
+      "id": "ev_w14",
+      "en": "grow",
+      "ar": "ينمو / يزرع",
+      "tr": "غرو",
+      "pos": "v",
+      "emoji": "🌾"
+    },
+    {
+      "id": "ev_w15",
+      "en": "garden",
+      "ar": "حديقة",
+      "tr": "غاردِن",
+      "pos": "n",
+      "emoji": "🏡"
+    },
+    {
+      "id": "ev_w16",
+      "en": "farm",
+      "ar": "مزرعة",
+      "tr": "فارم",
+      "pos": "n",
+      "emoji": "🚜"
+    },
+    {
+      "id": "ev_w17",
+      "en": "crops",
+      "ar": "محاصيل",
+      "tr": "كروپس",
+      "pos": "n",
+      "emoji": "🌾"
+    },
+    {
+      "id": "ev_w18",
+      "en": "harvest",
+      "ar": "حصاد",
+      "tr": "هارڤِست",
+      "pos": "n",
+      "emoji": "🌽"
+    },
+    {
+      "id": "ev_w19",
+      "en": "climate",
+      "ar": "مناخ",
+      "tr": "كلايمِت",
+      "pos": "n",
+      "emoji": "🌡️"
+    },
+    {
+      "id": "ev_w20",
+      "en": "drought",
+      "ar": "جفاف",
+      "tr": "دراوت",
+      "pos": "n",
+      "emoji": "🏜️"
+    },
+    {
+      "id": "ev_w21",
+      "en": "flood",
+      "ar": "فيضان",
+      "tr": "فلَد",
+      "pos": "n",
+      "emoji": "🌊"
+    },
+    {
+      "id": "ev_w22",
+      "en": "earthquake",
+      "ar": "زلزال",
+      "tr": "إيرثكويك",
+      "pos": "n",
+      "emoji": "🫨"
+    },
+    {
+      "id": "ev_w23",
+      "en": "protect",
+      "ar": "يحمي",
+      "tr": "پرُوتِكت",
+      "pos": "v",
+      "emoji": "🛡️"
+    },
+    {
+      "id": "ev_w24",
+      "en": "damage",
+      "ar": "ضرر / يضر",
+      "tr": "دامِج",
+      "pos": "n",
+      "emoji": "💥"
+    },
+    {
+      "id": "ev_w25",
+      "en": "danger",
+      "ar": "خطر",
+      "tr": "دينجَر",
+      "pos": "n",
+      "emoji": "⚠️"
+    },
+    {
+      "id": "ev_w26",
+      "en": "healthy",
+      "ar": "صحي",
+      "tr": "هِلثي",
+      "pos": "adj",
+      "emoji": "💚"
+    },
+    {
+      "id": "ev_w27",
+      "en": "fresh air",
+      "ar": "هواء منعش",
+      "tr": "فرِش إير",
+      "pos": "phr",
+      "emoji": "🍃"
+    },
+    {
+      "id": "ev_w28",
+      "en": "noise",
+      "ar": "ضجيج",
+      "tr": "نويز",
+      "pos": "n",
+      "emoji": "🔊"
+    },
+    {
+      "id": "ev_w29",
+      "en": "quiet place",
+      "ar": "مكان هادئ",
+      "tr": "كوايَت پليس",
+      "pos": "phr",
+      "emoji": "🤫"
+    },
+    {
+      "id": "ev_w30",
+      "en": "world",
+      "ar": "العالم",
+      "tr": "وِرلد",
+      "pos": "n",
+      "emoji": "🌐"
+    },
+    {
+      "id": "ev_w31",
+      "en": "future",
+      "ar": "المستقبل",
+      "tr": "فيوتشَر",
+      "pos": "n",
+      "emoji": "🔮"
+    },
+    {
+      "id": "ev_w32",
+      "en": "responsible",
+      "ar": "مسؤول",
+      "tr": "رِسپونسِبِل",
+      "pos": "adj",
+      "emoji": "🙋"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ev_s1",
+      "en": "We must protect the environment.",
+      "ar": "يجب أن نحمي البيئة.",
+      "tr": "وي مَست پرُوتِكت ذي إنڤايرَنمِنت"
+    },
+    {
+      "id": "ev_s2",
+      "en": "Please don't throw rubbish here.",
+      "ar": "من فضلك لا ترمِ النفايات هنا.",
+      "tr": "پليز دونت ثرو رَبِش هير"
+    },
+    {
+      "id": "ev_s3",
+      "en": "The air is cleaner in the village.",
+      "ar": "الهواء أنظف في القرية.",
+      "tr": "ذي إير إز كلينَر إن ذَ ڤِلِج"
+    },
+    {
+      "id": "ev_s4",
+      "en": "We should save water.",
+      "ar": "يجب أن نوفّر الماء.",
+      "tr": "وي شود سيڤ ووتَر"
+    },
+    {
+      "id": "ev_s5",
+      "en": "I planted a tree in the garden.",
+      "ar": "زرعت شجرة في الحديقة.",
+      "tr": "آي پلانتِد إيه تري إن ذَ غاردِن"
+    },
+    {
+      "id": "ev_s6",
+      "en": "Pollution is a big problem.",
+      "ar": "التلوث مشكلة كبيرة.",
+      "tr": "پَلوشِن إز إيه بِغ پروبلِم"
+    },
+    {
+      "id": "ev_s7",
+      "en": "This bag can be recycled.",
+      "ar": "هذا الكيس يمكن إعادة تدويره.",
+      "tr": "ذِس باغ كان بي ريسايكِلد"
+    },
+    {
+      "id": "ev_s8",
+      "en": "I love walking in nature.",
+      "ar": "أحب المشي في الطبيعة.",
+      "tr": "آي لَڤ ووكِنغ إن نيتشَر"
+    }
+  ]
+}

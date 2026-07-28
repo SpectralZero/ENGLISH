@@ -1,0 +1,378 @@
+{
+  "id": "quantities",
+  "title": {
+    "ar": "الكميات والعبوات",
+    "en": "Quantities & Containers"
+  },
+  "icon": "⚖️",
+  "level": 2,
+  "color": "amber",
+  "words": [
+    {
+      "id": "qt_w1",
+      "en": "a lot of",
+      "ar": "كثير من",
+      "tr": "إيه لوت أوڤ",
+      "pos": "phr",
+      "emoji": "➕"
+    },
+    {
+      "id": "qt_w2",
+      "en": "a little",
+      "ar": "قليل",
+      "tr": "إيه لِتِل",
+      "pos": "phr",
+      "emoji": "➖"
+    },
+    {
+      "id": "qt_w3",
+      "en": "some",
+      "ar": "بعض",
+      "tr": "سَم",
+      "pos": "adj",
+      "emoji": "🤏"
+    },
+    {
+      "id": "qt_w4",
+      "en": "enough",
+      "ar": "كافٍ",
+      "tr": "إينَف",
+      "pos": "adj",
+      "emoji": "✅"
+    },
+    {
+      "id": "qt_w5",
+      "en": "too much",
+      "ar": "أكثر من اللازم",
+      "tr": "تو مَتش",
+      "pos": "phr",
+      "emoji": "⚠️"
+    },
+    {
+      "id": "qt_w6",
+      "en": "a few",
+      "ar": "قليل (للعدد)",
+      "tr": "إيه فيو",
+      "pos": "phr",
+      "emoji": "🔢"
+    },
+    {
+      "id": "qt_w7",
+      "en": "half",
+      "ar": "نصف",
+      "tr": "هاف",
+      "pos": "n",
+      "emoji": "½"
+    },
+    {
+      "id": "qt_w8",
+      "en": "quarter",
+      "ar": "ربع",
+      "tr": "كوورتَر",
+      "pos": "n",
+      "emoji": "¼"
+    },
+    {
+      "id": "qt_w9",
+      "en": "piece",
+      "ar": "قطعة",
+      "tr": "پيس",
+      "pos": "n",
+      "emoji": "🍰"
+    },
+    {
+      "id": "qt_w10",
+      "en": "slice",
+      "ar": "شريحة",
+      "tr": "سلايس",
+      "pos": "n",
+      "emoji": "🍞"
+    },
+    {
+      "id": "qt_w11",
+      "en": "bottle",
+      "ar": "زجاجة",
+      "tr": "بوتِل",
+      "pos": "n",
+      "emoji": "🍾"
+    },
+    {
+      "id": "qt_w12",
+      "en": "can",
+      "ar": "علبة معدنية",
+      "tr": "كان",
+      "pos": "n",
+      "emoji": "🥫"
+    },
+    {
+      "id": "qt_w13",
+      "en": "packet",
+      "ar": "علبة / كيس",
+      "tr": "پاكِت",
+      "pos": "n",
+      "emoji": "📦"
+    },
+    {
+      "id": "qt_w14",
+      "en": "jar",
+      "ar": "برطمان",
+      "tr": "جار",
+      "pos": "n",
+      "emoji": "🫙"
+    },
+    {
+      "id": "qt_w15",
+      "en": "bag",
+      "ar": "كيس",
+      "tr": "باغ",
+      "pos": "n",
+      "emoji": "🛍️"
+    },
+    {
+      "id": "qt_w16",
+      "en": "box",
+      "ar": "صندوق",
+      "tr": "بوكس",
+      "pos": "n",
+      "emoji": "📦"
+    },
+    {
+      "id": "qt_w17",
+      "en": "cup",
+      "ar": "كوب",
+      "tr": "كَپ",
+      "pos": "n",
+      "emoji": "☕"
+    },
+    {
+      "id": "qt_w18",
+      "en": "spoonful",
+      "ar": "ملء ملعقة",
+      "tr": "سپونفُل",
+      "pos": "n",
+      "emoji": "🥄"
+    },
+    {
+      "id": "qt_w19",
+      "en": "kilo",
+      "ar": "كيلو",
+      "tr": "كيلو",
+      "pos": "n",
+      "emoji": "⚖️"
+    },
+    {
+      "id": "qt_w20",
+      "en": "gram",
+      "ar": "غرام",
+      "tr": "غرام",
+      "pos": "n",
+      "emoji": "⚖️"
+    },
+    {
+      "id": "qt_w21",
+      "en": "litre",
+      "ar": "لتر",
+      "tr": "ليتَر",
+      "pos": "n",
+      "emoji": "🧴"
+    },
+    {
+      "id": "qt_w22",
+      "en": "metre",
+      "ar": "متر",
+      "tr": "ميتَر",
+      "pos": "n",
+      "emoji": "📏"
+    },
+    {
+      "id": "qt_w23",
+      "en": "dozen",
+      "ar": "دزينة",
+      "tr": "دَزِن",
+      "pos": "n",
+      "emoji": "🥚"
+    },
+    {
+      "id": "qt_w24",
+      "en": "pair",
+      "ar": "زوج",
+      "tr": "پير",
+      "pos": "n",
+      "emoji": "🧦"
+    },
+    {
+      "id": "qt_w25",
+      "en": "empty",
+      "ar": "فارغ",
+      "tr": "إمپتي",
+      "pos": "adj",
+      "emoji": "📭"
+    },
+    {
+      "id": "qt_w26",
+      "en": "full",
+      "ar": "ممتلئ",
+      "tr": "فُل",
+      "pos": "adj",
+      "emoji": "🥛"
+    },
+    {
+      "id": "qt_w27",
+      "en": "more",
+      "ar": "أكثر",
+      "tr": "مور",
+      "pos": "adj",
+      "emoji": "⬆️"
+    },
+    {
+      "id": "qt_w28",
+      "en": "less",
+      "ar": "أقل",
+      "tr": "لِس",
+      "pos": "adj",
+      "emoji": "⬇️"
+    },
+    {
+      "id": "qt_w29",
+      "en": "weigh",
+      "ar": "يزن",
+      "tr": "ويه",
+      "pos": "v",
+      "emoji": "⚖️"
+    },
+    {
+      "id": "qt_w30",
+      "en": "count",
+      "ar": "يعد",
+      "tr": "كاونت",
+      "pos": "v",
+      "emoji": "🔢"
+    },
+    {
+      "id": "qt_w31",
+      "en": "each",
+      "ar": "لكل واحد",
+      "tr": "إيتش",
+      "pos": "adj",
+      "emoji": "1️⃣"
+    },
+    {
+      "id": "qt_w32",
+      "en": "both",
+      "ar": "كلاهما",
+      "tr": "بوث",
+      "pos": "adj",
+      "emoji": "✌️"
+    },
+    {
+      "id": "qt_w33",
+      "en": "all",
+      "ar": "الكل",
+      "tr": "أول",
+      "pos": "adj",
+      "emoji": "💯"
+    },
+    {
+      "id": "qt_w34",
+      "en": "none",
+      "ar": "لا شيء",
+      "tr": "نَن",
+      "pos": "adj",
+      "emoji": "0️⃣"
+    },
+    {
+      "id": "qt_w35",
+      "en": "double",
+      "ar": "ضعف",
+      "tr": "دَبِل",
+      "pos": "adj",
+      "emoji": "2️⃣"
+    },
+    {
+      "id": "qt_w36",
+      "en": "size",
+      "ar": "حجم",
+      "tr": "سايز",
+      "pos": "n",
+      "emoji": "📐"
+    },
+    {
+      "id": "qt_w37",
+      "en": "heavy",
+      "ar": "ثقيل",
+      "tr": "هيڤي",
+      "pos": "adj",
+      "emoji": "🏋️"
+    },
+    {
+      "id": "qt_w38",
+      "en": "light",
+      "ar": "خفيف",
+      "tr": "لايت",
+      "pos": "adj",
+      "emoji": "🪶"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "qt_s1",
+      "en": "I need a bottle of water.",
+      "ar": "أحتاج زجاجة ماء.",
+      "tr": "آي نيد إيه بوتِل أوڤ ووتَر"
+    },
+    {
+      "id": "qt_s2",
+      "en": "Give me half a kilo, please.",
+      "ar": "أعطني نصف كيلو من فضلك.",
+      "tr": "غِڤ مي هاف إيه كيلو، پليز"
+    },
+    {
+      "id": "qt_s3",
+      "en": "That is too much sugar.",
+      "ar": "هذا سكر أكثر من اللازم.",
+      "tr": "ذات إز تو مَتش شُوغَر"
+    },
+    {
+      "id": "qt_s4",
+      "en": "We have enough bread for today.",
+      "ar": "لدينا خبز كافٍ لليوم.",
+      "tr": "وي هاڤ إينَف برِد فور تُوديه"
+    },
+    {
+      "id": "qt_s5",
+      "en": "I bought a packet of rice.",
+      "ar": "اشتريت كيس أرز.",
+      "tr": "آي بوت إيه پاكِت أوڤ رايس"
+    },
+    {
+      "id": "qt_s6",
+      "en": "How much does it weigh?",
+      "ar": "كم يزن؟",
+      "tr": "هاو مَتش دَز إت ويه"
+    },
+    {
+      "id": "qt_s7",
+      "en": "I want two pieces only.",
+      "ar": "أريد قطعتين فقط.",
+      "tr": "آي وانت تو پيسِز أونلي"
+    },
+    {
+      "id": "qt_s8",
+      "en": "The bottle is empty.",
+      "ar": "الزجاجة فارغة.",
+      "tr": "ذَ بوتِل إز إمپتي"
+    },
+    {
+      "id": "qt_s9",
+      "en": "Can I have a little more?",
+      "ar": "هل يمكنني الحصول على المزيد قليلاً؟",
+      "tr": "كان آي هاڤ إيه لِتِل مور"
+    },
+    {
+      "id": "qt_s10",
+      "en": "They cost five each.",
+      "ar": "ثمن الواحدة خمسة.",
+      "tr": "ذيه كوست فايڤ إيتش"
+    }
+  ]
+}

@@ -11,8 +11,15 @@ import { speak, spell as spellOut, unlock } from '../tts.js';
 import { go, back } from '../router.js';
 
 const LEN = 10;
+const EXAM_LEN = 20;      // امتحان — twice as long, every question type
 
 /* -------------------------------------------------- pool selection */
+/** Units belonging to a `level-N` target. */
+function unitsOfLevel(unitId) {
+  const lv = Number(unitId.slice('level-'.length));
+  return store.units.filter(u => u.level === lv);
+}
+
 function poolFor(unitId) {
   if (unitId === 'all') {
     const seen = store.words.filter(w => !isNew(w.id));
@@ -23,6 +30,7 @@ function poolFor(unitId) {
     const weak = store.words.filter(w => ids.has(w.id));
     return weak.length >= 4 ? weak : store.words.filter(w => !isNew(w.id));
   }
+  if (unitId.startsWith('level-')) return unitsOfLevel(unitId).flatMap(u => u.words);
   return store.unitById.get(unitId)?.words || [];
 }
 
@@ -30,7 +38,9 @@ function poolFor(unitId) {
 function sentencePool(unitId, max = 9) {
   const all = unitId === 'all' || unitId === 'weak'
     ? store.sentences
-    : (store.unitById.get(unitId)?.sentences || []);
+    : unitId.startsWith('level-')
+      ? unitsOfLevel(unitId).flatMap(u => u.sentences)
+      : (store.unitById.get(unitId)?.sentences || []);
   return all.filter(s => {
     const n = s.en.split(/\s+/).length;
     return n >= 3 && n <= max;
@@ -49,36 +59,40 @@ const WORD_TYPES = {
   listen: ['listen'],
   spell:  ['spell', 'tiles'],
   mix:    ['mcq_en_ar', 'mcq_ar_en', 'listen', 'tiles', 'spell'],
+  exam:   ['mcq_en_ar', 'mcq_ar_en', 'listen', 'spell', 'tiles', 'mcq_en_ar', 'listen'],
 };
 
 /* -------------------------------------------------- question builder */
 function buildQuestions(unitId, mode) {
   const words = poolFor(unitId);
   const sents = sentencePool(unitId);
+  const total = mode === 'exam' ? EXAM_LEN : LEN;
 
   /* sentence-only modes */
   if (mode === 'order' || mode === 'blank' || mode === 'sentences') {
     if (!sents.length) return [];
     const types = mode === 'sentences' ? ['order', 'blank', 's_listen'] : [mode];
-    const chosen = pickAdaptive(sents, Math.min(LEN, sents.length));
+    const chosen = pickAdaptive(sents, Math.min(total, sents.length));
     return shuffle(chosen.map((s, i) => makeSentence(s, types[i % types.length])).filter(Boolean));
   }
 
   if (!words.length) return [];
-  const types = WORD_TYPES[mode] || WORD_TYPES.mcq;
-  const wordCount = mode === 'mix' && sents.length >= 3 ? LEN - 3 : LEN;
+  const types = WORD_TYPES[mode] || WORD_TYPES.mix;
+  /* an exam leans harder on sentences than a quick quiz does */
+  const sentenceShare = mode === 'exam' ? 6 : 3;
+  const withSentences = (mode === 'mix' || mode === 'exam') && sents.length >= sentenceShare;
+  const wordCount = withSentences ? total - sentenceShare : total;
   const chosen = pickAdaptive(words, Math.min(wordCount, words.length));
   const qs = chosen.map((w, i) => makeWord(w, types[i % types.length]));
 
-  /* a mixed test always ends up with a few sentence questions too */
-  if (mode === 'mix' && sents.length >= 3) {
+  if (withSentences) {
     const sTypes = ['order', 'blank', 's_listen'];
-    pickAdaptive(sents, 3).forEach((s, i) => {
+    pickAdaptive(sents, sentenceShare).forEach((s, i) => {
       const q = makeSentence(s, sTypes[i % sTypes.length]);
       if (q) qs.push(q);
     });
   }
-  return shuffle(qs).slice(0, LEN);
+  return shuffle(qs).slice(0, total);
 }
 
 function makeWord(w, type) {

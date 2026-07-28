@@ -1,0 +1,346 @@
+{
+  "id": "occasions",
+  "title": {
+    "ar": "المناسبات والأعياد",
+    "en": "Occasions & Celebrations"
+  },
+  "icon": "🎉",
+  "level": 3,
+  "color": "rose",
+  "words": [
+    {
+      "id": "oc_w1",
+      "en": "celebration",
+      "ar": "احتفال",
+      "tr": "سِلِبريشِن",
+      "pos": "n",
+      "emoji": "🎉"
+    },
+    {
+      "id": "oc_w2",
+      "en": "party",
+      "ar": "حفلة",
+      "tr": "پارتي",
+      "pos": "n",
+      "emoji": "🥳"
+    },
+    {
+      "id": "oc_w3",
+      "en": "wedding",
+      "ar": "زفاف",
+      "tr": "وِدِنغ",
+      "pos": "n",
+      "emoji": "💒"
+    },
+    {
+      "id": "oc_w4",
+      "en": "birthday",
+      "ar": "عيد ميلاد",
+      "tr": "بيرثديه",
+      "pos": "n",
+      "emoji": "🎂"
+    },
+    {
+      "id": "oc_w5",
+      "en": "gift",
+      "ar": "هدية",
+      "tr": "غِفت",
+      "pos": "n",
+      "emoji": "🎁"
+    },
+    {
+      "id": "oc_w6",
+      "en": "invitation",
+      "ar": "دعوة",
+      "tr": "إنڤِتيشِن",
+      "pos": "n",
+      "emoji": "✉️"
+    },
+    {
+      "id": "oc_w7",
+      "en": "guest",
+      "ar": "ضيف",
+      "tr": "غِست",
+      "pos": "n",
+      "emoji": "🧑"
+    },
+    {
+      "id": "oc_w8",
+      "en": "host",
+      "ar": "مضيف",
+      "tr": "هوست",
+      "pos": "n",
+      "emoji": "🏠"
+    },
+    {
+      "id": "oc_w9",
+      "en": "congratulations",
+      "ar": "مبروك",
+      "tr": "كَنغراتشُوليشِنز",
+      "pos": "interj",
+      "emoji": "🎊"
+    },
+    {
+      "id": "oc_w10",
+      "en": "happy holiday",
+      "ar": "عيد سعيد",
+      "tr": "هابي هولِديه",
+      "pos": "phr",
+      "emoji": "🌙"
+    },
+    {
+      "id": "oc_w11",
+      "en": "Ramadan",
+      "ar": "رمضان",
+      "tr": "رَمَضان",
+      "pos": "n",
+      "emoji": "🌙"
+    },
+    {
+      "id": "oc_w12",
+      "en": "fasting",
+      "ar": "صيام",
+      "tr": "فاستِنغ",
+      "pos": "n",
+      "emoji": "🕌"
+    },
+    {
+      "id": "oc_w13",
+      "en": "iftar",
+      "ar": "إفطار الصائم",
+      "tr": "إفطار",
+      "pos": "n",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "oc_w14",
+      "en": "Eid",
+      "ar": "العيد",
+      "tr": "عيد",
+      "pos": "n",
+      "emoji": "🎆"
+    },
+    {
+      "id": "oc_w15",
+      "en": "prayer",
+      "ar": "صلاة",
+      "tr": "پريَر",
+      "pos": "n",
+      "emoji": "🤲"
+    },
+    {
+      "id": "oc_w16",
+      "en": "mosque",
+      "ar": "مسجد",
+      "tr": "موسك",
+      "pos": "n",
+      "emoji": "🕌"
+    },
+    {
+      "id": "oc_w17",
+      "en": "funeral",
+      "ar": "جنازة",
+      "tr": "فيونَرَل",
+      "pos": "n",
+      "emoji": "🖤"
+    },
+    {
+      "id": "oc_w18",
+      "en": "condolences",
+      "ar": "تعازي",
+      "tr": "كَندولَنسِز",
+      "pos": "n",
+      "emoji": "🤍"
+    },
+    {
+      "id": "oc_w19",
+      "en": "anniversary",
+      "ar": "ذكرى سنوية",
+      "tr": "آنِڤيرسَري",
+      "pos": "n",
+      "emoji": "💐"
+    },
+    {
+      "id": "oc_w20",
+      "en": "graduation",
+      "ar": "تخرّج",
+      "tr": "غراجُويشِن",
+      "pos": "n",
+      "emoji": "🎓"
+    },
+    {
+      "id": "oc_w21",
+      "en": "new year",
+      "ar": "رأس السنة",
+      "tr": "نيو يِير",
+      "pos": "n",
+      "emoji": "🎆"
+    },
+    {
+      "id": "oc_w22",
+      "en": "holiday",
+      "ar": "عطلة",
+      "tr": "هولِديه",
+      "pos": "n",
+      "emoji": "🏖️"
+    },
+    {
+      "id": "oc_w23",
+      "en": "invite",
+      "ar": "يدعو",
+      "tr": "إنڤايت",
+      "pos": "v",
+      "emoji": "📩"
+    },
+    {
+      "id": "oc_w24",
+      "en": "celebrate",
+      "ar": "يحتفل",
+      "tr": "سِلِبريت",
+      "pos": "v",
+      "emoji": "🎈"
+    },
+    {
+      "id": "oc_w25",
+      "en": "sing",
+      "ar": "يغني",
+      "tr": "سِنغ",
+      "pos": "v",
+      "emoji": "🎤"
+    },
+    {
+      "id": "oc_w26",
+      "en": "dance",
+      "ar": "يرقص",
+      "tr": "دانس",
+      "pos": "v",
+      "emoji": "💃"
+    },
+    {
+      "id": "oc_w27",
+      "en": "photo",
+      "ar": "صورة",
+      "tr": "فوتو",
+      "pos": "n",
+      "emoji": "📸"
+    },
+    {
+      "id": "oc_w28",
+      "en": "decorate",
+      "ar": "يزيّن",
+      "tr": "دِكَريت",
+      "pos": "v",
+      "emoji": "🎀"
+    },
+    {
+      "id": "oc_w29",
+      "en": "sweets",
+      "ar": "حلويات",
+      "tr": "سويتس",
+      "pos": "n",
+      "emoji": "🍬"
+    },
+    {
+      "id": "oc_w30",
+      "en": "special day",
+      "ar": "يوم مميز",
+      "tr": "سپِشَل ديه",
+      "pos": "phr",
+      "emoji": "⭐"
+    },
+    {
+      "id": "oc_w31",
+      "en": "together",
+      "ar": "معاً",
+      "tr": "تُوغيذَر",
+      "pos": "adv",
+      "emoji": "👨‍👩‍👧"
+    },
+    {
+      "id": "oc_w32",
+      "en": "family gathering",
+      "ar": "لمّة العائلة",
+      "tr": "فامِلي غاذَرِنغ",
+      "pos": "phr",
+      "emoji": "🏡"
+    },
+    {
+      "id": "oc_w33",
+      "en": "thank you for coming",
+      "ar": "شكراً لحضورك",
+      "tr": "ثانك يو فور كَمِنغ",
+      "pos": "phr",
+      "emoji": "🙏"
+    },
+    {
+      "id": "oc_w34",
+      "en": "best wishes",
+      "ar": "أطيب التمنيات",
+      "tr": "بِست وِشِز",
+      "pos": "phr",
+      "emoji": "🌟"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "oc_s1",
+      "en": "Congratulations on your wedding!",
+      "ar": "مبروك على زواجك!",
+      "tr": "كَنغراتشُوليشِنز أون يور وِدِنغ"
+    },
+    {
+      "id": "oc_s2",
+      "en": "Happy birthday to you!",
+      "ar": "عيد ميلاد سعيد!",
+      "tr": "هابي بيرثديه تو يو"
+    },
+    {
+      "id": "oc_s3",
+      "en": "You are invited to my house.",
+      "ar": "أنت مدعو إلى بيتي.",
+      "tr": "يو آر إنڤايتِد تو ماي هاوس"
+    },
+    {
+      "id": "oc_s4",
+      "en": "We celebrate Eid with the family.",
+      "ar": "نحتفل بالعيد مع العائلة.",
+      "tr": "وي سِلِبريت عيد وِذ ذَ فامِلي"
+    },
+    {
+      "id": "oc_s5",
+      "en": "Thank you for the lovely gift.",
+      "ar": "شكراً على الهدية الجميلة.",
+      "tr": "ثانك يو فور ذَ لَڤلي غِفت"
+    },
+    {
+      "id": "oc_s6",
+      "en": "The party starts at eight.",
+      "ar": "الحفلة تبدأ في الثامنة.",
+      "tr": "ذَ پارتي ستارتس آت إيت"
+    },
+    {
+      "id": "oc_s7",
+      "en": "We are fasting in Ramadan.",
+      "ar": "نصوم في رمضان.",
+      "tr": "وي آر فاستِنغ إن رَمَضان"
+    },
+    {
+      "id": "oc_s8",
+      "en": "My sister's graduation is next month.",
+      "ar": "تخرّج أختي الشهر القادم.",
+      "tr": "ماي سِستَرز غراجُويشِن إز نِكست مَنث"
+    },
+    {
+      "id": "oc_s9",
+      "en": "Please accept my condolences.",
+      "ar": "تقبّل تعازيّ.",
+      "tr": "پليز أكسِپت ماي كَندولَنسِز"
+    },
+    {
+      "id": "oc_s10",
+      "en": "Best wishes to you and your family.",
+      "ar": "أطيب التمنيات لك ولعائلتك.",
+      "tr": "بِست وِشِز تو يو آند يور فامِلي"
+    }
+  ]
+}

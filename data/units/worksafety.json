@@ -1,0 +1,346 @@
+{
+  "id": "worksafety",
+  "title": {
+    "ar": "السلامة في العمل",
+    "en": "Safety at Work"
+  },
+  "icon": "🦺",
+  "level": 4,
+  "color": "amber",
+  "words": [
+    {
+      "id": "ws_w1",
+      "en": "safety",
+      "ar": "سلامة",
+      "tr": "سيفتي",
+      "pos": "n",
+      "emoji": "🦺"
+    },
+    {
+      "id": "ws_w2",
+      "en": "helmet",
+      "ar": "خوذة",
+      "tr": "هِلمِت",
+      "pos": "n",
+      "emoji": "⛑️"
+    },
+    {
+      "id": "ws_w3",
+      "en": "gloves",
+      "ar": "قفازات",
+      "tr": "غلَڤز",
+      "pos": "n",
+      "emoji": "🧤"
+    },
+    {
+      "id": "ws_w4",
+      "en": "boots",
+      "ar": "حذاء عمل",
+      "tr": "بوتس",
+      "pos": "n",
+      "emoji": "🥾"
+    },
+    {
+      "id": "ws_w5",
+      "en": "mask",
+      "ar": "كمامة",
+      "tr": "ماسك",
+      "pos": "n",
+      "emoji": "😷"
+    },
+    {
+      "id": "ws_w6",
+      "en": "vest",
+      "ar": "سترة عاكسة",
+      "tr": "ڤِست",
+      "pos": "n",
+      "emoji": "🦺"
+    },
+    {
+      "id": "ws_w7",
+      "en": "warning",
+      "ar": "تحذير",
+      "tr": "وورنِنغ",
+      "pos": "n",
+      "emoji": "⚠️"
+    },
+    {
+      "id": "ws_w8",
+      "en": "danger",
+      "ar": "خطر",
+      "tr": "دينجَر",
+      "pos": "n",
+      "emoji": "☠️"
+    },
+    {
+      "id": "ws_w9",
+      "en": "careful",
+      "ar": "حذر",
+      "tr": "كيرفُل",
+      "pos": "adj",
+      "emoji": "👀"
+    },
+    {
+      "id": "ws_w10",
+      "en": "accident",
+      "ar": "حادث",
+      "tr": "آكسِدِنت",
+      "pos": "n",
+      "emoji": "💥"
+    },
+    {
+      "id": "ws_w11",
+      "en": "injury",
+      "ar": "إصابة",
+      "tr": "إنجَري",
+      "pos": "n",
+      "emoji": "🤕"
+    },
+    {
+      "id": "ws_w12",
+      "en": "first aid",
+      "ar": "إسعافات أولية",
+      "tr": "فيرست إيد",
+      "pos": "n",
+      "emoji": "🧰"
+    },
+    {
+      "id": "ws_w13",
+      "en": "emergency exit",
+      "ar": "مخرج طوارئ",
+      "tr": "إميرجِنسي إكسِت",
+      "pos": "n",
+      "emoji": "🚪"
+    },
+    {
+      "id": "ws_w14",
+      "en": "fire alarm",
+      "ar": "إنذار حريق",
+      "tr": "فايَر ألارم",
+      "pos": "n",
+      "emoji": "🔔"
+    },
+    {
+      "id": "ws_w15",
+      "en": "extinguisher",
+      "ar": "طفاية حريق",
+      "tr": "إكستِنغوِشَر",
+      "pos": "n",
+      "emoji": "🧯"
+    },
+    {
+      "id": "ws_w16",
+      "en": "slippery",
+      "ar": "زلق",
+      "tr": "سلِپَري",
+      "pos": "adj",
+      "emoji": "🧊"
+    },
+    {
+      "id": "ws_w17",
+      "en": "heavy load",
+      "ar": "حمل ثقيل",
+      "tr": "هيڤي لود",
+      "pos": "phr",
+      "emoji": "📦"
+    },
+    {
+      "id": "ws_w18",
+      "en": "lift correctly",
+      "ar": "يرفع بطريقة صحيحة",
+      "tr": "لِفت كَرِكتلي",
+      "pos": "phr",
+      "emoji": "🏋️"
+    },
+    {
+      "id": "ws_w19",
+      "en": "machine",
+      "ar": "آلة",
+      "tr": "مَشين",
+      "pos": "n",
+      "emoji": "⚙️"
+    },
+    {
+      "id": "ws_w20",
+      "en": "switch off",
+      "ar": "يطفئ",
+      "tr": "سوِتش أوف",
+      "pos": "v",
+      "emoji": "🔌"
+    },
+    {
+      "id": "ws_w21",
+      "en": "report",
+      "ar": "يبلّغ",
+      "tr": "رِپورت",
+      "pos": "v",
+      "emoji": "📢"
+    },
+    {
+      "id": "ws_w22",
+      "en": "supervisor",
+      "ar": "مشرف",
+      "tr": "سوپَرڤايزَر",
+      "pos": "n",
+      "emoji": "🧑‍💼"
+    },
+    {
+      "id": "ws_w23",
+      "en": "rule",
+      "ar": "قاعدة",
+      "tr": "رول",
+      "pos": "n",
+      "emoji": "📏"
+    },
+    {
+      "id": "ws_w24",
+      "en": "follow the rules",
+      "ar": "يتبع القواعد",
+      "tr": "فولو ذَ رولز",
+      "pos": "phr",
+      "emoji": "✅"
+    },
+    {
+      "id": "ws_w25",
+      "en": "forbidden",
+      "ar": "ممنوع",
+      "tr": "فَربِدِن",
+      "pos": "adj",
+      "emoji": "🚫"
+    },
+    {
+      "id": "ws_w26",
+      "en": "allowed",
+      "ar": "مسموح",
+      "tr": "ألاود",
+      "pos": "adj",
+      "emoji": "✔️"
+    },
+    {
+      "id": "ws_w27",
+      "en": "break time",
+      "ar": "وقت الاستراحة",
+      "tr": "بريك تايم",
+      "pos": "n",
+      "emoji": "☕"
+    },
+    {
+      "id": "ws_w28",
+      "en": "shift",
+      "ar": "وردية",
+      "tr": "شِفت",
+      "pos": "n",
+      "emoji": "🕐"
+    },
+    {
+      "id": "ws_w29",
+      "en": "overtime",
+      "ar": "عمل إضافي",
+      "tr": "أوڤَرتايم",
+      "pos": "n",
+      "emoji": "⏱️"
+    },
+    {
+      "id": "ws_w30",
+      "en": "tired",
+      "ar": "متعب",
+      "tr": "تايَرد",
+      "pos": "adj",
+      "emoji": "😩"
+    },
+    {
+      "id": "ws_w31",
+      "en": "rest",
+      "ar": "يرتاح",
+      "tr": "رِست",
+      "pos": "v",
+      "emoji": "🛌"
+    },
+    {
+      "id": "ws_w32",
+      "en": "drink water",
+      "ar": "يشرب الماء",
+      "tr": "درِنك ووتَر",
+      "pos": "phr",
+      "emoji": "💧"
+    },
+    {
+      "id": "ws_w33",
+      "en": "I feel unwell",
+      "ar": "أشعر بتوعك",
+      "tr": "آي فيل أنوِل",
+      "pos": "phr",
+      "emoji": "🤒"
+    },
+    {
+      "id": "ws_w34",
+      "en": "call the supervisor",
+      "ar": "نادِ المشرف",
+      "tr": "كول ذَ سوپَرڤايزَر",
+      "pos": "phr",
+      "emoji": "📞"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "ws_s1",
+      "en": "Always wear your helmet here.",
+      "ar": "ارتدِ الخوذة دائماً هنا.",
+      "tr": "أولويز وير يور هِلمِت هير"
+    },
+    {
+      "id": "ws_s2",
+      "en": "The floor is slippery, be careful.",
+      "ar": "الأرضية زلقة، انتبه.",
+      "tr": "ذَ فلور إز سلِپَري، بي كيرفُل"
+    },
+    {
+      "id": "ws_s3",
+      "en": "Where is the emergency exit?",
+      "ar": "أين مخرج الطوارئ؟",
+      "tr": "وير إز ذي إميرجِنسي إكسِت"
+    },
+    {
+      "id": "ws_s4",
+      "en": "Switch off the machine first.",
+      "ar": "أطفئ الآلة أولاً.",
+      "tr": "سوِتش أوف ذَ مَشين فيرست"
+    },
+    {
+      "id": "ws_s5",
+      "en": "Report any accident immediately.",
+      "ar": "بلّغ عن أي حادث فوراً.",
+      "tr": "رِپورت إني آكسِدِنت إميديَتلي"
+    },
+    {
+      "id": "ws_s6",
+      "en": "This area is forbidden.",
+      "ar": "هذه المنطقة ممنوعة.",
+      "tr": "ذِس إيريا إز فَربِدِن"
+    },
+    {
+      "id": "ws_s7",
+      "en": "Don't lift that alone.",
+      "ar": "لا ترفع ذلك وحدك.",
+      "tr": "دونت لِفت ذات ألون"
+    },
+    {
+      "id": "ws_s8",
+      "en": "My shift starts at seven.",
+      "ar": "ورديتي تبدأ في السابعة.",
+      "tr": "ماي شِفت ستارتس آت سِڤِن"
+    },
+    {
+      "id": "ws_s9",
+      "en": "I feel unwell, can I rest?",
+      "ar": "أشعر بتوعك، هل يمكنني الاستراحة؟",
+      "tr": "آي فيل أنوِل، كان آي رِست"
+    },
+    {
+      "id": "ws_s10",
+      "en": "Safety is more important than speed.",
+      "ar": "السلامة أهم من السرعة.",
+      "tr": "سيفتي إز مور إمپورتَنت ذان سپيد"
+    }
+  ]
+}

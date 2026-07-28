@@ -1,0 +1,214 @@
+{
+  "id": "station",
+  "title": {
+    "ar": "في المحطة",
+    "en": "At the Station"
+  },
+  "icon": "🚉",
+  "level": 6,
+  "color": "mint",
+  "words": [
+    {
+      "id": "st_w1",
+      "en": "platform",
+      "ar": "رصيف القطار",
+      "tr": "پلاتفورم",
+      "pos": "n",
+      "emoji": "🚉"
+    },
+    {
+      "id": "st_w2",
+      "en": "ticket office",
+      "ar": "شباك التذاكر",
+      "tr": "تِكِت أوفِس",
+      "pos": "n",
+      "emoji": "🎫"
+    },
+    {
+      "id": "st_w3",
+      "en": "single ticket",
+      "ar": "تذكرة ذهاب",
+      "tr": "سِنغِل تِكِت",
+      "pos": "n",
+      "emoji": "➡️"
+    },
+    {
+      "id": "st_w4",
+      "en": "return ticket",
+      "ar": "تذكرة ذهاب وعودة",
+      "tr": "رِتيرن تِكِت",
+      "pos": "n",
+      "emoji": "🔁"
+    },
+    {
+      "id": "st_w5",
+      "en": "timetable",
+      "ar": "جدول المواعيد",
+      "tr": "تايمتيبِل",
+      "pos": "n",
+      "emoji": "🗓️"
+    },
+    {
+      "id": "st_w6",
+      "en": "departure",
+      "ar": "المغادرة",
+      "tr": "دِپارتشَر",
+      "pos": "n",
+      "emoji": "🛫"
+    },
+    {
+      "id": "st_w7",
+      "en": "arrival",
+      "ar": "الوصول",
+      "tr": "أرايڤَل",
+      "pos": "n",
+      "emoji": "🛬"
+    },
+    {
+      "id": "st_w8",
+      "en": "delayed",
+      "ar": "متأخر",
+      "tr": "دِليد",
+      "pos": "adj",
+      "emoji": "⏳"
+    },
+    {
+      "id": "st_w9",
+      "en": "cancelled",
+      "ar": "ملغى",
+      "tr": "كانسِلد",
+      "pos": "adj",
+      "emoji": "🚫"
+    },
+    {
+      "id": "st_w10",
+      "en": "luggage",
+      "ar": "أمتعة",
+      "tr": "لَغِج",
+      "pos": "n",
+      "emoji": "🧳"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "st_s1",
+      "en": "One ticket to the city centre, please.",
+      "ar": "تذكرة واحدة إلى وسط المدينة من فضلك.",
+      "tr": "وان تِكِت تو ذَ سِتي سِنتَر، پليز"
+    },
+    {
+      "id": "st_s2",
+      "en": "Single or return?",
+      "ar": "ذهاب فقط أم ذهاب وعودة؟",
+      "tr": "سِنغِل أور رِتيرن"
+    },
+    {
+      "id": "st_s3",
+      "en": "Return, please.",
+      "ar": "ذهاب وعودة من فضلك.",
+      "tr": "رِتيرن، پليز"
+    },
+    {
+      "id": "st_s4",
+      "en": "How much is it?",
+      "ar": "كم ثمنها؟",
+      "tr": "هاو مَتش إز إت"
+    },
+    {
+      "id": "st_s5",
+      "en": "Which platform is it?",
+      "ar": "أي رصيف؟",
+      "tr": "وِتش پلاتفورم إز إت"
+    },
+    {
+      "id": "st_s6",
+      "en": "Platform number three.",
+      "ar": "الرصيف رقم ثلاثة.",
+      "tr": "پلاتفورم نَمبَر ثري"
+    },
+    {
+      "id": "st_s7",
+      "en": "What time does the next train leave?",
+      "ar": "متى يغادر القطار التالي؟",
+      "tr": "وات تايم دَز ذَ نِكست ترين ليڤ"
+    },
+    {
+      "id": "st_s8",
+      "en": "In fifteen minutes.",
+      "ar": "بعد خمس عشرة دقيقة.",
+      "tr": "إن فِفتين مِنِتس"
+    },
+    {
+      "id": "st_s9",
+      "en": "Is this train going to the airport?",
+      "ar": "هل هذا القطار متجه إلى المطار؟",
+      "tr": "إز ذِس ترين غويِنغ تو ذي إيرپورت"
+    },
+    {
+      "id": "st_s10",
+      "en": "The train is delayed by ten minutes.",
+      "ar": "القطار متأخر عشر دقائق.",
+      "tr": "ذَ ترين إز دِليد باي تِن مِنِتس"
+    },
+    {
+      "id": "st_s11",
+      "en": "The bus has been cancelled.",
+      "ar": "أُلغيت الحافلة.",
+      "tr": "ذَ بَس هاز بين كانسِلد"
+    },
+    {
+      "id": "st_s12",
+      "en": "Where can I leave my luggage?",
+      "ar": "أين يمكنني ترك أمتعتي؟",
+      "tr": "وير كان آي ليڤ ماي لَغِج"
+    },
+    {
+      "id": "st_s13",
+      "en": "Excuse me, is this seat taken?",
+      "ar": "لو سمحت، هل هذا المقعد محجوز؟",
+      "tr": "إكسكيوز مي، إز ذِس سيت تيكِن"
+    },
+    {
+      "id": "st_s14",
+      "en": "No, please sit down.",
+      "ar": "لا، تفضل بالجلوس.",
+      "tr": "نو، پليز سِت داون"
+    },
+    {
+      "id": "st_s15",
+      "en": "How many stops to the market?",
+      "ar": "كم محطة حتى السوق؟",
+      "tr": "هاو مِني ستوپس تو ذَ ماركِت"
+    },
+    {
+      "id": "st_s16",
+      "en": "Three stops from here.",
+      "ar": "ثلاث محطات من هنا.",
+      "tr": "ثري ستوپس فروم هير"
+    },
+    {
+      "id": "st_s17",
+      "en": "Can you tell me when to get off?",
+      "ar": "هل يمكنك إخباري متى أنزل؟",
+      "tr": "كان يو تِل مي وِن تو غِت أوف"
+    },
+    {
+      "id": "st_s18",
+      "en": "This is your stop.",
+      "ar": "هذه محطتك.",
+      "tr": "ذِس إز يور ستوپ"
+    },
+    {
+      "id": "st_s19",
+      "en": "Thank you very much.",
+      "ar": "شكراً جزيلاً.",
+      "tr": "ثانك يو ڤيري مَتش"
+    },
+    {
+      "id": "st_s20",
+      "en": "Have a safe journey.",
+      "ar": "رحلة آمنة.",
+      "tr": "هاڤ إيه سيف جيرني"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "updated": "2026-07-27",
+  "updated": "2026-07-28",
   "levels": [
     {
       "id": 1,
@@ -175,6 +175,26 @@
       "level": 2
     },
     {
+      "id": "hygiene",
+      "file": "units/hygiene.json",
+      "title": {
+        "ar": "النظافة والعناية",
+        "en": "Hygiene & Care"
+      },
+      "icon": "🧼",
+      "level": 2
+    },
+    {
+      "id": "quantities",
+      "file": "units/quantities.json",
+      "title": {
+        "ar": "الكميات والعبوات",
+        "en": "Quantities & Containers"
+      },
+      "icon": "⚖️",
+      "level": 2
+    },
+    {
       "id": "jobs",
       "file": "units/jobs.json",
       "title": {
@@ -272,6 +292,56 @@
         "en": "Car & Repairs"
       },
       "icon": "🚙",
+      "level": 3
+    },
+    {
+      "id": "tools",
+      "file": "units/tools.json",
+      "title": {
+        "ar": "الأدوات والمعدّات",
+        "en": "Tools & Equipment"
+      },
+      "icon": "🧰",
+      "level": 3
+    },
+    {
+      "id": "describing",
+      "file": "units/describing.json",
+      "title": {
+        "ar": "وصف الأشخاص",
+        "en": "Describing People"
+      },
+      "icon": "🧑‍🦱",
+      "level": 3
+    },
+    {
+      "id": "materials",
+      "file": "units/materials.json",
+      "title": {
+        "ar": "المواد والخامات",
+        "en": "Materials"
+      },
+      "icon": "🪵",
+      "level": 3
+    },
+    {
+      "id": "occasions",
+      "file": "units/occasions.json",
+      "title": {
+        "ar": "المناسبات والأعياد",
+        "en": "Occasions & Celebrations"
+      },
+      "icon": "🎉",
+      "level": 3
+    },
+    {
+      "id": "children",
+      "file": "units/children.json",
+      "title": {
+        "ar": "الأطفال والرعاية",
+        "en": "Children & Care"
+      },
+      "icon": "🧸",
       "level": 3
     },
     {
@@ -385,6 +455,96 @@
       "level": 4
     },
     {
+      "id": "university",
+      "file": "units/university.json",
+      "title": {
+        "ar": "الدراسة الجامعية",
+        "en": "College & Study"
+      },
+      "icon": "🎓",
+      "level": 4
+    },
+    {
+      "id": "tech",
+      "file": "units/tech.json",
+      "title": {
+        "ar": "الحاسوب والتقنية",
+        "en": "Computers & Tech"
+      },
+      "icon": "💻",
+      "level": 4
+    },
+    {
+      "id": "bills",
+      "file": "units/bills.json",
+      "title": {
+        "ar": "الفواتير والمصاريف",
+        "en": "Bills & Expenses"
+      },
+      "icon": "🧾",
+      "level": 4
+    },
+    {
+      "id": "environment",
+      "file": "units/environment.json",
+      "title": {
+        "ar": "البيئة والحياة",
+        "en": "Environment"
+      },
+      "icon": "🌱",
+      "level": 4
+    },
+    {
+      "id": "services",
+      "file": "units/services.json",
+      "title": {
+        "ar": "الدوائر والخدمات",
+        "en": "Public Services"
+      },
+      "icon": "🏛️",
+      "level": 4
+    },
+    {
+      "id": "verbs2",
+      "file": "units/verbs2.json",
+      "title": {
+        "ar": "أفعال أكثر استعمالاً",
+        "en": "More Verbs"
+      },
+      "icon": "🔤",
+      "level": 4
+    },
+    {
+      "id": "adjectives2",
+      "file": "units/adjectives2.json",
+      "title": {
+        "ar": "صفات إضافية",
+        "en": "More Adjectives"
+      },
+      "icon": "🌈",
+      "level": 4
+    },
+    {
+      "id": "worksafety",
+      "file": "units/worksafety.json",
+      "title": {
+        "ar": "السلامة في العمل",
+        "en": "Safety at Work"
+      },
+      "icon": "🦺",
+      "level": 4
+    },
+    {
+      "id": "online",
+      "file": "units/online.json",
+      "title": {
+        "ar": "التسوق الإلكتروني",
+        "en": "Online Shopping"
+      },
+      "icon": "📦",
+      "level": 4
+    },
+    {
       "id": "expressions",
       "file": "units/expressions.json",
       "title": {
@@ -412,6 +572,26 @@
         "en": "Future & Plans"
       },
       "icon": "🔮",
+      "level": 5
+    },
+    {
+      "id": "connectors",
+      "file": "units/connectors.json",
+      "title": {
+        "ar": "أدوات الربط والظروف",
+        "en": "Connectors & Adverbs"
+      },
+      "icon": "🔗",
+      "level": 5
+    },
+    {
+      "id": "character",
+      "file": "units/character.json",
+      "title": {
+        "ar": "الطباع والسلوك",
+        "en": "Character & Manners"
+      },
+      "icon": "🫱",
       "level": 5
     },
     {
@@ -492,6 +672,66 @@
         "en": "Making a New Friend"
       },
       "icon": "🤝",
+      "level": 6
+    },
+    {
+      "id": "pharmacy",
+      "file": "units/pharmacy.json",
+      "title": {
+        "ar": "في الصيدلية",
+        "en": "At the Pharmacy"
+      },
+      "icon": "💊",
+      "level": 6
+    },
+    {
+      "id": "barber",
+      "file": "units/barber.json",
+      "title": {
+        "ar": "عند الحلاق",
+        "en": "At the Barber"
+      },
+      "icon": "💈",
+      "level": 6
+    },
+    {
+      "id": "neighbours",
+      "file": "units/neighbours.json",
+      "title": {
+        "ar": "مع الجيران",
+        "en": "With the Neighbours"
+      },
+      "icon": "🏘️",
+      "level": 6
+    },
+    {
+      "id": "parents",
+      "file": "units/parents.json",
+      "title": {
+        "ar": "في مدرسة الأبناء",
+        "en": "At the Kids' School"
+      },
+      "icon": "🏫",
+      "level": 6
+    },
+    {
+      "id": "reporting",
+      "file": "units/reporting.json",
+      "title": {
+        "ar": "تبليغ الشرطة",
+        "en": "Reporting to Police"
+      },
+      "icon": "👮",
+      "level": 6
+    },
+    {
+      "id": "station",
+      "file": "units/station.json",
+      "title": {
+        "ar": "في المحطة",
+        "en": "At the Station"
+      },
+      "icon": "🚉",
       "level": 6
     }
   ]

@@ -1,0 +1,214 @@
+{
+  "id": "reporting",
+  "title": {
+    "ar": "تبليغ الشرطة",
+    "en": "Reporting to Police"
+  },
+  "icon": "👮",
+  "level": 6,
+  "color": "rose",
+  "words": [
+    {
+      "id": "rp_w1",
+      "en": "police station",
+      "ar": "مركز شرطة",
+      "tr": "پُوليس ستيشِن",
+      "pos": "n",
+      "emoji": "🚓"
+    },
+    {
+      "id": "rp_w2",
+      "en": "officer",
+      "ar": "ضابط",
+      "tr": "أوفِسَر",
+      "pos": "n",
+      "emoji": "👮"
+    },
+    {
+      "id": "rp_w3",
+      "en": "report",
+      "ar": "بلاغ / يبلّغ",
+      "tr": "رِپورت",
+      "pos": "n",
+      "emoji": "📋"
+    },
+    {
+      "id": "rp_w4",
+      "en": "witness",
+      "ar": "شاهد",
+      "tr": "وِتنِس",
+      "pos": "n",
+      "emoji": "👀"
+    },
+    {
+      "id": "rp_w5",
+      "en": "thief",
+      "ar": "لص",
+      "tr": "ثيف",
+      "pos": "n",
+      "emoji": "🥷"
+    },
+    {
+      "id": "rp_w6",
+      "en": "wallet",
+      "ar": "محفظة",
+      "tr": "وولِت",
+      "pos": "n",
+      "emoji": "👛"
+    },
+    {
+      "id": "rp_w7",
+      "en": "stolen",
+      "ar": "مسروق",
+      "tr": "ستولِن",
+      "pos": "adj",
+      "emoji": "❗"
+    },
+    {
+      "id": "rp_w8",
+      "en": "lost",
+      "ar": "مفقود",
+      "tr": "لوست",
+      "pos": "adj",
+      "emoji": "🔍"
+    },
+    {
+      "id": "rp_w9",
+      "en": "description",
+      "ar": "وصف",
+      "tr": "دِسكرِپشِن",
+      "pos": "n",
+      "emoji": "📝"
+    },
+    {
+      "id": "rp_w10",
+      "en": "statement",
+      "ar": "إفادة",
+      "tr": "ستيتمِنت",
+      "pos": "n",
+      "emoji": "🗒️"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "rp_s1",
+      "en": "I want to report a theft.",
+      "ar": "أريد الإبلاغ عن سرقة.",
+      "tr": "آي وانت تو رِپورت إيه ثِفت"
+    },
+    {
+      "id": "rp_s2",
+      "en": "My bag was stolen this morning.",
+      "ar": "سُرقت حقيبتي هذا الصباح.",
+      "tr": "ماي باغ واز ستولِن ذِس مورنِنغ"
+    },
+    {
+      "id": "rp_s3",
+      "en": "Where did it happen?",
+      "ar": "أين حدث ذلك؟",
+      "tr": "وير دِد إت هاپِن"
+    },
+    {
+      "id": "rp_s4",
+      "en": "Near the bus station.",
+      "ar": "قرب محطة الحافلات.",
+      "tr": "نير ذَ بَس ستيشِن"
+    },
+    {
+      "id": "rp_s5",
+      "en": "What time was it?",
+      "ar": "في أي وقت كان ذلك؟",
+      "tr": "وات تايم واز إت"
+    },
+    {
+      "id": "rp_s6",
+      "en": "About nine o'clock.",
+      "ar": "حوالي الساعة التاسعة.",
+      "tr": "أباوت ناين أوكلوك"
+    },
+    {
+      "id": "rp_s7",
+      "en": "What was inside the bag?",
+      "ar": "ماذا كان داخل الحقيبة؟",
+      "tr": "وات واز إنسايد ذَ باغ"
+    },
+    {
+      "id": "rp_s8",
+      "en": "My wallet, my phone and my papers.",
+      "ar": "محفظتي وهاتفي وأوراقي.",
+      "tr": "ماي وولِت، ماي فون آند ماي پيپَرز"
+    },
+    {
+      "id": "rp_s9",
+      "en": "Did you see the person?",
+      "ar": "هل رأيت الشخص؟",
+      "tr": "دِد يو سي ذَ پيرسِن"
+    },
+    {
+      "id": "rp_s10",
+      "en": "No, it happened very fast.",
+      "ar": "لا، حدث الأمر بسرعة كبيرة.",
+      "tr": "نو، إت هاپِند ڤيري فاست"
+    },
+    {
+      "id": "rp_s11",
+      "en": "Are there any witnesses?",
+      "ar": "هل يوجد شهود؟",
+      "tr": "آر ذير إني وِتنِسِز"
+    },
+    {
+      "id": "rp_s12",
+      "en": "I lost my passport.",
+      "ar": "فقدت جواز سفري.",
+      "tr": "آي لوست ماي پاسپورت"
+    },
+    {
+      "id": "rp_s13",
+      "en": "I need a police report for the embassy.",
+      "ar": "أحتاج تقرير شرطة للسفارة.",
+      "tr": "آي نيد إيه پُوليس رِپورت فور ذي إمبَسي"
+    },
+    {
+      "id": "rp_s14",
+      "en": "Please write your statement here.",
+      "ar": "من فضلك اكتب إفادتك هنا.",
+      "tr": "پليز رايت يور ستيتمِنت هير"
+    },
+    {
+      "id": "rp_s15",
+      "en": "My English is not good, can you help?",
+      "ar": "إنجليزيتي ليست جيدة، هل يمكنك المساعدة؟",
+      "tr": "ماي إنغلِش إز نوت غُود، كان يو هِلپ"
+    },
+    {
+      "id": "rp_s16",
+      "en": "Do you have a translator?",
+      "ar": "هل لديكم مترجم؟",
+      "tr": "دو يو هاڤ إيه ترانسليتَر"
+    },
+    {
+      "id": "rp_s17",
+      "en": "Here is my ID card.",
+      "ar": "تفضل بطاقة هويتي.",
+      "tr": "هير إز ماي آي دي كارد"
+    },
+    {
+      "id": "rp_s18",
+      "en": "How long will it take?",
+      "ar": "كم سيستغرق الأمر؟",
+      "tr": "هاو لونغ وِل إت تيك"
+    },
+    {
+      "id": "rp_s19",
+      "en": "We will call you if we find it.",
+      "ar": "سنتصل بك إذا وجدناها.",
+      "tr": "وي وِل كول يو إف وي فايند إت"
+    },
+    {
+      "id": "rp_s20",
+      "en": "Thank you for your help, officer.",
+      "ar": "شكراً على مساعدتك أيها الضابط.",
+      "tr": "ثانك يو فور يور هِلپ، أوفِسَر"
+    }
+  ]
+}

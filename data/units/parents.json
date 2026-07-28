@@ -1,0 +1,202 @@
+{
+  "id": "parents",
+  "title": {
+    "ar": "في مدرسة الأبناء",
+    "en": "At the Kids' School"
+  },
+  "icon": "🏫",
+  "level": 6,
+  "color": "rose",
+  "words": [
+    {
+      "id": "pr2_w1",
+      "en": "head teacher",
+      "ar": "مدير المدرسة",
+      "tr": "هِد تيتشَر",
+      "pos": "n",
+      "emoji": "🧑‍🏫"
+    },
+    {
+      "id": "pr2_w2",
+      "en": "report",
+      "ar": "تقرير",
+      "tr": "رِپورت",
+      "pos": "n",
+      "emoji": "📋"
+    },
+    {
+      "id": "pr2_w3",
+      "en": "progress",
+      "ar": "تقدّم",
+      "tr": "پروغرِس",
+      "pos": "n",
+      "emoji": "📈"
+    },
+    {
+      "id": "pr2_w4",
+      "en": "behaviour",
+      "ar": "سلوك",
+      "tr": "بِهيڤيَر",
+      "pos": "n",
+      "emoji": "🎭"
+    },
+    {
+      "id": "pr2_w5",
+      "en": "absent",
+      "ar": "غائب",
+      "tr": "آبسِنت",
+      "pos": "adj",
+      "emoji": "🚫"
+    },
+    {
+      "id": "pr2_w6",
+      "en": "uniform",
+      "ar": "زي مدرسي",
+      "tr": "يونِفورم",
+      "pos": "n",
+      "emoji": "👔"
+    },
+    {
+      "id": "pr2_w7",
+      "en": "bus",
+      "ar": "حافلة",
+      "tr": "بَس",
+      "pos": "n",
+      "emoji": "🚌"
+    },
+    {
+      "id": "pr2_w8",
+      "en": "fees",
+      "ar": "رسوم",
+      "tr": "فيز",
+      "pos": "n",
+      "emoji": "💵"
+    },
+    {
+      "id": "pr2_w9",
+      "en": "meeting",
+      "ar": "اجتماع",
+      "tr": "ميتِنغ",
+      "pos": "n",
+      "emoji": "👥"
+    },
+    {
+      "id": "pr2_w10",
+      "en": "sign here",
+      "ar": "وقّع هنا",
+      "tr": "ساين هير",
+      "pos": "phr",
+      "emoji": "✍️"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "pr2_s1",
+      "en": "Good morning, I am Omar's father.",
+      "ar": "صباح الخير، أنا والد عمر.",
+      "tr": "غُود مورنِنغ، آيم عمرز فاذَر"
+    },
+    {
+      "id": "pr2_s2",
+      "en": "I would like to speak to his teacher.",
+      "ar": "أود التحدث إلى معلمه.",
+      "tr": "آي وود لايك تو سپيك تو هِز تيتشَر"
+    },
+    {
+      "id": "pr2_s3",
+      "en": "How is he doing in class?",
+      "ar": "كيف حاله في الصف؟",
+      "tr": "هاو إز هي دويِنغ إن كلاس"
+    },
+    {
+      "id": "pr2_s4",
+      "en": "He is doing well in maths.",
+      "ar": "هو جيد في الرياضيات.",
+      "tr": "هي إز دويِنغ وِل إن ماثس"
+    },
+    {
+      "id": "pr2_s5",
+      "en": "He needs more help with reading.",
+      "ar": "يحتاج مساعدة أكثر في القراءة.",
+      "tr": "هي نيدز مور هِلپ وِذ ريدِنغ"
+    },
+    {
+      "id": "pr2_s6",
+      "en": "How can I help him at home?",
+      "ar": "كيف أساعده في البيت؟",
+      "tr": "هاو كان آي هِلپ هِم آت هوم"
+    },
+    {
+      "id": "pr2_s7",
+      "en": "Read with him every evening.",
+      "ar": "اقرأ معه كل مساء.",
+      "tr": "ريد وِذ هِم إڤري إيفنِنغ"
+    },
+    {
+      "id": "pr2_s8",
+      "en": "His behaviour is very good.",
+      "ar": "سلوكه جيد جداً.",
+      "tr": "هِز بِهيڤيَر إز ڤيري غُود"
+    },
+    {
+      "id": "pr2_s9",
+      "en": "He was absent last Tuesday.",
+      "ar": "كان غائباً الثلاثاء الماضي.",
+      "tr": "هي واز آبسِنت لاست تيوزديه"
+    },
+    {
+      "id": "pr2_s10",
+      "en": "He was sick, I am sorry.",
+      "ar": "كان مريضاً، أنا آسف.",
+      "tr": "هي واز سِك، آيم سوري"
+    },
+    {
+      "id": "pr2_s11",
+      "en": "Please send a note next time.",
+      "ar": "من فضلك أرسل ملاحظة في المرة القادمة.",
+      "tr": "پليز سِند إيه نوت نِكست تايم"
+    },
+    {
+      "id": "pr2_s12",
+      "en": "When is the parents' meeting?",
+      "ar": "متى اجتماع أولياء الأمور؟",
+      "tr": "وِن إز ذَ پيرِنتس ميتِنغ"
+    },
+    {
+      "id": "pr2_s13",
+      "en": "Do I need to pay the fees now?",
+      "ar": "هل عليّ دفع الرسوم الآن؟",
+      "tr": "دو آي نيد تو پيه ذَ فيز ناو"
+    },
+    {
+      "id": "pr2_s14",
+      "en": "Where do I buy the uniform?",
+      "ar": "أين أشتري الزي المدرسي؟",
+      "tr": "وير دو آي باي ذَ يونِفورم"
+    },
+    {
+      "id": "pr2_s15",
+      "en": "Does the school bus come to our street?",
+      "ar": "هل تأتي حافلة المدرسة إلى شارعنا؟",
+      "tr": "دَز ذَ سكوول بَس كَم تو أوَر ستريت"
+    },
+    {
+      "id": "pr2_s16",
+      "en": "Please sign here, thank you.",
+      "ar": "من فضلك وقّع هنا، شكراً.",
+      "tr": "پليز ساين هير، ثانك يو"
+    },
+    {
+      "id": "pr2_s17",
+      "en": "Thank you for your time.",
+      "ar": "شكراً على وقتك.",
+      "tr": "ثانك يو فور يور تايم"
+    },
+    {
+      "id": "pr2_s18",
+      "en": "I will come again next month.",
+      "ar": "سآتي مرة أخرى الشهر القادم.",
+      "tr": "آي وِل كَم أغين نِكست مَنث"
+    }
+  ]
+}

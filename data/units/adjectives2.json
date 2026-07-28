@@ -1,0 +1,474 @@
+{
+  "id": "adjectives2",
+  "title": {
+    "ar": "صفات إضافية",
+    "en": "More Adjectives"
+  },
+  "icon": "🌈",
+  "level": 4,
+  "color": "rose",
+  "words": [
+    {
+      "id": "a2_w1",
+      "en": "possible",
+      "ar": "ممكن",
+      "tr": "پوسِبِل",
+      "pos": "adj",
+      "emoji": "✅"
+    },
+    {
+      "id": "a2_w2",
+      "en": "impossible",
+      "ar": "مستحيل",
+      "tr": "إمپوسِبِل",
+      "pos": "adj",
+      "emoji": "🚫"
+    },
+    {
+      "id": "a2_w3",
+      "en": "necessary",
+      "ar": "ضروري",
+      "tr": "نِسِسَري",
+      "pos": "adj",
+      "emoji": "❗"
+    },
+    {
+      "id": "a2_w4",
+      "en": "useful",
+      "ar": "مفيد",
+      "tr": "يوسفُل",
+      "pos": "adj",
+      "emoji": "🛠️"
+    },
+    {
+      "id": "a2_w5",
+      "en": "useless",
+      "ar": "غير مفيد",
+      "tr": "يوسلِس",
+      "pos": "adj",
+      "emoji": "🗑️"
+    },
+    {
+      "id": "a2_w6",
+      "en": "simple",
+      "ar": "بسيط",
+      "tr": "سِمپِل",
+      "pos": "adj",
+      "emoji": "🙂"
+    },
+    {
+      "id": "a2_w7",
+      "en": "complicated",
+      "ar": "معقّد",
+      "tr": "كومپلِكيتِد",
+      "pos": "adj",
+      "emoji": "🌀"
+    },
+    {
+      "id": "a2_w8",
+      "en": "normal",
+      "ar": "عادي",
+      "tr": "نورمَل",
+      "pos": "adj",
+      "emoji": "➖"
+    },
+    {
+      "id": "a2_w9",
+      "en": "strange",
+      "ar": "غريب",
+      "tr": "سترينج",
+      "pos": "adj",
+      "emoji": "❓"
+    },
+    {
+      "id": "a2_w10",
+      "en": "famous",
+      "ar": "مشهور",
+      "tr": "فيمَس",
+      "pos": "adj",
+      "emoji": "⭐"
+    },
+    {
+      "id": "a2_w11",
+      "en": "popular",
+      "ar": "محبوب / رائج",
+      "tr": "پوپيولَر",
+      "pos": "adj",
+      "emoji": "👍"
+    },
+    {
+      "id": "a2_w12",
+      "en": "modern",
+      "ar": "حديث",
+      "tr": "مودَرن",
+      "pos": "adj",
+      "emoji": "🏙️"
+    },
+    {
+      "id": "a2_w13",
+      "en": "traditional",
+      "ar": "تقليدي",
+      "tr": "ترَدِشَنَل",
+      "pos": "adj",
+      "emoji": "🏺"
+    },
+    {
+      "id": "a2_w14",
+      "en": "comfortable",
+      "ar": "مريح",
+      "tr": "كَمفَرتَبِل",
+      "pos": "adj",
+      "emoji": "🛋️"
+    },
+    {
+      "id": "a2_w15",
+      "en": "uncomfortable",
+      "ar": "غير مريح",
+      "tr": "أنكَمفَرتَبِل",
+      "pos": "adj",
+      "emoji": "😣"
+    },
+    {
+      "id": "a2_w16",
+      "en": "safe",
+      "ar": "آمن",
+      "tr": "سيف",
+      "pos": "adj",
+      "emoji": "🛡️"
+    },
+    {
+      "id": "a2_w17",
+      "en": "dangerous",
+      "ar": "خطير",
+      "tr": "دينجَرَس",
+      "pos": "adj",
+      "emoji": "☠️"
+    },
+    {
+      "id": "a2_w18",
+      "en": "crowded",
+      "ar": "مزدحم",
+      "tr": "كراودِد",
+      "pos": "adj",
+      "emoji": "👥"
+    },
+    {
+      "id": "a2_w19",
+      "en": "empty",
+      "ar": "خالٍ",
+      "tr": "إمپتي",
+      "pos": "adj",
+      "emoji": "🏜️"
+    },
+    {
+      "id": "a2_w20",
+      "en": "deep",
+      "ar": "عميق",
+      "tr": "ديپ",
+      "pos": "adj",
+      "emoji": "🌊"
+    },
+    {
+      "id": "a2_w21",
+      "en": "shallow",
+      "ar": "ضحل",
+      "tr": "شالو",
+      "pos": "adj",
+      "emoji": "🏖️"
+    },
+    {
+      "id": "a2_w22",
+      "en": "wide",
+      "ar": "واسع",
+      "tr": "وايد",
+      "pos": "adj",
+      "emoji": "↔️"
+    },
+    {
+      "id": "a2_w23",
+      "en": "narrow",
+      "ar": "ضيّق",
+      "tr": "نارو",
+      "pos": "adj",
+      "emoji": "↕️"
+    },
+    {
+      "id": "a2_w24",
+      "en": "bright",
+      "ar": "ساطع",
+      "tr": "برايت",
+      "pos": "adj",
+      "emoji": "☀️"
+    },
+    {
+      "id": "a2_w25",
+      "en": "dark",
+      "ar": "مظلم",
+      "tr": "دارك",
+      "pos": "adj",
+      "emoji": "🌑"
+    },
+    {
+      "id": "a2_w26",
+      "en": "sweet",
+      "ar": "حلو",
+      "tr": "سويت",
+      "pos": "adj",
+      "emoji": "🍯"
+    },
+    {
+      "id": "a2_w27",
+      "en": "sour",
+      "ar": "حامض",
+      "tr": "ساوَر",
+      "pos": "adj",
+      "emoji": "🍋"
+    },
+    {
+      "id": "a2_w28",
+      "en": "bitter",
+      "ar": "مُرّ",
+      "tr": "بِتَر",
+      "pos": "adj",
+      "emoji": "☕"
+    },
+    {
+      "id": "a2_w29",
+      "en": "fresh",
+      "ar": "طازج",
+      "tr": "فرِش",
+      "pos": "adj",
+      "emoji": "🥬"
+    },
+    {
+      "id": "a2_w30",
+      "en": "rotten",
+      "ar": "فاسد",
+      "tr": "روتِن",
+      "pos": "adj",
+      "emoji": "🤢"
+    },
+    {
+      "id": "a2_w31",
+      "en": "soft",
+      "ar": "ناعم",
+      "tr": "سوفت",
+      "pos": "adj",
+      "emoji": "☁️"
+    },
+    {
+      "id": "a2_w32",
+      "en": "loud",
+      "ar": "عالي الصوت",
+      "tr": "لاود",
+      "pos": "adj",
+      "emoji": "📢"
+    },
+    {
+      "id": "a2_w33",
+      "en": "silent",
+      "ar": "صامت",
+      "tr": "سايلِنت",
+      "pos": "adj",
+      "emoji": "🤐"
+    },
+    {
+      "id": "a2_w34",
+      "en": "polite",
+      "ar": "مهذب",
+      "tr": "پُولايت",
+      "pos": "adj",
+      "emoji": "🎩"
+    },
+    {
+      "id": "a2_w35",
+      "en": "brave",
+      "ar": "شجاع",
+      "tr": "بريڤ",
+      "pos": "adj",
+      "emoji": "🦁"
+    },
+    {
+      "id": "a2_w36",
+      "en": "afraid",
+      "ar": "خائف",
+      "tr": "أفريد",
+      "pos": "adj",
+      "emoji": "😨"
+    },
+    {
+      "id": "a2_w37",
+      "en": "careful",
+      "ar": "حذر",
+      "tr": "كيرفُل",
+      "pos": "adj",
+      "emoji": "⚠️"
+    },
+    {
+      "id": "a2_w38",
+      "en": "careless",
+      "ar": "مهمل",
+      "tr": "كيرلِس",
+      "pos": "adj",
+      "emoji": "🙃"
+    },
+    {
+      "id": "a2_w39",
+      "en": "fair",
+      "ar": "عادل",
+      "tr": "فير",
+      "pos": "adj",
+      "emoji": "⚖️"
+    },
+    {
+      "id": "a2_w40",
+      "en": "unfair",
+      "ar": "ظالم",
+      "tr": "أنفير",
+      "pos": "adj",
+      "emoji": "😤"
+    },
+    {
+      "id": "a2_w41",
+      "en": "true",
+      "ar": "صحيح",
+      "tr": "ترو",
+      "pos": "adj",
+      "emoji": "✔️"
+    },
+    {
+      "id": "a2_w42",
+      "en": "false",
+      "ar": "خاطئ",
+      "tr": "فولس",
+      "pos": "adj",
+      "emoji": "❌"
+    },
+    {
+      "id": "a2_w43",
+      "en": "ready",
+      "ar": "جاهز",
+      "tr": "رِدي",
+      "pos": "adj",
+      "emoji": "🏁"
+    },
+    {
+      "id": "a2_w44",
+      "en": "tired",
+      "ar": "متعب",
+      "tr": "تايَرد",
+      "pos": "adj",
+      "emoji": "😴"
+    },
+    {
+      "id": "a2_w45",
+      "en": "hungry",
+      "ar": "جائع",
+      "tr": "هَنغري",
+      "pos": "adj",
+      "emoji": "🍽️"
+    },
+    {
+      "id": "a2_w46",
+      "en": "thirsty",
+      "ar": "عطشان",
+      "tr": "ثيرستي",
+      "pos": "adj",
+      "emoji": "🥤"
+    },
+    {
+      "id": "a2_w47",
+      "en": "lucky",
+      "ar": "محظوظ",
+      "tr": "لَكي",
+      "pos": "adj",
+      "emoji": "🍀"
+    },
+    {
+      "id": "a2_w48",
+      "en": "sure",
+      "ar": "متأكد",
+      "tr": "شور",
+      "pos": "adj",
+      "emoji": "👌"
+    },
+    {
+      "id": "a2_w49",
+      "en": "cheap and good",
+      "ar": "رخيص وجيد",
+      "tr": "تشيپ آند غُود",
+      "pos": "phr",
+      "emoji": "💯"
+    },
+    {
+      "id": "a2_w50",
+      "en": "worth it",
+      "ar": "يستحق",
+      "tr": "وِرث إت",
+      "pos": "phr",
+      "emoji": "⭐"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "a2_s1",
+      "en": "Is it possible to change the date?",
+      "ar": "هل يمكن تغيير الموعد؟",
+      "tr": "إز إت پوسِبِل تو تشينج ذَ ديت"
+    },
+    {
+      "id": "a2_s2",
+      "en": "This street is very crowded.",
+      "ar": "هذا الشارع مزدحم جداً.",
+      "tr": "ذِس ستريت إز ڤيري كراودِد"
+    },
+    {
+      "id": "a2_s3",
+      "en": "The chair is not comfortable.",
+      "ar": "الكرسي غير مريح.",
+      "tr": "ذَ تشير إز نوت كَمفَرتَبِل"
+    },
+    {
+      "id": "a2_s4",
+      "en": "That is a strange question.",
+      "ar": "هذا سؤال غريب.",
+      "tr": "ذات إز إيه سترينج كوِستشِن"
+    },
+    {
+      "id": "a2_s5",
+      "en": "Are you sure about that?",
+      "ar": "هل أنت متأكد من ذلك؟",
+      "tr": "آر يو شور أباوت ذات"
+    },
+    {
+      "id": "a2_s6",
+      "en": "The road is narrow and dangerous.",
+      "ar": "الطريق ضيّق وخطير.",
+      "tr": "ذَ رود إز نارو آند دينجَرَس"
+    },
+    {
+      "id": "a2_s7",
+      "en": "It is expensive but worth it.",
+      "ar": "إنه غالٍ لكنه يستحق.",
+      "tr": "إت إز إكسپِنسِڤ بَت وِرث إت"
+    },
+    {
+      "id": "a2_s8",
+      "en": "Be careful, the floor is wet.",
+      "ar": "انتبه، الأرضية مبللة.",
+      "tr": "بي كيرفُل، ذَ فلور إز وِت"
+    },
+    {
+      "id": "a2_s9",
+      "en": "This lemon is very sour.",
+      "ar": "هذا الليمون حامض جداً.",
+      "tr": "ذِس لِمِن إز ڤيري ساوَر"
+    },
+    {
+      "id": "a2_s10",
+      "en": "You were very brave today.",
+      "ar": "كنت شجاعاً جداً اليوم.",
+      "tr": "يو وير ڤيري بريڤ تُوديه"
+    }
+  ]
+}

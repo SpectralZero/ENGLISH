@@ -1,0 +1,378 @@
+{
+  "id": "character",
+  "title": {
+    "ar": "الطباع والسلوك",
+    "en": "Character & Manners"
+  },
+  "icon": "🫱",
+  "level": 5,
+  "color": "mint",
+  "words": [
+    {
+      "id": "cr_w1",
+      "en": "character",
+      "ar": "طبع / شخصية",
+      "tr": "كارَكتَر",
+      "pos": "n",
+      "emoji": "🧬"
+    },
+    {
+      "id": "cr_w2",
+      "en": "behaviour",
+      "ar": "سلوك",
+      "tr": "بِهيڤيَر",
+      "pos": "n",
+      "emoji": "🎭"
+    },
+    {
+      "id": "cr_w3",
+      "en": "respect",
+      "ar": "احترام / يحترم",
+      "tr": "رِسپِكت",
+      "pos": "n",
+      "emoji": "🙏"
+    },
+    {
+      "id": "cr_w4",
+      "en": "trust",
+      "ar": "ثقة / يثق",
+      "tr": "ترَست",
+      "pos": "n",
+      "emoji": "🤝"
+    },
+    {
+      "id": "cr_w5",
+      "en": "honest",
+      "ar": "أمين",
+      "tr": "أونِست",
+      "pos": "adj",
+      "emoji": "✅"
+    },
+    {
+      "id": "cr_w6",
+      "en": "loyal",
+      "ar": "وفيّ",
+      "tr": "لويَل",
+      "pos": "adj",
+      "emoji": "🐕"
+    },
+    {
+      "id": "cr_w7",
+      "en": "kind",
+      "ar": "طيب",
+      "tr": "كايند",
+      "pos": "adj",
+      "emoji": "💗"
+    },
+    {
+      "id": "cr_w8",
+      "en": "cruel",
+      "ar": "قاسٍ",
+      "tr": "كروِل",
+      "pos": "adj",
+      "emoji": "🥶"
+    },
+    {
+      "id": "cr_w9",
+      "en": "selfish",
+      "ar": "أناني",
+      "tr": "سِلفِش",
+      "pos": "adj",
+      "emoji": "🙎"
+    },
+    {
+      "id": "cr_w10",
+      "en": "generous",
+      "ar": "كريم",
+      "tr": "جِنَرَس",
+      "pos": "adj",
+      "emoji": "🎁"
+    },
+    {
+      "id": "cr_w11",
+      "en": "humble",
+      "ar": "متواضع",
+      "tr": "هَمبِل",
+      "pos": "adj",
+      "emoji": "🌾"
+    },
+    {
+      "id": "cr_w12",
+      "en": "proud",
+      "ar": "فخور",
+      "tr": "پراود",
+      "pos": "adj",
+      "emoji": "🦚"
+    },
+    {
+      "id": "cr_w13",
+      "en": "calm",
+      "ar": "هادئ",
+      "tr": "كالم",
+      "pos": "adj",
+      "emoji": "🧘"
+    },
+    {
+      "id": "cr_w14",
+      "en": "nervous",
+      "ar": "متوتر",
+      "tr": "نيرڤَس",
+      "pos": "adj",
+      "emoji": "😬"
+    },
+    {
+      "id": "cr_w15",
+      "en": "angry",
+      "ar": "غاضب",
+      "tr": "آنغري",
+      "pos": "adj",
+      "emoji": "😠"
+    },
+    {
+      "id": "cr_w16",
+      "en": "patient",
+      "ar": "صبور",
+      "tr": "پيشِنت",
+      "pos": "adj",
+      "emoji": "⏳"
+    },
+    {
+      "id": "cr_w17",
+      "en": "jealous",
+      "ar": "غيور",
+      "tr": "جِلَس",
+      "pos": "adj",
+      "emoji": "😒"
+    },
+    {
+      "id": "cr_w18",
+      "en": "confident",
+      "ar": "واثق",
+      "tr": "كونفِدِنت",
+      "pos": "adj",
+      "emoji": "😎"
+    },
+    {
+      "id": "cr_w19",
+      "en": "helpful",
+      "ar": "مساعد",
+      "tr": "هِلپفُل",
+      "pos": "adj",
+      "emoji": "🤲"
+    },
+    {
+      "id": "cr_w20",
+      "en": "reliable",
+      "ar": "يُعتمد عليه",
+      "tr": "رِلايَبِل",
+      "pos": "adj",
+      "emoji": "🔒"
+    },
+    {
+      "id": "cr_w21",
+      "en": "strict",
+      "ar": "صارم",
+      "tr": "سترِكت",
+      "pos": "adj",
+      "emoji": "📏"
+    },
+    {
+      "id": "cr_w22",
+      "en": "gentle",
+      "ar": "لطيف / رقيق",
+      "tr": "جِنتِل",
+      "pos": "adj",
+      "emoji": "🕊️"
+    },
+    {
+      "id": "cr_w23",
+      "en": "manners",
+      "ar": "آداب / أخلاق",
+      "tr": "مانَرز",
+      "pos": "n",
+      "emoji": "🎩"
+    },
+    {
+      "id": "cr_w24",
+      "en": "apologize",
+      "ar": "يعتذر",
+      "tr": "أپولوجايز",
+      "pos": "v",
+      "emoji": "🙇"
+    },
+    {
+      "id": "cr_w25",
+      "en": "forgive",
+      "ar": "يسامح",
+      "tr": "فَرغِڤ",
+      "pos": "v",
+      "emoji": "💚"
+    },
+    {
+      "id": "cr_w26",
+      "en": "blame",
+      "ar": "يلوم",
+      "tr": "بليم",
+      "pos": "v",
+      "emoji": "👉"
+    },
+    {
+      "id": "cr_w27",
+      "en": "lie",
+      "ar": "يكذب / كذبة",
+      "tr": "لاي",
+      "pos": "v",
+      "emoji": "🤥"
+    },
+    {
+      "id": "cr_w28",
+      "en": "tell the truth",
+      "ar": "يقول الحقيقة",
+      "tr": "تِل ذَ تروث",
+      "pos": "phr",
+      "emoji": "✔️"
+    },
+    {
+      "id": "cr_w29",
+      "en": "keep a promise",
+      "ar": "يفي بوعده",
+      "tr": "كيپ إيه پرومِس",
+      "pos": "phr",
+      "emoji": "🤞"
+    },
+    {
+      "id": "cr_w30",
+      "en": "make friends",
+      "ar": "يكوّن صداقات",
+      "tr": "ميك فرِندز",
+      "pos": "phr",
+      "emoji": "🧑‍🤝‍🧑"
+    },
+    {
+      "id": "cr_w31",
+      "en": "get angry",
+      "ar": "يغضب",
+      "tr": "غِت آنغري",
+      "pos": "phr",
+      "emoji": "💢"
+    },
+    {
+      "id": "cr_w32",
+      "en": "calm down",
+      "ar": "يهدأ",
+      "tr": "كالم داون",
+      "pos": "phr",
+      "emoji": "🧊"
+    },
+    {
+      "id": "cr_w33",
+      "en": "be on time",
+      "ar": "يلتزم بالوقت",
+      "tr": "بي أون تايم",
+      "pos": "phr",
+      "emoji": "⏰"
+    },
+    {
+      "id": "cr_w34",
+      "en": "help others",
+      "ar": "يساعد الآخرين",
+      "tr": "هِلپ أذَرز",
+      "pos": "phr",
+      "emoji": "🤝"
+    },
+    {
+      "id": "cr_w35",
+      "en": "say sorry",
+      "ar": "يقول آسف",
+      "tr": "سيه سوري",
+      "pos": "phr",
+      "emoji": "😔"
+    },
+    {
+      "id": "cr_w36",
+      "en": "say thank you",
+      "ar": "يقول شكراً",
+      "tr": "سيه ثانك يو",
+      "pos": "phr",
+      "emoji": "🙏"
+    },
+    {
+      "id": "cr_w37",
+      "en": "listen well",
+      "ar": "يحسن الاستماع",
+      "tr": "لِسِن وِل",
+      "pos": "phr",
+      "emoji": "👂"
+    },
+    {
+      "id": "cr_w38",
+      "en": "keep a secret",
+      "ar": "يحفظ السر",
+      "tr": "كيپ إيه سيكرِت",
+      "pos": "phr",
+      "emoji": "🤫"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "cr_s1",
+      "en": "He is an honest and reliable man.",
+      "ar": "هو رجل أمين ويُعتمد عليه.",
+      "tr": "هي إز آن أونِست آند رِلايَبِل مان"
+    },
+    {
+      "id": "cr_s2",
+      "en": "Please calm down and listen.",
+      "ar": "من فضلك اهدأ واستمع.",
+      "tr": "پليز كالم داون آند لِسِن"
+    },
+    {
+      "id": "cr_s3",
+      "en": "I trust him completely.",
+      "ar": "أثق به تماماً.",
+      "tr": "آي ترَست هِم كَمپليتلي"
+    },
+    {
+      "id": "cr_s4",
+      "en": "She always keeps her promise.",
+      "ar": "هي دائماً تفي بوعدها.",
+      "tr": "شي أولويز كيپس هير پرومِس"
+    },
+    {
+      "id": "cr_s5",
+      "en": "Respect your parents.",
+      "ar": "احترم والديك.",
+      "tr": "رِسپِكت يور پيرِنتس"
+    },
+    {
+      "id": "cr_s6",
+      "en": "I am sorry, it was my mistake.",
+      "ar": "أنا آسف، كان خطئي.",
+      "tr": "آيم سوري، إت واز ماي مِستيك"
+    },
+    {
+      "id": "cr_s7",
+      "en": "Don't blame him, he was busy.",
+      "ar": "لا تلمه، كان مشغولاً.",
+      "tr": "دونت بليم هِم، هي واز بِزي"
+    },
+    {
+      "id": "cr_s8",
+      "en": "Being on time shows respect.",
+      "ar": "الالتزام بالوقت احترام.",
+      "tr": "بيينغ أون تايم شوز رِسپِكت"
+    },
+    {
+      "id": "cr_s9",
+      "en": "He is very generous with everyone.",
+      "ar": "هو كريم جداً مع الجميع.",
+      "tr": "هي إز ڤيري جِنَرَس وِذ إڤريوان"
+    },
+    {
+      "id": "cr_s10",
+      "en": "Please keep this a secret.",
+      "ar": "من فضلك احفظ هذا سراً.",
+      "tr": "پليز كيپ ذِس إيه سيكرِت"
+    }
+  ]
+}

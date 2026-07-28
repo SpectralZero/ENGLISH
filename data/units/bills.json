@@ -1,0 +1,362 @@
+{
+  "id": "bills",
+  "title": {
+    "ar": "الفواتير والمصاريف",
+    "en": "Bills & Expenses"
+  },
+  "icon": "🧾",
+  "level": 4,
+  "color": "amber",
+  "words": [
+    {
+      "id": "bl_w1",
+      "en": "bill",
+      "ar": "فاتورة",
+      "tr": "بِل",
+      "pos": "n",
+      "emoji": "🧾"
+    },
+    {
+      "id": "bl_w2",
+      "en": "expenses",
+      "ar": "مصاريف",
+      "tr": "إكسپِنسِز",
+      "pos": "n",
+      "emoji": "💸"
+    },
+    {
+      "id": "bl_w3",
+      "en": "income",
+      "ar": "دخل",
+      "tr": "إنكَم",
+      "pos": "n",
+      "emoji": "💰"
+    },
+    {
+      "id": "bl_w4",
+      "en": "salary",
+      "ar": "راتب",
+      "tr": "سالَري",
+      "pos": "n",
+      "emoji": "💵"
+    },
+    {
+      "id": "bl_w5",
+      "en": "rent",
+      "ar": "إيجار",
+      "tr": "رِنت",
+      "pos": "n",
+      "emoji": "🏠"
+    },
+    {
+      "id": "bl_w6",
+      "en": "electricity",
+      "ar": "كهرباء",
+      "tr": "إلِكترِسِتي",
+      "pos": "n",
+      "emoji": "💡"
+    },
+    {
+      "id": "bl_w7",
+      "en": "water bill",
+      "ar": "فاتورة الماء",
+      "tr": "ووتَر بِل",
+      "pos": "n",
+      "emoji": "🚰"
+    },
+    {
+      "id": "bl_w8",
+      "en": "gas",
+      "ar": "غاز",
+      "tr": "غاس",
+      "pos": "n",
+      "emoji": "🔥"
+    },
+    {
+      "id": "bl_w9",
+      "en": "internet bill",
+      "ar": "فاتورة الإنترنت",
+      "tr": "إنتَرنِت بِل",
+      "pos": "n",
+      "emoji": "🌐"
+    },
+    {
+      "id": "bl_w10",
+      "en": "phone bill",
+      "ar": "فاتورة الهاتف",
+      "tr": "فون بِل",
+      "pos": "n",
+      "emoji": "📱"
+    },
+    {
+      "id": "bl_w11",
+      "en": "pay",
+      "ar": "يدفع",
+      "tr": "پيه",
+      "pos": "v",
+      "emoji": "💳"
+    },
+    {
+      "id": "bl_w12",
+      "en": "owe",
+      "ar": "يدين بـ",
+      "tr": "أو",
+      "pos": "v",
+      "emoji": "📉"
+    },
+    {
+      "id": "bl_w13",
+      "en": "debt",
+      "ar": "دَين",
+      "tr": "دِت",
+      "pos": "n",
+      "emoji": "⚖️"
+    },
+    {
+      "id": "bl_w14",
+      "en": "loan",
+      "ar": "قرض",
+      "tr": "لون",
+      "pos": "n",
+      "emoji": "🏦"
+    },
+    {
+      "id": "bl_w15",
+      "en": "save money",
+      "ar": "يدّخر",
+      "tr": "سيڤ مَني",
+      "pos": "phr",
+      "emoji": "🐖"
+    },
+    {
+      "id": "bl_w16",
+      "en": "spend",
+      "ar": "ينفق",
+      "tr": "سپِند",
+      "pos": "v",
+      "emoji": "🛍️"
+    },
+    {
+      "id": "bl_w17",
+      "en": "budget",
+      "ar": "ميزانية",
+      "tr": "بَدجِت",
+      "pos": "n",
+      "emoji": "📊"
+    },
+    {
+      "id": "bl_w18",
+      "en": "cheap",
+      "ar": "رخيص",
+      "tr": "تشيپ",
+      "pos": "adj",
+      "emoji": "🏷️"
+    },
+    {
+      "id": "bl_w19",
+      "en": "expensive",
+      "ar": "غالي",
+      "tr": "إكسپِنسِڤ",
+      "pos": "adj",
+      "emoji": "💎"
+    },
+    {
+      "id": "bl_w20",
+      "en": "monthly",
+      "ar": "شهري",
+      "tr": "مَنثلي",
+      "pos": "adj",
+      "emoji": "📅"
+    },
+    {
+      "id": "bl_w21",
+      "en": "due date",
+      "ar": "تاريخ الاستحقاق",
+      "tr": "ديو ديت",
+      "pos": "n",
+      "emoji": "⏳"
+    },
+    {
+      "id": "bl_w22",
+      "en": "late fee",
+      "ar": "غرامة تأخير",
+      "tr": "ليت في",
+      "pos": "n",
+      "emoji": "⚠️"
+    },
+    {
+      "id": "bl_w23",
+      "en": "receipt",
+      "ar": "إيصال",
+      "tr": "رِسيت",
+      "pos": "n",
+      "emoji": "🧾"
+    },
+    {
+      "id": "bl_w24",
+      "en": "discount",
+      "ar": "خصم",
+      "tr": "دِسكاونت",
+      "pos": "n",
+      "emoji": "🔻"
+    },
+    {
+      "id": "bl_w25",
+      "en": "tax",
+      "ar": "ضريبة",
+      "tr": "تاكس",
+      "pos": "n",
+      "emoji": "🏛️"
+    },
+    {
+      "id": "bl_w26",
+      "en": "insurance",
+      "ar": "تأمين",
+      "tr": "إنشورَنس",
+      "pos": "n",
+      "emoji": "📑"
+    },
+    {
+      "id": "bl_w27",
+      "en": "cash",
+      "ar": "نقد",
+      "tr": "كاش",
+      "pos": "n",
+      "emoji": "💵"
+    },
+    {
+      "id": "bl_w28",
+      "en": "transfer",
+      "ar": "تحويل",
+      "tr": "ترانسفَر",
+      "pos": "n",
+      "emoji": "🔁"
+    },
+    {
+      "id": "bl_w29",
+      "en": "balance",
+      "ar": "رصيد",
+      "tr": "بالَنس",
+      "pos": "n",
+      "emoji": "⚖️"
+    },
+    {
+      "id": "bl_w30",
+      "en": "afford",
+      "ar": "يقدر على تحمّل التكلفة",
+      "tr": "أفورد",
+      "pos": "v",
+      "emoji": "🤔"
+    },
+    {
+      "id": "bl_w31",
+      "en": "cost of living",
+      "ar": "تكلفة المعيشة",
+      "tr": "كوست أوڤ لِڤِنغ",
+      "pos": "phr",
+      "emoji": "🏙️"
+    },
+    {
+      "id": "bl_w32",
+      "en": "price went up",
+      "ar": "ارتفع السعر",
+      "tr": "پرايس وِنت أب",
+      "pos": "phr",
+      "emoji": "📈"
+    },
+    {
+      "id": "bl_w33",
+      "en": "half the price",
+      "ar": "نصف السعر",
+      "tr": "هاف ذَ پرايس",
+      "pos": "phr",
+      "emoji": "½"
+    },
+    {
+      "id": "bl_w34",
+      "en": "free",
+      "ar": "مجاني",
+      "tr": "فري",
+      "pos": "adj",
+      "emoji": "🎁"
+    },
+    {
+      "id": "bl_w35",
+      "en": "pay in cash",
+      "ar": "يدفع نقداً",
+      "tr": "پيه إن كاش",
+      "pos": "phr",
+      "emoji": "💵"
+    },
+    {
+      "id": "bl_w36",
+      "en": "pay by card",
+      "ar": "يدفع بالبطاقة",
+      "tr": "پيه باي كارد",
+      "pos": "phr",
+      "emoji": "💳"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "bl_s1",
+      "en": "I pay the rent every month.",
+      "ar": "أدفع الإيجار كل شهر.",
+      "tr": "آي پيه ذَ رِنت إڤري مَنث"
+    },
+    {
+      "id": "bl_s2",
+      "en": "The electricity bill is high this month.",
+      "ar": "فاتورة الكهرباء مرتفعة هذا الشهر.",
+      "tr": "ذي إلِكترِسِتي بِل إز هاي ذِس مَنث"
+    },
+    {
+      "id": "bl_s3",
+      "en": "When is the due date?",
+      "ar": "متى تاريخ الاستحقاق؟",
+      "tr": "وِن إز ذَ ديو ديت"
+    },
+    {
+      "id": "bl_s4",
+      "en": "I can't afford it right now.",
+      "ar": "لا أقدر على شرائه الآن.",
+      "tr": "آي كانت أفورد إت رايت ناو"
+    },
+    {
+      "id": "bl_s5",
+      "en": "I try to save some money.",
+      "ar": "أحاول ادخار بعض المال.",
+      "tr": "آي تراي تو سيڤ سَم مَني"
+    },
+    {
+      "id": "bl_s6",
+      "en": "Prices went up this year.",
+      "ar": "ارتفعت الأسعار هذا العام.",
+      "tr": "پرايسِز وِنت أب ذِس يِير"
+    },
+    {
+      "id": "bl_s7",
+      "en": "Do I have to pay a late fee?",
+      "ar": "هل عليّ دفع غرامة تأخير؟",
+      "tr": "دو آي هاڤ تو پيه إيه ليت في"
+    },
+    {
+      "id": "bl_s8",
+      "en": "Keep the receipt, please.",
+      "ar": "احتفظ بالإيصال من فضلك.",
+      "tr": "كيپ ذَ رِسيت، پليز"
+    },
+    {
+      "id": "bl_s9",
+      "en": "My salary comes at the end of the month.",
+      "ar": "راتبي يأتي نهاية الشهر.",
+      "tr": "ماي سالَري كَمز آت ذي إند أوڤ ذَ مَنث"
+    },
+    {
+      "id": "bl_s10",
+      "en": "We need a monthly budget.",
+      "ar": "نحتاج ميزانية شهرية.",
+      "tr": "وي نيد إيه مَنثلي بَدجِت"
+    }
+  ]
+}

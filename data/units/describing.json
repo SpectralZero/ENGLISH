@@ -1,0 +1,394 @@
+{
+  "id": "describing",
+  "title": {
+    "ar": "وصف الأشخاص",
+    "en": "Describing People"
+  },
+  "icon": "🧑‍🦱",
+  "level": 3,
+  "color": "rose",
+  "words": [
+    {
+      "id": "dp_w1",
+      "en": "tall",
+      "ar": "طويل القامة",
+      "tr": "تول",
+      "pos": "adj",
+      "emoji": "📏"
+    },
+    {
+      "id": "dp_w2",
+      "en": "short",
+      "ar": "قصير",
+      "tr": "شورت",
+      "pos": "adj",
+      "emoji": "📐"
+    },
+    {
+      "id": "dp_w3",
+      "en": "fat",
+      "ar": "سمين",
+      "tr": "فات",
+      "pos": "adj",
+      "emoji": "🍔"
+    },
+    {
+      "id": "dp_w4",
+      "en": "thin",
+      "ar": "نحيف",
+      "tr": "ثِن",
+      "pos": "adj",
+      "emoji": "🥒"
+    },
+    {
+      "id": "dp_w5",
+      "en": "slim",
+      "ar": "رشيق",
+      "tr": "سلِم",
+      "pos": "adj",
+      "emoji": "🏃"
+    },
+    {
+      "id": "dp_w6",
+      "en": "strong",
+      "ar": "قوي",
+      "tr": "سترونغ",
+      "pos": "adj",
+      "emoji": "💪"
+    },
+    {
+      "id": "dp_w7",
+      "en": "weak",
+      "ar": "ضعيف",
+      "tr": "ويك",
+      "pos": "adj",
+      "emoji": "🥀"
+    },
+    {
+      "id": "dp_w8",
+      "en": "young",
+      "ar": "شاب",
+      "tr": "يَنغ",
+      "pos": "adj",
+      "emoji": "🧒"
+    },
+    {
+      "id": "dp_w9",
+      "en": "old",
+      "ar": "مسن",
+      "tr": "أولد",
+      "pos": "adj",
+      "emoji": "👴"
+    },
+    {
+      "id": "dp_w10",
+      "en": "middle-aged",
+      "ar": "في منتصف العمر",
+      "tr": "مِدِل إيجد",
+      "pos": "adj",
+      "emoji": "🧑"
+    },
+    {
+      "id": "dp_w11",
+      "en": "handsome",
+      "ar": "وسيم",
+      "tr": "هانسَم",
+      "pos": "adj",
+      "emoji": "😎"
+    },
+    {
+      "id": "dp_w12",
+      "en": "pretty",
+      "ar": "جميلة",
+      "tr": "پرِتي",
+      "pos": "adj",
+      "emoji": "🌸"
+    },
+    {
+      "id": "dp_w13",
+      "en": "blond hair",
+      "ar": "شعر أشقر",
+      "tr": "بلوند هير",
+      "pos": "phr",
+      "emoji": "👱"
+    },
+    {
+      "id": "dp_w14",
+      "en": "dark hair",
+      "ar": "شعر داكن",
+      "tr": "دارك هير",
+      "pos": "phr",
+      "emoji": "🧑‍🦱"
+    },
+    {
+      "id": "dp_w15",
+      "en": "curly hair",
+      "ar": "شعر مجعّد",
+      "tr": "كيرلي هير",
+      "pos": "phr",
+      "emoji": "🦱"
+    },
+    {
+      "id": "dp_w16",
+      "en": "straight hair",
+      "ar": "شعر ناعم",
+      "tr": "ستريت هير",
+      "pos": "phr",
+      "emoji": "🦰"
+    },
+    {
+      "id": "dp_w17",
+      "en": "bald",
+      "ar": "أصلع",
+      "tr": "بولد",
+      "pos": "adj",
+      "emoji": "👨‍🦲"
+    },
+    {
+      "id": "dp_w18",
+      "en": "beard",
+      "ar": "لحية",
+      "tr": "بيرد",
+      "pos": "n",
+      "emoji": "🧔"
+    },
+    {
+      "id": "dp_w19",
+      "en": "moustache",
+      "ar": "شارب",
+      "tr": "مَستاش",
+      "pos": "n",
+      "emoji": "👨"
+    },
+    {
+      "id": "dp_w20",
+      "en": "glasses",
+      "ar": "نظارة",
+      "tr": "غلاسِز",
+      "pos": "n",
+      "emoji": "👓"
+    },
+    {
+      "id": "dp_w21",
+      "en": "blue eyes",
+      "ar": "عيون زرقاء",
+      "tr": "بلو آيز",
+      "pos": "phr",
+      "emoji": "👁️"
+    },
+    {
+      "id": "dp_w22",
+      "en": "brown eyes",
+      "ar": "عيون بنية",
+      "tr": "براون آيز",
+      "pos": "phr",
+      "emoji": "👁️"
+    },
+    {
+      "id": "dp_w23",
+      "en": "skin",
+      "ar": "بشرة",
+      "tr": "سكِن",
+      "pos": "n",
+      "emoji": "🧴"
+    },
+    {
+      "id": "dp_w24",
+      "en": "face",
+      "ar": "وجه",
+      "tr": "فيس",
+      "pos": "n",
+      "emoji": "😊"
+    },
+    {
+      "id": "dp_w25",
+      "en": "smile",
+      "ar": "ابتسامة",
+      "tr": "سمايل",
+      "pos": "n",
+      "emoji": "🙂"
+    },
+    {
+      "id": "dp_w26",
+      "en": "voice",
+      "ar": "صوت",
+      "tr": "ڤويس",
+      "pos": "n",
+      "emoji": "🗣️"
+    },
+    {
+      "id": "dp_w27",
+      "en": "polite",
+      "ar": "مؤدب",
+      "tr": "پُولايت",
+      "pos": "adj",
+      "emoji": "🎩"
+    },
+    {
+      "id": "dp_w28",
+      "en": "rude",
+      "ar": "وقح",
+      "tr": "رود",
+      "pos": "adj",
+      "emoji": "😠"
+    },
+    {
+      "id": "dp_w29",
+      "en": "friendly",
+      "ar": "ودود",
+      "tr": "فرِندلي",
+      "pos": "adj",
+      "emoji": "🤝"
+    },
+    {
+      "id": "dp_w30",
+      "en": "shy",
+      "ar": "خجول",
+      "tr": "شاي",
+      "pos": "adj",
+      "emoji": "😳"
+    },
+    {
+      "id": "dp_w31",
+      "en": "clever",
+      "ar": "ذكي",
+      "tr": "كليڤَر",
+      "pos": "adj",
+      "emoji": "🧠"
+    },
+    {
+      "id": "dp_w32",
+      "en": "funny",
+      "ar": "مضحك",
+      "tr": "فَني",
+      "pos": "adj",
+      "emoji": "😄"
+    },
+    {
+      "id": "dp_w33",
+      "en": "serious",
+      "ar": "جاد",
+      "tr": "سيريَس",
+      "pos": "adj",
+      "emoji": "😐"
+    },
+    {
+      "id": "dp_w34",
+      "en": "generous",
+      "ar": "كريم",
+      "tr": "جِنَرَس",
+      "pos": "adj",
+      "emoji": "🎁"
+    },
+    {
+      "id": "dp_w35",
+      "en": "patient",
+      "ar": "صبور",
+      "tr": "پيشِنت",
+      "pos": "adj",
+      "emoji": "🕰️"
+    },
+    {
+      "id": "dp_w36",
+      "en": "hard-working",
+      "ar": "مجتهد",
+      "tr": "هارد وِركِنغ",
+      "pos": "adj",
+      "emoji": "💼"
+    },
+    {
+      "id": "dp_w37",
+      "en": "lazy",
+      "ar": "كسول",
+      "tr": "ليزي",
+      "pos": "adj",
+      "emoji": "🛋️"
+    },
+    {
+      "id": "dp_w38",
+      "en": "honest",
+      "ar": "صادق",
+      "tr": "أونِست",
+      "pos": "adj",
+      "emoji": "✅"
+    },
+    {
+      "id": "dp_w39",
+      "en": "look like",
+      "ar": "يشبه",
+      "tr": "لوك لايك",
+      "pos": "v",
+      "emoji": "👀"
+    },
+    {
+      "id": "dp_w40",
+      "en": "about my age",
+      "ar": "في مثل عمري",
+      "tr": "أباوت ماي إيج",
+      "pos": "phr",
+      "emoji": "🎂"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "dp_s1",
+      "en": "What does he look like?",
+      "ar": "كيف يبدو شكله؟",
+      "tr": "وات دَز هي لوك لايك"
+    },
+    {
+      "id": "dp_s2",
+      "en": "He is tall with dark hair.",
+      "ar": "هو طويل وشعره داكن.",
+      "tr": "هي إز تول وِذ دارك هير"
+    },
+    {
+      "id": "dp_s3",
+      "en": "She wears glasses.",
+      "ar": "هي ترتدي نظارة.",
+      "tr": "شي ويرز غلاسِز"
+    },
+    {
+      "id": "dp_s4",
+      "en": "My brother has a beard.",
+      "ar": "أخي لديه لحية.",
+      "tr": "ماي براذَر هاز إيه بيرد"
+    },
+    {
+      "id": "dp_s5",
+      "en": "He is very polite and friendly.",
+      "ar": "هو مؤدب وودود جداً.",
+      "tr": "هي إز ڤيري پُولايت آند فرِندلي"
+    },
+    {
+      "id": "dp_s6",
+      "en": "She is about my age.",
+      "ar": "هي في مثل عمري تقريباً.",
+      "tr": "شي إز أباوت ماي إيج"
+    },
+    {
+      "id": "dp_s7",
+      "en": "You look like your father.",
+      "ar": "أنت تشبه أباك.",
+      "tr": "يو لوك لايك يور فاذَر"
+    },
+    {
+      "id": "dp_s8",
+      "en": "He is a hard-working man.",
+      "ar": "هو رجل مجتهد.",
+      "tr": "هي إز إيه هارد وِركِنغ مان"
+    },
+    {
+      "id": "dp_s9",
+      "en": "She has a beautiful smile.",
+      "ar": "لديها ابتسامة جميلة.",
+      "tr": "شي هاز إيه بيوتِفُل سمايل"
+    },
+    {
+      "id": "dp_s10",
+      "en": "Don't be shy, come and talk.",
+      "ar": "لا تخجل، تعال وتحدث.",
+      "tr": "دونت بي شاي، كَم آند توك"
+    }
+  ]
+}

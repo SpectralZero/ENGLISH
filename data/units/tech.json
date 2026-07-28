@@ -1,0 +1,394 @@
+{
+  "id": "tech",
+  "title": {
+    "ar": "الحاسوب والتقنية",
+    "en": "Computers & Tech"
+  },
+  "icon": "💻",
+  "level": 4,
+  "color": "mint",
+  "words": [
+    {
+      "id": "tc_w1",
+      "en": "computer",
+      "ar": "حاسوب",
+      "tr": "كَمپيوتَر",
+      "pos": "n",
+      "emoji": "💻"
+    },
+    {
+      "id": "tc_w2",
+      "en": "laptop",
+      "ar": "حاسوب محمول",
+      "tr": "لاپتوپ",
+      "pos": "n",
+      "emoji": "💻"
+    },
+    {
+      "id": "tc_w3",
+      "en": "keyboard",
+      "ar": "لوحة مفاتيح",
+      "tr": "كيبورد",
+      "pos": "n",
+      "emoji": "⌨️"
+    },
+    {
+      "id": "tc_w4",
+      "en": "mouse",
+      "ar": "فأرة",
+      "tr": "ماوس",
+      "pos": "n",
+      "emoji": "🖱️"
+    },
+    {
+      "id": "tc_w5",
+      "en": "screen",
+      "ar": "شاشة",
+      "tr": "سكرين",
+      "pos": "n",
+      "emoji": "🖥️"
+    },
+    {
+      "id": "tc_w6",
+      "en": "printer",
+      "ar": "طابعة",
+      "tr": "پرِنتَر",
+      "pos": "n",
+      "emoji": "🖨️"
+    },
+    {
+      "id": "tc_w7",
+      "en": "file",
+      "ar": "ملف",
+      "tr": "فايل",
+      "pos": "n",
+      "emoji": "📄"
+    },
+    {
+      "id": "tc_w8",
+      "en": "folder",
+      "ar": "مجلد",
+      "tr": "فولدَر",
+      "pos": "n",
+      "emoji": "📁"
+    },
+    {
+      "id": "tc_w9",
+      "en": "save",
+      "ar": "يحفظ",
+      "tr": "سيڤ",
+      "pos": "v",
+      "emoji": "💾"
+    },
+    {
+      "id": "tc_w10",
+      "en": "delete",
+      "ar": "يحذف",
+      "tr": "دِليت",
+      "pos": "v",
+      "emoji": "🗑️"
+    },
+    {
+      "id": "tc_w11",
+      "en": "copy",
+      "ar": "ينسخ",
+      "tr": "كوپي",
+      "pos": "v",
+      "emoji": "📋"
+    },
+    {
+      "id": "tc_w12",
+      "en": "paste",
+      "ar": "يلصق",
+      "tr": "پيست",
+      "pos": "v",
+      "emoji": "📌"
+    },
+    {
+      "id": "tc_w13",
+      "en": "open",
+      "ar": "يفتح",
+      "tr": "أوپِن",
+      "pos": "v",
+      "emoji": "📂"
+    },
+    {
+      "id": "tc_w14",
+      "en": "close",
+      "ar": "يغلق",
+      "tr": "كلوز",
+      "pos": "v",
+      "emoji": "❎"
+    },
+    {
+      "id": "tc_w15",
+      "en": "click",
+      "ar": "ينقر",
+      "tr": "كلِك",
+      "pos": "v",
+      "emoji": "👆"
+    },
+    {
+      "id": "tc_w16",
+      "en": "type",
+      "ar": "يكتب على الكيبورد",
+      "tr": "تايپ",
+      "pos": "v",
+      "emoji": "⌨️"
+    },
+    {
+      "id": "tc_w17",
+      "en": "search",
+      "ar": "يبحث",
+      "tr": "سيرتش",
+      "pos": "v",
+      "emoji": "🔍"
+    },
+    {
+      "id": "tc_w18",
+      "en": "website",
+      "ar": "موقع إلكتروني",
+      "tr": "وِبسايت",
+      "pos": "n",
+      "emoji": "🌐"
+    },
+    {
+      "id": "tc_w19",
+      "en": "link",
+      "ar": "رابط",
+      "tr": "لِنك",
+      "pos": "n",
+      "emoji": "🔗"
+    },
+    {
+      "id": "tc_w20",
+      "en": "account",
+      "ar": "حساب",
+      "tr": "أكاونت",
+      "pos": "n",
+      "emoji": "👤"
+    },
+    {
+      "id": "tc_w21",
+      "en": "username",
+      "ar": "اسم المستخدم",
+      "tr": "يوزَرنيم",
+      "pos": "n",
+      "emoji": "🪪"
+    },
+    {
+      "id": "tc_w22",
+      "en": "password",
+      "ar": "كلمة السر",
+      "tr": "پاسوِرد",
+      "pos": "n",
+      "emoji": "🔒"
+    },
+    {
+      "id": "tc_w23",
+      "en": "log in",
+      "ar": "يسجّل الدخول",
+      "tr": "لوغ إن",
+      "pos": "v",
+      "emoji": "🔑"
+    },
+    {
+      "id": "tc_w24",
+      "en": "log out",
+      "ar": "يسجّل الخروج",
+      "tr": "لوغ أوت",
+      "pos": "v",
+      "emoji": "🚪"
+    },
+    {
+      "id": "tc_w25",
+      "en": "update",
+      "ar": "تحديث / يحدّث",
+      "tr": "أپديت",
+      "pos": "v",
+      "emoji": "⬆️"
+    },
+    {
+      "id": "tc_w26",
+      "en": "install",
+      "ar": "يثبّت",
+      "tr": "إنستول",
+      "pos": "v",
+      "emoji": "📥"
+    },
+    {
+      "id": "tc_w27",
+      "en": "download",
+      "ar": "ينزّل",
+      "tr": "داونلود",
+      "pos": "v",
+      "emoji": "⬇️"
+    },
+    {
+      "id": "tc_w28",
+      "en": "upload",
+      "ar": "يرفع",
+      "tr": "أپلود",
+      "pos": "v",
+      "emoji": "⬆️"
+    },
+    {
+      "id": "tc_w29",
+      "en": "screenshot",
+      "ar": "لقطة شاشة",
+      "tr": "سكرينشوت",
+      "pos": "n",
+      "emoji": "📸"
+    },
+    {
+      "id": "tc_w30",
+      "en": "charger",
+      "ar": "شاحن",
+      "tr": "تشارجَر",
+      "pos": "n",
+      "emoji": "🔌"
+    },
+    {
+      "id": "tc_w31",
+      "en": "slow",
+      "ar": "بطيء",
+      "tr": "سلو",
+      "pos": "adj",
+      "emoji": "🐢"
+    },
+    {
+      "id": "tc_w32",
+      "en": "fast",
+      "ar": "سريع",
+      "tr": "فاست",
+      "pos": "adj",
+      "emoji": "⚡"
+    },
+    {
+      "id": "tc_w33",
+      "en": "not working",
+      "ar": "لا يعمل",
+      "tr": "نوت وِركِنغ",
+      "pos": "phr",
+      "emoji": "⚠️"
+    },
+    {
+      "id": "tc_w34",
+      "en": "restart",
+      "ar": "يعيد التشغيل",
+      "tr": "رِيستارت",
+      "pos": "v",
+      "emoji": "🔄"
+    },
+    {
+      "id": "tc_w35",
+      "en": "backup",
+      "ar": "نسخة احتياطية",
+      "tr": "باكأپ",
+      "pos": "n",
+      "emoji": "🗄️"
+    },
+    {
+      "id": "tc_w36",
+      "en": "virus",
+      "ar": "فيروس",
+      "tr": "ڤايرَس",
+      "pos": "n",
+      "emoji": "🦠"
+    },
+    {
+      "id": "tc_w37",
+      "en": "safe",
+      "ar": "آمن",
+      "tr": "سيف",
+      "pos": "adj",
+      "emoji": "🛡️"
+    },
+    {
+      "id": "tc_w38",
+      "en": "private",
+      "ar": "خاص",
+      "tr": "پرايڤِت",
+      "pos": "adj",
+      "emoji": "🔐"
+    },
+    {
+      "id": "tc_w39",
+      "en": "settings",
+      "ar": "الإعدادات",
+      "tr": "سِتِنغز",
+      "pos": "n",
+      "emoji": "⚙️"
+    },
+    {
+      "id": "tc_w40",
+      "en": "help",
+      "ar": "مساعدة",
+      "tr": "هِلپ",
+      "pos": "n",
+      "emoji": "❓"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "tc_s1",
+      "en": "My laptop is very slow today.",
+      "ar": "حاسوبي بطيء جداً اليوم.",
+      "tr": "ماي لاپتوپ إز ڤيري سلو تُوديه"
+    },
+    {
+      "id": "tc_s2",
+      "en": "Don't forget to save the file.",
+      "ar": "لا تنسَ حفظ الملف.",
+      "tr": "دونت فَرغِت تو سيڤ ذَ فايل"
+    },
+    {
+      "id": "tc_s3",
+      "en": "I forgot my password.",
+      "ar": "نسيت كلمة السر.",
+      "tr": "آي فَرغوت ماي پاسوِرد"
+    },
+    {
+      "id": "tc_s4",
+      "en": "Can you send me the link?",
+      "ar": "هل يمكنك إرسال الرابط لي؟",
+      "tr": "كان يو سِند مي ذَ لِنك"
+    },
+    {
+      "id": "tc_s5",
+      "en": "Try to restart the computer.",
+      "ar": "حاول إعادة تشغيل الحاسوب.",
+      "tr": "تراي تو رِيستارت ذَ كَمپيوتَر"
+    },
+    {
+      "id": "tc_s6",
+      "en": "The printer is not working.",
+      "ar": "الطابعة لا تعمل.",
+      "tr": "ذَ پرِنتَر إز نوت وِركِنغ"
+    },
+    {
+      "id": "tc_s7",
+      "en": "I need to update the app.",
+      "ar": "أحتاج تحديث التطبيق.",
+      "tr": "آي نيد تو أپديت ذي آپ"
+    },
+    {
+      "id": "tc_s8",
+      "en": "Keep a backup of your files.",
+      "ar": "احتفظ بنسخة احتياطية من ملفاتك.",
+      "tr": "كيپ إيه باكأپ أوڤ يور فايلز"
+    },
+    {
+      "id": "tc_s9",
+      "en": "Please log out when you finish.",
+      "ar": "من فضلك سجّل الخروج عند الانتهاء.",
+      "tr": "پليز لوغ أوت وِن يو فِنِش"
+    },
+    {
+      "id": "tc_s10",
+      "en": "Is this website safe?",
+      "ar": "هل هذا الموقع آمن؟",
+      "tr": "إز ذِس وِبسايت سيف"
+    }
+  ]
+}

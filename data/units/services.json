@@ -1,0 +1,346 @@
+{
+  "id": "services",
+  "title": {
+    "ar": "الدوائر والخدمات",
+    "en": "Public Services"
+  },
+  "icon": "🏛️",
+  "level": 4,
+  "color": "brand",
+  "words": [
+    {
+      "id": "sv_w1",
+      "en": "government",
+      "ar": "حكومة",
+      "tr": "غَڤَرنمِنت",
+      "pos": "n",
+      "emoji": "🏛️"
+    },
+    {
+      "id": "sv_w2",
+      "en": "office",
+      "ar": "دائرة / مكتب",
+      "tr": "أوفِس",
+      "pos": "n",
+      "emoji": "🏢"
+    },
+    {
+      "id": "sv_w3",
+      "en": "application",
+      "ar": "طلب رسمي",
+      "tr": "أپلِكيشِن",
+      "pos": "n",
+      "emoji": "📄"
+    },
+    {
+      "id": "sv_w4",
+      "en": "form",
+      "ar": "استمارة",
+      "tr": "فورم",
+      "pos": "n",
+      "emoji": "📝"
+    },
+    {
+      "id": "sv_w5",
+      "en": "document",
+      "ar": "وثيقة",
+      "tr": "دوكيومِنت",
+      "pos": "n",
+      "emoji": "📃"
+    },
+    {
+      "id": "sv_w6",
+      "en": "ID card",
+      "ar": "بطاقة هوية",
+      "tr": "آي دي كارد",
+      "pos": "n",
+      "emoji": "🪪"
+    },
+    {
+      "id": "sv_w7",
+      "en": "passport",
+      "ar": "جواز سفر",
+      "tr": "پاسپورت",
+      "pos": "n",
+      "emoji": "🛂"
+    },
+    {
+      "id": "sv_w8",
+      "en": "visa",
+      "ar": "تأشيرة",
+      "tr": "ڤيزا",
+      "pos": "n",
+      "emoji": "📘"
+    },
+    {
+      "id": "sv_w9",
+      "en": "residence",
+      "ar": "إقامة",
+      "tr": "رِزِدَنس",
+      "pos": "n",
+      "emoji": "🏠"
+    },
+    {
+      "id": "sv_w10",
+      "en": "permit",
+      "ar": "تصريح",
+      "tr": "پيرمِت",
+      "pos": "n",
+      "emoji": "✅"
+    },
+    {
+      "id": "sv_w11",
+      "en": "renew",
+      "ar": "يجدّد",
+      "tr": "رِنيو",
+      "pos": "v",
+      "emoji": "🔁"
+    },
+    {
+      "id": "sv_w12",
+      "en": "expired",
+      "ar": "منتهي الصلاحية",
+      "tr": "إكسپايَرد",
+      "pos": "adj",
+      "emoji": "⌛"
+    },
+    {
+      "id": "sv_w13",
+      "en": "valid",
+      "ar": "ساري المفعول",
+      "tr": "ڤالِد",
+      "pos": "adj",
+      "emoji": "✔️"
+    },
+    {
+      "id": "sv_w14",
+      "en": "appointment",
+      "ar": "موعد",
+      "tr": "أپوينتمِنت",
+      "pos": "n",
+      "emoji": "📅"
+    },
+    {
+      "id": "sv_w15",
+      "en": "queue number",
+      "ar": "رقم الدور",
+      "tr": "كيو نَمبَر",
+      "pos": "n",
+      "emoji": "🎫"
+    },
+    {
+      "id": "sv_w16",
+      "en": "counter",
+      "ar": "شبّاك الخدمة",
+      "tr": "كاونتَر",
+      "pos": "n",
+      "emoji": "🪟"
+    },
+    {
+      "id": "sv_w17",
+      "en": "officer",
+      "ar": "موظف",
+      "tr": "أوفِسَر",
+      "pos": "n",
+      "emoji": "🧑‍💼"
+    },
+    {
+      "id": "sv_w18",
+      "en": "stamp",
+      "ar": "ختم",
+      "tr": "ستامپ",
+      "pos": "n",
+      "emoji": "🔏"
+    },
+    {
+      "id": "sv_w19",
+      "en": "signature",
+      "ar": "توقيع",
+      "tr": "سِغنَتشَر",
+      "pos": "n",
+      "emoji": "🖋️"
+    },
+    {
+      "id": "sv_w20",
+      "en": "fee",
+      "ar": "رسوم",
+      "tr": "في",
+      "pos": "n",
+      "emoji": "💵"
+    },
+    {
+      "id": "sv_w21",
+      "en": "proof of address",
+      "ar": "إثبات عنوان",
+      "tr": "بروف أوڤ أدرِس",
+      "pos": "phr",
+      "emoji": "🏠"
+    },
+    {
+      "id": "sv_w22",
+      "en": "birth certificate",
+      "ar": "شهادة ميلاد",
+      "tr": "بيرث سِرتِفِكِت",
+      "pos": "n",
+      "emoji": "👶"
+    },
+    {
+      "id": "sv_w23",
+      "en": "marriage certificate",
+      "ar": "عقد زواج",
+      "tr": "مارِج سِرتِفِكِت",
+      "pos": "n",
+      "emoji": "💍"
+    },
+    {
+      "id": "sv_w24",
+      "en": "translate",
+      "ar": "يترجم",
+      "tr": "ترانسليت",
+      "pos": "v",
+      "emoji": "🌐"
+    },
+    {
+      "id": "sv_w25",
+      "en": "copy",
+      "ar": "نسخة",
+      "tr": "كوپي",
+      "pos": "n",
+      "emoji": "🖨️"
+    },
+    {
+      "id": "sv_w26",
+      "en": "original",
+      "ar": "الأصل",
+      "tr": "أُرِجِنَل",
+      "pos": "n",
+      "emoji": "📜"
+    },
+    {
+      "id": "sv_w27",
+      "en": "approve",
+      "ar": "يوافق",
+      "tr": "أپروڤ",
+      "pos": "v",
+      "emoji": "👍"
+    },
+    {
+      "id": "sv_w28",
+      "en": "reject",
+      "ar": "يرفض",
+      "tr": "رِجِكت",
+      "pos": "v",
+      "emoji": "👎"
+    },
+    {
+      "id": "sv_w29",
+      "en": "wait",
+      "ar": "ينتظر",
+      "tr": "ويت",
+      "pos": "v",
+      "emoji": "⏳"
+    },
+    {
+      "id": "sv_w30",
+      "en": "next window",
+      "ar": "الشباك التالي",
+      "tr": "نِكست وِندو",
+      "pos": "phr",
+      "emoji": "➡️"
+    },
+    {
+      "id": "sv_w31",
+      "en": "closed today",
+      "ar": "مغلق اليوم",
+      "tr": "كلوزد تُوديه",
+      "pos": "phr",
+      "emoji": "🚫"
+    },
+    {
+      "id": "sv_w32",
+      "en": "come back tomorrow",
+      "ar": "عد غداً",
+      "tr": "كَم باك تُومورو",
+      "pos": "phr",
+      "emoji": "📆"
+    },
+    {
+      "id": "sv_w33",
+      "en": "I don't understand the form",
+      "ar": "لا أفهم الاستمارة",
+      "tr": "آي دونت أندَرستاند ذَ فورم",
+      "pos": "phr",
+      "emoji": "❓"
+    },
+    {
+      "id": "sv_w34",
+      "en": "Can you help me fill it?",
+      "ar": "هل يمكنك مساعدتي في تعبئتها؟",
+      "tr": "كان يو هِلپ مي فِل إت",
+      "pos": "phr",
+      "emoji": "🤝"
+    }
+  ],
+  "sentences": [
+    {
+      "id": "sv_s1",
+      "en": "I need to renew my residence.",
+      "ar": "أحتاج تجديد إقامتي.",
+      "tr": "آي نيد تو رِنيو ماي رِزِدَنس"
+    },
+    {
+      "id": "sv_s2",
+      "en": "My passport is expired.",
+      "ar": "جواز سفري منتهي الصلاحية.",
+      "tr": "ماي پاسپورت إز إكسپايَرد"
+    },
+    {
+      "id": "sv_s3",
+      "en": "Do I need an appointment?",
+      "ar": "هل أحتاج موعداً؟",
+      "tr": "دو آي نيد آن أپوينتمِنت"
+    },
+    {
+      "id": "sv_s4",
+      "en": "Please take a queue number.",
+      "ar": "من فضلك خذ رقم دور.",
+      "tr": "پليز تيك إيه كيو نَمبَر"
+    },
+    {
+      "id": "sv_s5",
+      "en": "Go to the next window, please.",
+      "ar": "اذهب إلى الشباك التالي من فضلك.",
+      "tr": "غو تو ذَ نِكست وِندو، پليز"
+    },
+    {
+      "id": "sv_s6",
+      "en": "I brought the original and a copy.",
+      "ar": "أحضرت الأصل ونسخة.",
+      "tr": "آي بروت ذي أُرِجِنَل آند إيه كوپي"
+    },
+    {
+      "id": "sv_s7",
+      "en": "How much is the fee?",
+      "ar": "كم الرسوم؟",
+      "tr": "هاو مَتش إز ذَ في"
+    },
+    {
+      "id": "sv_s8",
+      "en": "Can you help me fill this form?",
+      "ar": "هل يمكنك مساعدتي في تعبئة هذه الاستمارة؟",
+      "tr": "كان يو هِلپ مي فِل ذِس فورم"
+    },
+    {
+      "id": "sv_s9",
+      "en": "The office is closed today.",
+      "ar": "الدائرة مغلقة اليوم.",
+      "tr": "ذي أوفِس إز كلوزد تُوديه"
+    },
+    {
+      "id": "sv_s10",
+      "en": "When will it be ready?",
+      "ar": "متى ستكون جاهزة؟",
+      "tr": "وِن وِل إت بي رِدي"
+    }
+  ]
+}
